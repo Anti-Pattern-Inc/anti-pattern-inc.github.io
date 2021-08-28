@@ -3,12 +3,13 @@
  * Turn on/off build features
  */
 
-var settings = {
+ var settings = {
 	clean: true,
 	scripts: true,
 	polyfills: false,
 	styles: true,
 	svgs: true,
+	sitemap: true,
 	copy: true,
 	reload: true
 };
@@ -37,6 +38,10 @@ var paths = {
 	svgs: {
 		input: 'src/svg/*.svg',
 		output: 'docs/svg/'
+	},
+	sitemap: {
+        input: 'docs/**/*.html',
+		output: 'docs/'
 	},
 	copy: {
 		input: 'src/copy/**/*',
@@ -75,6 +80,7 @@ var rename = require('gulp-rename');
 var header = require('gulp-header');
 var package = require('./package.json');
 var pug = require('gulp-pug');
+var sitemap = require('gulp-sitemap');
 const data  = require('gulp-data');
 const fs = require('fs');
 const path = require('path');
@@ -253,6 +259,17 @@ var buildSVGs = function (done) {
 
 };
 
+var buildSitemap = function (done) {
+
+	// Make sure this feature is activated before running
+	if (!settings.sitemap) return done();
+
+	return src(paths.sitemap.input)
+	    .pipe(sitemap({siteUrl: 'https://anti-pattern.co.jp'}))
+		.pipe(dest(paths.sitemap.output));
+
+};
+
 // Copy static files into output folder
 var copyFiles = function (done) {
 
@@ -311,7 +328,8 @@ exports.default = series(
 		buildHtmls,
 		buildSVGs,
 		copyFiles
-	)
+	),
+	buildSitemap
 );
 
 // Watch and reload
