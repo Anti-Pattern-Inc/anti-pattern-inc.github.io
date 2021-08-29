@@ -6,6 +6,7 @@ block variables
   //- Optional
   - var pageOgpImage = site.ogpImage
   - var pageOgpType = "website";
+  - var noindex = false;
 
 html(lang="ja")
   head
@@ -18,6 +19,8 @@ html(lang="ja")
     else
       title #{site.name}
     meta(name="description" content=pageDescription)
+    if noindex
+       meta(name="robots" content="noindex")
     if pageID
       link(rel="canonical" href=site.rootUrl + pageID + '/')
     else
