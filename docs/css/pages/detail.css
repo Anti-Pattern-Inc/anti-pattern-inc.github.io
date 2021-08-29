@@ -1722,7 +1722,7 @@
 @media (max-width: 950px) {
   /* line 1284, src/scss/pages/detail.scss */
   .useful_infomation_cace {
-    padding: 58px 26px 44px;
+    padding: 58px 26px 30px;
     background-color: #fff;
   }
   /* line 1288, src/scss/pages/detail.scss */
@@ -1746,7 +1746,7 @@
   }
   /* line 1305, src/scss/pages/detail.scss */
   .useful_infomation_cace {
-    padding: 58px 20px 44px;
+    padding: 58px 15px 44px;
   }
   /* line 1307, src/scss/pages/detail.scss */
   .useful_infomation_cace .day {
@@ -1803,6 +1803,6 @@
   }
   /* line 1351, src/scss/pages/detail.scss */
   .container {
-    padding-bottom: 3px;
+    padding-bottom: 0px;
   }
 }

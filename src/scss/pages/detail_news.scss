@@ -1280,11 +1280,12 @@
 
 @media (max-width:950px){
   .useful_infomation_cace {
-    padding: 58px 26px 44px;
+    padding: 58px 26px 30px;
     background-color: #fff;
   }
   .share_on {
-    padding: 27px 25px 176px;
+    height: 40px;
+    padding: 0px;
   }
   .container {
     .keyvisual {
@@ -1297,9 +1298,11 @@
   }
   .useful_infomation_container {
     margin: 0 auto 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .useful_infomation_cace {
-    padding: 58px 20px 44px;
+    padding: 58px 15px 44px;
     .day {
       font-size: 12px;
       font-family: $font-english;
@@ -1345,7 +1348,7 @@
     }
   }
   .container {
-    padding-bottom: 3px;
+    padding-bottom: 0px;
   }
 }
 .header {
@@ -1381,8 +1384,8 @@
 }
 .useful_infomation_cace {
   padding-bottom: 105px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 71px;
   .img {
     height: auto;
