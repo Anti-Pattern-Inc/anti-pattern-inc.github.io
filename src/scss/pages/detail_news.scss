@@ -617,7 +617,7 @@
   border-bottom: solid 2px #fff;
 }
 .container {
-  padding-bottom: 155px;
+  padding-bottom: 10px;
 }
 .legal_container {
   background-color: #f8f8f8;
@@ -1192,7 +1192,6 @@
   h3 {
     padding-bottom: 35px;
     border-bottom: solid 4px #eeeeee;
-    margin-bottom: 50px;
     letter-spacing: 0;
   }
   img {
@@ -1210,7 +1209,7 @@
   .useful_infomation_section {
     margin-bottom: 51px;
     h4 {
-      font-size: 15px;
+      font-size: 18px;
       line-height: 28px;
       color: #00282e;
       margin-block-start: 0;
@@ -1219,7 +1218,7 @@
       letter-spacing: 1.55;
     }
     p {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 24px;
       color: #333;
       margin-right: -3px;
@@ -1234,20 +1233,18 @@
 }
 
 .share_on {
-  height: 120px;
-  padding: 58px 105px 36px;
+  height: 100px;
+  padding: 36px 10px 36px;
   background-color: #fff;
   display: flex;
-  // align-items: center;
   justify-content: flex-end;
   span {
-    position: relative;
-    top: -12px;
     color: #999999;
     font-family: $font-english;
     font-size: 13px;
-    margin-right: -1px;
+    margin: 0 2px;
     letter-spacing: 0.76;
+    align-items: baseline;
   }
   
   .sns_icon_item {
@@ -1278,7 +1275,7 @@
   }
 }
 .container {
-  padding-bottom: 135px;
+  padding-bottom: 10px;
 }
 
 @media (max-width:950px){
@@ -1314,7 +1311,7 @@
       margin-bottom: 21px;
     }
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
     h3 {
       line-height: 36px;
