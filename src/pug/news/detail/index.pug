@@ -8,6 +8,7 @@ append variables
   //- Optional
   - var pageOgpImage = site.ogpImage
   - var pageOgpType = "article";
+  - var noindex = true;
 
 block styles
   link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
@@ -20,7 +21,9 @@ block content
       span.key_title_sub お知らせ
   .useful_infomation_container
     .useful_infomation_cace
+      .day 2020.10.24
       h3.useful_infomation_title タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります
+      include ../../_includes/_share_on.pug
       img(src="/img/photo_dummy.png", alt="dummy")
       .useful_infomation_section
         h4 hタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入ります
@@ -33,3 +36,4 @@ block content
       .useful_infomation_section.useful_infomation_section02
         img(src="/img/photo_dummy.png", alt="dummy")
         p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますが入りますテキストが入ります
+      include ../../_includes/_share_on.pug
