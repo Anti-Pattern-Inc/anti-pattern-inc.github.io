@@ -1377,7 +1377,7 @@
 
 /* line 1028, src/scss/pages/detail.scss */
 .container {
-  padding-bottom: 155px;
+  padding-bottom: 10px;
 }
 
 /* line 1031, src/scss/pages/detail.scss */
@@ -1599,33 +1599,32 @@
 .useful_infomation_cace h3 {
   padding-bottom: 35px;
   border-bottom: solid 4px #eeeeee;
-  margin-bottom: 50px;
   letter-spacing: 0;
 }
 
-/* line 1198, src/scss/pages/detail.scss */
+/* line 1197, src/scss/pages/detail.scss */
 .useful_infomation_cace img {
   width: 100%;
   height: 556px;
   margin-bottom: 49px;
 }
 
-/* line 1204, src/scss/pages/detail.scss */
+/* line 1203, src/scss/pages/detail.scss */
 .useful_infomation_cace p {
-  font-size: 11px;
+  font-size: 15px;
   line-height: 24px;
   margin-right: -3px;
   letter-spacing: 1.32;
 }
 
-/* line 1210, src/scss/pages/detail.scss */
+/* line 1209, src/scss/pages/detail.scss */
 .useful_infomation_cace .useful_infomation_section {
   margin-bottom: 51px;
 }
 
-/* line 1212, src/scss/pages/detail.scss */
+/* line 1211, src/scss/pages/detail.scss */
 .useful_infomation_cace .useful_infomation_section h4 {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
   color: #00282e;
   -webkit-margin-before: 0;
@@ -1636,26 +1635,26 @@
   letter-spacing: 1.55;
 }
 
-/* line 1221, src/scss/pages/detail.scss */
+/* line 1220, src/scss/pages/detail.scss */
 .useful_infomation_cace .useful_infomation_section p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 24px;
   color: #333;
   margin-right: -3px;
   letter-spacing: 1.32;
 }
 
-/* line 1228, src/scss/pages/detail.scss */
+/* line 1227, src/scss/pages/detail.scss */
 .useful_infomation_cace .useful_infomation_section br {
   display: block;
   content: "";
   padding-top: 16px;
 }
 
-/* line 1236, src/scss/pages/detail.scss */
+/* line 1235, src/scss/pages/detail.scss */
 .share_on {
   height: 120px;
-  padding: 58px 105px 36px;
+  padding: 36px 10px 36px;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1665,23 +1664,24 @@
           justify-content: flex-end;
 }
 
-/* line 1243, src/scss/pages/detail.scss */
+/* line 1242, src/scss/pages/detail.scss */
 .share_on span {
-  position: relative;
-  top: -12px;
   color: #999999;
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-size: 13px;
-  margin-right: -1px;
+  margin: 0 2px;
   letter-spacing: 0.76;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
-/* line 1253, src/scss/pages/detail.scss */
+/* line 1251, src/scss/pages/detail.scss */
 .share_on .sns_icon_item {
   margin-right: 0px;
 }
 
-/* line 1256, src/scss/pages/detail.scss */
+/* line 1254, src/scss/pages/detail.scss */
 .share_on .sns_icon_item img {
   height: 24px;
   width: auto;
@@ -1689,81 +1689,82 @@
   margin-top: 8px;
 }
 
-/* line 1264, src/scss/pages/detail.scss */
+/* line 1262, src/scss/pages/detail.scss */
 .useful_infomation_title {
   font-size: 34px;
   line-height: 50px;
   color: #00282e;
 }
 
-/* line 1269, src/scss/pages/detail.scss */
+/* line 1267, src/scss/pages/detail.scss */
 .keyvisual {
   padding-bottom: 91px;
   background-color: #eee;
 }
 
-/* line 1272, src/scss/pages/detail.scss */
+/* line 1270, src/scss/pages/detail.scss */
 .keyvisual .key_title_main {
   margin-top: 0px;
   margin-bottom: 33px;
 }
 
-/* line 1276, src/scss/pages/detail.scss */
+/* line 1274, src/scss/pages/detail.scss */
 .keyvisual .key_title_sub {
   margin-top: 0px;
   letter-spacing: 1px;
 }
 
-/* line 1281, src/scss/pages/detail.scss */
+/* line 1279, src/scss/pages/detail.scss */
 .container {
-  padding-bottom: 135px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 950px) {
-  /* line 1286, src/scss/pages/detail.scss */
+  /* line 1284, src/scss/pages/detail.scss */
   .useful_infomation_cace {
-    padding: 58px 26px 44px;
+    padding: 58px 26px 30px;
     background-color: #fff;
   }
-  /* line 1290, src/scss/pages/detail.scss */
+  /* line 1288, src/scss/pages/detail.scss */
   .share_on {
-    padding: 27px 25px 176px;
+    height: 40px;
+    padding: 0px;
   }
-  /* line 1294, src/scss/pages/detail.scss */
+  /* line 1293, src/scss/pages/detail.scss */
   .container .keyvisual {
     padding-top: 22px;
     padding-bottom: 49px;
   }
-  /* line 1297, src/scss/pages/detail.scss */
+  /* line 1296, src/scss/pages/detail.scss */
   .container .keyvisual .key_title_main {
     margin-bottom: 18px;
     margin-top: 10px;
   }
-  /* line 1303, src/scss/pages/detail.scss */
+  /* line 1302, src/scss/pages/detail.scss */
   .useful_infomation_container {
     margin: 0 auto 0;
   }
-  /* line 1306, src/scss/pages/detail.scss */
+  /* line 1305, src/scss/pages/detail.scss */
   .useful_infomation_cace {
-    padding: 58px 20px 44px;
+    padding: 58px 15px 44px;
   }
-  /* line 1308, src/scss/pages/detail.scss */
+  /* line 1307, src/scss/pages/detail.scss */
   .useful_infomation_cace .day {
     font-size: 12px;
     font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
     letter-spacing: 1.2px;
     margin-bottom: 18px;
   }
-  /* line 1314, src/scss/pages/detail.scss */
+  /* line 1313, src/scss/pages/detail.scss */
   .useful_infomation_cace img {
     height: 206px;
     margin-bottom: 21px;
   }
-  /* line 1318, src/scss/pages/detail.scss */
+  /* line 1317, src/scss/pages/detail.scss */
   .useful_infomation_cace p {
     font-size: 12px;
   }
-  /* line 1321, src/scss/pages/detail.scss */
+  /* line 1320, src/scss/pages/detail.scss */
   .useful_infomation_cace h3 {
     line-height: 36px;
     padding-bottom: 22px;
@@ -1772,36 +1773,36 @@
     margin-bottom: 36px;
     letter-spacing: 0;
   }
-  /* line 1329, src/scss/pages/detail.scss */
+  /* line 1328, src/scss/pages/detail.scss */
   .useful_infomation_cace .useful_infomation_section {
     margin-bottom: 18px;
   }
-  /* line 1331, src/scss/pages/detail.scss */
+  /* line 1330, src/scss/pages/detail.scss */
   .useful_infomation_cace .useful_infomation_section h4 {
     font-size: 18px;
     margin-right: -6px;
     letter-spacing: 1.56px;
     margin-bottom: 18px;
   }
-  /* line 1337, src/scss/pages/detail.scss */
+  /* line 1336, src/scss/pages/detail.scss */
   .useful_infomation_cace .useful_infomation_section p {
     letter-spacing: 0.7;
     font-size: 13px;
   }
-  /* line 1342, src/scss/pages/detail.scss */
+  /* line 1341, src/scss/pages/detail.scss */
   .useful_infomation_cace .useful_infomation_section02 {
     margin-bottom: 25px;
   }
-  /* line 1345, src/scss/pages/detail.scss */
+  /* line 1344, src/scss/pages/detail.scss */
   .useful_infomation_cace p {
     letter-spacing: 2.1px;
   }
-  /* line 1348, src/scss/pages/detail.scss */
+  /* line 1347, src/scss/pages/detail.scss */
   .useful_infomation_cace .useful_infomation_title {
     letter-spacing: 0;
   }
-  /* line 1352, src/scss/pages/detail.scss */
+  /* line 1351, src/scss/pages/detail.scss */
   .container {
-    padding-bottom: 3px;
+    padding-bottom: 0px;
   }
 }
