@@ -1176,12 +1176,12 @@
 .legal_page_only {
   border-bottom: solid 0px #fff;
 }
-.useful_infomation_container {
+.news_content_container {
   background-color: #f8f8f8;
   max-width: 1100px;
   margin: 62px auto 0;
 }
-.useful_infomation_cace {
+.news_content_case {
   padding: 40px 100px 36px;
   background-color: #fff;
   .day {
@@ -1196,8 +1196,6 @@
   }
   img {
     width: 100%;
-    height: 556px;
-    //実際の写真ではこの指定では歪んでしまうので、あとで修正！
     margin-bottom: 49px;
   }
   p {
@@ -1206,7 +1204,7 @@
     margin-right: -3px;
     letter-spacing: 1.32;
   }
-  .useful_infomation_section {
+  .news_content_section {
     margin-bottom: 51px;
     h4 {
       font-size: 18px;
@@ -1258,7 +1256,7 @@
     }
   }
 }
-.useful_infomation_title {
+.news_title {
   font-size: 34px;
   line-height: 50px;
   color: #00282e;
@@ -1279,7 +1277,7 @@
 }
 
 @media (max-width:950px){
-  .useful_infomation_cace {
+  .news_content_case {
     padding: 58px 26px 30px;
     background-color: #fff;
   }
@@ -1296,12 +1294,12 @@
       }
     }
   }
-  .useful_infomation_container {
+  .news_content_container {
     margin: 0 auto 0;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .useful_infomation_cace {
+  .news_content_case {
     padding: 58px 15px 44px;
     .day {
       font-size: 12px;
@@ -1324,7 +1322,7 @@
       margin-bottom: 36px;
       letter-spacing: 0;
     }
-    .useful_infomation_section{
+    .news_content_section{
       margin-bottom: 18px;
       h4 {
         font-size: 18px;
@@ -1337,13 +1335,13 @@
         font-size: 13px;
       }
     }
-    .useful_infomation_section02 {
+    .news_content_section02 {
       margin-bottom: 25px;
     }
     p {
       letter-spacing: 2.1px;
     }
-    .useful_infomation_title {
+    .news_title {
       letter-spacing: 1.82;
     }
   }
@@ -1382,7 +1380,7 @@
   padding-bottom: 8px;
   border-bottom: #00282E solid 2px;
 }
-.useful_infomation_cace {
+.news_content_case {
   padding-bottom: 105px;
   margin-left: 15px;
   margin-right: 15px;
@@ -1390,7 +1388,7 @@
   .img {
     height: auto;
 }
-  .useful_infomation_section {
+  .news_content_section {
     margin-bottom: 43px;
     p {
       letter-spacing: 0.56;
@@ -1399,25 +1397,25 @@
       letter-spacing: 0.58;
     }
   }
-  .useful_infomation_section02 {
+  .news_content_section02 {
     margin-top: 58px;
   }
 }
-.useful_infomation_container {
+.news_content_container {
   max-width: 1140px;
 }
 
 @media (max-width:950px){
-  .useful_infomation_container {
+  .news_content_container {
     margin: 34px auto 0;
   }
   .container {
     padding-bottom: 86px;
   }
-  .useful_infomation_cace {
+  .news_content_case {
     padding: 23px 20px 75px;
     background-color: #fff;
-    .useful_infomation_section {
+    .news_content_section {
       margin-bottom: 21px;
       h4 {
         letter-spacing: 1.3px;
@@ -1426,10 +1424,10 @@
         letter-spacing: 1.2;
       }
     }
-    .useful_infomation_section02 {
+    .news_content_section02 {
       margin-top: 0px;
     }
-    .useful_infomation_title {
+    .news_title {
       letter-spacing: 0;
   }
     h3 {
@@ -1462,7 +1460,7 @@
     }
   }
 }
-.useful_infomation_cace .useful_infomation_section br {
+.news_content_case .news_content_section br {
   display: block;
   content: "";
   padding-top: 25px;
