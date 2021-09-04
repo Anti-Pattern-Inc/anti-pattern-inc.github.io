@@ -1451,7 +1451,7 @@ z
 }
 
 /* line 1049, src/scss/pages/company.scss */
-.container_bg .memver_wrapper {
+.container_bg .member_wrapper {
   max-width: 1020px;
 }
 
@@ -1470,7 +1470,7 @@ z
 }
 
 /* line 1065, src/scss/pages/company.scss */
-.memver_wrapper {
+.member_wrapper {
   padding-bottom: 50px;
   background-color: rgba(255, 255, 255, 0);
   margin-top: -162px;
@@ -1970,7 +1970,7 @@ z
     font-size: 13px;
   }
   /* line 1463, src/scss/pages/company.scss */
-  .container_bg .memver_wrapper {
+  .container_bg .member_wrapper {
     margin-bottom: -37px;
   }
   /* line 1467, src/scss/pages/company.scss */
@@ -1994,7 +1994,7 @@ z
             align-items: center;
   }
   /* line 1483, src/scss/pages/company.scss */
-  .memver_wrapper {
+  .member_wrapper {
     margin-top: auto;
     opacity: 1;
     background-color: #f8f8f8;
