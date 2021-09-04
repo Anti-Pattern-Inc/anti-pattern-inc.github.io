@@ -1628,13 +1628,13 @@
 }
 
 /* line 1220, src/scss/pages/news.scss */
-.news_cntents {
+.news_contents {
   margin-top: 80px;
   font-weight: bold;
 }
 
 /* line 1226, src/scss/pages/news.scss */
-.news_cntents:first-child {
+.news_contents:first-child {
   border-top: solid #eeeeee 4px;
 }
 
@@ -1722,7 +1722,7 @@
     padding-bottom: 63px;
   }
   /* line 1300, src/scss/pages/news.scss */
-  .news_cntents {
+  .news_contents {
     margin-top: 52px;
   }
 }
