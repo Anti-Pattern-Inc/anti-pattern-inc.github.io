@@ -1,0 +1,58 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "engineed-accepting-applications-for-exam-of-ec2";
+  - var pageTitle = "AWS有資格者限定マッチングプラットフォームengineedが実技試験の申し込みを開始しました";
+  - var pageDescription = "engineedで、AWSの有資格者に向けて提供する実技試験の申し込み受付を開始しました。";
+  //- Optional
+  - var pageOgpImage = "/img/news/engineed-accepting-applications-for-exam-of-ec2.jpg";
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+
+block content
+  section.keyvisual.top_keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2021-03-01") 2021.03.01
+      h3.news_title AWS有資格者限定マッチングプラットフォームengineedが実技試験の申し込みを開始しました
+      include ../../_includes/_share_on.pug
+      img(src="/img/news/engineed-accepting-applications-for-exam-of-ec2.jpg", alt="engineedの写真")
+      .news_content_section
+        p engineedで、AWSの有資格者に向けて提供する実技試験の申し込み受付を開始しました。
+        br
+        h4 AWSエンジニアにまつわる課題
+        p 日本国内においても、クラウドサービスは本格的に普及期に入り、年々利用が加速しております。MM総研の調査によると、クラウドサービス全体の市場規模は、2019年度が2兆3572億円、5年後の2024年度には2倍以上の5兆3970億円に達すると予測されています。そのうち、AWSを含むパブリッククラウドの市場は、2019年度が8121億円規模、2024年度には約3倍の2兆4000億円とさらに高い成長が予想されています。
+        br
+        p Amazon Web Services（AWS）、Microsoft Azure（Azure）、Google Cloud Platform（GCP）の大手クラウド3社が先頭を走っていますが、その中でも、AWSは国内でトップシェアを維持し続けています。
+        p (MM総研「国内クラウドサービス需要動向調査」（2020年5月時点）：https://www.m2ri.jp/release/detail.html?id=434)
+        br
+        p AWSは、2021年3月現在では、エンジニアのクラウド活用の専門性を検証するため、役割と専門分野ごとに全12種類もの認定試験を準備しています。認定試験は、175を超えるサービスを、しっかりと使いこなせるスキルを証明するための有効な手段と期待されています。
+        br
+        p 一方で、有資格者へのインタビュー結果から、「認定資格だけだとなかなか評価してもらえない」、「自分の実力を証明するため最初は格安で案件を獲得している」など、認定資格以外の方法でも実力の証明方法を探す必要性が確認されました。
+      .news_content_section
+        h4 engineedの提供する解決方法
+        p engineedでは、エンジニアに対して実業務に近い要件を盛り込んだ実技試験を提供し、スキルを可視化、その結果をもとに企業がエンジニアにオファーできる仕組みを提供することで課題の解決を図ります。
+        br
+        p 実技試験は2段階で構成されております。要件に従い構成図を描く『構成図試験』、実際にAWS上にアーキテクチャを構築する『実装試験』です。それぞれ1週間程度の期間を設け、回答をしていただきます。その結果を、AWS Well-Architected フレームワークにどの程度対応できているかを指標として評価し、実業務レベルでの実力を測定できる機会を有資格者限定で提供いたします。
+        br
+        p engineedを利用することで、認定資格情報のみならず実技試験の結果をもとに、エンジニアと企業間でスキルの認識すり合わせが可能なため、より最適な仕事を得られる機会を手にできます。
+        br
+        p 株式会社アンチパターンの代表取締役小笹は、「このサービスにより実力のあるAWSエンジニアとそれを求める企業のマッチングを加速させ、社会全体でクラウドの活用がより一層促進され、それによる生産性の向上が図れればと考えています。」と期待を述べています。
+        br
+        p engineedへの利用登録やお問い合わせについては下記の専用サイトから可能です。
+        br
+        p 実技試験は利用登録後に、公式資格情報をご登録いただき、engineed運営事務局で確認の取れた方のみengineedのWebアプリからお申し込みいただけます。
+        br
+        h5 リンク
+        p ◆専用サイト
+         br
+         a(href="https://info.engineed.io/engineer/" target="_blank") https://info.engineed.io/engineer/
+      include ../../_includes/_share_on.pug
