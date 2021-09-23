@@ -695,11 +695,19 @@ z
     width: 100%;
     padding: 0px;
   }
-  /* line 480, src/scss/pages/saasus.scss */
+  /* line 481, src/scss/pages/saasus.scss */
+  .issue h4 {
+    font-size: 18px;
+  }
+  /* line 484, src/scss/pages/saasus.scss */
+  .issue br {
+    display: none;
+  }
+  /* line 488, src/scss/pages/saasus.scss */
   .plan-card {
     height: auto;
   }
-  /* line 483, src/scss/pages/saasus.scss */
+  /* line 491, src/scss/pages/saasus.scss */
   .pt-10px {
     padding-top: 10px;
   }
