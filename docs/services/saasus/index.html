@@ -60,6 +60,16 @@
       </div>
     </header>
     <div class="container">
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          let ctas = document.getElementsByClassName('cta');
+          for (let cta of ctas) {
+            const original_uri = cta.href;
+            const converted_uri = original_uri + location.search;
+            cta.href = converted_uri;
+          }
+        });
+      </script>
       <section class="keyvisual">
         <p><span class="key_title_main"><img src="../../img/saasus_logo_420.svg" alt="SaaSus"/></span><span class="key_title_sub">内製化支援サービス</span></p>
       </section>
@@ -85,7 +95,7 @@
               <h4>内製化の必要性を診断、アクションプランの策定から<br/>プロトタイピング・開発・人材採用・運用までをトータルサポート</h4>
             </div>
           </div>
-          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
+          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus cta" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
           <div class="top_ourService pt-50px">
             <h3 class="serviceList_h3">SERVICE MENU</h3>
           </div>
@@ -209,7 +219,7 @@
               </div>
             </div>
           </div>
-          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
+          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus cta" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
           <div class="top_ourService pt-10px">
             <h3 class="serviceList_h3">SaaSusが選ばれる理由</h3>
           </div>
@@ -244,7 +254,7 @@
               </div>
             </div>
           </div>
-          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
+          <div class="inquiry"> <a class="rounded-btn rounded-btn-saasus cta" href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank">SaaSusに関するお問い合わせ</a></div>
         </div>
       </div>
     </div>

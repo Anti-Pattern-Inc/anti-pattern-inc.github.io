@@ -14,6 +14,15 @@ block styles
 
 
 block content
+  script.
+    window.addEventListener('DOMContentLoaded', () => {
+      let ctas = document.getElementsByClassName('cta');
+      for (let cta of ctas) {
+        const original_uri = cta.href;
+        const converted_uri = original_uri + location.search;
+        cta.href = converted_uri;
+      }
+    });
   section.keyvisual
     p
       span.key_title_main
@@ -48,7 +57,7 @@ block content
               br 
               | プロトタイピング・開発・人材採用・運用までをトータルサポート
       .inquiry 
-        a.rounded-btn.rounded-btn-saasus(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
       div.top_ourService.pt-50px
         h3.serviceList_h3 SERVICE MENU
       .service_list
@@ -152,7 +161,7 @@ block content
                   p ・engineedを活用した採用支援
                   p ・共有SREサービス
       .inquiry 
-        a.rounded-btn.rounded-btn-saasus(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
       div.top_ourService.pt-10px
         h3.serviceList_h3 SaaSusが選ばれる理由
       .service_list
@@ -182,4 +191,4 @@ block content
             h4.service_text_pc 確かな技術力
             p 株式会社アンチパターンは、アマゾン ウェブ サービス（AWS）が提供するパートナープログラム「AWSパートナーネットワーク（APN）」におけるAWSコンサルティングパートナー・セレクトティアの認定を取得しております。また、弊社のエンジニアの8割以上は、自社サービスを内製で開発・運用してきたメンバーで内製の経験が豊富です。
       .inquiry 
-        a.rounded-btn.rounded-btn-saasus(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSusに関するお問い合わせ
