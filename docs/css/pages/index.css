@@ -1455,24 +1455,28 @@
     margin-right: auto;
     margin-left: auto;
   }
+  /* line 1147, src/scss/pages/index.scss */
+  .sp_br img {
+    margin-top: 15px;
+  }
 }
 
-/* line 1147, src/scss/pages/index.scss */
+/* line 1151, src/scss/pages/index.scss */
 .service_imgs_sp {
   display: none;
 }
 
-/* line 1151, src/scss/pages/index.scss */
+/* line 1155, src/scss/pages/index.scss */
 .service_imgs {
   display: block;
 }
 
 @media (max-width: 579px) {
-  /* line 1155, src/scss/pages/index.scss */
+  /* line 1159, src/scss/pages/index.scss */
   .top_ourService .service_imgs_sp .top_extends_img {
     margin-top: 28px;
   }
-  /* line 1158, src/scss/pages/index.scss */
+  /* line 1162, src/scss/pages/index.scss */
   .recruit {
     text-align: center;
     background: url(/img/sp_top_recruit_bg.jpg) no-repeat;
@@ -1484,7 +1488,7 @@
 }
 
 @media (max-width: 374px) {
-  /* line 1167, src/scss/pages/index.scss */
+  /* line 1171, src/scss/pages/index.scss */
   .img_cace {
     width: 100%;
     margin-right: 20px;
@@ -1493,7 +1497,7 @@
 }
 
 @media (max-width: 1207px) {
-  /* line 1174, src/scss/pages/index.scss */
+  /* line 1178, src/scss/pages/index.scss */
   .service_imgs_sp {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1501,22 +1505,22 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  /* line 1178, src/scss/pages/index.scss */
+  /* line 1182, src/scss/pages/index.scss */
   .service_imgs {
     display: none;
   }
 }
 
 @media (max-width: 1147px) {
-  /* line 1183, src/scss/pages/index.scss */
+  /* line 1187, src/scss/pages/index.scss */
   .mercury_imgbox, .innovation_imgbox {
     margin: 0 auto;
   }
-  /* line 1186, src/scss/pages/index.scss */
+  /* line 1190, src/scss/pages/index.scss */
   .img_cace {
     margin-bottom: 22px;
   }
-  /* line 1190, src/scss/pages/index.scss */
+  /* line 1194, src/scss/pages/index.scss */
   .img_cace img {
     height: auto;
     width: 100%;
@@ -1525,15 +1529,15 @@
 }
 
 @media (max-width: 659px) {
-  /* line 1198, src/scss/pages/index.scss */
+  /* line 1202, src/scss/pages/index.scss */
   .keyvisual_box07 {
     display: none;
   }
-  /* line 1201, src/scss/pages/index.scss */
+  /* line 1205, src/scss/pages/index.scss */
   footer .arrow:after, footer .arrow:before {
     display: none;
   }
-  /* line 1204, src/scss/pages/index.scss */
+  /* line 1208, src/scss/pages/index.scss */
   .img_box01:after {
     top: 642px;
     width: 76%;
