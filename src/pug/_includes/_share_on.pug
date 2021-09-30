@@ -1,14 +1,14 @@
 .share_on
-  span.share_on_text SHARE ON
+  //- span.share_on_text SHARE ON
   span.sns_icons
     span.sns_icon_item
       div.fb-share-button(data-href=site.rootUrl + pageID + '/' data-layout="button_count")
-    span.sns_icon_item
+    span.sns_icon_item.twitter
       a.twitter-share-button(href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-show-count="false")
         Tweet
       div.
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    span.sns_icon_item
+    span.sns_icon_item.linkedin
       script(src="https://platform.linkedin.com/in.js" type="text/javascript")
         lang: en_US
       script(type="IN/Share" data-url=site.rootUrl + pageID + '/')
