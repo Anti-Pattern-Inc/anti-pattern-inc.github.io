@@ -1232,21 +1232,22 @@
 
 .share_on {
   height: 100px;
-  padding: 36px 10px 36px;
+  padding: 36px 0;
   background-color: #fff;
   display: flex;
   justify-content: flex-end;
-  span {
+  .sns_icons {
     color: #999999;
     font-family: $font-english;
     font-size: 13px;
-    margin: 0 2px;
+    // margin: 0 2px;
     letter-spacing: 0.76;
     align-items: baseline;
   }
   
   .sns_icon_item {
-    margin-right: 0px;
+    margin-right: 0;
+    margin-left: 4px;
     // margin-bottom: -15px;
     img {
       height: 25px;
@@ -1254,18 +1255,6 @@
       margin-left: 15px;
       margin-top: 8px;
     }
-  }
-
-  .fb-share-button {
-    width: 81px;
-  }
-
-  .twitter {
-    width: 75px;
-  }
-
-  .linkedin {
-    width: 63px;
   }
 }
 .news_title {
