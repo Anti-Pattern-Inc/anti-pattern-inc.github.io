@@ -1648,6 +1648,12 @@
 }
 
 /* line 1236, src/scss/pages/news.scss */
+.a_news time {
+  color: #4fabba;
+  margin-right: 10px;
+}
+
+/* line 1240, src/scss/pages/news.scss */
 .a_news p {
   display: inline-block;
   padding-top: 41px;
@@ -1656,7 +1662,7 @@
   line-height: 24px;
 }
 
-/* line 1244, src/scss/pages/news.scss */
+/* line 1248, src/scss/pages/news.scss */
 .nav_num {
   background: #f8f8f8;
   margin-top: 66px;
@@ -1664,43 +1670,51 @@
   margin-bottom: 0;
 }
 
-/* line 1249, src/scss/pages/news.scss */
+/* line 1253, src/scss/pages/news.scss */
 .nav_num a {
   font-size: 24px;
 }
 
-/* line 1254, src/scss/pages/news.scss */
+/* line 1258, src/scss/pages/news.scss */
 .news_active {
   padding-bottom: 8px;
   border-bottom: #00282E solid 2px;
 }
 
 @media (max-width: 950px) {
-  /* line 1259, src/scss/pages/news.scss */
+  /* line 1263, src/scss/pages/news.scss */
   .news_container {
     padding-right: 20px;
     padding-left: 20px;
     margin: 0 auto;
   }
-  /* line 1264, src/scss/pages/news.scss */
+  /* line 1268, src/scss/pages/news.scss */
   .nav_num {
     margin-top: 39px;
     padding-bottom: 144px;
   }
-  /* line 1269, src/scss/pages/news.scss */
+  /* line 1272, src/scss/pages/news.scss */
+  .a_news {
+    padding-top: 20px;
+  }
+  /* line 1274, src/scss/pages/news.scss */
+  .a_news time {
+    margin-right: 0;
+  }
+  /* line 1277, src/scss/pages/news.scss */
   .a_news p {
+    padding-top: 15px;
     padding-bottom: 22px;
-    padding-top: 25px;
     margin-left: 10px;
     font-weight: bold;
     letter-spacing: 0.7px;
   }
-  /* line 1278, src/scss/pages/news.scss */
+  /* line 1285, src/scss/pages/news.scss */
   .keyvisual {
     padding: 90px 0 85px;
     background-image: none;
   }
-  /* line 1281, src/scss/pages/news.scss */
+  /* line 1288, src/scss/pages/news.scss */
   .keyvisual .key_title_main {
     margin-bottom: 11px;
     font-size: 32px;
@@ -1710,18 +1724,18 @@
     line-height: 1.39;
     margin-top: 24px;
   }
-  /* line 1290, src/scss/pages/news.scss */
+  /* line 1297, src/scss/pages/news.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 0;
     letter-spacing: 1px;
   }
-  /* line 1296, src/scss/pages/news.scss */
+  /* line 1303, src/scss/pages/news.scss */
   .container .keyvisual {
     padding-top: 22px;
     padding-bottom: 63px;
   }
-  /* line 1300, src/scss/pages/news.scss */
+  /* line 1307, src/scss/pages/news.scss */
   .news_contents {
     margin-top: 52px;
   }

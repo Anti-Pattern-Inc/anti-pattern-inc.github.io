@@ -1233,6 +1233,10 @@
   border-bottom: solid #eeeeee 4px;
   // text-align: center;
   text-align: center;
+  time {
+    color: #4fabba;
+    margin-right: 10px;
+  }
   p {
     display: inline-block;
     padding-top: 41px;
@@ -1266,10 +1270,13 @@
     padding-bottom: 144px;
   }
   .a_news {
+    padding-top: 20px;
+    time {
+      margin-right: 0;
+    }
     p {
-      // padding-top: 30px;
+      padding-top: 15px;
       padding-bottom: 22px;
-      padding-top: 25px;
       margin-left: 10px;
       font-weight: bold;
       letter-spacing: 0.7px;

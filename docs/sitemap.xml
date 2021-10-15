@@ -18,18 +18,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/legal/</loc>
-    
-        
-        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/news/</loc>
     
         
-        <lastmod>2021-10-15T08:38:24.676Z</lastmod>
+        <lastmod>2021-10-15T11:38:09.108Z</lastmod>
     
     </url>
     <url>
@@ -50,6 +42,14 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/legal/</loc>
+    
+        
+        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
     
         
@@ -66,14 +66,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ec2/</loc>
-    
-        
-        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/news/detail/</loc>
     
         
@@ -82,7 +74,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ecs/</loc>
+        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ec2/</loc>
     
         
         <lastmod>2021-10-14T11:38:58.437Z</lastmod>
@@ -93,7 +85,7 @@
         <loc>https://anti-pattern.co.jp/news/harbors-open/</loc>
     
         
-        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
+        <lastmod>2021-10-15T11:37:08.955Z</lastmod>
     
     </url>
     <url>
@@ -118,6 +110,14 @@
     
         
         <lastmod>2021-10-14T11:38:58.438Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ecs/</loc>
+    
+        
+        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
     
     </url>
     <url>
