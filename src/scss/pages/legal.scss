@@ -249,32 +249,6 @@
         line-height: 29px;
     }
 }
-.recruit {
-    text-align: center;
-    background:url(/img/top_recruit.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    width: 100vw; /* 200(px) / 620(px) * 100vw */
-    h4 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 18px;
-    }
-    .btn {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .rounded-btn {
-        display: block;
-        margin: 16px auto 0;
-        background: rgb(13,147,224);
-        background: linear-gradient(90deg, rgba(13,147,224,1) 0%, rgba(0,196,196,1) 100%);
-        padding: 12px 41px;
-        width: 300px;
-    }
-}
 .img_cace {
     height: 280px;
     width: 514px;
@@ -572,16 +546,6 @@
             line-height: 27px;
             font-size: 16px;
 
-        }
-    }
-    .recruit {
-        .rounded-btn {
-            display: block;
-            margin: 24px auto 0;
-            background: rgb(13,147,224);
-            background: linear-gradient(90deg, rgba(13,147,224,1) 0%, rgba(0,196,196,1) 100%);
-            padding: 12px 41px;
-            width: 300px;
         }
     }
 }
