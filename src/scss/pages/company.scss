@@ -114,13 +114,6 @@
     width: 9.2%;
   }
 }
-.header {
-    background-color:rgba(0,0,0,0);
-    padding: 25px 24px;
-  }
-.header_top {
-    background: #fff;
-}
 .background {
     background: #f8f8f8;
     .wrapper {
@@ -716,9 +709,6 @@
     }
 }
 
-.header {
-  background-color: #EEEEEE;
-}
 .wrapper {
   max-width: 1220px;
   background: #fff; 
@@ -1254,9 +1244,6 @@
 }
 
 @media (max-width:950px){
-  .header {
-    padding: 15px 20px;
-  } 
   .container {
     .keyvisual {
       padding-top: 4px;

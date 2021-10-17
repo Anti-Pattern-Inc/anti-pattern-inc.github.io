@@ -1,12 +1,6 @@
 
 @import "../variables";
 @import "../mixins";
-.header {
-    background-color:rgba(0,0,0,0);
-}
-.header_top {
-    background: #fff;
-}
 .background {
     background: #f8f8f8;
     .wrapper {
@@ -592,9 +586,6 @@
     }
 }
 
-.header {
-  background-color: #eee;
-}
 .keyvisual {
   padding: 90px 0 87px;
   .key_title_main {

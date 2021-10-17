@@ -18,18 +18,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/</loc>
+        <loc>https://anti-pattern.co.jp/legal/</loc>
     
         
-        <lastmod>2021-10-15T11:44:20.532Z</lastmod>
+        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_infomation/</loc>
+        <loc>https://anti-pattern.co.jp/news/</loc>
     
         
-        <lastmod>2021-10-13T15:42:04.488Z</lastmod>
+        <lastmod>2021-10-15T11:44:20.532Z</lastmod>
     
     </url>
     <url>
@@ -42,10 +42,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/legal/</loc>
+        <loc>https://anti-pattern.co.jp/useful_infomation/</loc>
     
         
-        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
+        <lastmod>2021-10-13T15:42:04.488Z</lastmod>
     
     </url>
     <url>
@@ -130,18 +130,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_infomation/detail/</loc>
-    
-        
-        <lastmod>2021-10-14T11:38:58.439Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/services/saasus/</loc>
     
         
         <lastmod>2021-10-16T05:14:26.342Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/useful_infomation/detail/</loc>
+    
+        
+        <lastmod>2021-10-14T11:38:58.439Z</lastmod>
     
     </url>
 </urlset>

@@ -1,14 +1,7 @@
 @import "../variables";
 @import "../mixins";
-.header {
-    background-color:rgba(0,0,0,0);
-    padding-top: 22px;
-}
 .gnav__menu {
   margin-bottom: 0px;
-}
-.header_top {
-    background: #fff;
 }
 .background {
     background: #f8f8f8;
@@ -150,9 +143,6 @@
     }
 }
 
-.header {
-  background-color: #EEEEEE;
-}
 .wrapper {
   max-width: 1220px;
   background: #fff; 
@@ -409,9 +399,6 @@
   }
 }
 @media (max-width:950px){
-  .header {
-    padding-top: 16px;
-  }
   .wrapper {
     padding-bottom: 66px;
   }

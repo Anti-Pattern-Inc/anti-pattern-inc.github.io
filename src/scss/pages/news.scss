@@ -1,11 +1,5 @@
 @import "../variables";
 @import "../mixins";
-.header {
-    background-color:rgba(0,0,0,0);
-}
-.header_top {
-    background: #fff;
-}
 .background {
     background: #f8f8f8;
     .wrapper {
@@ -867,9 +861,6 @@
 .nav_company:after {
   display: none;
 }
-.header {
-  background-color: #f8f8f8;
-}
 .wrapper {
   margin-top: 105px;
   background-color: #fff;
@@ -1188,9 +1179,6 @@
   background-color: #f8f8f8;
   max-width: 1100px;
   margin: 0 auto 0;
-}
-.header {
-  background-color: #EEEEEE;
 }
 .keyvisual {
   background-color: #EEEEEE;
