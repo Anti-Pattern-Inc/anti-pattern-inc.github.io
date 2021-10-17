@@ -272,113 +272,110 @@ button {
 }
 
 /*menu*/
-/* line 81, src/scss/parts/_header.scss */
+/* line 82, src/scss/parts/_header.scss */
 .menu {
-  height: 20px;
+  height: 12px;
   position: fixed;
-  right: 5px;
-  top: 36px;
+  right: 15px;
+  top: 26px;
   width: 30px;
   z-index: 99;
 }
 
-/* line 89, src/scss/parts/_header.scss */
+/* line 90, src/scss/parts/_header.scss */
 .menu__line {
-  background: #fff;
+  background: #00282E;
   display: block;
   height: 2px;
-  position: fixed;
+  position: absolute;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
   transition: transform .3s, -webkit-transform .3s;
-  width: 100%;
+  width: 120%;
 }
 
-/* line 97, src/scss/parts/_header.scss */
-.menu__line--center {
-  top: 9px;
-}
-
-/* line 100, src/scss/parts/_header.scss */
+/* line 98, src/scss/parts/_header.scss */
 .menu__line--bottom {
   bottom: 0;
 }
 
-/* line 103, src/scss/parts/_header.scss */
+/* line 101, src/scss/parts/_header.scss */
 .menu__line--top.active {
-  top: 8px;
+  top: 5px;
+  height: 1px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  background-color: #fff;
 }
 
 /* line 107, src/scss/parts/_header.scss */
-.menu__line--center.active {
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-}
-
-/* line 110, src/scss/parts/_header.scss */
 .menu__line--bottom.active {
-  bottom: 10px;
+  top: 5px;
+  height: 1px;
+  bottom: 11px;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
+  background-color: #fff;
 }
 
 /*gnav*/
 /* line 116, src/scss/parts/_header.scss */
 .gnav {
-  background: #4FABBA;
   display: none;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   height: 100vh;
   z-index: 98;
+  background: #4FABBA;
 }
 
-/* line 126, src/scss/parts/_header.scss */
-.gnav__wrap {
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-/* line 133, src/scss/parts/_header.scss */
-.gnav__wrap .cls-1 {
-  fill: #fff;
-}
-
-/* line 137, src/scss/parts/_header.scss */
+/* line 127, src/scss/parts/_header.scss */
 .gnav__logo {
   position: absolute;
   top: 15px;
   left: 20px;
 }
 
-/* line 141, src/scss/parts/_header.scss */
+/* line 131, src/scss/parts/_header.scss */
 .gnav__logo img {
   width: 200px;
   height: auto;
 }
 
-/* line 146, src/scss/parts/_header.scss */
+/* line 136, src/scss/parts/_header.scss */
+.gnav__wrap {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 85vh;
+}
+
+/* line 145, src/scss/parts/_header.scss */
+.gnav__menu {
+  position: absolute;
+  top: 122px;
+}
+
+/* line 149, src/scss/parts/_header.scss */
 .gnav__menu__item {
-  margin: 0px 0;
+  margin: 0 0 42px;
   letter-spacing: 0;
 }
 
-/* line 150, src/scss/parts/_header.scss */
+/* line 153, src/scss/parts/_header.scss */
 .gnav__menu__item a {
   color: #fff;
   font-size: 18px;
@@ -389,12 +386,12 @@ button {
   transition: .5s;
 }
 
-/* line 158, src/scss/parts/_header.scss */
+/* line 161, src/scss/parts/_header.scss */
 .gnav__menu__item a:hover {
   color: #666;
 }
 
-/* line 161, src/scss/parts/_header.scss */
+/* line 166, src/scss/parts/_header.scss */
 .hero {
   background: url(images/hero.jpg) no-repeat;
   background-position: 50% 50%;
@@ -402,149 +399,54 @@ button {
   height: 100vh;
 }
 
-/* line 167, src/scss/parts/_header.scss */
+/* line 172, src/scss/parts/_header.scss */
 .nav_small {
   font-size: 12px;
   color: #397984;
 }
 
 @media (max-width: 950px) {
-  /* line 173, src/scss/parts/_header.scss */
+  /* line 178, src/scss/parts/_header.scss */
   .header_logoSide img {
     max-width: 200px;
   }
-  /* line 177, src/scss/parts/_header.scss */
+  /* line 182, src/scss/parts/_header.scss */
   .header {
     padding-top: 16px;
     padding-right: 10px;
     padding-left: 20px;
     padding-bottom: 16px;
   }
-  /* line 183, src/scss/parts/_header.scss */
+  /* line 188, src/scss/parts/_header.scss */
   .pc_navs {
     display: none;
   }
-  /* line 186, src/scss/parts/_header.scss */
+  /* line 191, src/scss/parts/_header.scss */
   .header_buttonSide {
     display: none;
   }
-  /* line 189, src/scss/parts/_header.scss */
+  /* line 194, src/scss/parts/_header.scss */
   .menu {
     display: block;
   }
-  /* line 192, src/scss/parts/_header.scss */
-  .gnav {
-    display: block;
-  }
-  /*menu*/
-  /* line 196, src/scss/parts/_header.scss */
-  .menu {
-    height: 12px;
-    position: fixed;
-    right: 15px;
-    top: 26px;
-    width: 30px;
-    z-index: 99;
-  }
-  /* line 204, src/scss/parts/_header.scss */
-  .menu__line {
-    background: #00282E;
-    display: block;
-    height: 2px;
-    position: absolute;
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s;
-    width: 120%;
-  }
-  /* line 215, src/scss/parts/_header.scss */
-  .menu__line--bottom {
-    bottom: 0;
-  }
-  /* line 218, src/scss/parts/_header.scss */
-  .menu__line--top.active {
-    top: 5px;
-    height: 1px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    background-color: #fff;
-  }
-  /* line 227, src/scss/parts/_header.scss */
-  .menu__line--bottom.active {
-    top: 5px;
-    height: 1px;
-    bottom: 11px;
-    -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
-    background-color: #fff;
-  }
-  /*gnav*/
-  /* line 236, src/scss/parts/_header.scss */
-  .gnav {
-    background: #4FABBA;
-    display: none;
-    height: 100%;
-    position: fixed;
-    width: 100%;
-    z-index: 98;
-  }
-  /* line 244, src/scss/parts/_header.scss */
-  .gnav__wrap {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: absolute;
-    width: 100vw;
-    height: 85vh;
-  }
-  /* line 252, src/scss/parts/_header.scss */
-  .gnav__menu {
-    position: absolute;
-    top: 122px;
-  }
-  /* line 256, src/scss/parts/_header.scss */
-  .gnav__menu__item {
-    margin-bottom: 42px;
-  }
-  /* line 260, src/scss/parts/_header.scss */
-  .gnav__menu__item a {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 40px;
-    text-decoration: none;
-    -webkit-transition: .5s;
-    transition: .5s;
-  }
-  /* line 268, src/scss/parts/_header.scss */
-  .gnav__menu__item a:hover {
-    color: #666;
-  }
-  /* line 271, src/scss/parts/_header.scss */
+  /* line 197, src/scss/parts/_header.scss */
   .nav_legal {
     margin-top: 56px;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
-  /* line 272, src/scss/parts/_header.scss */
+  /* line 198, src/scss/parts/_header.scss */
   .nav_legal a {
     font-size: 13px;
     color: #397984;
   }
-  /* line 280, src/scss/parts/_header.scss */
+  /* line 206, src/scss/parts/_header.scss */
   .nav_useful {
     margin-top: 18px;
     font-size: 14px;
     letter-spacing: 0;
   }
-  /* line 281, src/scss/parts/_header.scss */
+  /* line 207, src/scss/parts/_header.scss */
   .nav_useful a {
     font-size: 13px;
     color: #397984;
