@@ -1908,11 +1908,11 @@ z
 }
 
 @media (max-width: 400px) {
-  /* line 1420, src/scss/pages/company.scss */
+  /* line 1419, src/scss/pages/company.scss */
   .section {
     max-width: 295px;
   }
-  /* line 1423, src/scss/pages/company.scss */
+  /* line 1422, src/scss/pages/company.scss */
   .cards {
     margin: 0 17px;
     display: grid;
@@ -1923,7 +1923,7 @@ z
     /* カード内の中央寄せ解除 */
     margin-bottom: 17px;
   }
-  /* line 1434, src/scss/pages/company.scss */
+  /* line 1433, src/scss/pages/company.scss */
   .center_shifter {
     margin-left: -17px;
     width: 313px;
@@ -1937,7 +1937,7 @@ z
 }
 
 @media (max-width: 1192px) {
-  /* line 1442, src/scss/pages/company.scss */
+  /* line 1441, src/scss/pages/company.scss */
   .servise_img, .servise_text {
     margin-right: auto;
     margin-left: auto;

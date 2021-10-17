@@ -442,11 +442,6 @@ button {
 }
 
 /* line 1, src/scss/parts/_footer.scss */
-.footer_nav {
-  padding-bottom: 12px;
-}
-
-/* line 4, src/scss/parts/_footer.scss */
 .footer {
   background-color: #4fabba;
   color: #fff;
@@ -454,7 +449,7 @@ button {
   padding-bottom: 20px;
 }
 
-/* line 10, src/scss/parts/_footer.scss */
+/* line 7, src/scss/parts/_footer.scss */
 .footer__inner {
   padding-right: 20px;
   padding-left: 20px;
@@ -473,12 +468,43 @@ button {
           justify-content: space-between;
 }
 
-/* line 24, src/scss/parts/_footer.scss */
+/* line 19, src/scss/parts/_footer.scss */
 .footer_1 {
   font-weight: bold;
 }
 
+/* line 22, src/scss/parts/_footer.scss */
+.engineer_blog {
+  margin-bottom: 20px;
+}
+
+/* line 24, src/scss/parts/_footer.scss */
+.engineer_blog a {
+  color: white;
+}
+
 /* line 27, src/scss/parts/_footer.scss */
+.engineer_blog a:hover {
+  color: white;
+}
+
+/* line 30, src/scss/parts/_footer.scss */
+.engineer_blog .engineer_blog_text {
+  letter-spacing: 0;
+}
+
+/* line 34, src/scss/parts/_footer.scss */
+.engineer_blog .engineer_blog_icon {
+  margin-left: 6px;
+}
+
+/* line 36, src/scss/parts/_footer.scss */
+.engineer_blog .engineer_blog_icon img {
+  height: 9px;
+  width: auto;
+}
+
+/* line 42, src/scss/parts/_footer.scss */
 .sns_icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,17 +513,17 @@ button {
       flex-wrap: wrap;
 }
 
-/* line 30, src/scss/parts/_footer.scss */
+/* line 45, src/scss/parts/_footer.scss */
 .sns_icons a {
   color: white;
 }
 
-/* line 33, src/scss/parts/_footer.scss */
+/* line 48, src/scss/parts/_footer.scss */
 .sns_icons a:hover {
   color: white;
 }
 
-/* line 37, src/scss/parts/_footer.scss */
+/* line 52, src/scss/parts/_footer.scss */
 .sns_icon_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -506,9 +532,11 @@ button {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 10px;
+  margin-right: 29px;
+  letter-spacing: -1px;
 }
 
-/* line 41, src/scss/parts/_footer.scss */
+/* line 58, src/scss/parts/_footer.scss */
 .sns_icon_item .sns_name {
   letter-spacing: 0px;
   font-size: 12px;
@@ -516,96 +544,59 @@ button {
   margin-bottom: 2px;
 }
 
-/* line 48, src/scss/parts/_footer.scss */
+/* line 65, src/scss/parts/_footer.scss */
 .sns_logo {
   margin-right: 7px;
 }
 
-/* line 50, src/scss/parts/_footer.scss */
+/* line 67, src/scss/parts/_footer.scss */
 .sns_logo img {
   width: 25px;
   height: auto;
 }
 
-/* line 56, src/scss/parts/_footer.scss */
-.li_logo img {
+/* line 72, src/scss/parts/_footer.scss */
+.sns_logo.li_logo img {
   width: 29px;
 }
 
-/* line 60, src/scss/parts/_footer.scss */
-.sns_icon_item {
-  margin-right: 29px;
-  letter-spacing: -1px;
-}
-
-/* line 64, src/scss/parts/_footer.scss */
-.engineer_blog {
-  margin-bottom: 20px;
-}
-
-/* line 66, src/scss/parts/_footer.scss */
-.engineer_blog a {
-  color: white;
-}
-
-/* line 69, src/scss/parts/_footer.scss */
-.engineer_blog a:hover {
-  color: white;
-}
-
-/* line 72, src/scss/parts/_footer.scss */
-.engineer_blog .engineer_blog_text {
-  letter-spacing: 0;
-}
-
-/* line 76, src/scss/parts/_footer.scss */
-.engineer_blog .engineer_blog_icon {
-  margin-left: 6px;
-}
-
-/* line 78, src/scss/parts/_footer.scss */
-.engineer_blog .engineer_blog_icon img {
-  height: 9px;
-  width: auto;
-}
-
-/* line 84, src/scss/parts/_footer.scss */
-.footer_navs {
-  margin-bottom: 15px;
-  font-weight: bold;
-}
-
-/* line 88, src/scss/parts/_footer.scss */
-.footer_nav {
-  margin-left: 21px;
-}
-
-/* line 89, src/scss/parts/_footer.scss */
-.footer_nav a {
-  color: #fff;
-}
-
-/* line 94, src/scss/parts/_footer.scss */
+/* line 77, src/scss/parts/_footer.scss */
 .footer_2 {
   text-align: right;
   margin-top: 38px;
 }
 
-/* line 97, src/scss/parts/_footer.scss */
+/* line 80, src/scss/parts/_footer.scss */
 .footer_2 .footer_navs {
+  font-weight: bold;
   letter-spacing: 0;
   margin-bottom: 20px;
 }
 
-/* line 102, src/scss/parts/_footer.scss */
+/* line 86, src/scss/parts/_footer.scss */
+.footer_nav {
+  margin-left: 21px;
+}
+
+/* line 87, src/scss/parts/_footer.scss */
+.footer_nav a {
+  color: #fff;
+}
+
+/* line 92, src/scss/parts/_footer.scss */
 .copyright {
   color: #397984;
   font-weight: bold;
   letter-spacing: 0;
 }
 
-/* line 108, src/scss/parts/_footer.scss */
-footer .arrow {
+/* line 97, src/scss/parts/_footer.scss */
+.footer {
+  position: relative;
+}
+
+/* line 99, src/scss/parts/_footer.scss */
+.footer .arrow {
   position: absolute;
   right: 15%;
   display: inline-block;
@@ -616,9 +607,9 @@ footer .arrow {
   font-size: 15px;
 }
 
-/* line 118, src/scss/parts/_footer.scss */
-footer .arrow::before,
-footer .arrow::after {
+/* line 109, src/scss/parts/_footer.scss */
+.footer .arrow::before,
+.footer .arrow::after {
   position: absolute;
   right: -101px;
   top: -43px;
@@ -628,12 +619,12 @@ footer .arrow::after {
   vertical-align: middle;
 }
 
-/* line 129, src/scss/parts/_footer.scss */
-footer .arrow::after {
+/* line 120, src/scss/parts/_footer.scss */
+.footer .arrow::after {
   top: -36px;
 }
 
-/* line 133, src/scss/parts/_footer.scss */
+/* line 124, src/scss/parts/_footer.scss */
 .footer_jump::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -646,7 +637,7 @@ footer .arrow::after {
           box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.3);
 }
 
-/* line 143, src/scss/parts/_footer.scss */
+/* line 134, src/scss/parts/_footer.scss */
 .footer_jump::after {
   left: 58px;
   top: -30px;
@@ -658,8 +649,13 @@ footer .arrow::after {
   transform: rotate(-45deg);
 }
 
+/* line 144, src/scss/parts/_footer.scss */
+.footer_nav {
+  padding-bottom: 12px;
+}
+
 @media (max-width: 727px) {
-  /* line 154, src/scss/parts/_footer.scss */
+  /* line 148, src/scss/parts/_footer.scss */
   .footer {
     background-color: #4fabba;
     color: #fff;
@@ -667,20 +663,20 @@ footer .arrow::after {
     padding-left: 0px;
     padding-bottom: 20px;
   }
-  /* line 161, src/scss/parts/_footer.scss */
+  /* line 155, src/scss/parts/_footer.scss */
   .footer_2 {
     text-align: left;
   }
-  /* line 164, src/scss/parts/_footer.scss */
+  /* line 158, src/scss/parts/_footer.scss */
   .footer_navs {
     margin-bottom: 18px;
   }
-  /* line 167, src/scss/parts/_footer.scss */
+  /* line 161, src/scss/parts/_footer.scss */
   .footer_nav {
     margin-left: 0px;
     margin-right: 21px;
   }
-  /* line 171, src/scss/parts/_footer.scss */
+  /* line 165, src/scss/parts/_footer.scss */
   .arrow::before,
   .arrow::after {
     left: -74px;
@@ -688,7 +684,7 @@ footer .arrow::after {
     top: -56px;
     bottom: 9px;
   }
-  /* line 178, src/scss/parts/_footer.scss */
+  /* line 172, src/scss/parts/_footer.scss */
   .arrow::after {
     top: -49px;
   }

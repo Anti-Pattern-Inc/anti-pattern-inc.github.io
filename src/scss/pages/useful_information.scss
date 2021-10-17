@@ -878,21 +878,9 @@
     color: #999999;
   }
 }
-// .footer {
-//   padding-bottom: 40px;
-// }
 .footer_nav {
   padding-bottom: 5px;
 }
-.footer {
-  @include mq(pc) {
-    padding-bottom: 52px;
-  }
-}
-// .sns_icon_item .sns_name {
-//   letter-spacing: -1px;
-//   font-size: 11px;
-// }
 @media (max-width:1200px){
   .cards {
     display: flex;

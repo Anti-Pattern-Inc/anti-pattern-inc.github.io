@@ -1185,27 +1185,20 @@
   color: #999999;
 }
 
-/* line 884, src/scss/pages/useful_information.scss */
+/* line 881, src/scss/pages/useful_information.scss */
 .footer_nav {
   padding-bottom: 5px;
 }
 
-@media screen and (min-width: 960px) {
-  /* line 887, src/scss/pages/useful_information.scss */
-  .footer {
-    padding-bottom: 52px;
-  }
-}
-
 @media (max-width: 1200px) {
-  /* line 897, src/scss/pages/useful_information.scss */
+  /* line 885, src/scss/pages/useful_information.scss */
   .cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 0px;
   }
-  /* line 901, src/scss/pages/useful_information.scss */
+  /* line 889, src/scss/pages/useful_information.scss */
   .card {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -1213,12 +1206,12 @@
 }
 
 @media (max-width: 950px) {
-  /* line 907, src/scss/pages/useful_information.scss */
+  /* line 895, src/scss/pages/useful_information.scss */
   .keyvisual {
     padding: 90px 0 85px;
     background-image: none;
   }
-  /* line 910, src/scss/pages/useful_information.scss */
+  /* line 898, src/scss/pages/useful_information.scss */
   .keyvisual .key_title_main {
     margin-bottom: 11px;
     font-size: 32px;
@@ -1228,29 +1221,29 @@
     line-height: 1.39;
     margin-top: 27px;
   }
-  /* line 919, src/scss/pages/useful_information.scss */
+  /* line 907, src/scss/pages/useful_information.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 0;
     letter-spacing: 1px;
   }
-  /* line 924, src/scss/pages/useful_information.scss */
+  /* line 912, src/scss/pages/useful_information.scss */
   .keyvisual .sp_br {
     margin-top: 1px;
   }
-  /* line 928, src/scss/pages/useful_information.scss */
+  /* line 916, src/scss/pages/useful_information.scss */
   .container .keyvisual {
     padding-bottom: 40px;
   }
-  /* line 931, src/scss/pages/useful_information.scss */
+  /* line 919, src/scss/pages/useful_information.scss */
   .wrapper {
     margin-top: 60px;
   }
-  /* line 934, src/scss/pages/useful_information.scss */
+  /* line 922, src/scss/pages/useful_information.scss */
   .card {
     margin-bottom: 55px;
   }
-  /* line 937, src/scss/pages/useful_information.scss */
+  /* line 925, src/scss/pages/useful_information.scss */
   .nav_num {
     margin-top: 11px;
   }
