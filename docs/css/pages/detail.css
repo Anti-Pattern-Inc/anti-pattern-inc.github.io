@@ -1477,41 +1477,41 @@
 }
 
 /* line 1108, src/scss/pages/detail.scss */
-.useful_infomation_container {
+.useful_information_container {
   background-color: #f8f8f8;
   max-width: 1100px;
   margin: 62px auto 0;
 }
 
 /* line 1113, src/scss/pages/detail.scss */
-.useful_infomation_cace {
+.useful_information_cace {
   padding: 40px 100px 36px;
   background-color: #fff;
 }
 
 /* line 1116, src/scss/pages/detail.scss */
-.useful_infomation_cace .day {
+.useful_information_cace .day {
   color: #4fabba;
   margin-bottom: 14px;
   font-size: 10px;
 }
 
 /* line 1121, src/scss/pages/detail.scss */
-.useful_infomation_cace h3 {
+.useful_information_cace h3 {
   padding-bottom: 35px;
   border-bottom: solid 4px #eeeeee;
   letter-spacing: 0;
 }
 
 /* line 1126, src/scss/pages/detail.scss */
-.useful_infomation_cace img {
+.useful_information_cace img {
   width: 100%;
   height: 556px;
   margin-bottom: 49px;
 }
 
 /* line 1132, src/scss/pages/detail.scss */
-.useful_infomation_cace p {
+.useful_information_cace p {
   font-size: 15px;
   line-height: 24px;
   margin-right: -3px;
@@ -1519,12 +1519,12 @@
 }
 
 /* line 1138, src/scss/pages/detail.scss */
-.useful_infomation_cace .useful_infomation_section {
+.useful_information_cace .useful_information_section {
   margin-bottom: 51px;
 }
 
 /* line 1140, src/scss/pages/detail.scss */
-.useful_infomation_cace .useful_infomation_section h4 {
+.useful_information_cace .useful_information_section h4 {
   font-size: 18px;
   line-height: 28px;
   color: #00282e;
@@ -1537,7 +1537,7 @@
 }
 
 /* line 1149, src/scss/pages/detail.scss */
-.useful_infomation_cace .useful_infomation_section p {
+.useful_information_cace .useful_information_section p {
   font-size: 14px;
   line-height: 24px;
   color: #333;
@@ -1546,7 +1546,7 @@
 }
 
 /* line 1156, src/scss/pages/detail.scss */
-.useful_infomation_cace .useful_infomation_section br {
+.useful_information_cace .useful_information_section br {
   display: block;
   content: "";
   padding-top: 16px;
@@ -1591,7 +1591,7 @@
 }
 
 /* line 1191, src/scss/pages/detail.scss */
-.useful_infomation_title {
+.useful_information_title {
   font-size: 34px;
   line-height: 50px;
   color: #00282e;
@@ -1622,7 +1622,7 @@
 
 @media (max-width: 950px) {
   /* line 1213, src/scss/pages/detail.scss */
-  .useful_infomation_cace {
+  .useful_information_cace {
     padding: 58px 26px 30px;
     background-color: #fff;
   }
@@ -1642,31 +1642,31 @@
     margin-top: 10px;
   }
   /* line 1231, src/scss/pages/detail.scss */
-  .useful_infomation_container {
+  .useful_information_container {
     margin: 0 auto 0;
   }
   /* line 1234, src/scss/pages/detail.scss */
-  .useful_infomation_cace {
+  .useful_information_cace {
     padding: 58px 15px 44px;
   }
   /* line 1236, src/scss/pages/detail.scss */
-  .useful_infomation_cace .day {
+  .useful_information_cace .day {
     font-size: 12px;
     font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
     letter-spacing: 1.2px;
     margin-bottom: 18px;
   }
   /* line 1242, src/scss/pages/detail.scss */
-  .useful_infomation_cace img {
+  .useful_information_cace img {
     height: 206px;
     margin-bottom: 21px;
   }
   /* line 1246, src/scss/pages/detail.scss */
-  .useful_infomation_cace p {
+  .useful_information_cace p {
     font-size: 12px;
   }
   /* line 1249, src/scss/pages/detail.scss */
-  .useful_infomation_cace h3 {
+  .useful_information_cace h3 {
     line-height: 36px;
     padding-bottom: 22px;
     font-size: 24px;
@@ -1675,31 +1675,31 @@
     letter-spacing: 0;
   }
   /* line 1257, src/scss/pages/detail.scss */
-  .useful_infomation_cace .useful_infomation_section {
+  .useful_information_cace .useful_information_section {
     margin-bottom: 18px;
   }
   /* line 1259, src/scss/pages/detail.scss */
-  .useful_infomation_cace .useful_infomation_section h4 {
+  .useful_information_cace .useful_information_section h4 {
     font-size: 18px;
     margin-right: -6px;
     letter-spacing: 1.56px;
     margin-bottom: 18px;
   }
   /* line 1265, src/scss/pages/detail.scss */
-  .useful_infomation_cace .useful_infomation_section p {
+  .useful_information_cace .useful_information_section p {
     letter-spacing: 0.7;
     font-size: 13px;
   }
   /* line 1270, src/scss/pages/detail.scss */
-  .useful_infomation_cace .useful_infomation_section02 {
+  .useful_information_cace .useful_information_section02 {
     margin-bottom: 25px;
   }
   /* line 1273, src/scss/pages/detail.scss */
-  .useful_infomation_cace p {
+  .useful_information_cace p {
     letter-spacing: 2.1px;
   }
   /* line 1276, src/scss/pages/detail.scss */
-  .useful_infomation_cace .useful_infomation_title {
+  .useful_information_cace .useful_information_title {
     letter-spacing: 0;
   }
   /* line 1280, src/scss/pages/detail.scss */
