@@ -1,5 +1,4 @@
 .header {
-  // position: absolute;
   background-color: #eee;
   padding-top: 25px;
   padding-right: 24px;
@@ -8,13 +7,11 @@
 }
 
 .header__inner {
-  margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
   max-width: 1223px;
-  align-items: center;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .header_logoSide {
@@ -67,7 +64,6 @@
   }
 }
 
-
 .menu {
   display: none;
 }
@@ -75,8 +71,6 @@
 .gnav {
   display: none;
 }
-
-
 
 /*menu*/
 .menu{
@@ -161,19 +155,26 @@
 .gnav__menu__item a:hover {
   color: #666;
 }
-
-
-.hero{
-  background:url(images/hero.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 100vh;
+.nav_legal {
+  padding-bottom: 0px;
+  margin-top: 56px;
+  margin-bottom: 0px;
+  a{
+    font-size: 13px;
+    color: #397984;
+  }
 }
-.nav_small {
-  font-size: 12px;
-  color: #397984;
+.nav_useful {
+  font-size: 14px;
+  letter-spacing: 0;
+  margin-top: 18px;
+  a {
+    font-size: 13px;
+    color: #397984;
+  }
 }
-@media (max-width:950px){
+
+@media (max-width: 950px) {
   .header_logoSide {
     img {
       max-width: 200px;
@@ -193,24 +194,6 @@
   }
   .menu {
     display: block;
-  }
-  .nav_legal {
-    a{
-      font-size: 13px;
-      color: #397984;
-    }
-    margin-top: 56px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
-  .nav_useful {
-    a{
-      font-size: 13px;
-      color: #397984;
-    }
-    margin-top: 18px;
-    font-size: 14px;
-    letter-spacing: 0;
   }
 }
 
