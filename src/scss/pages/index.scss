@@ -18,6 +18,9 @@
 //     position: relative;
 // }
 
+.nav_service::after {
+    display: none;
+}
 
 .recruit_box06:after {
     left: 391px;
@@ -734,6 +737,11 @@
         margin-top: 20px;
     }
     .rounded-btn {
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 1.3px;
+        border-radius: 50px;
+        text-decoration: none;
         display: block;
         margin: 16px auto 0;
         background: rgb(13,147,224);
@@ -781,9 +789,6 @@
 }
 .vertical-posts_item:not(:first-child){
     margin-top: 30px;
-}
-.nav_service::after {
-    display:none;
 }
 .img_cace {
     img {

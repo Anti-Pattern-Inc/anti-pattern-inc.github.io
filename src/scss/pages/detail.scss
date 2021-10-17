@@ -570,26 +570,6 @@
   padding-bottom: 50px;
   // margin-bottom: 48px;
 }
-.nav_service {
-  position:relative;
-}
-.nav_service::after {
-  display:none;
-
-}
-.nav_company {
-  position:relative;
-}
-.nav_company::after {
-  content:"";
-  display:block;
-  width:69px;
-  height:2px;
-  background-color: #00282E;
-  position:absolute;
-  bottom:-4px;
-  // left:-5px;
-}
 .container {
   background:  #fff;
   .company_keyvisual {
@@ -819,9 +799,6 @@
 }
 .xxxxx_page_only {
   border-bottom: solid 2px #fff;
-}
-.nav_company:after {
-  display: none;
 }
 .wrapper {
   margin-top: 105px;
