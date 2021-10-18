@@ -39,7 +39,7 @@
     }
   }
 }
-.sns_icons {
+.footer_sns_icons {
   display: flex;
   flex-wrap: wrap;
   a {
@@ -49,26 +49,26 @@
     color: white;
   }
 }
-.sns_icon_item {
+.footer_sns_icon_item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   margin-right: 29px;
   letter-spacing: -1px;
-  .sns_name {
+  .footer_sns_name {
     letter-spacing: 0px;
     font-size: 12px;
     font-family: $font-english;
     margin-bottom: 2px;
   }
 }
-.sns_logo {
+.footer_sns_logo {
   margin-right: 7px;
   img{
     width: 25px;
     height: auto;
   }
-  &.li_logo {
+  &.linkedin_logo {
     img {
       width: 29px;
     }

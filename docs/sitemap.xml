@@ -18,10 +18,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_information/</loc>
+        <loc>https://anti-pattern.co.jp/legal/</loc>
     
         
-        <lastmod>2021-10-17T08:37:47.385Z</lastmod>
+        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
     
     </url>
     <url>
@@ -42,26 +42,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/legal/</loc>
+        <loc>https://anti-pattern.co.jp/useful_information/</loc>
     
         
-        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/useful_information/detail/</loc>
-    
-        
-        <lastmod>2021-10-17T11:44:37.765Z</lastmod>
+        <lastmod>2021-10-17T08:37:47.385Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ec2/</loc>
+        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
     
         
-        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
+        <lastmod>2021-10-14T11:38:58.436Z</lastmod>
     
     </url>
     <url>
@@ -82,6 +74,14 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ec2/</loc>
+    
+        
+        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ecs/</loc>
     
         
@@ -94,14 +94,6 @@
     
         
         <lastmod>2021-10-15T11:44:20.532Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/release-engineed-preview-ver/</loc>
-    
-        
-        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
     
     </url>
     <url>
@@ -130,10 +122,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
+        <loc>https://anti-pattern.co.jp/news/release-engineed-preview-ver/</loc>
     
         
-        <lastmod>2021-10-14T11:38:58.436Z</lastmod>
+        <lastmod>2021-10-14T11:38:58.437Z</lastmod>
     
     </url>
     <url>
@@ -142,6 +134,14 @@
     
         
         <lastmod>2021-10-16T05:14:26.342Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/useful_information/detail/</loc>
+    
+        
+        <lastmod>2021-10-17T11:44:37.765Z</lastmod>
     
     </url>
 </urlset>

@@ -796,9 +796,6 @@
     }
   }
 }
-.xxxxx_page_only {
-  border-bottom: solid 2px #fff;
-}
 .wrapper {
   margin-top: 105px;
   background-color: #fff;
@@ -922,12 +919,6 @@
   }
 }
 
-.xxxxx_page_only {
-  border-bottom: solid 2px #fff;
-}
-.legal_page_only {
-  border-bottom: solid 0px #fff;
-}
 .useful_information_container {
   background-color: #f8f8f8;
   max-width: 1100px;
@@ -1003,8 +994,11 @@
   }
   
   .sns_icon_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
     margin-right: 0px;
-    // margin-bottom: -15px;
+    letter-spacing: -1px;
     img {
       height: 25px;
       width: 25px;

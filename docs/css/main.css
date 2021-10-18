@@ -505,7 +505,7 @@ button {
 }
 
 /* line 42, src/scss/parts/_footer.scss */
-.sns_icons {
+.footer_sns_icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -514,17 +514,17 @@ button {
 }
 
 /* line 45, src/scss/parts/_footer.scss */
-.sns_icons a {
+.footer_sns_icons a {
   color: white;
 }
 
 /* line 48, src/scss/parts/_footer.scss */
-.sns_icons a:hover {
+.footer_sns_icons a:hover {
   color: white;
 }
 
 /* line 52, src/scss/parts/_footer.scss */
-.sns_icon_item {
+.footer_sns_icon_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -537,7 +537,7 @@ button {
 }
 
 /* line 58, src/scss/parts/_footer.scss */
-.sns_icon_item .sns_name {
+.footer_sns_icon_item .footer_sns_name {
   letter-spacing: 0px;
   font-size: 12px;
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
@@ -545,18 +545,18 @@ button {
 }
 
 /* line 65, src/scss/parts/_footer.scss */
-.sns_logo {
+.footer_sns_logo {
   margin-right: 7px;
 }
 
 /* line 67, src/scss/parts/_footer.scss */
-.sns_logo img {
+.footer_sns_logo img {
   width: 25px;
   height: auto;
 }
 
 /* line 72, src/scss/parts/_footer.scss */
-.sns_logo.li_logo img {
+.footer_sns_logo.linkedin_logo img {
   width: 29px;
 }
 
