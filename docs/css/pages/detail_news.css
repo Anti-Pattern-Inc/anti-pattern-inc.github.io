@@ -1650,7 +1650,6 @@
   }
   /* line 1222, src/scss/pages/detail_news.scss */
   .news_content_case img {
-    height: 206px;
     margin-bottom: 21px;
   }
   /* line 1226, src/scss/pages/detail_news.scss */
@@ -1823,7 +1822,6 @@
   /* line 1350, src/scss/pages/detail_news.scss */
   .news_content_case img {
     margin-bottom: 20px;
-    height: 182px;
   }
   /* line 1356, src/scss/pages/detail_news.scss */
   .container .keyvisual {
