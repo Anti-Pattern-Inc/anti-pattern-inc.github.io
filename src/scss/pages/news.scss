@@ -302,6 +302,9 @@
         margin-left: 6px;
     }
 }
+.sp_br {
+  display: none;
+}
 @media (max-width:925px){
     .wrapper {
         padding: 0 20px;
@@ -1129,6 +1132,7 @@
 }
 .news_contents {
   margin-top: 80px;
+  margin-bottom: 80px;
   font-weight: bold;
   // margin-right: 20px;
   // margin-left: 20px;
@@ -1222,5 +1226,6 @@
 }
 .news_contents {
   margin-top: 52px;
+  margin-bottom: 52px;
 }
 }
