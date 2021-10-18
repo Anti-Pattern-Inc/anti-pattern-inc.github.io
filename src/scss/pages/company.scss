@@ -72,7 +72,7 @@
   width: 6%;
   z-index: 9;
   @include mq(sp){
-    left: -41px;
+    left: -75px;
     top: 746px;
     padding-top: 30%;
     width: 30%;
@@ -994,7 +994,11 @@
   // margin-bottom: 48px;
 }
 .outline_wrapper {
+  padding-top: 60px;
   padding-bottom: 340px;
+  @include mq(sp) {
+    padding-top: 30px;
+  }
 }
 .member_wrapper {
   padding-bottom: 50px;
@@ -1125,6 +1129,9 @@
   font-size: 24px;
   text-align: center;
   margin-bottom: 57px;
+  @include mq(sp) {
+    margin-bottom: 27px;
+  }
 }
 .cards_cace {
   margin: 0 30px;
@@ -1204,7 +1211,6 @@
   }
   .outline_table {
     display: block;
-    
   }
   .outline_table01 {
     width: 100%;
@@ -1243,6 +1249,9 @@
   }
   .wrapper {
     padding-bottom: 151px;
+  }
+  .certifications_wrapper {
+    padding-top: 60px;
   }
   .outline_table_item:last-child {
     border-bottom: solid 2px #eeeeee;
