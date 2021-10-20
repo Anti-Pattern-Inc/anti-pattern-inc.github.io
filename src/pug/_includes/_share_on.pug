@@ -1,14 +1,13 @@
 .share_on
   //- span.share_on_text SHARE ON
   span.sns_icons
-    span.sns_icon_item
-      div.fb-share-button(data-href=site.rootUrl + pageID + '/' data-layout="button_count")
+    span.sns_icon_item 
+      .fb-like(data-href=site.rootUrl + pageID + '/' data-layout="button" data-action="like" data-size="small" data-share="true")
+      #fb-root 
+        script(defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="k4PFOT05")
     span.sns_icon_item.twitter
-      a.twitter-share-button(href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-show-count="false")
-        Tweet
-      div.
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      a.twitter-share-button(href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-lang="en") 
+      script(src="https://platform.twitter.com/widgets.js" charset="utf-8")
     span.sns_icon_item.linkedin
-      script(src="https://platform.linkedin.com/in.js" type="text/javascript")
-        lang: en_US
+      script(src="https://platform.linkedin.com/in.js" type="text/javascript") lang: en_US 
       script(type="IN/Share" data-url=site.rootUrl + pageID + '/')
