@@ -1,0 +1,57 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "news/certified-as-aws-isv-partner";
+  - var pageTitle = "engineedがAWSファンデーショナルテクニカルレビューを通過";
+  - var pageDescription = "AWS認定保持エンジニアを求める企業を繋ぐプラットフォームengineedが、2021年10月20日に AWS ISV パートナーパスの「AWSファンデーショナルテクニカルレビュー（FTR）」を通過し認証を取得しました。";
+  //- Optional
+  - var pageOgpImage = site.ogpImage;
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+  style(type="text/css").
+    .aws-isv-partner-badge {
+        width: 30%!important;
+        margin-top: 30px!important;
+        margin-bottom: 0px!important;
+      }
+    @media (max-width:950px){
+      .aws-isv-partner-badge {
+        width: 201.89px!important;
+        height: 189px;!important;
+      }
+    }
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2021-11-11") 2021.11.11
+      h3.news_title engineedがAWSファンデーショナルテクニカルレビューを通過しました
+      include ../../_includes/_share_on.pug
+      img(src="/img/og-image.jpg", alt="アンチパターンの理念について書いてある画像")
+      .news_content_section
+        h4 engineedがAWSファンデーショナルテクニカルレビューを通過し認証を取得しましたことをお知らせします。
+        p 当社は、アマゾン ウェブ サービス（以下、AWS)のスキルを持つエンジニアとAWS認定保持エンジニアを求める企業を繋ぐプラットフォーム「engineed」が、2021年10月20日に AWS ISV パートナーパスの「AWSファンデーショナルテクニカルレビュー（FTR）」を通過し認証を取得しました。
+        br
+        p engineedは、AWSを活用できるエンジニア向けのマッチングプラットフォームです。このたびengineedはFTRを通過したことにより、セキュリティ、信頼性、優れた運用性に関する AWS のベストプラクティスに従っているということが認定されました。これにより、AWS認定保持エンジニアをお探しの企業様、AWS案件や企業をお探しのエンジニアの皆様に、より安心してengineedをご活用いただくことができるようになりました。
+        br
+        p AWS認定保持エンジニアに対して実業務に近い要件を盛り込んだ実技試験を提供し、スキルを可視化、その結果をもとに企業がエンジニアにスカウトできる仕組みを提供することで、AWS認定保持エンジニアのさらなる活躍の場を広げてまいります
+        img.aws-isv-partner-badge(src="https://prtimes.jp/i/54643/13/resize/d54643-13-017c0879df1d55f6bd80-0.png", alt="AWSファンデーショナルテクニカルレビューの画像")
+      .news_content_section.news_content_section02
+        h4 ◆ AWS ISV パートナーパスとは
+        p AWS ISV パートナーパスは、AWS上でSaaSやパッケージ等を稼働させているAWSパートナーのソリューション提供を促進するための厳選されたプログラムです。AWSによる技術審査を通じて、AWSファンデーショナルテクニカルレビュー（FTR）を完了することでISV パートナーの認定を受けることができます。
+        br
+        p FTRを通過するためには、セキュリティ、信頼性、優れた運用性に関連する AWS ベストプラクティスのサブセットに従っている必要があります。
+        br
+        p  当社が運営するAWSのスキルを持つエンジニアとAWS認定保持エンジニアを求める企業を繋ぐプラットフォーム「engineed」は、この度FTRを実施し基準を満たしていると認められた結果、2021年10月20日にAWS ISVパートナーの認定を受けました。
+        br
+        p これにより、AWSのベストプラクティスに沿った独自の実技試験を提供するengineed自身のアーキテクチャが、ISV（独立系ソフトウェアベンダー）としてAWSのベストプラクティスのサブセットに沿っていることを証明しております。また、今後はFTRに沿った実技試験の提供も予定しています。
+      include ../../_includes/_share_on.pug
