@@ -756,30 +756,30 @@ button {
   background-color: #454A54;
 }
 
-/* line 4, src/scss/pages/service.scss */
-.background {
-  background: #f8f8f8;
-}
-
 /* line 6, src/scss/pages/service.scss */
-.background .wrapper {
-  background: #f8f8f8;
-  max-width: 1210px;
-}
-
-/* line 11, src/scss/pages/service.scss */
 .wrapper-wrapper {
   background: #fff;
 }
 
-/* line 16, src/scss/pages/service.scss */
+/* line 9, src/scss/pages/service.scss */
+.top_ourService01 {
+  margin-bottom: 36px;
+}
+
+/* line 12, src/scss/pages/service.scss */
+.top_ourService01 {
+  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
+  margin-bottom: 40px;
+}
+
+/* line 18, src/scss/pages/service.scss */
 .wrapper {
   max-width: 1198px;
   margin: 0 auto;
   padding: 0 60px;
 }
 
-/* line 21, src/scss/pages/service.scss */
+/* line 23, src/scss/pages/service.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -793,7 +793,7 @@ button {
   font-weight: bold;
 }
 
-/* line 31, src/scss/pages/service.scss */
+/* line 33, src/scss/pages/service.scss */
 .keyvisual .key_title_sub {
   font-size: 34px;
   line-height: 18px;
@@ -801,7 +801,7 @@ button {
   display: block;
 }
 
-/* line 37, src/scss/pages/service.scss */
+/* line 39, src/scss/pages/service.scss */
 .keyvisual .key_title_main {
   font-size: 60px;
   line-height: 50px;
@@ -810,17 +810,7 @@ button {
   display: block;
 }
 
-/* line 45, src/scss/pages/service.scss */
-.top_keyvisual {
-  background-image: url("/img/hero_img.png");
-}
-
 /* line 48, src/scss/pages/service.scss */
-.top_ourService01 {
-  margin-bottom: 36px;
-}
-
-/* line 51, src/scss/pages/service.scss */
 .top_ourService {
   text-align: center;
   margin: 0 auto;
@@ -829,7 +819,7 @@ button {
   letter-spacing: 0px;
 }
 
-/* line 57, src/scss/pages/service.scss */
+/* line 54, src/scss/pages/service.scss */
 .top_ourService h3 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -837,7 +827,7 @@ button {
   margin-bottom: 0px;
 }
 
-/* line 63, src/scss/pages/service.scss */
+/* line 60, src/scss/pages/service.scss */
 .top_ourService p {
   padding-top: 27px;
   font-weight: bold;
@@ -846,13 +836,13 @@ button {
   margin-top: -2px;
 }
 
-/* line 70, src/scss/pages/service.scss */
+/* line 67, src/scss/pages/service.scss */
 .top_ourService img {
   height: 30px;
   width: auto;
 }
 
-/* line 74, src/scss/pages/service.scss */
+/* line 71, src/scss/pages/service.scss */
 .top_ourService .arrow {
   width: 33px;
   height: auto;
@@ -860,7 +850,7 @@ button {
   margin-left: 3px;
 }
 
-/* line 80, src/scss/pages/service.scss */
+/* line 77, src/scss/pages/service.scss */
 .top_ourService .arrow_underbar {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -871,7 +861,7 @@ button {
   margin-right: 3px;
 }
 
-/* line 89, src/scss/pages/service.scss */
+/* line 86, src/scss/pages/service.scss */
 .top_ourService .arrow_underbar::after {
   content: "";
   display: block;
@@ -882,7 +872,7 @@ button {
   left: -5px;
 }
 
-/* line 100, src/scss/pages/service.scss */
+/* line 97, src/scss/pages/service.scss */
 .service_imgs {
   margin: 0 auto;
   display: -webkit-box;
@@ -896,39 +886,39 @@ button {
   margin-top: 52px;
 }
 
-/* line 112, src/scss/pages/service.scss */
+/* line 109, src/scss/pages/service.scss */
 .service_imgs img {
   width: 150px;
   height: auto;
   margin: 0 46px 30px;
 }
 
-/* line 117, src/scss/pages/service.scss */
+/* line 114, src/scss/pages/service.scss */
 .service_imgs .top_nitro_img {
   width: 95px;
   margin-left: 57px;
 }
 
-/* line 121, src/scss/pages/service.scss */
+/* line 118, src/scss/pages/service.scss */
 .service_imgs .top_harbors_img {
   width: 108px;
   margin-bottom: 32px;
 }
 
-/* line 125, src/scss/pages/service.scss */
+/* line 122, src/scss/pages/service.scss */
 .service_imgs .top_extends_img {
   width: 128px;
   margin-top: -2px;
   margin-left: 22px;
 }
 
-/* line 130, src/scss/pages/service.scss */
+/* line 127, src/scss/pages/service.scss */
 .service_imgs .top_engineed_img {
   width: 160px;
   margin-bottom: 32px;
 }
 
-/* line 137, src/scss/pages/service.scss */
+/* line 134, src/scss/pages/service.scss */
 .top_news {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -940,18 +930,18 @@ button {
           align-items: center;
 }
 
-/* line 143, src/scss/pages/service.scss */
+/* line 140, src/scss/pages/service.scss */
 .top_news_img {
   margin-left: 50px;
   width: 487px;
 }
 
-/* line 146, src/scss/pages/service.scss */
+/* line 143, src/scss/pages/service.scss */
 .top_news_img img {
   width: 100%;
 }
 
-/* line 151, src/scss/pages/service.scss */
+/* line 148, src/scss/pages/service.scss */
 .top_news_main {
   height: 550px;
   padding-bottom: 62px;
@@ -963,14 +953,14 @@ button {
   margin: 0 auto;
 }
 
-/* line 160, src/scss/pages/service.scss */
+/* line 157, src/scss/pages/service.scss */
 .top_news_main .arrow {
   width: 32px;
   height: auto;
   margin-left: 8px;
 }
 
-/* line 166, src/scss/pages/service.scss */
+/* line 163, src/scss/pages/service.scss */
 .top_news_main .arrow_underbar {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -980,7 +970,7 @@ button {
   font-size: 18px;
 }
 
-/* line 175, src/scss/pages/service.scss */
+/* line 172, src/scss/pages/service.scss */
 .top_news_main .arrow_underbar::after {
   content: "";
   display: block;
@@ -992,13 +982,13 @@ button {
   left: -6px;
 }
 
-/* line 185, src/scss/pages/service.scss */
+/* line 182, src/scss/pages/service.scss */
 .top_news_main h3 {
   text-align: left;
   font-size: 24px;
 }
 
-/* line 190, src/scss/pages/service.scss */
+/* line 187, src/scss/pages/service.scss */
 .vision {
   margin-top: 53px;
   height: auto;
@@ -1006,7 +996,7 @@ button {
   margin: 0 auto;
 }
 
-/* line 196, src/scss/pages/service.scss */
+/* line 193, src/scss/pages/service.scss */
 .vision h2 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   line-height: 70px;
@@ -1018,14 +1008,14 @@ button {
   letter-spacing: 0px;
 }
 
-/* line 208, src/scss/pages/service.scss */
+/* line 205, src/scss/pages/service.scss */
 .top_ourCustomer {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 165px;
 }
 
-/* line 212, src/scss/pages/service.scss */
+/* line 209, src/scss/pages/service.scss */
 .top_ourCustomer h3 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -1034,13 +1024,13 @@ button {
   margin-bottom: 37px;
 }
 
-/* line 219, src/scss/pages/service.scss */
+/* line 216, src/scss/pages/service.scss */
 .top_ourCustomer img {
   height: auto;
   width: 100%;
 }
 
-/* line 224, src/scss/pages/service.scss */
+/* line 221, src/scss/pages/service.scss */
 .top_ourCustomer_imgs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,7 +1042,7 @@ button {
           justify-content: space-between;
 }
 
-/* line 229, src/scss/pages/service.scss */
+/* line 226, src/scss/pages/service.scss */
 .filter {
   background-color: rgba(0, 0, 0, 0.2);
   background-position: 50% 50%;
@@ -1068,20 +1058,20 @@ button {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
 }
 
-/* line 242, src/scss/pages/service.scss */
+/* line 239, src/scss/pages/service.scss */
 .filter h4 {
   margin-top: 24px;
   letter-spacing: 0px;
   margin-bottom: 15px;
 }
 
-/* line 247, src/scss/pages/service.scss */
+/* line 244, src/scss/pages/service.scss */
 .filter p {
   letter-spacing: 0px;
   line-height: 29px;
 }
 
-/* line 252, src/scss/pages/service.scss */
+/* line 249, src/scss/pages/service.scss */
 .img_cace {
   height: 280px;
   width: 514px;
@@ -1097,20 +1087,20 @@ button {
           justify-content: center;
 }
 
-/* line 261, src/scss/pages/service.scss */
+/* line 258, src/scss/pages/service.scss */
 .bule {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4FABBA;
 }
 
-/* line 265, src/scss/pages/service.scss */
+/* line 262, src/scss/pages/service.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
   margin-left: 10px;
 }
 
-/* line 270, src/scss/pages/service.scss */
+/* line 267, src/scss/pages/service.scss */
 .posts {
   font-size: 13px;
   font-weight: bold;
@@ -1120,12 +1110,12 @@ button {
   letter-spacing: 0.64;
 }
 
-/* line 279, src/scss/pages/service.scss */
+/* line 276, src/scss/pages/service.scss */
 .certical_posts_title {
   line-height: 24px;
 }
 
-/* line 282, src/scss/pages/service.scss */
+/* line 279, src/scss/pages/service.scss */
 .vertical-posts_item {
   margin-left: 11px;
   margin-top: 40px;
@@ -1134,39 +1124,39 @@ button {
   padding-bottom: 27px;
 }
 
-/* line 289, src/scss/pages/service.scss */
+/* line 286, src/scss/pages/service.scss */
 .vertical-posts_item:not(:first-child) {
   margin-top: 30px;
 }
 
-/* line 293, src/scss/pages/service.scss */
+/* line 290, src/scss/pages/service.scss */
 .img_cace img {
   margin-top: -22px;
   width: 100%;
   max-width: 286px;
 }
 
-/* line 298, src/scss/pages/service.scss */
+/* line 295, src/scss/pages/service.scss */
 .img_cace .mercury_img {
   max-width: 267px;
   margin-left: 6px;
 }
 
 @media (max-width: 925px) {
-  /* line 304, src/scss/pages/service.scss */
+  /* line 301, src/scss/pages/service.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 307, src/scss/pages/service.scss */
+  /* line 304, src/scss/pages/service.scss */
   .sp_br {
     display: block;
   }
-  /* line 310, src/scss/pages/service.scss */
+  /* line 307, src/scss/pages/service.scss */
   .posts {
     margin-left: 0;
     margin-bottom: 41px;
   }
-  /* line 314, src/scss/pages/service.scss */
+  /* line 311, src/scss/pages/service.scss */
   .top_news_main {
     padding-bottom: 50px;
     -webkit-box-sizing: border-box;
@@ -1175,21 +1165,21 @@ button {
     margin: 0 auto;
     height: 571px;
   }
-  /* line 320, src/scss/pages/service.scss */
+  /* line 317, src/scss/pages/service.scss */
   .top_news_main h3 {
     text-align: center;
   }
-  /* line 323, src/scss/pages/service.scss */
+  /* line 320, src/scss/pages/service.scss */
   .top_news_main span {
     font-size: 18px;
     margin-left: 10px;
   }
-  /* line 328, src/scss/pages/service.scss */
+  /* line 325, src/scss/pages/service.scss */
   .vision {
     margin-top: 0px;
     height: auto;
   }
-  /* line 331, src/scss/pages/service.scss */
+  /* line 328, src/scss/pages/service.scss */
   .vision h2 {
     margin-bottom: 155px;
     font-weight: bold;
@@ -1198,7 +1188,7 @@ button {
     line-height: 35px;
     margin-top: 27px;
   }
-  /* line 340, src/scss/pages/service.scss */
+  /* line 337, src/scss/pages/service.scss */
   .keyvisual {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -1211,22 +1201,22 @@ button {
     background-size: cover;
     font-weight: bold;
   }
-  /* line 341, src/scss/pages/service.scss */
+  /* line 338, src/scss/pages/service.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 353, src/scss/pages/service.scss */
+  /* line 350, src/scss/pages/service.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 357, src/scss/pages/service.scss */
+  /* line 354, src/scss/pages/service.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
     margin-top: 24px;
   }
-  /* line 363, src/scss/pages/service.scss */
+  /* line 360, src/scss/pages/service.scss */
   .top_ourService {
     text-align: center;
     margin: 0 auto;
@@ -1234,18 +1224,18 @@ button {
     margin-bottom: 171px;
     letter-spacing: 0px;
   }
-  /* line 369, src/scss/pages/service.scss */
+  /* line 366, src/scss/pages/service.scss */
   .top_ourService .sp_br {
     display: block;
     margin-top: 1px;
   }
-  /* line 373, src/scss/pages/service.scss */
+  /* line 370, src/scss/pages/service.scss */
   .top_ourService h3 {
     color: #4fabba;
     font-size: 24px;
     margin-bottom: 0px;
   }
-  /* line 378, src/scss/pages/service.scss */
+  /* line 375, src/scss/pages/service.scss */
   .top_ourService p {
     padding-top: 21px;
     font-weight: bold;
@@ -1254,19 +1244,19 @@ button {
     margin-top: -2px;
     letter-spacing: 0px;
   }
-  /* line 387, src/scss/pages/service.scss */
+  /* line 384, src/scss/pages/service.scss */
   .top_ourService img {
     height: 20px;
     width: auto;
   }
-  /* line 391, src/scss/pages/service.scss */
+  /* line 388, src/scss/pages/service.scss */
   .top_ourService .arrow {
     width: 33px;
     height: auto;
     margin-bottom: -31px;
     margin-left: 7px;
   }
-  /* line 397, src/scss/pages/service.scss */
+  /* line 394, src/scss/pages/service.scss */
   .top_ourService .arrow_underbar {
     margin-left: 6px;
     color: #4fabba;
@@ -1276,7 +1266,7 @@ button {
     font-size: 18px;
     margin-right: 0px;
   }
-  /* line 406, src/scss/pages/service.scss */
+  /* line 403, src/scss/pages/service.scss */
   .top_ourService .arrow_underbar::after {
     content: "";
     display: block;
@@ -1286,7 +1276,7 @@ button {
     position: absolute;
     left: -5px;
   }
-  /* line 419, src/scss/pages/service.scss */
+  /* line 416, src/scss/pages/service.scss */
   .service_imgs {
     margin: 0 auto;
     display: block;
@@ -1296,43 +1286,43 @@ button {
     margin: 0 auto 2px;
     margin-top: 33px;
   }
-  /* line 432, src/scss/pages/service.scss */
+  /* line 429, src/scss/pages/service.scss */
   .service_imgs img {
     width: 100px;
     height: auto;
     margin: 0 0px 0px;
   }
-  /* line 437, src/scss/pages/service.scss */
+  /* line 434, src/scss/pages/service.scss */
   .service_imgs .top_posse_img {
     margin-left: 0;
   }
-  /* line 440, src/scss/pages/service.scss */
+  /* line 437, src/scss/pages/service.scss */
   .service_imgs .top_nitro_img {
     width: 62px;
     margin-left: 30px;
     margin-right: 38px;
     margin-top: 2px;
   }
-  /* line 446, src/scss/pages/service.scss */
+  /* line 443, src/scss/pages/service.scss */
   .service_imgs .top_harbors_img {
     width: 71px;
     margin-bottom: -7px;
     margin-right: 15px;
   }
-  /* line 451, src/scss/pages/service.scss */
+  /* line 448, src/scss/pages/service.scss */
   .service_imgs .top_extends_img {
     width: 81px;
     margin-top: 28px;
     margin-left: 10px;
   }
-  /* line 456, src/scss/pages/service.scss */
+  /* line 453, src/scss/pages/service.scss */
   .service_imgs .top_engineed_img {
     width: 102px;
     margin-bottom: 0px;
     margin-left: 31px;
     padding-bottom: 6px;
   }
-  /* line 465, src/scss/pages/service.scss */
+  /* line 462, src/scss/pages/service.scss */
   .top_news {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -1340,17 +1330,17 @@ button {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* line 471, src/scss/pages/service.scss */
+  /* line 468, src/scss/pages/service.scss */
   .top_news_img {
     margin-left: 51px;
     width: 487px;
   }
-  /* line 474, src/scss/pages/service.scss */
+  /* line 471, src/scss/pages/service.scss */
   .top_news_img img {
     width: 100%;
     padding-right: 29px;
   }
-  /* line 480, src/scss/pages/service.scss */
+  /* line 477, src/scss/pages/service.scss */
   .vertical-posts_item {
     margin-left: 11px;
     margin-top: 34px;
@@ -1359,50 +1349,50 @@ button {
     padding-bottom: 23px;
     margin-bottom: 5px;
   }
-  /* line 488, src/scss/pages/service.scss */
+  /* line 485, src/scss/pages/service.scss */
   .vertical-posts_item:not(:first-child) {
     margin-top: 25px;
   }
-  /* line 491, src/scss/pages/service.scss */
+  /* line 488, src/scss/pages/service.scss */
   .vertical-posts_item03 {
     margin-top: 21px;
   }
-  /* line 494, src/scss/pages/service.scss */
+  /* line 491, src/scss/pages/service.scss */
   .img_cace {
     width: 333px;
     height: 165px;
     margin-bottom: 22px;
   }
-  /* line 498, src/scss/pages/service.scss */
+  /* line 495, src/scss/pages/service.scss */
   .img_cace img {
     margin-top: 0px;
     width: 100%;
     max-width: 183px;
   }
-  /* line 503, src/scss/pages/service.scss */
+  /* line 500, src/scss/pages/service.scss */
   .img_cace .mercury_img {
     max-width: 172px;
     margin-left: 0px;
   }
-  /* line 508, src/scss/pages/service.scss */
+  /* line 505, src/scss/pages/service.scss */
   .top_ourCustomer {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 56px;
   }
-  /* line 512, src/scss/pages/service.scss */
+  /* line 509, src/scss/pages/service.scss */
   .top_ourCustomer h3 {
     color: #4fabba;
     font-size: 24px;
     letter-spacing: 0px;
     margin-bottom: 26px;
   }
-  /* line 518, src/scss/pages/service.scss */
+  /* line 515, src/scss/pages/service.scss */
   .top_ourCustomer img {
     height: auto;
     width: 100%;
   }
-  /* line 523, src/scss/pages/service.scss */
+  /* line 520, src/scss/pages/service.scss */
   .filter {
     background-color: rgba(0, 0, 0, 0.2);
     background-position: 50% 50%;
@@ -1416,14 +1406,14 @@ button {
     padding-right: 36px;
     padding-left: 36px;
   }
-  /* line 535, src/scss/pages/service.scss */
+  /* line 532, src/scss/pages/service.scss */
   .filter h4 {
     margin-top: 24px;
     letter-spacing: 0px;
     margin-bottom: 15px;
     margin-left: 11px;
   }
-  /* line 541, src/scss/pages/service.scss */
+  /* line 538, src/scss/pages/service.scss */
   .filter p {
     letter-spacing: 0px;
     line-height: 27px;
@@ -1431,48 +1421,42 @@ button {
   }
 }
 
-/* line 550, src/scss/pages/service.scss */
+/* line 547, src/scss/pages/service.scss */
 .wrapper {
   max-width: 1220px;
   background: #fff;
   padding-bottom: 95px;
 }
 
-/* line 554, src/scss/pages/service.scss */
+/* line 551, src/scss/pages/service.scss */
 z
 .container_bg {
   padding-top: 134px;
 }
 
-/* line 557, src/scss/pages/service.scss */
+/* line 554, src/scss/pages/service.scss */
 z
 .container_bg .pc_img {
   margin-bottom: 38px;
 }
 
-/* line 561, src/scss/pages/service.scss */
-.top_ourService01 {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  margin-bottom: 40px;
-}
-
-/* line 568, src/scss/pages/service.scss */
+/* line 558, src/scss/pages/service.scss */
 .community_support {
   margin-bottom: 99px;
 }
 
-/* line 570, src/scss/pages/service.scss */
+/* line 560, src/scss/pages/service.scss */
 .community_support .matchting {
   margin-bottom: 66px;
   letter-spacing: 0.6;
 }
 
-/* line 574, src/scss/pages/service.scss */
+/* line 564, src/scss/pages/service.scss */
 .community_support .posse {
   margin-bottom: 60px;
 }
 
-/* line 577, src/scss/pages/service.scss */
+/* line 567, src/scss/pages/service.scss */
 .community_support .title {
   margin-top: 60px;
   margin-bottom: 31px;
@@ -1481,7 +1465,7 @@ z
   letter-spacing: 1px;
 }
 
-/* line 584, src/scss/pages/service.scss */
+/* line 574, src/scss/pages/service.scss */
 .community_support .skill_up {
   margin-bottom: 30px;
   font-size: 13px;
@@ -1490,17 +1474,17 @@ z
   letter-spacing: 1px;
 }
 
-/* line 592, src/scss/pages/service.scss */
+/* line 582, src/scss/pages/service.scss */
 .serviceList_h3 {
   margin-top: -12px;
 }
 
-/* line 595, src/scss/pages/service.scss */
+/* line 585, src/scss/pages/service.scss */
 .top_ourService {
   margin: 0 auto 0;
 }
 
-/* line 598, src/scss/pages/service.scss */
+/* line 588, src/scss/pages/service.scss */
 .top_ourService .title {
   margin-bottom: 30px;
   font-size: 13px;
@@ -1508,7 +1492,7 @@ z
   font-weight: bold;
 }
 
-/* line 604, src/scss/pages/service.scss */
+/* line 594, src/scss/pages/service.scss */
 .top_ourService img {
   width: 97%;
   height: auto;
@@ -1516,13 +1500,13 @@ z
   margin-bottom: 22px;
 }
 
-/* line 610, src/scss/pages/service.scss */
+/* line 600, src/scss/pages/service.scss */
 .top_ourService h3 {
   margin-bottom: 62px;
   margin-bottom: -11px;
 }
 
-/* line 615, src/scss/pages/service.scss */
+/* line 605, src/scss/pages/service.scss */
 .service_img {
   max-height: 275px;
   height: 22vw;
@@ -1542,60 +1526,60 @@ z
   border: solid 1px #E5E5E5;
 }
 
-/* line 625, src/scss/pages/service.scss */
+/* line 615, src/scss/pages/service.scss */
 .service_img img {
   height: auto;
 }
 
-/* line 628, src/scss/pages/service.scss */
+/* line 618, src/scss/pages/service.scss */
 .service_img .harbors_img_sizing {
   max-width: 163px;
   width: 80%;
 }
 
-/* line 632, src/scss/pages/service.scss */
+/* line 622, src/scss/pages/service.scss */
 .service_img .posse_img_sizing {
   max-width: 199.5px;
   width: 80%;
 }
 
-/* line 636, src/scss/pages/service.scss */
+/* line 626, src/scss/pages/service.scss */
 .service_img .extends_img_sizing {
   max-width: 167px;
   width: 80%;
 }
 
-/* line 640, src/scss/pages/service.scss */
+/* line 630, src/scss/pages/service.scss */
 .service_img .enjineed_img_sizing {
   max-width: 245px;
   width: 80%;
 }
 
-/* line 644, src/scss/pages/service.scss */
+/* line 634, src/scss/pages/service.scss */
 .service_img .nitoro_img_sizing {
   max-width: 153.5px;
   width: 80%;
 }
 
-/* line 648, src/scss/pages/service.scss */
+/* line 638, src/scss/pages/service.scss */
 .service_img .saasus_img_sizing {
   max-width: 167px;
   width: 80%;
 }
 
-/* line 652, src/scss/pages/service.scss */
+/* line 642, src/scss/pages/service.scss */
 .service_img .gateway_img_sizing {
   max-width: 205.5px;
   width: 80%;
 }
 
-/* line 657, src/scss/pages/service.scss */
+/* line 647, src/scss/pages/service.scss */
 .skill_up {
   margin-top: 10px;
   letter-spacing: 1px;
 }
 
-/* line 662, src/scss/pages/service.scss */
+/* line 652, src/scss/pages/service.scss */
 .service_text p {
   font-size: 13px;
   line-height: 24px;
@@ -1604,7 +1588,7 @@ z
   letter-spacing: 0.8px;
 }
 
-/* line 669, src/scss/pages/service.scss */
+/* line 659, src/scss/pages/service.scss */
 .service_text h4 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-weight: bold;
@@ -1619,14 +1603,14 @@ z
   margin-bottom: 14px;
 }
 
-/* line 680, src/scss/pages/service.scss */
+/* line 670, src/scss/pages/service.scss */
 .service_text h4 .reduction {
   font-size: 12px;
   margin-left: 15px;
   color: #00282e;
 }
 
-/* line 688, src/scss/pages/service.scss */
+/* line 678, src/scss/pages/service.scss */
 .service_text {
   max-width: 523px;
   width: 50%;
@@ -1636,7 +1620,7 @@ z
   margin-left: 20px;
 }
 
-/* line 694, src/scss/pages/service.scss */
+/* line 684, src/scss/pages/service.scss */
 .service_text .under_var {
   display: inline-block;
   letter-spacing: 0.6px;
@@ -1650,7 +1634,7 @@ z
   font-family: "Nobel-Regular", "Noto Sans JP", sans-serif, "Lato", sans-serif;
 }
 
-/* line 706, src/scss/pages/service.scss */
+/* line 696, src/scss/pages/service.scss */
 .service_text .under_var::after {
   content: "";
   display: block;
@@ -1662,7 +1646,7 @@ z
   left: 1px;
 }
 
-/* line 717, src/scss/pages/service.scss */
+/* line 707, src/scss/pages/service.scss */
 .service_text .site_link img {
   margin-left: 4px;
   height: 9px;
@@ -1670,12 +1654,12 @@ z
   margin-bottom: 2px;
 }
 
-/* line 724, src/scss/pages/service.scss */
+/* line 714, src/scss/pages/service.scss */
 .service_text a {
   line-height: 42px;
 }
 
-/* line 729, src/scss/pages/service.scss */
+/* line 719, src/scss/pages/service.scss */
 .servicelist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1691,20 +1675,20 @@ z
   margin-bottom: 60px;
 }
 
-/* line 736, src/scss/pages/service.scss */
+/* line 726, src/scss/pages/service.scss */
 .keyvisual {
   padding: 71px 0 83px;
   background-color: #eeeeee;
   background-image: none;
 }
 
-/* line 740, src/scss/pages/service.scss */
+/* line 730, src/scss/pages/service.scss */
 .keyvisual .key_title_main {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-size: 50px;
 }
 
-/* line 744, src/scss/pages/service.scss */
+/* line 734, src/scss/pages/service.scss */
 .keyvisual .key_title_sub {
   letter-spacing: 0;
   margin-top: 35px;
@@ -1712,7 +1696,7 @@ z
   letter-spacing: 1px;
 }
 
-/* line 753, src/scss/pages/service.scss */
+/* line 743, src/scss/pages/service.scss */
 .nav_service::after {
   content: "";
   position: absolute;
@@ -1725,57 +1709,57 @@ z
           transform: translateX(-50%);
 }
 
-/* line 763, src/scss/pages/service.scss */
+/* line 753, src/scss/pages/service.scss */
 .sp_img {
   display: none;
 }
 
-/* line 766, src/scss/pages/service.scss */
+/* line 756, src/scss/pages/service.scss */
 .pc_img {
   display: block;
 }
 
 @media (max-width: 1192px) {
-  /* line 770, src/scss/pages/service.scss */
+  /* line 760, src/scss/pages/service.scss */
   .service_img, .service_test {
     width: 42%;
   }
 }
 
 @media (max-width: 950px) {
-  /* line 775, src/scss/pages/service.scss */
+  /* line 765, src/scss/pages/service.scss */
   .wrapper {
     padding-bottom: 66px;
   }
-  /* line 778, src/scss/pages/service.scss */
+  /* line 768, src/scss/pages/service.scss */
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 63px;
   }
-  /* line 781, src/scss/pages/service.scss */
+  /* line 771, src/scss/pages/service.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
   }
-  /* line 784, src/scss/pages/service.scss */
+  /* line 774, src/scss/pages/service.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 16px;
   }
-  /* line 789, src/scss/pages/service.scss */
+  /* line 779, src/scss/pages/service.scss */
   .top_ourService01 {
     margin-bottom: 27px;
     margin-top: 48px;
   }
-  /* line 793, src/scss/pages/service.scss */
+  /* line 783, src/scss/pages/service.scss */
   .top_ourService {
     padding-top: 124px;
   }
-  /* line 795, src/scss/pages/service.scss */
+  /* line 785, src/scss/pages/service.scss */
   .top_ourService h3 {
     margin-bottom: 0px;
     margin-left: 0px;
   }
-  /* line 799, src/scss/pages/service.scss */
+  /* line 789, src/scss/pages/service.scss */
   .top_ourService img {
     max-width: 335px;
     margin-right: auto;
@@ -1783,11 +1767,11 @@ z
     margin-bottom: 0;
     width: 100%;
   }
-  /* line 807, src/scss/pages/service.scss */
+  /* line 797, src/scss/pages/service.scss */
   .container_bg {
     padding-top: 27px;
   }
-  /* line 810, src/scss/pages/service.scss */
+  /* line 800, src/scss/pages/service.scss */
   .servicelist {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1798,66 +1782,66 @@ z
             justify-content: center;
     margin-bottom: 63px;
   }
-  /* line 815, src/scss/pages/service.scss */
+  /* line 805, src/scss/pages/service.scss */
   .service_text_sp {
     display: block;
   }
-  /* line 818, src/scss/pages/service.scss */
+  /* line 808, src/scss/pages/service.scss */
   .pc_img {
     display: none;
   }
-  /* line 821, src/scss/pages/service.scss */
+  /* line 811, src/scss/pages/service.scss */
   .sp_img {
     display: block;
     width: 65%;
     text-align: center;
     height: auto;
   }
-  /* line 827, src/scss/pages/service.scss */
+  /* line 817, src/scss/pages/service.scss */
   .service_img {
     height: 32vw;
     width: 100%;
   }
-  /* line 831, src/scss/pages/service.scss */
+  /* line 821, src/scss/pages/service.scss */
   .service_text_pc {
     text-transform: uppercase;
   }
-  /* line 834, src/scss/pages/service.scss */
+  /* line 824, src/scss/pages/service.scss */
   .service_text {
     width: 100%;
     padding-left: 0px;
     margin-left: 0;
   }
-  /* line 838, src/scss/pages/service.scss */
+  /* line 828, src/scss/pages/service.scss */
   .service_text h4 {
     margin-top: 21px;
   }
-  /* line 841, src/scss/pages/service.scss */
+  /* line 831, src/scss/pages/service.scss */
   .service_text p {
     margin-bottom: 14px;
   }
-  /* line 844, src/scss/pages/service.scss */
+  /* line 834, src/scss/pages/service.scss */
   .service_text .reduction {
     letter-spacing: 0.5px;
   }
-  /* line 847, src/scss/pages/service.scss */
+  /* line 837, src/scss/pages/service.scss */
   .service_text .under_var {
     left: 2px;
   }
-  /* line 851, src/scss/pages/service.scss */
+  /* line 841, src/scss/pages/service.scss */
   .community_support {
     margin-bottom: 70px;
   }
-  /* line 853, src/scss/pages/service.scss */
+  /* line 843, src/scss/pages/service.scss */
   .community_support .matchting {
     margin-bottom: 66px;
     letter-spacing: 0.6;
   }
-  /* line 857, src/scss/pages/service.scss */
+  /* line 847, src/scss/pages/service.scss */
   .community_support .posse {
     margin-bottom: 65px;
   }
-  /* line 860, src/scss/pages/service.scss */
+  /* line 850, src/scss/pages/service.scss */
   .community_support .title {
     margin-top: 49px;
     margin-bottom: 29px;
@@ -1866,7 +1850,7 @@ z
     letter-spacing: 1px;
     margin-left: 8px;
   }
-  /* line 868, src/scss/pages/service.scss */
+  /* line 858, src/scss/pages/service.scss */
   .community_support .skill_up {
     margin-bottom: 27px;
     font-size: 13px;
@@ -1874,7 +1858,7 @@ z
     text-align: center;
     letter-spacing: 1px;
   }
-  /* line 876, src/scss/pages/service.scss */
+  /* line 866, src/scss/pages/service.scss */
   .service_img {
     height: 46vw;
     max-width: 530.5px;
@@ -1892,41 +1876,41 @@ z
             justify-content: center;
     border: solid 1px #E5E5E5;
   }
-  /* line 885, src/scss/pages/service.scss */
+  /* line 875, src/scss/pages/service.scss */
   .service_img img {
     height: auto;
   }
-  /* line 888, src/scss/pages/service.scss */
+  /* line 878, src/scss/pages/service.scss */
   .service_img .harbors_img_sizing {
     max-width: 115px;
     width: 80%;
   }
-  /* line 892, src/scss/pages/service.scss */
+  /* line 882, src/scss/pages/service.scss */
   .service_img .posse_img_sizing {
     max-width: 147.5px;
     width: 80%;
   }
-  /* line 896, src/scss/pages/service.scss */
+  /* line 886, src/scss/pages/service.scss */
   .service_img .extends_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 900, src/scss/pages/service.scss */
+  /* line 890, src/scss/pages/service.scss */
   .service_img .enjineed_img_sizing {
     max-width: 186px;
     width: 80%;
   }
-  /* line 904, src/scss/pages/service.scss */
+  /* line 894, src/scss/pages/service.scss */
   .service_img .nitoro_img_sizing {
     max-width: 119.5px;
     width: 80%;
   }
-  /* line 908, src/scss/pages/service.scss */
+  /* line 898, src/scss/pages/service.scss */
   .service_img .saasus_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 912, src/scss/pages/service.scss */
+  /* line 902, src/scss/pages/service.scss */
   .service_img .gateway_img_sizing {
     margin-top: -7px;
     font-size: 30px;

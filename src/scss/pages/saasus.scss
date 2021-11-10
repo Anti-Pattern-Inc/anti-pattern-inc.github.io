@@ -1,12 +1,5 @@
 @import "../variables";
 @import "../mixins";
-.background {
-    background: #f8f8f8;
-    .wrapper {
-        background: #f8f8f8;
-        max-width: 1210px;
-    }
-}
 .wrapper-wrapper {
     background: #fff;
 }
@@ -44,6 +37,13 @@
     img {
       width: 420px;
     }
+}
+.top_ourService01 {
+  margin-bottom: 36px;
+}
+.top_ourService01 {
+  font-family: $font-english;
+  margin-bottom: 40px;
 }
 .filter {
     background-color: rgba(0,0,0,0.2);
@@ -409,6 +409,10 @@
       font-size: 13px;
       margin-top: 16px;
     }
+  }
+  .top_ourService01 {
+    margin-bottom: 27px;
+    margin-top: 48px;
   }
   .container_bg {
     padding-top: 27px;
