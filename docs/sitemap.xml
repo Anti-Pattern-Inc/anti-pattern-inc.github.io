@@ -26,6 +26,14 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/news/</loc>
+    
+        
+        <lastmod>2021-11-11T02:10:20.257Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/services/</loc>
     
         
@@ -42,31 +50,15 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/</loc>
+        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
     
         
-        <lastmod>2021-11-11T02:10:20.257Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
-    
-        
-        <lastmod>2021-10-16T05:14:26.342Z</lastmod>
+        <lastmod>2021-11-11T10:18:57.723Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_information/detail/</loc>
-    
-        
-        <lastmod>2021-10-17T11:44:37.765Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
+        <loc>https://anti-pattern.co.jp/news/detail/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -82,15 +74,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
-    
-        
-        <lastmod>2021-11-10T18:44:01.009Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/detail/</loc>
+        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -114,6 +98,14 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
+    
+        
+        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/news/harbors-open/</loc>
     
         
@@ -123,14 +115,6 @@
     <url>
         
         <loc>https://anti-pattern.co.jp/news/release-engineed-preview-ver/</loc>
-    
-        
-        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -150,6 +134,22 @@
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/useful_information/detail/</loc>
+    
+        
+        <lastmod>2021-10-17T11:44:37.765Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
+    
+        
+        <lastmod>2021-10-16T05:14:26.342Z</lastmod>
     
     </url>
 </urlset>
