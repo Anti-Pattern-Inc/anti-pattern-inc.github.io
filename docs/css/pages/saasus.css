@@ -66,34 +66,23 @@
 }
 
 /* line 3, src/scss/pages/saasus.scss */
-.background {
-  background: #f8f8f8;
-}
-
-/* line 5, src/scss/pages/saasus.scss */
-.background .wrapper {
-  background: #f8f8f8;
-  max-width: 1210px;
-}
-
-/* line 10, src/scss/pages/saasus.scss */
 .wrapper-wrapper {
   background: #fff;
 }
 
-/* line 13, src/scss/pages/saasus.scss */
+/* line 6, src/scss/pages/saasus.scss */
 .wrapper {
   max-width: 1198px;
   margin: 0 auto;
   padding: 0 60px;
 }
 
-/* line 18, src/scss/pages/saasus.scss */
+/* line 11, src/scss/pages/saasus.scss */
 .top_ourService {
   padding-top: 100px;
 }
 
-/* line 21, src/scss/pages/saasus.scss */
+/* line 14, src/scss/pages/saasus.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -107,7 +96,7 @@
   font-weight: bold;
 }
 
-/* line 31, src/scss/pages/saasus.scss */
+/* line 24, src/scss/pages/saasus.scss */
 .keyvisual .key_title_sub {
   font-size: 34px;
   line-height: 18px;
@@ -115,7 +104,7 @@
   display: block;
 }
 
-/* line 37, src/scss/pages/saasus.scss */
+/* line 30, src/scss/pages/saasus.scss */
 .keyvisual .key_title_main {
   font-size: 60px;
   line-height: 50px;
@@ -124,9 +113,20 @@
   display: block;
 }
 
-/* line 44, src/scss/pages/saasus.scss */
+/* line 37, src/scss/pages/saasus.scss */
 .keyvisual img {
   width: 420px;
+}
+
+/* line 41, src/scss/pages/saasus.scss */
+.top_ourService01 {
+  margin-bottom: 36px;
+}
+
+/* line 44, src/scss/pages/saasus.scss */
+.top_ourService01 {
+  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
+  margin-bottom: 40px;
 }
 
 /* line 48, src/scss/pages/saasus.scss */
@@ -598,10 +598,15 @@ z
     margin-top: 16px;
   }
   /* line 413, src/scss/pages/saasus.scss */
+  .top_ourService01 {
+    margin-bottom: 27px;
+    margin-top: 48px;
+  }
+  /* line 417, src/scss/pages/saasus.scss */
   .container_bg {
     padding-top: 27px;
   }
-  /* line 416, src/scss/pages/saasus.scss */
+  /* line 420, src/scss/pages/saasus.scss */
   .servicelist {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -612,59 +617,59 @@ z
             justify-content: center;
     margin-bottom: 63px;
   }
-  /* line 421, src/scss/pages/saasus.scss */
+  /* line 425, src/scss/pages/saasus.scss */
   .service_text_sp {
     display: block;
   }
-  /* line 424, src/scss/pages/saasus.scss */
+  /* line 428, src/scss/pages/saasus.scss */
   .pc_img {
     display: none;
   }
-  /* line 427, src/scss/pages/saasus.scss */
+  /* line 431, src/scss/pages/saasus.scss */
   .sp_img {
     display: block;
     width: 100%;
     text-align: center;
     height: auto;
   }
-  /* line 433, src/scss/pages/saasus.scss */
+  /* line 437, src/scss/pages/saasus.scss */
   .service_img {
     height: 50vw;
     width: 100%;
   }
-  /* line 437, src/scss/pages/saasus.scss */
+  /* line 441, src/scss/pages/saasus.scss */
   .service_text_pc {
     text-transform: uppercase;
   }
-  /* line 440, src/scss/pages/saasus.scss */
+  /* line 444, src/scss/pages/saasus.scss */
   .service_text {
     width: 100%;
     padding-left: 0px;
     margin-left: 0;
   }
-  /* line 444, src/scss/pages/saasus.scss */
+  /* line 448, src/scss/pages/saasus.scss */
   .service_text h4 {
     margin-top: 21px;
   }
-  /* line 447, src/scss/pages/saasus.scss */
+  /* line 451, src/scss/pages/saasus.scss */
   .service_text p {
     margin-bottom: 14px;
   }
-  /* line 450, src/scss/pages/saasus.scss */
+  /* line 454, src/scss/pages/saasus.scss */
   .service_text .reduction {
     letter-spacing: 0.5px;
   }
-  /* line 453, src/scss/pages/saasus.scss */
+  /* line 457, src/scss/pages/saasus.scss */
   .service_text .under_var {
     left: 2px;
   }
-  /* line 457, src/scss/pages/saasus.scss */
+  /* line 461, src/scss/pages/saasus.scss */
   .service_list {
     margin-bottom: 30px;
     letter-spacing: 0.6;
     padding: 0px;
   }
-  /* line 461, src/scss/pages/saasus.scss */
+  /* line 465, src/scss/pages/saasus.scss */
   .service_list .title {
     margin-top: 49px;
     margin-bottom: 29px;
@@ -673,24 +678,24 @@ z
     letter-spacing: 1px;
     margin-left: 8px;
   }
-  /* line 469, src/scss/pages/saasus.scss */
+  /* line 473, src/scss/pages/saasus.scss */
   .service_list .service_strengths {
     width: 100%;
     padding: 0px;
   }
-  /* line 475, src/scss/pages/saasus.scss */
+  /* line 479, src/scss/pages/saasus.scss */
   .issue h4 {
     font-size: 18px;
   }
-  /* line 478, src/scss/pages/saasus.scss */
+  /* line 482, src/scss/pages/saasus.scss */
   .issue br {
     display: none;
   }
-  /* line 482, src/scss/pages/saasus.scss */
+  /* line 486, src/scss/pages/saasus.scss */
   .plan-card {
     height: auto;
   }
-  /* line 485, src/scss/pages/saasus.scss */
+  /* line 489, src/scss/pages/saasus.scss */
   .pt-10px {
     padding-top: 10px;
   }
