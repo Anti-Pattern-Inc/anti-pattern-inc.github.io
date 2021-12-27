@@ -34,18 +34,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/</loc>
-    
-        
-        <lastmod>2021-11-11T02:10:20.257Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/services/</loc>
     
         
         <lastmod>2021-10-13T15:42:04.488Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/</loc>
+    
+        
+        <lastmod>2021-11-11T02:10:20.257Z</lastmod>
     
     </url>
     <url>
@@ -61,7 +61,15 @@
         <loc>https://anti-pattern.co.jp/hub/posse-interview/</loc>
     
         
-        <lastmod>2021-12-27T05:09:55.920Z</lastmod>
+        <lastmod>2021-12-27T09:02:48.182Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
+    
+        
+        <lastmod>2021-10-16T05:14:26.342Z</lastmod>
     
     </url>
     <url>
@@ -150,14 +158,6 @@
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
-    
-        
-        <lastmod>2021-10-16T05:14:26.342Z</lastmod>
     
     </url>
 </urlset>
