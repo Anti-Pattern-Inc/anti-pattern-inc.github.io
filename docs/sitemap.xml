@@ -18,6 +18,14 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/hub/</loc>
+    
+        
+        <lastmod>2021-12-27T04:43:43.395Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/legal/</loc>
     
         
@@ -42,10 +50,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_information/</loc>
+        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
     
         
-        <lastmod>2021-10-17T08:37:47.385Z</lastmod>
+        <lastmod>2021-12-27T05:09:55.920Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse-interview/</loc>
+    
+        
+        <lastmod>2021-12-27T05:09:55.920Z</lastmod>
     
     </url>
     <url>
@@ -130,10 +146,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/useful_information/detail/</loc>
+        <loc>https://anti-pattern.co.jp/news/yagasaki-was-appointed-as-a-director/</loc>
     
         
-        <lastmod>2021-10-17T11:44:37.765Z</lastmod>
+        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
     
     </url>
     <url>
@@ -142,14 +158,6 @@
     
         
         <lastmod>2021-10-16T05:14:26.342Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/yagasaki-was-appointed-as-a-director/</loc>
-    
-        
-        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
     
     </url>
 </urlset>

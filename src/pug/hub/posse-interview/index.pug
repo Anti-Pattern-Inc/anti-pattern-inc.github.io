@@ -2,7 +2,7 @@ extends ../../_includes/_layout.pug
 
 append variables
   //- Required
-  - var pageID = "useful_information/detail";
+  - var pageID = "hub/detail";
   - var pageTitle = "お役立ち情報";
   - var pageDescription = site.description;
   //- Optional
@@ -11,28 +11,28 @@ append variables
   - var noindex = true;
 
 block styles
-  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail.min.css")
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_hub.min.css")
 
 
 
 block content
   section.keyvisual
     p
-      span.key_title_main USEFUL 
+      span.key_title_main ANTI-PATTERN 
         |
-        span.sp_br INFORMATION
+        span.sp_br HUB 
       |
       span.key_title_sub お役立ち情報
-  .useful_information_container
-    .useful_information_cace
+  .hub_container
+    .hub_cace
       .day 2020.10.24
-      h3.useful_information_title タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります
+      h3.hub_title 20歳の女子大生が代表を務める学生プログラミングコミュニティ「POSSE」
       include ../../_includes/_share_on.pug
-      img(src="/img/photo_dummy.png", alt="dummy")
-      .useful_information_section
+      img(src="/img/hub/posse-interview1.jpg", alt="dummy")
+      .hub_section
         h4 hタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入ります
         p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますが入りますテキストが入ります
-      .useful_information_section.useful_information_section02
+      .hub_section.hub_section02
         h4 hタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入りますhタグが入ります
         p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますが入りますテキストが入ります
         br
