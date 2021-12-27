@@ -5,7 +5,7 @@
         <loc>https://anti-pattern.co.jp/</loc>
     
         
-        <lastmod>2021-10-13T15:42:04.486Z</lastmod>
+        <lastmod>2021-12-13T14:18:05.188Z</lastmod>
     
     </url>
     <url>
@@ -50,15 +50,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
-    
-        
-        <lastmod>2021-11-11T10:18:57.723Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/detail/</loc>
+        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -74,7 +66,15 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
+        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
+    
+        
+        <lastmod>2021-11-11T10:18:57.723Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/detail/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -98,14 +98,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
-    
-        
-        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/news/harbors-open/</loc>
     
         
@@ -122,7 +114,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
+        <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -130,7 +122,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/yagasaki-was-appointed-as-a-director/</loc>
+        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
     
         
         <lastmod>2021-10-24T09:40:15.563Z</lastmod>
@@ -150,6 +142,14 @@
     
         
         <lastmod>2021-10-16T05:14:26.342Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/yagasaki-was-appointed-as-a-director/</loc>
+    
+        
+        <lastmod>2021-10-24T09:40:15.563Z</lastmod>
     
     </url>
 </urlset>
