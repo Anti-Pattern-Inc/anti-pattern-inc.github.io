@@ -449,7 +449,7 @@
 .nav_service::after {
   display: none;
 }
-.container {
+.base-container {
   background:  #fff;
   .company_keyvisual {
     background-color: #EEEEEE;
@@ -543,7 +543,7 @@
 
   margin-bottom: 121px;
 }
-.card {
+.article-card {
   width: 250px;
   margin: 0 auto;
   .member_info {
@@ -577,7 +577,7 @@
   }
 }
 @media (max-width:950px){
-  .container {
+  .base-container {
     .keyvisual {
       padding-top: 4px;
       padding-bottom: 35px;
@@ -620,7 +620,7 @@
   
     margin-bottom: 0px;
   }
-  .card {
+  .article-card {
     margin-bottom: 52px;
   }
   .section {
@@ -708,7 +708,7 @@
 
   margin-bottom: 40px;
 }
-.card {
+.article-card {
   width: 340px;
   margin: 0;
   margin-bottom: 86px;
@@ -765,7 +765,7 @@
     display: flex;
     margin-bottom: 0px;
   }
-  .card {
+  .article-card {
     margin: 0 auto;
     margin-bottom: 60px;
   }
@@ -792,13 +792,13 @@
       margin-top: 1px;
     }
   }
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-bottom: 40px;
   }
   .wrapper {
     margin-top: 60px;
   }
-  .card {
+  .article-card {
     margin-bottom: 55px;
   }
   .nav_num {

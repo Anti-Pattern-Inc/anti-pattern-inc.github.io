@@ -623,30 +623,30 @@
 }
 
 /* line 452, src/scss/pages/hub.scss */
-.container {
+.base-container {
   background: #fff;
 }
 
 /* line 454, src/scss/pages/hub.scss */
-.container .company_keyvisual {
+.base-container .company_keyvisual {
   background-color: #EEEEEE;
   color: #00282E;
 }
 
 /* line 457, src/scss/pages/hub.scss */
-.container .company_keyvisual h2 {
+.base-container .company_keyvisual h2 {
   font-size: 50px;
   margin-bottom: 42px;
 }
 
 /* line 461, src/scss/pages/hub.scss */
-.container .company_keyvisual p {
+.base-container .company_keyvisual p {
   font-size: 11px;
   margin-top: -10px;
 }
 
 /* line 466, src/scss/pages/hub.scss */
-.container .title_memver {
+.base-container .title_memver {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   letter-spacing: 0;
   margin-top: -32px;
@@ -761,19 +761,19 @@
 }
 
 /* line 546, src/scss/pages/hub.scss */
-.card {
+.article-card {
   width: 250px;
   margin: 0 auto;
 }
 
 /* line 549, src/scss/pages/hub.scss */
-.card .member_info {
+.article-card .member_info {
   letter-spacing: 0;
   margin-top: -83px;
 }
 
 /* line 552, src/scss/pages/hub.scss */
-.card .member_info h4 {
+.article-card .member_info h4 {
   font-size: 30px;
   line-height: 30px;
   color: #4fabba;
@@ -782,14 +782,14 @@
 }
 
 /* line 559, src/scss/pages/hub.scss */
-.card .member_info .post_info {
+.article-card .member_info .post_info {
   font-size: 13px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 /* line 564, src/scss/pages/hub.scss */
-.card .member_info .name_info {
+.article-card .member_info .name_info {
   font-size: 18px;
   margin-bottom: 12px;
   font-weight: bold;
@@ -797,36 +797,36 @@
 }
 
 /* line 570, src/scss/pages/hub.scss */
-.card .member_info .info_details {
+.article-card .member_info .info_details {
   letter-spacing: -0.7;
   line-height: 24px;
 }
 
 /* line 575, src/scss/pages/hub.scss */
-.card img {
+.article-card img {
   width: 250px;
 }
 
 @media (max-width: 950px) {
   /* line 581, src/scss/pages/hub.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-top: 4px;
     padding-bottom: 35px;
   }
   /* line 586, src/scss/pages/hub.scss */
-  .container .company_keyvisual .key_title_main {
+  .base-container .company_keyvisual .key_title_main {
     font-size: 32px;
   }
   /* line 589, src/scss/pages/hub.scss */
-  .container .company_keyvisual .key_title_sub {
+  .base-container .company_keyvisual .key_title_sub {
     font-size: 13px;
   }
   /* line 593, src/scss/pages/hub.scss */
-  .container .company_keyvisual .sp_br {
+  .base-container .company_keyvisual .sp_br {
     margin-top: -4px;
   }
   /* line 597, src/scss/pages/hub.scss */
-  .container .title_memver {
+  .base-container .title_memver {
     margin-top: 2px;
     margin-bottom: 30px;
   }
@@ -859,7 +859,7 @@
     margin-bottom: 0px;
   }
   /* line 623, src/scss/pages/hub.scss */
-  .card {
+  .article-card {
     margin-bottom: 52px;
   }
   /* line 626, src/scss/pages/hub.scss */
@@ -971,14 +971,14 @@
 }
 
 /* line 711, src/scss/pages/hub.scss */
-.card {
+.article-card {
   width: 340px;
   margin: 0;
   margin-bottom: 86px;
 }
 
 /* line 715, src/scss/pages/hub.scss */
-.card .day {
+.article-card .day {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: block;
   font-size: 13px;
@@ -988,7 +988,7 @@
 }
 
 /* line 723, src/scss/pages/hub.scss */
-.card p {
+.article-card p {
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1.35;
@@ -997,7 +997,7 @@
 }
 
 /* line 730, src/scss/pages/hub.scss */
-.card img {
+.article-card img {
   width: 340px;
   height: 255px;
   margin-bottom: 12px;
@@ -1049,7 +1049,7 @@
     margin-bottom: 0px;
   }
   /* line 768, src/scss/pages/hub.scss */
-  .card {
+  .article-card {
     margin: 0 auto;
     margin-bottom: 60px;
   }
@@ -1082,7 +1082,7 @@
     margin-top: 1px;
   }
   /* line 795, src/scss/pages/hub.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-bottom: 40px;
   }
   /* line 798, src/scss/pages/hub.scss */
@@ -1090,7 +1090,7 @@
     margin-top: 60px;
   }
   /* line 801, src/scss/pages/hub.scss */
-  .card {
+  .article-card {
     margin-bottom: 55px;
   }
   /* line 804, src/scss/pages/hub.scss */

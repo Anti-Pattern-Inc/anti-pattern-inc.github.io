@@ -112,25 +112,38 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+/* line 44, src/scss/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
   padding: 0;
 }
 
-/* line 43, src/scss/_base.scss */
+/* line 55, src/scss/_base.scss */
 ul {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-/* line 48, src/scss/_base.scss */
-a {
+/* line 60, src/scss/_base.scss */
+a, a:hover {
   text-decoration: none;
   color: #333333;
 }
 
-/* line 53, src/scss/_base.scss */
+/* line 65, src/scss/_base.scss */
 input,
 textarea,
 select,
@@ -138,27 +151,27 @@ button {
   font: inherit;
 }
 
-/* line 60, src/scss/_base.scss */
+/* line 72, src/scss/_base.scss */
 .sp-visible {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 60, src/scss/_base.scss */
+  /* line 72, src/scss/_base.scss */
   .sp-visible {
     display: block;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 68, src/scss/_base.scss */
+  /* line 80, src/scss/_base.scss */
   .sp-hidden {
     display: none;
   }
 }
 
-/* line 74, src/scss/_base.scss */
-.container {
+/* line 86, src/scss/_base.scss */
+.base-container {
   background-color: #F8F8F8;
 }
 

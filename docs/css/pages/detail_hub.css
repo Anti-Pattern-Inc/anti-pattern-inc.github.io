@@ -154,7 +154,7 @@
 }
 
 /* line 75, src/scss/pages/detail_hub.scss */
-.container {
+.base-container {
   background: #fff;
 }
 
@@ -190,7 +190,7 @@
 
 @media (max-width: 950px) {
   /* line 94, src/scss/pages/detail_hub.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-top: 4px;
     padding-bottom: 35px;
   }
@@ -293,7 +293,7 @@
     margin-top: 1px;
   }
   /* line 173, src/scss/pages/detail_hub.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-bottom: 40px;
   }
   /* line 176, src/scss/pages/detail_hub.scss */
@@ -301,7 +301,7 @@
     margin-top: 60px;
   }
   /* line 179, src/scss/pages/detail_hub.scss */
-  .card {
+  .article-card {
     margin-bottom: 55px;
   }
   /* line 182, src/scss/pages/detail_hub.scss */
@@ -337,7 +337,7 @@
 }
 
 /* line 205, src/scss/pages/detail_hub.scss */
-.container {
+.base-container {
   padding-bottom: 10px;
 }
 
@@ -453,7 +453,7 @@
     margin-top: 16px;
   }
   /* line 290, src/scss/pages/detail_hub.scss */
-  .container {
+  .base-container {
     padding-bottom: 87px;
   }
 }
@@ -556,18 +556,18 @@
 }
 
 /* line 368, src/scss/pages/detail_hub.scss */
-.container {
+.base-container {
   padding-bottom: 10px;
 }
 
 @media (max-width: 950px) {
   /* line 374, src/scss/pages/detail_hub.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-top: 22px;
     padding-bottom: 49px;
   }
   /* line 377, src/scss/pages/detail_hub.scss */
-  .container .keyvisual .key_title_main {
+  .base-container .keyvisual .key_title_main {
     margin-bottom: 18px;
     margin-top: 10px;
   }
@@ -635,7 +635,7 @@
     letter-spacing: 0;
   }
   /* line 434, src/scss/pages/detail_hub.scss */
-  .container {
+  .base-container {
     padding-bottom: 0px;
   }
 }

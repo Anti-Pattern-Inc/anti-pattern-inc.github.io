@@ -625,7 +625,7 @@
 }
 
 /* line 453, src/scss/pages/legal.scss */
-.container {
+.base-container {
   padding-bottom: 151px;
 }
 
@@ -813,7 +813,7 @@
     font-size: 13px;
   }
   /* line 598, src/scss/pages/legal.scss */
-  .container {
+  .base-container {
     padding-bottom: 87px;
   }
 }

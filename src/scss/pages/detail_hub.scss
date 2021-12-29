@@ -72,7 +72,7 @@
   padding-bottom: 206px;
   // margin-bottom: 48px;
 }
-.container {
+.base-container {
   background:  #fff;
 }
 .keyvisual {
@@ -90,7 +90,7 @@
   margin-bottom: 121px;
 }
 @media (max-width:950px){
-  .container {
+  .base-container {
     .keyvisual {
       padding-top: 4px;
       padding-bottom: 35px;
@@ -170,13 +170,13 @@
       margin-top: 1px;
     }
   }
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-bottom: 40px;
   }
   .wrapper {
     margin-top: 60px;
   }
-  .card {
+  .article-card {
     margin-bottom: 55px;
   }
   .nav_num {
@@ -202,7 +202,7 @@
 .footer_nav {
   padding-bottom: 7px;
 }
-.container {
+.base-container {
   padding-bottom: 10px;
 }
 .legal_container {
@@ -287,7 +287,7 @@
       margin-top: 16px;
     }
   }
-  .container {
+  .base-container {
     padding-bottom: 87px;
   }
 }
@@ -365,12 +365,12 @@
     letter-spacing: 1px;
   }
 }
-.container {
+.base-container {
   padding-bottom: 10px;
 }
 
 @media (max-width:950px){
-  .container {
+  .base-container {
     .keyvisual {
       padding-top: 22px;
       padding-bottom: 49px;
@@ -431,7 +431,7 @@
       letter-spacing: 0;
     }
   }
-  .container {
+  .base-container {
     padding-bottom: 0px;
   }
 }

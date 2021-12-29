@@ -1225,24 +1225,24 @@ z
 }
 
 /* line 870, src/scss/pages/company.scss */
-.container {
+.base-container {
   background: #fff;
 }
 
 /* line 872, src/scss/pages/company.scss */
-.container .company_keyvisual {
+.base-container .company_keyvisual {
   background-color: #EEEEEE;
   color: #00282E;
 }
 
 /* line 875, src/scss/pages/company.scss */
-.container .company_keyvisual h2 {
+.base-container .company_keyvisual h2 {
   font-size: 50px;
   margin-bottom: 42px;
 }
 
 /* line 879, src/scss/pages/company.scss */
-.container .company_keyvisual p {
+.base-container .company_keyvisual p {
   font-size: 11px;
   margin-top: -10px;
   position: relative;
@@ -1250,7 +1250,7 @@ z
 }
 
 /* line 886, src/scss/pages/company.scss */
-.container .title_memver {
+.base-container .title_memver {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   letter-spacing: 0;
   margin-top: -32px;
@@ -1397,19 +1397,19 @@ z
 }
 
 /* line 994, src/scss/pages/company.scss */
-.card {
+.member-card {
   width: 250px;
   margin: 0 auto;
 }
 
 /* line 997, src/scss/pages/company.scss */
-.card .member_info {
+.member-card .member_info {
   letter-spacing: 0;
   margin-top: -80px;
 }
 
 /* line 1000, src/scss/pages/company.scss */
-.card .member_info h4 {
+.member-card .member_info h4 {
   font-size: 28px;
   line-height: 30px;
   color: #4fabba;
@@ -1420,14 +1420,14 @@ z
 }
 
 /* line 1009, src/scss/pages/company.scss */
-.card .member_info .post_info {
+.member-card .member_info .post_info {
   font-size: 13px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 /* line 1014, src/scss/pages/company.scss */
-.card .member_info .name_info {
+.member-card .member_info .name_info {
   font-size: 18px;
   margin-bottom: 12px;
   font-weight: bold;
@@ -1435,7 +1435,7 @@ z
 }
 
 /* line 1020, src/scss/pages/company.scss */
-.card .member_info .info_details {
+.member-card .member_info .info_details {
   line-height: 24px;
   color: #999999;
   font-weight: bold;
@@ -1443,30 +1443,30 @@ z
 }
 
 /* line 1028, src/scss/pages/company.scss */
-.card img {
+.member-card img {
   width: 250px;
 }
 
 @media (max-width: 950px) {
   /* line 1035, src/scss/pages/company.scss */
-  .container .keyvisual {
+  .base-container .keyvisual {
     padding-top: 4px;
     padding-bottom: 35px;
   }
   /* line 1040, src/scss/pages/company.scss */
-  .container .company_keyvisual .key_title_main {
+  .base-container .company_keyvisual .key_title_main {
     font-size: 32px;
   }
   /* line 1043, src/scss/pages/company.scss */
-  .container .company_keyvisual .key_title_sub {
+  .base-container .company_keyvisual .key_title_sub {
     font-size: 13px;
   }
   /* line 1047, src/scss/pages/company.scss */
-  .container .company_keyvisual .sp_br {
+  .base-container .company_keyvisual .sp_br {
     margin-top: -4px;
   }
   /* line 1051, src/scss/pages/company.scss */
-  .container .title_memver {
+  .base-container .title_memver {
     margin-top: -29px;
     margin-bottom: 30px;
   }

@@ -867,7 +867,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
-.container {
+.base-container {
   background:  #fff;
   .company_keyvisual {
     background-color: #EEEEEE;
@@ -991,7 +991,7 @@
 
   margin-bottom: 121px;
 }
-.card {
+.member-card {
   width: 250px;
   margin: 0 auto;
   .member_info {
@@ -1031,7 +1031,7 @@
 }
 
 @media (max-width:950px){
-  .container {
+  .base-container {
     .keyvisual {
       padding-top: 4px;
       padding-bottom: 35px;
