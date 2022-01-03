@@ -1,16 +1,16 @@
-extends ../_includes/_layout.pug
+extends ../../_includes/_layout.pug
 
 append variables
   //- Required
-  - var pageID = "hub";
-  - var pageTitle = "ANTI-PATTERN HUB";
+  - var pageID = "posse";
+  - var pageTitle = "ANTI-PATTERN HUB - POSSE";
   - var pageDescription = site.description;
   //- Optional
   - var pageOgpImage = site.ogpImage
   - var pageOgpType = "article";
   
 block styles
-  link(rel="stylesheet" type="text/css" href="../css/pages/hub.min.css")
+  link(rel="stylesheet" type="text/css" href="../../css/pages/hub.min.css")
 
 
 block content
@@ -20,7 +20,7 @@ block content
         |
         span.sp_br HUB
       |
-      span.key_title_sub お役立ち情報
+      span.key_title_sub POSSE
   .wrapper
     .cards
       .article-card
