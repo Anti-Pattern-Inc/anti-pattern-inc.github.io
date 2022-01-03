@@ -303,8 +303,12 @@
   background-color: #fff;
   .day {
     color: #4fabba;
-    margin-bottom: 14px;
     font-size: 10px;
+  }
+  .hub_tag_item {
+    color: #4fabba;
+    font-size: 14px;
+    font-weight: bold;
   }
   h1 {
     padding-bottom: 35px;
@@ -390,7 +394,6 @@
       font-size: 12px;
       font-family: $font-english;
       letter-spacing: 1.2px;
-      margin-bottom: 18px;
     }
     img {
       width: 100%;

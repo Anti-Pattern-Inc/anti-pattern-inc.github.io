@@ -25,8 +25,12 @@ block content
     .cards
       .article-card
         a(href="/hub/posse-interview/")
-          img(src="/img/hub/posse-interview1.jpg", alt="dummy")
-          time.day(datetime="2021-11-01") 2021.11.01
+          img(src="/img/hub/posse-interview1.jpg", alt="dummy").mb-2
+          .d-flex.align-items-center.justify-content-between.mb-3
+            time.day(datetime="2020-10-24") 2020.10.24
+            .hub_tags
+              a(href="/hub/stories").hub_tag_item #stories
+              a(href="/hub/posse").hub_tag_item.ml-2 #posse
           p 20歳の女子大生が代表を務める学生プログラミングコミュニティ「POSSE」
       //- .article-card
       //-   a(href="/hub/detail/")

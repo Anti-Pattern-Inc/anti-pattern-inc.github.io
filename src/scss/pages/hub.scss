@@ -715,10 +715,14 @@
   .day {
     font-family: $font-english;
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     color: #4fabba;
-    margin-bottom: 6px;
     letter-spacing: .7;
+  }
+  .hub_tag_item {
+    color: #4fabba;
+    font-size: 14px;
+    font-weight: bold;
   }
   p {
     font-size: 13px;
@@ -730,7 +734,6 @@
   img {
     width: 340px;
     height: 255px;
-    margin-bottom: 12px;
   }
 }
 .nav_num {

@@ -1,4 +1,4 @@
-/*! anti-pattern_corporate_website v1.0.0 | (c) 2021 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
+/*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
 /* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
@@ -981,13 +981,19 @@
 .article-card .day {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   color: #4fabba;
-  margin-bottom: 6px;
   letter-spacing: .7;
 }
 
-/* line 723, src/scss/pages/hub.scss */
+/* line 722, src/scss/pages/hub.scss */
+.article-card .hub_tag_item {
+  color: #4fabba;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 727, src/scss/pages/hub.scss */
 .article-card p {
   font-size: 13px;
   font-weight: bold;
@@ -996,14 +1002,13 @@
   margin-right: -4px;
 }
 
-/* line 730, src/scss/pages/hub.scss */
+/* line 734, src/scss/pages/hub.scss */
 .article-card img {
   width: 340px;
   height: 255px;
-  margin-bottom: 12px;
 }
 
-/* line 736, src/scss/pages/hub.scss */
+/* line 739, src/scss/pages/hub.scss */
 .nav_num {
   margin: 0 auto;
   text-align: center;
@@ -1011,12 +1016,12 @@
   margin-left: 36px;
 }
 
-/* line 741, src/scss/pages/hub.scss */
+/* line 744, src/scss/pages/hub.scss */
 .nav_num .active {
   color: #4fabba;
 }
 
-/* line 744, src/scss/pages/hub.scss */
+/* line 747, src/scss/pages/hub.scss */
 .nav_num .arrow {
   width: 34px;
   height: auto;
@@ -1026,7 +1031,7 @@
   margin-right: -12px;
 }
 
-/* line 752, src/scss/pages/hub.scss */
+/* line 755, src/scss/pages/hub.scss */
 .nav_num a {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: inline-block;
@@ -1035,20 +1040,20 @@
   color: #999999;
 }
 
-/* line 760, src/scss/pages/hub.scss */
+/* line 763, src/scss/pages/hub.scss */
 .footer_nav {
   padding-bottom: 7px;
 }
 
 @media (max-width: 1200px) {
-  /* line 764, src/scss/pages/hub.scss */
+  /* line 767, src/scss/pages/hub.scss */
   .cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 0px;
   }
-  /* line 768, src/scss/pages/hub.scss */
+  /* line 771, src/scss/pages/hub.scss */
   .article-card {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -1056,12 +1061,12 @@
 }
 
 @media (max-width: 950px) {
-  /* line 774, src/scss/pages/hub.scss */
+  /* line 777, src/scss/pages/hub.scss */
   .keyvisual {
     padding: 90px 0 85px;
     background-image: none;
   }
-  /* line 777, src/scss/pages/hub.scss */
+  /* line 780, src/scss/pages/hub.scss */
   .keyvisual .key_title_main {
     margin-bottom: 11px;
     font-size: 32px;
@@ -1071,29 +1076,29 @@
     line-height: 1.39;
     margin-top: 27px;
   }
-  /* line 786, src/scss/pages/hub.scss */
+  /* line 789, src/scss/pages/hub.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 0;
     letter-spacing: 1px;
   }
-  /* line 791, src/scss/pages/hub.scss */
+  /* line 794, src/scss/pages/hub.scss */
   .keyvisual .sp_br {
     margin-top: 1px;
   }
-  /* line 795, src/scss/pages/hub.scss */
+  /* line 798, src/scss/pages/hub.scss */
   .base-container .keyvisual {
     padding-bottom: 40px;
   }
-  /* line 798, src/scss/pages/hub.scss */
+  /* line 801, src/scss/pages/hub.scss */
   .wrapper {
     margin-top: 60px;
   }
-  /* line 801, src/scss/pages/hub.scss */
+  /* line 804, src/scss/pages/hub.scss */
   .article-card {
     margin-bottom: 55px;
   }
-  /* line 804, src/scss/pages/hub.scss */
+  /* line 807, src/scss/pages/hub.scss */
   .nav_num {
     margin-top: 11px;
   }

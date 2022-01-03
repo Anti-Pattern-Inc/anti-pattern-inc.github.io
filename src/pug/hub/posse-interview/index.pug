@@ -23,7 +23,11 @@ block content
       span.key_title_sub お役立ち情報
   .hub_container
     .hub_cace
-      .day 2020.10.24
+      .d-flex.align-items-center.justify-content-between.mb-3
+        time.day(datetime="2020-10-24") 2020.10.24
+        .hub_tags
+          a(href="/hub/stories").hub_tag_item #stories
+          a(href="/hub/posse").hub_tag_item.ml-2 #posse 
       h1.hub_title 20歳の女子大生が代表を務める学生プログラミングコミュニティ「POSSE」
       include ../../_includes/_share_on.pug
       .hub_section
@@ -144,3 +148,6 @@ block content
         br
         p 最後になりますが、今回記事を読んで少しでも興味をお持ちいただけましたら、ぜひお気軽にお声がけください。また、学生に限らず記事を読んでくださった社会人の皆さん、今後とも温かい目でPOSSEの活動を見守っていただけると嬉しいです。
       include ../../_includes/_share_on.pug
+      .hub_tags.text-right
+        a(href="/hub/stories").hub_tag_item #stories
+        a(href="/hub/posse").hub_tag_item.ml-2 #posse 
