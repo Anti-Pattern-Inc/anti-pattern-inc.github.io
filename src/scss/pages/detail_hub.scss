@@ -1,6 +1,17 @@
 
 @import "../variables";
 @import "../mixins";
+.share_on {
+  height: 60px;
+  padding: 20px;
+}
+@media screen and (max-width: 950px){
+  .share_on {
+    height: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
 .wrapper {
     max-width: 1198px;
     margin: 0 auto;
@@ -9,13 +20,11 @@
 .keyvisual {
     box-sizing: content-box;
     position: relative;
-    padding: 224px 24px 217px 24px;
+    padding: 88px 0 87px;
     text-align: center;
     color: #00282e;
-    // background-color: transparent;
-    // background-image : url("/img/hero_img.png") ;
-    // background-size: cover;
     font-weight: bold;
+    background-color: #eee;
     .key_title_sub {
         font-size: 34px;
         line-height: 18px;
@@ -46,12 +55,8 @@
         }
         box-sizing: content-box;
         position: relative;
-        padding: 121px 24px 217px 24px;
         text-align: center;
         color: #00282e;
-        background-color: transparent;
-        background-image : url("/img/hero_img.png") ;
-        background-size: cover;
         font-weight: bold;
         .key_title_sub {
             font-size: 24px;
@@ -75,9 +80,6 @@
 .base-container {
   background:  #fff;
 }
-.keyvisual {
-  background-color: #F8F8F8;
-}
 .outline_table {
   display: flex;
   justify-content: space-between;
@@ -90,12 +92,6 @@
   margin-bottom: 121px;
 }
 @media (max-width:950px){
-  .base-container {
-    .keyvisual {
-      padding-top: 4px;
-      padding-bottom: 35px;
-    }
-  }
   .wrapper {
     padding-bottom: 119px;
   }
@@ -110,8 +106,6 @@
   max-width: 1100px;
 }
 .keyvisual {
-  padding: 90px 0 85px;
-  background-image: none;
   .key_title_main {
     margin-bottom: 24px;
     font-size: 50px;
@@ -150,8 +144,6 @@
 }
 @media (max-width:950px){
   .keyvisual {
-    padding: 90px 0 85px;
-    background-image: none;
     .key_title_main {
       margin-bottom: 11px;
       font-size: 32px;
@@ -170,9 +162,6 @@
       margin-top: 1px;
     }
   }
-  .base-container .keyvisual {
-    padding-bottom: 40px;
-  }
   .wrapper {
     margin-top: 60px;
   }
@@ -185,7 +174,6 @@
 }
 
 .keyvisual {
-  padding: 88px 0 87px;
   .key_title_main {
     font-family: $font-english;
     margin-bottom: 42px;
@@ -276,7 +264,7 @@
 @media (max-width:950px){
   .keyvisual {
     padding-top: 19px;
-    padding-bottom: 63px;
+    padding-bottom: 40px;
     .key_title_main {
       font-size: 32px;
       margin-top: 14px;
@@ -295,7 +283,7 @@
 // hubのスタイル
 .hub_container {
   background-color: #f8f8f8;
-  max-width: 1100px;
+  max-width: 900px;
   margin: 62px auto 0;
 }
 .hub_cace {
@@ -311,55 +299,44 @@
     font-weight: bold;
   }
   h1 {
-    padding-bottom: 35px;
+    padding-bottom: 15px;
     border-bottom: solid 4px #eeeeee;
     letter-spacing: 0;
   }
   img {
     width: 100%;
     height: auto;
-    margin: 36px auto;
-  }
-  p {
-    font-size: 15px;
-    line-height: 24px;
-    margin-right: -3px;
-    letter-spacing: 1.32;
   }
   .hub_section {
-    // margin-bottom: 60px;
+    margin-bottom: 60px;
     h2 {
-      font-size: 26px;
-      line-height: 28px;
+      font-size: 18px;
+      line-height: 24px;
       color: #00282e;
-      margin-block-start: 0;
-      margin-block-end: 0;
-      margin-top: 36px;
-      letter-spacing: 1.55;
+      letter-spacing: 1.2;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #eee;
     }
     p {
       text-align: justify;
-      font-size: 18px;
-      line-height: 36px;
+      font-size: 16px;
+      line-height: 28px;
       color: #333;
-      margin-right: -3px;
-      letter-spacing: 1.32;
+      // letter-spacing: 1;
     }
     br {
       display: block;
       content: "";
-      padding-top: 16px;
+      padding-top: 10px;
     }
   }
 }
 .hub_title {
-  font-size: 34px;
+  font-size: 20px;
   line-height: 50px;
   color: #00282e;
 }
 .keyvisual {
-  padding-bottom: 91px;
-  background-color: #eee;
   .key_title_main {
     margin-top: 0px;
     margin-bottom: 33px;
@@ -376,8 +353,6 @@
 @media (max-width:950px){
   .base-container {
     .keyvisual {
-      padding-top: 22px;
-      padding-bottom: 49px;
       .key_title_main {
         margin-bottom: 18px;
         margin-top: 10px;
@@ -388,33 +363,27 @@
     margin: 0 auto 0;
   }
   .hub_cace {
-    background-color: #fff;
-    padding: 58px 15px 44px;
+    padding: 40px 15px 60px;
     .day {
       font-size: 12px;
       font-family: $font-english;
       letter-spacing: 1.2px;
     }
-    img {
-      width: 100%;
-      height: auto;
-      margin: 20px auto;
-    }
     p {
       font-size: 12px;
     }
     h1 {
-      line-height: 36px;
-      padding-bottom: 22px;
-      font-size: 24px;
+      line-height: 32px;
+      padding-bottom: 14px;
+      font-size: 18px;
       border-bottom: 4px solid #eee;
-      margin-bottom: 36px;
+      margin-bottom: 20px;
       letter-spacing: 0;
     }
     .hub_section{
-      margin-bottom: 18px;
+      margin-bottom: 45px;
       h2 {
-        font-size: 18px;
+        font-size: 16px;
         margin-right: -6px;
         letter-spacing: 1.56px;
         margin-bottom: 18px;
