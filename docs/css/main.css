@@ -175,6 +175,11 @@ button {
   background-color: #F8F8F8;
 }
 
+/* line 90, src/scss/_base.scss */
+.no-scroll {
+  overflow: hidden;
+}
+
 /* line 1, src/scss/parts/_header.scss */
 .header {
   background-color: #eee;
