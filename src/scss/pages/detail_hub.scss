@@ -39,9 +39,6 @@
         display: block;
     }
 }
-.nav_service::after {
-    display:none;
-}
 @media (max-width:925px){
     .wrapper {
         padding: 0 20px;
@@ -199,7 +196,7 @@
   margin: 68px auto 0px;
   padding: 0 20px;
 }
-.cace {
+.case {
   background-color: #fff;
   padding: 100px;
   padding-top: 91px;
@@ -286,7 +283,7 @@
   max-width: 900px;
   margin: 62px auto 0;
 }
-.hub_cace {
+.hub_case {
   padding: 40px 100px 36px;
   background-color: #fff;
   .day {
@@ -362,7 +359,7 @@
   .hub_container {
     margin: 0 auto 0;
   }
-  .hub_cace {
+  .hub_case {
     padding: 40px 15px 60px;
     .day {
       font-size: 12px;

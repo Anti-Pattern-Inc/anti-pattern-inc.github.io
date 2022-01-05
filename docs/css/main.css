@@ -776,60 +776,68 @@ button {
 
 /* line 11, src/scss/main.scss */
 .wrapper {
-  max-width: 1198px;
+  max-width: 1220px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 60px 95px;
+  background: #fff;
 }
 
-/* line 16, src/scss/main.scss */
+/* line 17, src/scss/main.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   position: relative;
-  padding: 224px 24px 217px 24px;
-  text-align: center;
   color: #00282e;
-  background-color: transparent;
-  background-image: url("/img/hero_img.png");
-  background-size: cover;
   font-weight: bold;
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 71px 0 83px;
 }
 
-/* line 26, src/scss/main.scss */
+/* line 25, src/scss/main.scss */
 .keyvisual .key_title_sub {
-  font-size: 34px;
+  font-size: 13px;
   line-height: 18px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   display: block;
+  margin-top: 35px;
 }
 
 /* line 32, src/scss/main.scss */
 .keyvisual .key_title_main {
-  font-size: 60px;
+  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
+  font-size: 50px;
   line-height: 50px;
   margin-top: 25px;
   letter-spacing: 0px;
   display: block;
 }
 
-/* line 40, src/scss/main.scss */
+/* line 41, src/scss/main.scss */
 .top_ourService {
   text-align: center;
   margin: 0 auto;
   padding-top: 136px;
-  margin-bottom: 173px;
   letter-spacing: 0px;
 }
 
 /* line 46, src/scss/main.scss */
+.top_ourService .title {
+  margin-bottom: 30px;
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* line 52, src/scss/main.scss */
 .top_ourService h3 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
   font-size: 24px;
-  margin-bottom: 0px;
+  margin-bottom: -11px;
 }
 
-/* line 52, src/scss/main.scss */
+/* line 58, src/scss/main.scss */
 .top_ourService p {
   padding-top: 27px;
   font-weight: bold;
@@ -838,13 +846,14 @@ button {
   margin-top: -2px;
 }
 
-/* line 59, src/scss/main.scss */
+/* line 65, src/scss/main.scss */
 .top_ourService img {
-  height: 30px;
-  width: auto;
+  width: 97%;
+  height: auto;
+  margin: 0 auto 22px;
 }
 
-/* line 63, src/scss/main.scss */
+/* line 70, src/scss/main.scss */
 .top_ourService .arrow {
   width: 33px;
   height: auto;
@@ -852,7 +861,7 @@ button {
   margin-left: 3px;
 }
 
-/* line 69, src/scss/main.scss */
+/* line 76, src/scss/main.scss */
 .top_ourService .arrow_underbar {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -863,7 +872,7 @@ button {
   margin-right: 3px;
 }
 
-/* line 78, src/scss/main.scss */
+/* line 85, src/scss/main.scss */
 .top_ourService .arrow_underbar::after {
   content: "";
   display: block;
@@ -874,591 +883,13 @@ button {
   left: -5px;
 }
 
-/* line 88, src/scss/main.scss */
-.service_imgs {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 44px;
-  margin: 0 auto 0;
-  margin-top: 52px;
-}
-
-/* line 93, src/scss/main.scss */
-.service_imgs img {
-  width: 150px;
-  height: auto;
-  margin: 0 46px 30px;
-}
-
-/* line 98, src/scss/main.scss */
-.service_imgs .top_nitro_img {
-  width: 95px;
-  margin-left: 57px;
-}
-
-/* line 102, src/scss/main.scss */
-.service_imgs .top_harbors_img {
-  width: 108px;
-  margin-bottom: 32px;
-}
-
-/* line 106, src/scss/main.scss */
-.service_imgs .top_extends_img {
-  width: 128px;
-  margin-top: -2px;
-  margin-left: 22px;
-}
-
-/* line 111, src/scss/main.scss */
-.service_imgs .top_engineed_img {
-  width: 160px;
-  margin-bottom: 32px;
-}
-
-/* line 118, src/scss/main.scss */
-.top_news {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* line 124, src/scss/main.scss */
-.top_news_img {
-  margin-left: 50px;
-  width: 487px;
-}
-
-/* line 126, src/scss/main.scss */
-.top_news_img img {
-  width: 100%;
-}
-
-/* line 131, src/scss/main.scss */
-.top_news_main {
-  height: 550px;
-  padding-bottom: 62px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: right;
-  margin-left: 49px;
-  letter-spacing: 0px;
-  margin: 0 auto;
-}
-
-/* line 139, src/scss/main.scss */
-.top_news_main .arrow {
-  width: 32px;
-  height: auto;
-  margin-left: 8px;
-}
-
-/* line 144, src/scss/main.scss */
-.top_news_main .arrow_underbar {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  color: #4fabba;
-  position: relative;
-  top: -1px;
-  left: 0px;
-  font-size: 18px;
-}
-
-/* line 152, src/scss/main.scss */
-.top_news_main .arrow_underbar::after {
-  content: "";
-  display: block;
-  width: 135px;
-  height: 1px;
-  background-color: #4fabba;
-  position: absolute;
-  bottom: -8px;
-  left: -6px;
-}
-
-/* line 162, src/scss/main.scss */
-.top_news_main h3 {
-  text-align: left;
-  font-size: 24px;
-}
-
-/* line 167, src/scss/main.scss */
-.vision {
-  margin-top: 53px;
-  height: auto;
-  max-width: 858px;
-  margin: 0 auto;
-}
-
-/* line 172, src/scss/main.scss */
-.vision h2 {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  line-height: 70px;
-  margin-top: 53px;
-  margin-bottom: 130px;
-  font-weight: bold;
-  font-size: 50px;
-  text-align: center;
-  letter-spacing: 0px;
-}
-
-/* line 183, src/scss/main.scss */
-.top_ourCustomer {
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 165px;
-}
-
-/* line 187, src/scss/main.scss */
-.top_ourCustomer h3 {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  color: #4fabba;
-  font-size: 24px;
-  letter-spacing: 0px;
-  margin-bottom: 37px;
-}
-
-/* line 194, src/scss/main.scss */
-.top_ourCustomer img {
-  height: auto;
-  width: 100%;
-}
-
-/* line 199, src/scss/main.scss */
-.top_ourCustomer_imgs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-/* line 204, src/scss/main.scss */
-.filter {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-position: 50% 50%;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 40px;
-  padding-top: 85px;
-  padding-bottom: 118px;
-  font-weight: bold;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-}
-
-/* line 217, src/scss/main.scss */
-.filter h4 {
-  margin-top: 24px;
-  letter-spacing: 0px;
-  margin-bottom: 15px;
-}
-
-/* line 222, src/scss/main.scss */
-.filter p {
-  letter-spacing: 0px;
-  line-height: 29px;
-}
-
-/* line 227, src/scss/main.scss */
-.img_cace {
-  height: 280px;
-  width: 514px;
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* line 235, src/scss/main.scss */
+/* line 95, src/scss/main.scss */
 .bule {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4FABBA;
 }
 
-/* line 239, src/scss/main.scss */
-.posts {
-  font-size: 13px;
-  font-weight: bold;
-  margin-left: 11px;
-  max-width: 470px;
-  text-align: left;
-  letter-spacing: 0.64;
-}
-
-/* line 247, src/scss/main.scss */
-.certical_posts_title {
-  line-height: 24px;
-}
-
-/* line 250, src/scss/main.scss */
-.vertical-posts_item {
-  margin-left: 11px;
-  margin-top: 40px;
-  line-height: 28px;
-  border-bottom: solid 1px #EEEEEE;
-  padding-bottom: 27px;
-}
-
-/* line 257, src/scss/main.scss */
-.vertical-posts_item:not(:first-child) {
-  margin-top: 30px;
-}
-
-/* line 261, src/scss/main.scss */
-.img_cace img {
-  margin-top: -22px;
-  width: 100%;
-  max-width: 286px;
-}
-
-/* line 266, src/scss/main.scss */
-.img_cace .mercury_img {
-  max-width: 267px;
-  margin-left: 6px;
-}
-
-@media (max-width: 925px) {
-  /* line 272, src/scss/main.scss */
-  .wrapper {
-    padding: 0 20px;
-  }
-  /* line 275, src/scss/main.scss */
-  .sp_br {
-    display: block;
-  }
-  /* line 278, src/scss/main.scss */
-  .posts {
-    margin-left: 0;
-    margin-bottom: 41px;
-  }
-  /* line 282, src/scss/main.scss */
-  .top_news_main {
-    padding-bottom: 50px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    height: 571px;
-  }
-  /* line 288, src/scss/main.scss */
-  .top_news_main h3 {
-    text-align: center;
-  }
-  /* line 291, src/scss/main.scss */
-  .top_news_main span {
-    font-size: 18px;
-    margin-left: 10px;
-  }
-  /* line 296, src/scss/main.scss */
-  .vision {
-    margin-top: 0px;
-    height: auto;
-  }
-  /* line 299, src/scss/main.scss */
-  .vision h2 {
-    margin-bottom: 155px;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    line-height: 35px;
-    margin-top: 27px;
-  }
-  /* line 308, src/scss/main.scss */
-  .keyvisual {
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-    position: relative;
-    padding: 121px 24px 217px 24px;
-    text-align: center;
-    color: #00282e;
-    background-color: transparent;
-    background-image: url("/img/hero_img.png");
-    background-size: cover;
-    font-weight: bold;
-  }
-  /* line 318, src/scss/main.scss */
-  .keyvisual .sp_br {
-    margin-top: 14px;
-  }
-  /* line 321, src/scss/main.scss */
-  .keyvisual .key_title_sub {
-    font-size: 24px;
-    line-height: 18px;
-  }
-  /* line 325, src/scss/main.scss */
-  .keyvisual .key_title_main {
-    font-size: 50px;
-    line-height: 50px;
-    margin-top: 24px;
-  }
-  /* line 331, src/scss/main.scss */
-  .top_ourService {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 37px;
-    margin-bottom: 171px;
-    letter-spacing: 0px;
-  }
-  /* line 337, src/scss/main.scss */
-  .top_ourService .sp_br {
-    display: block;
-    margin-top: 1px;
-  }
-  /* line 341, src/scss/main.scss */
-  .top_ourService h3 {
-    color: #4fabba;
-    font-size: 24px;
-    margin-bottom: 0px;
-  }
-  /* line 346, src/scss/main.scss */
-  .top_ourService p {
-    padding-top: 21px;
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 0px;
-    margin-top: -2px;
-    letter-spacing: 0px;
-  }
-  /* line 355, src/scss/main.scss */
-  .top_ourService img {
-    height: 20px;
-    width: auto;
-  }
-  /* line 359, src/scss/main.scss */
-  .top_ourService .arrow {
-    width: 33px;
-    height: auto;
-    margin-bottom: -31px;
-    margin-left: 7px;
-  }
-  /* line 365, src/scss/main.scss */
-  .top_ourService .arrow_underbar {
-    margin-left: 6px;
-    color: #4fabba;
-    position: relative;
-    bottom: -33px;
-    letter-spacing: 0px;
-    font-size: 18px;
-    margin-right: 0px;
-  }
-  /* line 374, src/scss/main.scss */
-  .top_ourService .arrow_underbar::after {
-    content: "";
-    display: block;
-    width: 161px;
-    height: 1px;
-    background-color: #4fabba;
-    position: absolute;
-    left: -5px;
-  }
-  /* line 384, src/scss/main.scss */
-  .service_imgs {
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 33px auto 2px;
-  }
-  /* line 388, src/scss/main.scss */
-  .service_imgs img {
-    width: 100px;
-    height: auto;
-    margin: 0 0px 0px;
-  }
-  /* line 393, src/scss/main.scss */
-  .service_imgs .top_posse_img {
-    margin-left: 0;
-  }
-  /* line 396, src/scss/main.scss */
-  .service_imgs .top_nitro_img {
-    width: 62px;
-    margin-left: 30px;
-    margin-right: 38px;
-    margin-top: 2px;
-  }
-  /* line 402, src/scss/main.scss */
-  .service_imgs .top_harbors_img {
-    width: 71px;
-    margin-bottom: -7px;
-    margin-right: 15px;
-  }
-  /* line 407, src/scss/main.scss */
-  .service_imgs .top_extends_img {
-    width: 81px;
-    margin-top: 28px;
-    margin-left: 10px;
-  }
-  /* line 412, src/scss/main.scss */
-  .service_imgs .top_engineed_img {
-    width: 102px;
-    margin-bottom: 0px;
-    margin-left: 31px;
-    padding-bottom: 6px;
-  }
-  /* line 419, src/scss/main.scss */
-  .top_news {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  /* line 423, src/scss/main.scss */
-  .top_news_img {
-    margin-left: 51px;
-    width: 487px;
-  }
-  /* line 425, src/scss/main.scss */
-  .top_news_img img {
-    width: 100%;
-    padding-right: 29px;
-  }
-  /* line 431, src/scss/main.scss */
-  .vertical-posts_item {
-    margin-left: 11px;
-    margin-top: 34px;
-    line-height: 28px;
-    border-bottom: solid 1px #EEEEEE;
-    padding-bottom: 23px;
-    margin-bottom: 5px;
-  }
-  /* line 439, src/scss/main.scss */
-  .vertical-posts_item:not(:first-child) {
-    margin-top: 25px;
-  }
-  /* line 442, src/scss/main.scss */
-  .vertical-posts_item03 {
-    margin-top: 21px;
-  }
-  /* line 445, src/scss/main.scss */
-  .img_cace {
-    width: 333px;
-    height: 165px;
-    margin-bottom: 22px;
-  }
-  /* line 449, src/scss/main.scss */
-  .img_cace img {
-    margin-top: 0px;
-    width: 100%;
-    max-width: 183px;
-  }
-  /* line 454, src/scss/main.scss */
-  .img_cace .mercury_img {
-    max-width: 172px;
-    margin-left: 0px;
-  }
-  /* line 459, src/scss/main.scss */
-  .top_ourCustomer {
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 56px;
-  }
-  /* line 463, src/scss/main.scss */
-  .top_ourCustomer h3 {
-    color: #4fabba;
-    font-size: 24px;
-    letter-spacing: 0px;
-    margin-bottom: 26px;
-  }
-  /* line 469, src/scss/main.scss */
-  .top_ourCustomer img {
-    height: auto;
-    width: 100%;
-  }
-  /* line 474, src/scss/main.scss */
-  .filter {
-    background-color: rgba(0, 0, 0, 0.2);
-    background-position: 50% 50%;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-    padding-bottom: 40px;
-    padding-top: 79px;
-    padding-bottom: 92px;
-    font-weight: bold;
-    padding-right: 36px;
-    padding-left: 36px;
-  }
-  /* line 486, src/scss/main.scss */
-  .filter h4 {
-    margin-top: 24px;
-    letter-spacing: 0px;
-    margin-bottom: 15px;
-    margin-left: 11px;
-  }
-  /* line 492, src/scss/main.scss */
-  .filter p {
-    letter-spacing: 0px;
-    line-height: 27px;
-    font-size: 16px;
-  }
-}
-
-/* line 499, src/scss/main.scss */
-.wrapper {
-  max-width: 1220px;
-  background: #fff;
-  padding-bottom: 95px;
-}
-
-/* line 504, src/scss/main.scss */
-.container_bg {
-  padding-top: 134px;
-}
-
-/* line 506, src/scss/main.scss */
-.container_bg .pc_img {
-  margin-bottom: 38px;
-}
-
-/* line 510, src/scss/main.scss */
-.top_ourService {
-  margin: 0 auto 0;
-}
-
-/* line 512, src/scss/main.scss */
-.top_ourService .title {
-  margin-bottom: 30px;
-  font-size: 13px;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-/* line 518, src/scss/main.scss */
-.top_ourService img {
-  width: 97%;
-  height: auto;
-  margin: 0 auto;
-  margin-bottom: 22px;
-}
-
-/* line 524, src/scss/main.scss */
-.top_ourService h3 {
-  margin-bottom: 62px;
-  margin-bottom: -11px;
-}
-
-/* line 529, src/scss/main.scss */
+/* line 99, src/scss/main.scss */
 .service_img {
   max-height: 275px;
   height: 22vw;
@@ -1478,140 +909,158 @@ button {
   border: solid 1px #E5E5E5;
 }
 
-/* line 539, src/scss/main.scss */
+/* line 109, src/scss/main.scss */
 .service_img img {
   height: auto;
 }
 
-/* line 542, src/scss/main.scss */
+/* line 112, src/scss/main.scss */
 .service_img .harbors_img_sizing {
   max-width: 163px;
   width: 80%;
 }
 
-/* line 546, src/scss/main.scss */
+/* line 116, src/scss/main.scss */
 .service_img .posse_img_sizing {
   max-width: 199.5px;
   width: 80%;
 }
 
-/* line 550, src/scss/main.scss */
+/* line 120, src/scss/main.scss */
 .service_img .extends_img_sizing {
   max-width: 167px;
   width: 80%;
 }
 
-/* line 554, src/scss/main.scss */
+/* line 124, src/scss/main.scss */
 .service_img .enjineed_img_sizing {
   max-width: 245px;
   width: 80%;
 }
 
-/* line 558, src/scss/main.scss */
+/* line 128, src/scss/main.scss */
 .service_img .nitoro_img_sizing {
   max-width: 153.5px;
   width: 80%;
 }
 
-/* line 562, src/scss/main.scss */
+/* line 132, src/scss/main.scss */
 .service_img .saasus_img_sizing {
   max-width: 167px;
   width: 80%;
 }
 
-/* line 566, src/scss/main.scss */
+/* line 136, src/scss/main.scss */
 .service_img .gateway_img_sizing {
   max-width: 205.5px;
   width: 80%;
 }
 
-/* line 571, src/scss/main.scss */
-.keyvisual {
-  padding: 71px 0 83px;
-  background-color: #eeeeee;
-  background-image: none;
-}
-
-/* line 575, src/scss/main.scss */
-.keyvisual .key_title_main {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  font-size: 50px;
-}
-
-/* line 579, src/scss/main.scss */
-.keyvisual .key_title_sub {
-  letter-spacing: 0;
-  margin-top: 35px;
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-
-/* line 586, src/scss/main.scss */
-.nav_service::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  bottom: -7px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
 @media (max-width: 1192px) {
-  /* line 597, src/scss/main.scss */
+  /* line 142, src/scss/main.scss */
   .service_img, .service_test {
     width: 42%;
   }
 }
 
-@media (max-width: 950px) {
-  /* line 602, src/scss/main.scss */
+@media screen and (max-width: 925px) {
+  /* line 147, src/scss/main.scss */
   .wrapper {
-    padding-bottom: 66px;
+    padding: 0 20px;
   }
-  /* line 605, src/scss/main.scss */
+  /* line 150, src/scss/main.scss */
+  .keyvisual {
+    padding: 121px 24px 217px 24px;
+  }
+  /* line 152, src/scss/main.scss */
+  .keyvisual .sp_br {
+    margin-top: 14px;
+  }
+  /* line 155, src/scss/main.scss */
+  .keyvisual .key_title_sub {
+    font-size: 24px;
+    line-height: 18px;
+  }
+  /* line 159, src/scss/main.scss */
+  .keyvisual .key_title_main {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 24px;
+  }
+  /* line 165, src/scss/main.scss */
+  .sp_br {
+    display: block;
+  }
+  /* line 168, src/scss/main.scss */
+  .top_ourService {
+    padding-top: 37px;
+  }
+  /* line 170, src/scss/main.scss */
+  .top_ourService .sp_br {
+    margin-top: 1px;
+  }
+  /* line 173, src/scss/main.scss */
+  .top_ourService h3 {
+    margin-bottom: 0px;
+  }
+  /* line 176, src/scss/main.scss */
+  .top_ourService p {
+    padding-top: 21px;
+    margin-left: 0px;
+    letter-spacing: 0px;
+  }
+  /* line 181, src/scss/main.scss */
+  .top_ourService img {
+    height: 20px;
+    width: auto;
+  }
+  /* line 185, src/scss/main.scss */
+  .top_ourService .arrow {
+    margin-left: 7px;
+  }
+  /* line 188, src/scss/main.scss */
+  .top_ourService .arrow_underbar {
+    margin-left: 6px;
+    letter-spacing: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* line 196, src/scss/main.scss */
+  .wrapper {
+    padding: 0 20px 66px;
+  }
+  /* line 199, src/scss/main.scss */
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 63px;
   }
-  /* line 608, src/scss/main.scss */
+  /* line 202, src/scss/main.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
   }
-  /* line 611, src/scss/main.scss */
+  /* line 205, src/scss/main.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 16px;
   }
-  /* line 616, src/scss/main.scss */
+  /* line 210, src/scss/main.scss */
   .top_ourService {
     padding-top: 124px;
   }
-  /* line 618, src/scss/main.scss */
+  /* line 212, src/scss/main.scss */
   .top_ourService h3 {
     margin-bottom: 0px;
     margin-left: 0px;
   }
-  /* line 622, src/scss/main.scss */
+  /* line 216, src/scss/main.scss */
   .top_ourService img {
     max-width: 335px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0;
+    margin: 0 auto;
     width: 100%;
   }
-  /* line 630, src/scss/main.scss */
-  .container_bg {
-    padding-top: 27px;
-  }
-  /* line 633, src/scss/main.scss */
-  .service_img {
-    height: 32vw;
-    width: 100%;
-  }
-  /* line 637, src/scss/main.scss */
+  /* line 222, src/scss/main.scss */
   .service_img {
     height: 46vw;
     max-width: 530.5px;
@@ -1629,41 +1078,41 @@ button {
             justify-content: center;
     border: solid 1px #E5E5E5;
   }
-  /* line 646, src/scss/main.scss */
+  /* line 231, src/scss/main.scss */
   .service_img img {
     height: auto;
   }
-  /* line 649, src/scss/main.scss */
+  /* line 234, src/scss/main.scss */
   .service_img .harbors_img_sizing {
     max-width: 115px;
     width: 80%;
   }
-  /* line 653, src/scss/main.scss */
+  /* line 238, src/scss/main.scss */
   .service_img .posse_img_sizing {
     max-width: 147.5px;
     width: 80%;
   }
-  /* line 657, src/scss/main.scss */
+  /* line 242, src/scss/main.scss */
   .service_img .extends_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 661, src/scss/main.scss */
+  /* line 246, src/scss/main.scss */
   .service_img .enjineed_img_sizing {
     max-width: 186px;
     width: 80%;
   }
-  /* line 665, src/scss/main.scss */
+  /* line 250, src/scss/main.scss */
   .service_img .nitoro_img_sizing {
     max-width: 119.5px;
     width: 80%;
   }
-  /* line 669, src/scss/main.scss */
+  /* line 254, src/scss/main.scss */
   .service_img .saasus_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 673, src/scss/main.scss */
+  /* line 258, src/scss/main.scss */
   .service_img .gateway_img_sizing {
     margin-top: -7px;
     font-size: 30px;

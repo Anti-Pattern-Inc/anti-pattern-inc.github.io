@@ -18,9 +18,6 @@
 //     position: relative;
 // }
 
-.nav_service::after {
-    display: none;
-}
 
 .recruit_box06:after {
     left: 391px;
@@ -481,34 +478,18 @@
     }
 }
 .service_imgs_sp {
-    // max-width: 1032px;
-    // padding-top: 49px;
     margin: 0 auto;
-    // margin-top: 49px;
-    // margin-bottom: 69px;
-    display: flex;
-    // flex-wrap: wrap;
+    display: none;
     justify-content: center;
     margin-left: 44px;
-
-
     img {
         width: 150px;
         height: auto;
         margin: 0 46px 30px;
     }
-    .top_nitro_img {
-        width: 95px;
-        margin-left: 57px;
-    }
     .top_harbors_img {
         width: 108px;
         margin-bottom: 32px;
-    }
-    .top_extends_img {
-        width: 128px;
-        margin-top: -2px;
-        margin-left: 22px;
     }
     .top_engineed_img {
         width: 160px;
@@ -518,40 +499,26 @@
     margin-top: 52px;
 }
 .service_imgs {
-    // max-width: 1032px;
-    // padding-top: 49px;
-    margin: 0 auto;
-    // margin-top: 49px;
-    // margin-bottom: 69px;
-    display: flex;
-    // flex-wrap: wrap;
+    display: block;
     justify-content: center;
+    margin: 0 auto;
     margin-left: 44px;
-
-
+    margin-top: 52px;
+    margin-bottom: -4px;
+    margin: 52px auto -4px;
     img {
         width: 150px;
         height: auto;
         margin: 0 20px 30px;
     }
-    .top_nitro_img {
-        width: 95px;
-        margin-left: 20px;
-    }
     .top_harbors_img {
         width: 108px;
-    }
-    .top_extends_img {
-        width: 128px;
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-bottom: 32px;
     }
     .top_engineed_img {
         width: 160px;
+        margin-bottom: 32px;
     }
-    margin: 0 auto 0;
-    margin-top: 52px;
-    margin-bottom: -4px;
 }
 .top_news {
     display: flex;
@@ -571,7 +538,7 @@
         position: relative;
     }
 }
-.view_all_cace {
+.view_all_case {
     position: absolute;
     bottom: 99px;
     right: -28px;
@@ -643,7 +610,6 @@
 .vision {
     margin-top: 53px;
     height: auto;
-    // margin: 0 auto;
     max-width: 858px;
     margin: 0 auto;
     h2 {
@@ -739,7 +705,7 @@
         width: 300px;
     }
 }
-.img_cace {
+.img_case {
     height: 280px;
     width: 514px;
     background-color: #fff;
@@ -747,10 +713,6 @@
     align-items: center;
     justify-content: center;
     // margin-bottom: 140px;
-}
-.bule {
-    font-family: $font-english;
-    color: #4FABBA;
 }
 .reduction {
     font-size: 8px;
@@ -779,7 +741,7 @@
 .vertical-posts_item:not(:first-child){
     margin-top: 30px;
 }
-.img_cace {
+.img_case {
     img {
         margin-top: -22px;
         width: 100%;
@@ -840,7 +802,6 @@
         }
     }
     .keyvisual {
-
         .sp_br {
             margin-top: 17px;
         }
@@ -929,27 +890,13 @@
         .service_imgs_sp {
             width: 100%;
         }
-        .service_imgs_sp .top_extends_img {
-            width: 81px;
-            margin-top: 6px;
-            margin-left: 10px;
-        }
     }
 
 
     .service_imgs_sp {
-        // max-width: 1032px;
-        // padding-top: 49px;
         margin: 0 auto;
-        // margin-top: 49px;
-        // margin-bottom: 69px;
         display: block;
-        // display: flex;
-        // flex-wrap: wrap;
         justify-content: center;
-        // margin-left: 44px;
-    
-    
         img {
             width: 100px;
             height: auto;
@@ -958,19 +905,9 @@
         .top_posse_img {
             margin-left: 10px;
         }
-        .top_nitro_img {
-            width: 62px;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 2px;
-        }
         .top_harbors_img {
             width: 71px;
             margin-bottom: 0px;
-        }
-        .top_extends_img {
-            width: 81px;
-            margin-top: 25px;
         }
         .top_engineed_img {
             width: 102px;
@@ -979,51 +916,29 @@
         margin: 0 auto 2px;
         margin-top: 33px;
     }
+
     .service_imgs {
-        // max-width: 1032px;
-        // padding-top: 49px;
-        margin: 0 auto;
-        // margin-top: 49px;
-        // margin-bottom: 69px;
         display: block;
-        // display: flex;
-        // flex-wrap: wrap;
         justify-content: center;
-        // margin-left: 44px;
-    
-    
+        margin: 33px auto 2px;
         img {
             width: 100px;
             height: auto;
-            margin: 0 0px 0px;
+            margin: 0;
         }
         .top_posse_img {
             margin-left: 0;
-        }
-        .top_nitro_img {
-            width: 62px;
-            margin-left: 30px;
-            margin-right: 38px;
-            margin-top: 2px;
         }
         .top_harbors_img {
             width: 71px;
             margin-bottom: -7px;
             margin-right: 15px;
         }
-        .top_extends_img {
-            width: 81px;
-            margin-top: 28px;
-            margin-left: 10px;
-        }
         .top_engineed_img {
             width: 102px;
-            margin-bottom: 0px;
             margin-left: 31px;
             padding-bottom: 6px;
         }
-        margin: 0 auto 2px;
-        margin-top: 33px;
     }
     .top_news {
         // display: flex;
@@ -1054,7 +969,7 @@
     .vertical-posts_item03 {
         margin-top: 21px;
     }
-    .img_cace {
+    .img_case {
         width: 333px;
         height: 165px;
         margin-bottom: 22px;
@@ -1132,17 +1047,7 @@
         margin-top: 15px;
     }
 }
-.service_imgs_sp {
-    display: none;
-    // width: 640px;
-}
-.service_imgs {
-    display: block;
-}
 @media (max-width:579px){
-    .top_ourService .service_imgs_sp .top_extends_img {
-        margin-top: 28px;
-    }
     .recruit {
         text-align: center;
         background:url(/img/sp_top_recruit_bg.jpg) no-repeat;
@@ -1152,7 +1057,7 @@
     }
 }
 @media (max-width:374px){
-    .img_cace {
+    .img_case {
         width: 100%;
         margin-right: 20px;
         margin-left: 20px;
@@ -1171,7 +1076,7 @@
     .mercury_imgbox, .innovation_imgbox {
         margin: 0 auto;
     }
-    .img_cace {
+    .img_case {
         // width: 333px;
         // height: 165px;
         margin-bottom: 22px;

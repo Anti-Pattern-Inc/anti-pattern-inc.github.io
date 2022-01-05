@@ -66,45 +66,58 @@
 }
 
 /* line 5, src/scss/pages/service.scss */
+.nav_service::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -7px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/* line 15, src/scss/pages/service.scss */
 .wrapper-wrapper {
   background: #fff;
 }
 
-/* line 8, src/scss/pages/service.scss */
-.top_ourService01 {
-  margin-bottom: 36px;
-}
-
-/* line 11, src/scss/pages/service.scss */
+/* line 18, src/scss/pages/service.scss */
 .top_ourService01 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-bottom: 40px;
 }
 
-/* line 15, src/scss/pages/service.scss */
+/* line 22, src/scss/pages/service.scss */
+.container_bg {
+  padding-top: 134px;
+}
+
+/* line 25, src/scss/pages/service.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
   margin-left: 10px;
 }
 
-/* line 20, src/scss/pages/service.scss */
+/* line 30, src/scss/pages/service.scss */
 .community_support {
   margin-bottom: 99px;
 }
 
-/* line 22, src/scss/pages/service.scss */
+/* line 32, src/scss/pages/service.scss */
 .community_support .matchting {
   margin-bottom: 66px;
   letter-spacing: 0.6;
 }
 
-/* line 26, src/scss/pages/service.scss */
+/* line 36, src/scss/pages/service.scss */
 .community_support .posse {
   margin-bottom: 60px;
 }
 
-/* line 29, src/scss/pages/service.scss */
+/* line 39, src/scss/pages/service.scss */
 .community_support .title {
   margin-top: 60px;
   margin-bottom: 31px;
@@ -113,7 +126,7 @@
   letter-spacing: 1px;
 }
 
-/* line 36, src/scss/pages/service.scss */
+/* line 46, src/scss/pages/service.scss */
 .community_support .skill_up {
   margin-bottom: 30px;
   font-size: 13px;
@@ -122,18 +135,18 @@
   letter-spacing: 1px;
 }
 
-/* line 44, src/scss/pages/service.scss */
+/* line 54, src/scss/pages/service.scss */
 .serviceList_h3 {
   margin-top: -12px;
 }
 
-/* line 47, src/scss/pages/service.scss */
+/* line 57, src/scss/pages/service.scss */
 .skill_up {
   margin-top: 10px;
   letter-spacing: 1px;
 }
 
-/* line 52, src/scss/pages/service.scss */
+/* line 62, src/scss/pages/service.scss */
 .service_text p {
   font-size: 13px;
   line-height: 24px;
@@ -142,7 +155,7 @@
   letter-spacing: 0.8px;
 }
 
-/* line 59, src/scss/pages/service.scss */
+/* line 69, src/scss/pages/service.scss */
 .service_text h4 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-weight: bold;
@@ -157,14 +170,14 @@
   margin-bottom: 14px;
 }
 
-/* line 70, src/scss/pages/service.scss */
+/* line 80, src/scss/pages/service.scss */
 .service_text h4 .reduction {
   font-size: 12px;
   margin-left: 15px;
   color: #00282e;
 }
 
-/* line 78, src/scss/pages/service.scss */
+/* line 88, src/scss/pages/service.scss */
 .service_text {
   max-width: 523px;
   width: 50%;
@@ -174,7 +187,7 @@
   margin-left: 20px;
 }
 
-/* line 84, src/scss/pages/service.scss */
+/* line 94, src/scss/pages/service.scss */
 .service_text .under_var {
   display: inline-block;
   letter-spacing: 0.6px;
@@ -188,7 +201,7 @@
   font-family: "Nobel-Regular", "Noto Sans JP", sans-serif, "Lato", sans-serif;
 }
 
-/* line 96, src/scss/pages/service.scss */
+/* line 106, src/scss/pages/service.scss */
 .service_text .under_var::after {
   content: "";
   display: block;
@@ -200,7 +213,7 @@
   left: 1px;
 }
 
-/* line 107, src/scss/pages/service.scss */
+/* line 117, src/scss/pages/service.scss */
 .service_text .site_link img {
   margin-left: 4px;
   height: 9px;
@@ -208,12 +221,12 @@
   margin-bottom: 2px;
 }
 
-/* line 114, src/scss/pages/service.scss */
+/* line 124, src/scss/pages/service.scss */
 .service_text a {
   line-height: 42px;
 }
 
-/* line 118, src/scss/pages/service.scss */
+/* line 128, src/scss/pages/service.scss */
 .servicelist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,23 +242,27 @@
   margin-bottom: 60px;
 }
 
-/* line 125, src/scss/pages/service.scss */
+/* line 135, src/scss/pages/service.scss */
 .sp_img {
   display: none;
 }
 
-/* line 128, src/scss/pages/service.scss */
+/* line 138, src/scss/pages/service.scss */
 .pc_img {
   display: block;
 }
 
 @media (max-width: 950px) {
-  /* line 133, src/scss/pages/service.scss */
+  /* line 143, src/scss/pages/service.scss */
+  .container_bg {
+    padding-top: 27px;
+  }
+  /* line 146, src/scss/pages/service.scss */
   .top_ourService01 {
     margin-bottom: 27px;
     margin-top: 48px;
   }
-  /* line 137, src/scss/pages/service.scss */
+  /* line 150, src/scss/pages/service.scss */
   .servicelist {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -256,61 +273,61 @@
             justify-content: center;
     margin-bottom: 63px;
   }
-  /* line 142, src/scss/pages/service.scss */
+  /* line 155, src/scss/pages/service.scss */
   .service_text_sp {
     display: block;
   }
-  /* line 145, src/scss/pages/service.scss */
+  /* line 158, src/scss/pages/service.scss */
   .pc_img {
     display: none;
   }
-  /* line 148, src/scss/pages/service.scss */
-  .sp_img {
+  /* line 161, src/scss/pages/service.scss */
+  .top_ourService .sp_img {
     display: block;
-    width: 65%;
+    width: 100%;
     text-align: center;
     height: auto;
   }
-  /* line 154, src/scss/pages/service.scss */
+  /* line 167, src/scss/pages/service.scss */
   .service_text_pc {
     text-transform: uppercase;
   }
-  /* line 157, src/scss/pages/service.scss */
+  /* line 170, src/scss/pages/service.scss */
   .service_text {
     width: 100%;
     padding-left: 0px;
     margin-left: 0;
   }
-  /* line 161, src/scss/pages/service.scss */
+  /* line 174, src/scss/pages/service.scss */
   .service_text h4 {
     margin-top: 21px;
   }
-  /* line 164, src/scss/pages/service.scss */
+  /* line 177, src/scss/pages/service.scss */
   .service_text p {
     margin-bottom: 14px;
   }
-  /* line 167, src/scss/pages/service.scss */
+  /* line 180, src/scss/pages/service.scss */
   .service_text .reduction {
     letter-spacing: 0.5px;
   }
-  /* line 170, src/scss/pages/service.scss */
+  /* line 183, src/scss/pages/service.scss */
   .service_text .under_var {
     left: 2px;
   }
-  /* line 174, src/scss/pages/service.scss */
+  /* line 187, src/scss/pages/service.scss */
   .community_support {
     margin-bottom: 70px;
   }
-  /* line 176, src/scss/pages/service.scss */
+  /* line 189, src/scss/pages/service.scss */
   .community_support .matchting {
     margin-bottom: 66px;
     letter-spacing: 0.6;
   }
-  /* line 180, src/scss/pages/service.scss */
+  /* line 193, src/scss/pages/service.scss */
   .community_support .posse {
     margin-bottom: 65px;
   }
-  /* line 183, src/scss/pages/service.scss */
+  /* line 196, src/scss/pages/service.scss */
   .community_support .title {
     margin-top: 49px;
     margin-bottom: 29px;
@@ -319,7 +336,7 @@
     letter-spacing: 1px;
     margin-left: 8px;
   }
-  /* line 191, src/scss/pages/service.scss */
+  /* line 204, src/scss/pages/service.scss */
   .community_support .skill_up {
     margin-bottom: 27px;
     font-size: 13px;
