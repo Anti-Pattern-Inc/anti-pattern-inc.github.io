@@ -35,6 +35,18 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
     margin: 0;
     padding: 0;
@@ -45,7 +57,7 @@ ul {
     padding-left: 0;
     list-style: none;
 }
-a {
+a, a:hover {
     text-decoration: none;
     color: rgb(51, 51, 51);
 }
@@ -71,6 +83,10 @@ button {
     }
 }
 
-.container {
+.base-container {
     background-color: #F8F8F8;
+}
+
+.no-scroll {
+    overflow: hidden;
 }

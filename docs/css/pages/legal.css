@@ -1,4 +1,4 @@
-/*! anti-pattern_corporate_website v1.0.0 | (c) 2021 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
+/*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
 /* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
@@ -101,327 +101,22 @@
 }
 
 /* line 33, src/scss/pages/legal.scss */
-.service_imgs {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 44px;
-  margin: 0 auto 0;
-  margin-top: 52px;
-}
-
-/* line 45, src/scss/pages/legal.scss */
-.service_imgs img {
-  width: 150px;
-  height: auto;
-  margin: 0 46px 30px;
-}
-
-/* line 50, src/scss/pages/legal.scss */
-.service_imgs .top_nitro_img {
-  width: 95px;
-  margin-left: 57px;
-}
-
-/* line 54, src/scss/pages/legal.scss */
-.service_imgs .top_harbors_img {
-  width: 108px;
-  margin-bottom: 32px;
-}
-
-/* line 58, src/scss/pages/legal.scss */
-.service_imgs .top_extends_img {
-  width: 128px;
-  margin-top: -2px;
-  margin-left: 22px;
-}
-
-/* line 63, src/scss/pages/legal.scss */
-.service_imgs .top_engineed_img {
-  width: 160px;
-  margin-bottom: 32px;
-}
-
-/* line 70, src/scss/pages/legal.scss */
-.top_news {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* line 76, src/scss/pages/legal.scss */
-.top_news_img {
-  margin-left: 50px;
-  width: 487px;
-}
-
-/* line 79, src/scss/pages/legal.scss */
-.top_news_img img {
-  width: 100%;
-}
-
-/* line 84, src/scss/pages/legal.scss */
-.top_news_main {
-  height: 550px;
-  padding-bottom: 62px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: right;
-  margin-left: 49px;
-  letter-spacing: 0px;
-  margin: 0 auto;
-}
-
-/* line 93, src/scss/pages/legal.scss */
-.top_news_main .arrow {
-  width: 32px;
-  height: auto;
-  margin-left: 8px;
-}
-
-/* line 99, src/scss/pages/legal.scss */
-.top_news_main .arrow_underbar {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  color: #4fabba;
-  position: relative;
-  top: -1px;
-  left: 0px;
-  font-size: 18px;
-}
-
-/* line 108, src/scss/pages/legal.scss */
-.top_news_main .arrow_underbar::after {
-  content: "";
-  display: block;
-  width: 135px;
-  height: 1px;
-  background-color: #4fabba;
-  position: absolute;
-  bottom: -8px;
-  left: -6px;
-}
-
-/* line 118, src/scss/pages/legal.scss */
-.top_news_main h3 {
-  text-align: left;
-  font-size: 24px;
-}
-
-/* line 123, src/scss/pages/legal.scss */
-.vision {
-  margin-top: 53px;
-  height: auto;
-  max-width: 858px;
-  margin: 0 auto;
-}
-
-/* line 129, src/scss/pages/legal.scss */
-.vision h2 {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  line-height: 70px;
-  margin-top: 53px;
-  margin-bottom: 130px;
-  font-weight: bold;
-  font-size: 50px;
-  text-align: center;
-  letter-spacing: 0px;
-}
-
-/* line 141, src/scss/pages/legal.scss */
-.top_ourCustomer {
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 165px;
-}
-
-/* line 145, src/scss/pages/legal.scss */
-.top_ourCustomer h3 {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  color: #4fabba;
-  font-size: 24px;
-  letter-spacing: 0px;
-  margin-bottom: 37px;
-}
-
-/* line 152, src/scss/pages/legal.scss */
-.top_ourCustomer img {
-  height: auto;
-  width: 100%;
-}
-
-/* line 157, src/scss/pages/legal.scss */
-.top_ourCustomer_imgs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-/* line 162, src/scss/pages/legal.scss */
-.filter {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-position: 50% 50%;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 40px;
-  padding-top: 85px;
-  padding-bottom: 118px;
-  font-weight: bold;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-}
-
-/* line 175, src/scss/pages/legal.scss */
-.filter h4 {
-  margin-top: 24px;
-  letter-spacing: 0px;
-  margin-bottom: 15px;
-}
-
-/* line 180, src/scss/pages/legal.scss */
-.filter p {
-  letter-spacing: 0px;
-  line-height: 29px;
-}
-
-/* line 185, src/scss/pages/legal.scss */
-.img_cace {
-  height: 280px;
-  width: 514px;
-  background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* line 194, src/scss/pages/legal.scss */
-.bule {
-  font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
-  color: #4FABBA;
-}
-
-/* line 198, src/scss/pages/legal.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
   margin-left: 10px;
 }
 
-/* line 203, src/scss/pages/legal.scss */
-.posts {
-  font-size: 13px;
-  font-weight: bold;
-  margin-left: 11px;
-  max-width: 470px;
-  text-align: left;
-  letter-spacing: 0.64;
-}
-
-/* line 212, src/scss/pages/legal.scss */
-.certical_posts_title {
-  line-height: 24px;
-}
-
-/* line 215, src/scss/pages/legal.scss */
-.vertical-posts_item {
-  margin-left: 11px;
-  margin-top: 40px;
-  line-height: 28px;
-  border-bottom: solid 1px #EEEEEE;
-  padding-bottom: 27px;
-}
-
-/* line 222, src/scss/pages/legal.scss */
-.vertical-posts_item:not(:first-child) {
-  margin-top: 30px;
-}
-
-/* line 225, src/scss/pages/legal.scss */
-.nav_service::after {
-  display: none;
-}
-
-/* line 229, src/scss/pages/legal.scss */
-.img_cace img {
-  margin-top: -22px;
-  width: 100%;
-  max-width: 286px;
-}
-
-/* line 234, src/scss/pages/legal.scss */
-.img_cace .mercury_img {
-  max-width: 267px;
-  margin-left: 6px;
-}
-
 @media (max-width: 925px) {
-  /* line 240, src/scss/pages/legal.scss */
+  /* line 39, src/scss/pages/legal.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 243, src/scss/pages/legal.scss */
+  /* line 42, src/scss/pages/legal.scss */
   .sp_br {
     display: block;
   }
-  /* line 246, src/scss/pages/legal.scss */
-  .posts {
-    margin-left: 0;
-    margin-bottom: 41px;
-  }
-  /* line 250, src/scss/pages/legal.scss */
-  .top_news_main {
-    padding-bottom: 50px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    height: 571px;
-  }
-  /* line 256, src/scss/pages/legal.scss */
-  .top_news_main h3 {
-    text-align: center;
-  }
-  /* line 259, src/scss/pages/legal.scss */
-  .top_news_main span {
-    font-size: 18px;
-    margin-left: 10px;
-  }
-  /* line 264, src/scss/pages/legal.scss */
-  .vision {
-    margin-top: 0px;
-    height: auto;
-  }
-  /* line 267, src/scss/pages/legal.scss */
-  .vision h2 {
-    margin-bottom: 155px;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    line-height: 35px;
-    margin-top: 27px;
-  }
-  /* line 276, src/scss/pages/legal.scss */
+  /* line 45, src/scss/pages/legal.scss */
   .keyvisual {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -433,172 +128,29 @@
     background-size: cover;
     font-weight: bold;
   }
-  /* line 277, src/scss/pages/legal.scss */
+  /* line 46, src/scss/pages/legal.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 289, src/scss/pages/legal.scss */
+  /* line 58, src/scss/pages/legal.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 293, src/scss/pages/legal.scss */
+  /* line 62, src/scss/pages/legal.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
     margin-top: 14px;
   }
-  /* line 301, src/scss/pages/legal.scss */
-  .service_imgs {
-    margin: 0 auto;
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 auto 2px;
-    margin-top: 33px;
-  }
-  /* line 314, src/scss/pages/legal.scss */
-  .service_imgs img {
-    width: 100px;
-    height: auto;
-    margin: 0 0px 0px;
-  }
-  /* line 319, src/scss/pages/legal.scss */
-  .service_imgs .top_posse_img {
-    margin-left: 0;
-  }
-  /* line 322, src/scss/pages/legal.scss */
-  .service_imgs .top_nitro_img {
-    width: 62px;
-    margin-left: 30px;
-    margin-right: 38px;
-    margin-top: 2px;
-  }
-  /* line 328, src/scss/pages/legal.scss */
-  .service_imgs .top_harbors_img {
-    width: 71px;
-    margin-bottom: -7px;
-    margin-right: 15px;
-  }
-  /* line 333, src/scss/pages/legal.scss */
-  .service_imgs .top_extends_img {
-    width: 81px;
-    margin-top: 28px;
-    margin-left: 10px;
-  }
-  /* line 338, src/scss/pages/legal.scss */
-  .service_imgs .top_engineed_img {
-    width: 102px;
-    margin-bottom: 0px;
-    margin-left: 31px;
-    padding-bottom: 6px;
-  }
-  /* line 347, src/scss/pages/legal.scss */
-  .top_news {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  /* line 353, src/scss/pages/legal.scss */
-  .top_news_img {
-    margin-left: 51px;
-    width: 487px;
-  }
-  /* line 356, src/scss/pages/legal.scss */
-  .top_news_img img {
-    width: 100%;
-    padding-right: 29px;
-  }
-  /* line 362, src/scss/pages/legal.scss */
-  .vertical-posts_item {
-    margin-left: 11px;
-    margin-top: 34px;
-    line-height: 28px;
-    border-bottom: solid 1px #EEEEEE;
-    padding-bottom: 23px;
-    margin-bottom: 5px;
-  }
-  /* line 370, src/scss/pages/legal.scss */
-  .vertical-posts_item:not(:first-child) {
-    margin-top: 25px;
-  }
-  /* line 373, src/scss/pages/legal.scss */
-  .vertical-posts_item03 {
-    margin-top: 21px;
-  }
-  /* line 376, src/scss/pages/legal.scss */
-  .img_cace {
-    width: 333px;
-    height: 165px;
-    margin-bottom: 22px;
-  }
-  /* line 380, src/scss/pages/legal.scss */
-  .img_cace img {
-    margin-top: 0px;
-    width: 100%;
-    max-width: 183px;
-  }
-  /* line 385, src/scss/pages/legal.scss */
-  .img_cace .mercury_img {
-    max-width: 172px;
-    margin-left: 0px;
-  }
-  /* line 390, src/scss/pages/legal.scss */
-  .top_ourCustomer {
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 56px;
-  }
-  /* line 394, src/scss/pages/legal.scss */
-  .top_ourCustomer h3 {
-    color: #4fabba;
-    font-size: 24px;
-    letter-spacing: 0px;
-    margin-bottom: 26px;
-  }
-  /* line 400, src/scss/pages/legal.scss */
-  .top_ourCustomer img {
-    height: auto;
-    width: 100%;
-  }
-  /* line 405, src/scss/pages/legal.scss */
-  .filter {
-    background-color: rgba(0, 0, 0, 0.2);
-    background-position: 50% 50%;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-    padding-bottom: 40px;
-    padding-top: 79px;
-    padding-bottom: 92px;
-    font-weight: bold;
-    padding-right: 36px;
-    padding-left: 36px;
-  }
-  /* line 417, src/scss/pages/legal.scss */
-  .filter h4 {
-    margin-top: 24px;
-    letter-spacing: 0px;
-    margin-bottom: 15px;
-    margin-left: 11px;
-  }
-  /* line 423, src/scss/pages/legal.scss */
-  .filter p {
-    letter-spacing: 0px;
-    line-height: 27px;
-    font-size: 16px;
-  }
 }
 
-/* line 432, src/scss/pages/legal.scss */
+/* line 70, src/scss/pages/legal.scss */
 .keyvisual {
   padding: 90px 0 87px;
 }
 
-/* line 434, src/scss/pages/legal.scss */
+/* line 72, src/scss/pages/legal.scss */
 .keyvisual .key_title_main {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-bottom: 42px;
@@ -607,29 +159,29 @@
   margin-top: 7px;
 }
 
-/* line 441, src/scss/pages/legal.scss */
+/* line 79, src/scss/pages/legal.scss */
 .keyvisual .key_title_sub {
   font-size: 13px;
   line-height: 2px;
   letter-spacing: 1px;
 }
 
-/* line 447, src/scss/pages/legal.scss */
+/* line 85, src/scss/pages/legal.scss */
 .footer_nav {
   padding-bottom: 7px;
 }
 
-/* line 450, src/scss/pages/legal.scss */
+/* line 88, src/scss/pages/legal.scss */
 .legal_page_only {
   border-bottom: solid 2px #fff;
 }
 
-/* line 453, src/scss/pages/legal.scss */
-.container {
+/* line 91, src/scss/pages/legal.scss */
+.base-container {
   padding-bottom: 151px;
 }
 
-/* line 456, src/scss/pages/legal.scss */
+/* line 94, src/scss/pages/legal.scss */
 .legal_container {
   background-color: #f8f8f8;
   max-width: 1147px;
@@ -637,8 +189,8 @@
   padding: 0 20px;
 }
 
-/* line 462, src/scss/pages/legal.scss */
-.cace {
+/* line 100, src/scss/pages/legal.scss */
+.case {
   background-color: #fff;
   padding: 100px;
   padding-top: 90px;
@@ -646,81 +198,81 @@
   padding-bottom: 44px;
 }
 
-/* line 468, src/scss/pages/legal.scss */
-.cace .personal_data {
+/* line 106, src/scss/pages/legal.scss */
+.case .personal_data {
   padding-bottom: 95px;
   border-bottom: solid 4px #eeeeee;
   letter-spacing: 0;
 }
 
-/* line 472, src/scss/pages/legal.scss */
-.cace .personal_data h3 {
+/* line 110, src/scss/pages/legal.scss */
+.case .personal_data h3 {
   font-size: 34px;
   margin-bottom: 17px;
   letter-spacing: 0px;
 }
 
-/* line 477, src/scss/pages/legal.scss */
-.cace .personal_data .one_sec {
+/* line 115, src/scss/pages/legal.scss */
+.case .personal_data .one_sec {
   margin-top: 42px;
   line-height: 10px;
 }
 
-/* line 482, src/scss/pages/legal.scss */
-.cace .personal_data .one_sec_01 {
+/* line 120, src/scss/pages/legal.scss */
+.case .personal_data .one_sec_01 {
   margin-top: 55px;
 }
 
-/* line 485, src/scss/pages/legal.scss */
-.cace .personal_data h4 {
+/* line 123, src/scss/pages/legal.scss */
+.case .personal_data h4 {
   font-size: 18px;
   margin-bottom: 20px;
   margin-left: 3px;
   letter-spacing: 0.9px;
 }
 
-/* line 491, src/scss/pages/legal.scss */
-.cace .personal_data p {
+/* line 129, src/scss/pages/legal.scss */
+.case .personal_data p {
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.79px;
   margin-left: 3px;
 }
 
-/* line 498, src/scss/pages/legal.scss */
-.cace .privacy_data {
+/* line 136, src/scss/pages/legal.scss */
+.case .privacy_data {
   padding-bottom: 56px;
 }
 
-/* line 500, src/scss/pages/legal.scss */
-.cace .privacy_data h3 {
+/* line 138, src/scss/pages/legal.scss */
+.case .privacy_data h3 {
   padding-top: 90px;
   font-size: 34px;
   margin-bottom: 17px;
   letter-spacing: 0;
 }
 
-/* line 506, src/scss/pages/legal.scss */
-.cace .privacy_data .one_sec {
+/* line 144, src/scss/pages/legal.scss */
+.case .privacy_data .one_sec {
   margin-top: 40px;
   line-height: 10px;
 }
 
-/* line 511, src/scss/pages/legal.scss */
-.cace .privacy_data .one_sec_01 {
+/* line 149, src/scss/pages/legal.scss */
+.case .privacy_data .one_sec_01 {
   margin-top: 53px;
 }
 
-/* line 514, src/scss/pages/legal.scss */
-.cace .privacy_data h4 {
+/* line 152, src/scss/pages/legal.scss */
+.case .privacy_data h4 {
   font-size: 18px;
   margin-bottom: 22px;
   margin-left: 3px;
   letter-spacing: 0.9px;
 }
 
-/* line 520, src/scss/pages/legal.scss */
-.cace .privacy_data p {
+/* line 158, src/scss/pages/legal.scss */
+.case .privacy_data p {
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.79px;
@@ -728,92 +280,92 @@
 }
 
 @media (max-width: 950px) {
-  /* line 529, src/scss/pages/legal.scss */
+  /* line 167, src/scss/pages/legal.scss */
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 71px;
   }
-  /* line 532, src/scss/pages/legal.scss */
+  /* line 170, src/scss/pages/legal.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
     margin-top: 24px;
     margin-bottom: 22px;
   }
-  /* line 537, src/scss/pages/legal.scss */
+  /* line 175, src/scss/pages/legal.scss */
   .keyvisual .key_title_sub {
     font-size: 14px;
     margin-top: 16px;
   }
-  /* line 542, src/scss/pages/legal.scss */
+  /* line 180, src/scss/pages/legal.scss */
   .legal_container {
     background-color: #f8f8f8;
     max-width: 1147px;
     margin: 36px auto 0px;
     padding: 0 20px;
   }
-  /* line 548, src/scss/pages/legal.scss */
-  .cace {
+  /* line 186, src/scss/pages/legal.scss */
+  .case {
     background-color: #fff;
     padding: 20px;
     padding-top: 46px;
     padding-bottom: 44px;
   }
-  /* line 553, src/scss/pages/legal.scss */
-  .cace .personal_data {
+  /* line 191, src/scss/pages/legal.scss */
+  .case .personal_data {
     padding-bottom: 31px;
     border-bottom: 4px solid #eee;
   }
-  /* line 556, src/scss/pages/legal.scss */
-  .cace .personal_data h3 {
+  /* line 194, src/scss/pages/legal.scss */
+  .case .personal_data h3 {
     font-size: 24px;
     margin-bottom: 17px;
   }
-  /* line 560, src/scss/pages/legal.scss */
-  .cace .personal_data .one_sec {
+  /* line 198, src/scss/pages/legal.scss */
+  .case .personal_data .one_sec {
     margin-top: 29px;
     margin-bottom: 34px;
   }
-  /* line 564, src/scss/pages/legal.scss */
-  .cace .personal_data h4 {
+  /* line 202, src/scss/pages/legal.scss */
+  .case .personal_data h4 {
     font-size: 20px;
     margin-bottom: 9px;
     line-height: 28px;
     letter-spacing: -1px;
     margin-top: -1;
   }
-  /* line 571, src/scss/pages/legal.scss */
-  .cace .personal_data p {
+  /* line 209, src/scss/pages/legal.scss */
+  .case .personal_data p {
     font-size: 13px;
   }
-  /* line 575, src/scss/pages/legal.scss */
-  .cace .privacy_data {
+  /* line 213, src/scss/pages/legal.scss */
+  .case .privacy_data {
     padding-bottom: 4px;
   }
-  /* line 577, src/scss/pages/legal.scss */
-  .cace .privacy_data h3 {
+  /* line 215, src/scss/pages/legal.scss */
+  .case .privacy_data h3 {
     padding-top: 63px;
     font-size: 24px;
     margin-bottom: 17px;
   }
-  /* line 582, src/scss/pages/legal.scss */
-  .cace .privacy_data .one_sec {
+  /* line 220, src/scss/pages/legal.scss */
+  .case .privacy_data .one_sec {
     margin-top: 29px;
     margin-bottom: 34px;
   }
-  /* line 586, src/scss/pages/legal.scss */
-  .cace .privacy_data h4 {
+  /* line 224, src/scss/pages/legal.scss */
+  .case .privacy_data h4 {
     font-size: 20px;
     margin-bottom: 9px;
     line-height: 28px;
     letter-spacing: -1px;
     margin-top: -1;
   }
-  /* line 593, src/scss/pages/legal.scss */
-  .cace .privacy_data p {
+  /* line 231, src/scss/pages/legal.scss */
+  .case .privacy_data p {
     font-size: 13px;
   }
-  /* line 598, src/scss/pages/legal.scss */
-  .container {
+  /* line 236, src/scss/pages/legal.scss */
+  .base-container {
     padding-bottom: 87px;
   }
 }
