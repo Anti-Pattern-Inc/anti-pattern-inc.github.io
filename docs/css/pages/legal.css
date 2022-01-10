@@ -1,78 +1,64 @@
 /*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 4, src/scss/pages/legal.scss */
 .wrapper {
   max-width: 1198px;
   margin: 0 auto;
   padding: 0 60px;
 }
 
-/* line 9, src/scss/pages/legal.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -82,16 +68,12 @@
   color: #00282e;
   font-weight: bold;
 }
-
-/* line 19, src/scss/pages/legal.scss */
 .keyvisual .key_title_sub {
   font-size: 34px;
   line-height: 18px;
   letter-spacing: 0px;
   display: block;
 }
-
-/* line 25, src/scss/pages/legal.scss */
 .keyvisual .key_title_main {
   font-size: 60px;
   line-height: 50px;
@@ -100,7 +82,6 @@
   display: block;
 }
 
-/* line 33, src/scss/pages/legal.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
@@ -108,15 +89,14 @@
 }
 
 @media (max-width: 925px) {
-  /* line 39, src/scss/pages/legal.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 42, src/scss/pages/legal.scss */
+
   .sp_br {
     display: block;
   }
-  /* line 45, src/scss/pages/legal.scss */
+
   .keyvisual {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -128,29 +108,22 @@
     background-size: cover;
     font-weight: bold;
   }
-  /* line 46, src/scss/pages/legal.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 58, src/scss/pages/legal.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 62, src/scss/pages/legal.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
     margin-top: 14px;
   }
 }
-
-/* line 70, src/scss/pages/legal.scss */
 .keyvisual {
   padding: 90px 0 87px;
 }
-
-/* line 72, src/scss/pages/legal.scss */
 .keyvisual .key_title_main {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-bottom: 42px;
@@ -158,30 +131,24 @@
   font-weight: bold;
   margin-top: 7px;
 }
-
-/* line 79, src/scss/pages/legal.scss */
 .keyvisual .key_title_sub {
   font-size: 13px;
   line-height: 2px;
   letter-spacing: 1px;
 }
 
-/* line 85, src/scss/pages/legal.scss */
 .footer_nav {
   padding-bottom: 7px;
 }
 
-/* line 88, src/scss/pages/legal.scss */
 .legal_page_only {
   border-bottom: solid 2px #fff;
 }
 
-/* line 91, src/scss/pages/legal.scss */
 .base-container {
   padding-bottom: 151px;
 }
 
-/* line 94, src/scss/pages/legal.scss */
 .legal_container {
   background-color: #f8f8f8;
   max-width: 1147px;
@@ -189,7 +156,6 @@
   padding: 0 20px;
 }
 
-/* line 100, src/scss/pages/legal.scss */
 .case {
   background-color: #fff;
   padding: 100px;
@@ -197,81 +163,57 @@
   letter-spacing: -2.5;
   padding-bottom: 44px;
 }
-
-/* line 106, src/scss/pages/legal.scss */
 .case .personal_data {
   padding-bottom: 95px;
   border-bottom: solid 4px #eeeeee;
   letter-spacing: 0;
 }
-
-/* line 110, src/scss/pages/legal.scss */
 .case .personal_data h3 {
   font-size: 34px;
   margin-bottom: 17px;
   letter-spacing: 0px;
 }
-
-/* line 115, src/scss/pages/legal.scss */
 .case .personal_data .one_sec {
   margin-top: 42px;
   line-height: 10px;
 }
-
-/* line 120, src/scss/pages/legal.scss */
 .case .personal_data .one_sec_01 {
   margin-top: 55px;
 }
-
-/* line 123, src/scss/pages/legal.scss */
 .case .personal_data h4 {
   font-size: 18px;
   margin-bottom: 20px;
   margin-left: 3px;
   letter-spacing: 0.9px;
 }
-
-/* line 129, src/scss/pages/legal.scss */
 .case .personal_data p {
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.79px;
   margin-left: 3px;
 }
-
-/* line 136, src/scss/pages/legal.scss */
 .case .privacy_data {
   padding-bottom: 56px;
 }
-
-/* line 138, src/scss/pages/legal.scss */
 .case .privacy_data h3 {
   padding-top: 90px;
   font-size: 34px;
   margin-bottom: 17px;
   letter-spacing: 0;
 }
-
-/* line 144, src/scss/pages/legal.scss */
 .case .privacy_data .one_sec {
   margin-top: 40px;
   line-height: 10px;
 }
-
-/* line 149, src/scss/pages/legal.scss */
 .case .privacy_data .one_sec_01 {
   margin-top: 53px;
 }
-
-/* line 152, src/scss/pages/legal.scss */
 .case .privacy_data h4 {
   font-size: 18px;
   margin-bottom: 22px;
   margin-left: 3px;
   letter-spacing: 0.9px;
 }
-
-/* line 158, src/scss/pages/legal.scss */
 .case .privacy_data p {
   font-size: 13px;
   line-height: 24px;
@@ -280,52 +222,45 @@
 }
 
 @media (max-width: 950px) {
-  /* line 167, src/scss/pages/legal.scss */
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 71px;
   }
-  /* line 170, src/scss/pages/legal.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
     margin-top: 24px;
     margin-bottom: 22px;
   }
-  /* line 175, src/scss/pages/legal.scss */
   .keyvisual .key_title_sub {
     font-size: 14px;
     margin-top: 16px;
   }
-  /* line 180, src/scss/pages/legal.scss */
+
   .legal_container {
     background-color: #f8f8f8;
     max-width: 1147px;
     margin: 36px auto 0px;
     padding: 0 20px;
   }
-  /* line 186, src/scss/pages/legal.scss */
+
   .case {
     background-color: #fff;
     padding: 20px;
     padding-top: 46px;
     padding-bottom: 44px;
   }
-  /* line 191, src/scss/pages/legal.scss */
   .case .personal_data {
     padding-bottom: 31px;
     border-bottom: 4px solid #eee;
   }
-  /* line 194, src/scss/pages/legal.scss */
   .case .personal_data h3 {
     font-size: 24px;
     margin-bottom: 17px;
   }
-  /* line 198, src/scss/pages/legal.scss */
   .case .personal_data .one_sec {
     margin-top: 29px;
     margin-bottom: 34px;
   }
-  /* line 202, src/scss/pages/legal.scss */
   .case .personal_data h4 {
     font-size: 20px;
     margin-bottom: 9px;
@@ -333,26 +268,21 @@
     letter-spacing: -1px;
     margin-top: -1;
   }
-  /* line 209, src/scss/pages/legal.scss */
   .case .personal_data p {
     font-size: 13px;
   }
-  /* line 213, src/scss/pages/legal.scss */
   .case .privacy_data {
     padding-bottom: 4px;
   }
-  /* line 215, src/scss/pages/legal.scss */
   .case .privacy_data h3 {
     padding-top: 63px;
     font-size: 24px;
     margin-bottom: 17px;
   }
-  /* line 220, src/scss/pages/legal.scss */
   .case .privacy_data .one_sec {
     margin-top: 29px;
     margin-bottom: 34px;
   }
-  /* line 224, src/scss/pages/legal.scss */
   .case .privacy_data h4 {
     font-size: 20px;
     margin-bottom: 9px;
@@ -360,11 +290,10 @@
     letter-spacing: -1px;
     margin-top: -1;
   }
-  /* line 231, src/scss/pages/legal.scss */
   .case .privacy_data p {
     font-size: 13px;
   }
-  /* line 236, src/scss/pages/legal.scss */
+
   .base-container {
     padding-bottom: 87px;
   }

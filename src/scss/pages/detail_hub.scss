@@ -1,6 +1,17 @@
 
 @import "../variables";
 @import "../mixins";
+.nav_hub:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -7px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 .share_on {
   height: 60px;
   padding: 20px;
