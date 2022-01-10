@@ -3,68 +3,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
@@ -72,29 +60,24 @@
 /**
  * @section Base Styles
  */
-/* line 5, src/scss/_base.scss */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-/* line 9, src/scss/_base.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 13, src/scss/_base.scss */
 html,
 body {
   font-size: 62.5%;
 }
 
 @font-face {
-  font-family: 'nobel-bold';
+  font-family: "nobel-bold";
   src: url(/font/nobel-bold.ttf);
 }
-
-/* line 21, src/scss/_base.scss */
 body {
   margin: 0;
   padding: 0;
@@ -108,7 +91,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 35, src/scss/_base.scss */
 h1,
 h2,
 h3,
@@ -118,7 +100,6 @@ h6 {
   font-weight: 700;
 }
 
-/* line 44, src/scss/_base.scss */
 h1,
 h2,
 h3,
@@ -130,20 +111,17 @@ p {
   padding: 0;
 }
 
-/* line 55, src/scss/_base.scss */
 ul {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-/* line 60, src/scss/_base.scss */
 a, a:hover {
   text-decoration: none;
   color: #333333;
 }
 
-/* line 65, src/scss/_base.scss */
 input,
 textarea,
 select,
@@ -151,36 +129,29 @@ button {
   font: inherit;
 }
 
-/* line 72, src/scss/_base.scss */
 .sp-visible {
   display: none;
 }
-
 @media screen and (max-width: 767px) {
-  /* line 72, src/scss/_base.scss */
   .sp-visible {
     display: block;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 80, src/scss/_base.scss */
   .sp-hidden {
     display: none;
   }
 }
 
-/* line 86, src/scss/_base.scss */
 .base-container {
   background-color: #F8F8F8;
 }
 
-/* line 90, src/scss/_base.scss */
 .no-scroll {
   overflow: hidden;
 }
 
-/* line 1, src/scss/parts/_header.scss */
 .header {
   background-color: #eee;
   padding-top: 25px;
@@ -189,7 +160,6 @@ button {
   padding-bottom: 29px;
 }
 
-/* line 9, src/scss/parts/_header.scss */
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,7 +174,6 @@ button {
   margin: 0 auto;
 }
 
-/* line 17, src/scss/parts/_header.scss */
 .header_logoSide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,15 +182,12 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-
-/* line 20, src/scss/parts/_header.scss */
 .header_logoSide img {
   max-width: 249.5px;
   width: 100%;
   height: auto;
 }
 
-/* line 27, src/scss/parts/_header.scss */
 .pc_navs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,44 +197,29 @@ button {
   padding-left: 67px;
   margin-top: 2px;
 }
-
-/* line 33, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item {
   letter-spacing: 1.5px;
   position: relative;
 }
-
-/* line 36, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item.nav_company {
   margin-left: 31px;
 }
-
-/* line 39, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item.nav_news {
   margin-left: 30px;
 }
-
-/* line 42, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item.nav_hub {
   margin-left: 30px;
 }
-
-/* line 45, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item::after {
   background-color: #666;
 }
-
-/* line 48, src/scss/parts/_header.scss */
 .pc_navs .pc_nav_item a {
   color: #666666;
 }
 
-/* line 54, src/scss/parts/_header.scss */
 .header_buttonSide {
   right: 26px;
 }
-
-/* line 56, src/scss/parts/_header.scss */
 .header_buttonSide .rounded-btn {
   padding: 13px 39px;
   margin-left: auto;
@@ -282,18 +233,15 @@ button {
   text-decoration: none;
 }
 
-/* line 70, src/scss/parts/_header.scss */
 .menu {
   display: none;
 }
 
-/* line 74, src/scss/parts/_header.scss */
 .gnav {
   display: none;
 }
 
 /*menu*/
-/* line 79, src/scss/parts/_header.scss */
 .menu {
   height: 12px;
   position: fixed;
@@ -303,25 +251,22 @@ button {
   z-index: 99;
 }
 
-/* line 87, src/scss/parts/_header.scss */
 .menu__line {
   background: #00282E;
   display: block;
   height: 2px;
   position: absolute;
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   width: 120%;
 }
 
-/* line 95, src/scss/parts/_header.scss */
 .menu__line--bottom {
   bottom: 0;
 }
 
-/* line 98, src/scss/parts/_header.scss */
 .menu__line--top.active {
   top: 5px;
   height: 1px;
@@ -330,7 +275,6 @@ button {
   background-color: #fff;
 }
 
-/* line 104, src/scss/parts/_header.scss */
 .menu__line--bottom.active {
   top: 5px;
   height: 1px;
@@ -341,7 +285,6 @@ button {
 }
 
 /*gnav*/
-/* line 113, src/scss/parts/_header.scss */
 .gnav {
   display: none;
   position: fixed;
@@ -354,20 +297,16 @@ button {
   background: #4FABBA;
 }
 
-/* line 124, src/scss/parts/_header.scss */
 .gnav__logo {
   position: absolute;
   top: 15px;
   left: 20px;
 }
-
-/* line 128, src/scss/parts/_header.scss */
 .gnav__logo img {
   width: 200px;
   height: auto;
 }
 
-/* line 133, src/scss/parts/_header.scss */
 .gnav__wrap {
   position: absolute;
   display: -webkit-box;
@@ -384,87 +323,74 @@ button {
   height: 85vh;
 }
 
-/* line 142, src/scss/parts/_header.scss */
 .gnav__menu {
   position: absolute;
   top: 122px;
 }
 
-/* line 146, src/scss/parts/_header.scss */
 .gnav__menu__item {
   margin: 0 0 42px;
   letter-spacing: 0;
 }
 
-/* line 150, src/scss/parts/_header.scss */
 .gnav__menu__item a {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 40px;
   text-decoration: none;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-/* line 158, src/scss/parts/_header.scss */
 .gnav__menu__item a:hover {
   color: #666;
 }
 
-/* line 161, src/scss/parts/_header.scss */
 .nav_legal {
   padding-bottom: 0px;
   margin-top: 56px;
   margin-bottom: 0px;
 }
-
-/* line 165, src/scss/parts/_header.scss */
 .nav_legal a {
   font-size: 13px;
   color: #397984;
 }
 
-/* line 170, src/scss/parts/_header.scss */
 .nav_useful {
   font-size: 14px;
   letter-spacing: 0;
   margin-top: 18px;
 }
-
-/* line 174, src/scss/parts/_header.scss */
 .nav_useful a {
   font-size: 13px;
   color: #397984;
 }
 
 @media (max-width: 950px) {
-  /* line 182, src/scss/parts/_header.scss */
   .header_logoSide img {
     max-width: 200px;
   }
-  /* line 186, src/scss/parts/_header.scss */
+
   .header {
     padding-top: 16px;
     padding-right: 10px;
     padding-left: 20px;
     padding-bottom: 16px;
   }
-  /* line 192, src/scss/parts/_header.scss */
+
   .pc_navs {
     display: none;
   }
-  /* line 195, src/scss/parts/_header.scss */
+
   .header_buttonSide {
     display: none;
   }
-  /* line 198, src/scss/parts/_header.scss */
+
   .menu {
     display: block;
   }
 }
-
-/* line 1, src/scss/parts/_footer.scss */
 .footer {
   background-color: #4fabba;
   color: #fff;
@@ -472,7 +398,6 @@ button {
   padding-bottom: 20px;
 }
 
-/* line 7, src/scss/parts/_footer.scss */
 .footer__inner {
   padding-right: 20px;
   padding-left: 20px;
@@ -491,43 +416,30 @@ button {
           justify-content: space-between;
 }
 
-/* line 19, src/scss/parts/_footer.scss */
 .footer_1 {
   font-weight: bold;
 }
 
-/* line 22, src/scss/parts/_footer.scss */
 .engineer_blog {
   margin-bottom: 20px;
 }
-
-/* line 24, src/scss/parts/_footer.scss */
 .engineer_blog a {
   color: white;
 }
-
-/* line 27, src/scss/parts/_footer.scss */
 .engineer_blog a:hover {
   color: white;
 }
-
-/* line 30, src/scss/parts/_footer.scss */
 .engineer_blog .engineer_blog_text {
   letter-spacing: 0;
 }
-
-/* line 34, src/scss/parts/_footer.scss */
 .engineer_blog .engineer_blog_icon {
   margin-left: 6px;
 }
-
-/* line 36, src/scss/parts/_footer.scss */
 .engineer_blog .engineer_blog_icon img {
   height: 9px;
   width: auto;
 }
 
-/* line 42, src/scss/parts/_footer.scss */
 .footer_sns_icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -535,18 +447,13 @@ button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
-/* line 45, src/scss/parts/_footer.scss */
 .footer_sns_icons a {
   color: white;
 }
-
-/* line 48, src/scss/parts/_footer.scss */
 .footer_sns_icons a:hover {
   color: white;
 }
 
-/* line 52, src/scss/parts/_footer.scss */
 .footer_sns_icon_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -558,8 +465,6 @@ button {
   margin-right: 29px;
   letter-spacing: -1px;
 }
-
-/* line 58, src/scss/parts/_footer.scss */
 .footer_sns_icon_item .footer_sns_name {
   letter-spacing: 0px;
   font-size: 12px;
@@ -567,58 +472,43 @@ button {
   margin-bottom: 2px;
 }
 
-/* line 65, src/scss/parts/_footer.scss */
 .footer_sns_logo {
   margin-right: 7px;
 }
-
-/* line 67, src/scss/parts/_footer.scss */
 .footer_sns_logo img {
   width: 25px;
   height: auto;
 }
-
-/* line 72, src/scss/parts/_footer.scss */
 .footer_sns_logo.linkedin_logo img {
   width: 29px;
 }
 
-/* line 77, src/scss/parts/_footer.scss */
 .footer_2 {
   text-align: right;
   margin-top: 38px;
 }
-
-/* line 80, src/scss/parts/_footer.scss */
 .footer_2 .footer_navs {
   font-weight: bold;
   letter-spacing: 0;
   margin-bottom: 20px;
 }
 
-/* line 86, src/scss/parts/_footer.scss */
 .footer_nav {
   margin-left: 21px;
 }
-
-/* line 87, src/scss/parts/_footer.scss */
 .footer_nav a {
   color: #fff;
 }
 
-/* line 92, src/scss/parts/_footer.scss */
 .copyright {
   color: #397984;
   font-weight: bold;
   letter-spacing: 0;
 }
 
-/* line 97, src/scss/parts/_footer.scss */
 .footer {
   position: relative;
 }
-
-/* line 99, src/scss/parts/_footer.scss */
 .footer .arrow {
   position: absolute;
   right: 15%;
@@ -629,8 +519,6 @@ button {
   text-decoration: none;
   font-size: 15px;
 }
-
-/* line 109, src/scss/parts/_footer.scss */
 .footer .arrow::before,
 .footer .arrow::after {
   position: absolute;
@@ -641,13 +529,10 @@ button {
   content: "";
   vertical-align: middle;
 }
-
-/* line 120, src/scss/parts/_footer.scss */
 .footer .arrow::after {
   top: -36px;
 }
 
-/* line 124, src/scss/parts/_footer.scss */
 .footer_jump::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -660,7 +545,6 @@ button {
           box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.3);
 }
 
-/* line 134, src/scss/parts/_footer.scss */
 .footer_jump::after {
   left: 58px;
   top: -30px;
@@ -672,13 +556,11 @@ button {
   transform: rotate(-45deg);
 }
 
-/* line 144, src/scss/parts/_footer.scss */
 .footer_nav {
   padding-bottom: 12px;
 }
 
 @media (max-width: 727px) {
-  /* line 148, src/scss/parts/_footer.scss */
   .footer {
     background-color: #4fabba;
     color: #fff;
@@ -686,34 +568,32 @@ button {
     padding-left: 0px;
     padding-bottom: 20px;
   }
-  /* line 155, src/scss/parts/_footer.scss */
+
   .footer_2 {
     text-align: left;
   }
-  /* line 158, src/scss/parts/_footer.scss */
+
   .footer_navs {
     margin-bottom: 18px;
   }
-  /* line 161, src/scss/parts/_footer.scss */
+
   .footer_nav {
     margin-left: 0px;
     margin-right: 21px;
   }
-  /* line 165, src/scss/parts/_footer.scss */
+
   .arrow::before,
-  .arrow::after {
+.arrow::after {
     left: -74px;
     right: -57px;
     top: -56px;
     bottom: 9px;
   }
-  /* line 172, src/scss/parts/_footer.scss */
+
   .arrow::after {
     top: -49px;
   }
 }
-
-/* line 1, src/scss/parts/_share_on.scss */
 .share_on {
   height: 100px;
   padding: 36px 0;
@@ -725,8 +605,6 @@ button {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-
-/* line 7, src/scss/parts/_share_on.scss */
 .share_on .sns_icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -739,8 +617,6 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-
-/* line 16, src/scss/parts/_share_on.scss */
 .share_on .sns_icon_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -752,34 +628,25 @@ button {
   margin-right: 0;
   letter-spacing: -1px;
 }
-
-/* line 22, src/scss/parts/_share_on.scss */
 .share_on .sns_icon_item.linkedin {
   margin-left: 4px;
 }
-
-/* line 25, src/scss/parts/_share_on.scss */
 .share_on .sns_icon_item img {
   height: 25px;
   width: 25px;
   margin-left: 15px;
   margin-top: 8px;
 }
-
-/* line 31, src/scss/parts/_share_on.scss */
 .share_on .sns_icon_item .fb-like {
   height: 20px;
 }
 
 @media screen and (max-width: 950px) {
-  /* line 38, src/scss/parts/_share_on.scss */
   .share_on {
     height: 40px;
     padding: 0px;
   }
 }
-
-/* line 11, src/scss/main.scss */
 .wrapper {
   max-width: 1220px;
   margin: 0 auto;
@@ -787,7 +654,6 @@ button {
   background: #fff;
 }
 
-/* line 17, src/scss/main.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -798,8 +664,6 @@ button {
   background-color: #eeeeee;
   padding: 71px 0 83px;
 }
-
-/* line 25, src/scss/main.scss */
 .keyvisual .key_title_sub {
   font-size: 13px;
   line-height: 18px;
@@ -807,8 +671,6 @@ button {
   display: block;
   margin-top: 35px;
 }
-
-/* line 32, src/scss/main.scss */
 .keyvisual .key_title_main {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-size: 50px;
@@ -818,31 +680,24 @@ button {
   display: block;
 }
 
-/* line 41, src/scss/main.scss */
 .top_ourService {
   text-align: center;
   margin: 0 auto;
   padding-top: 136px;
   letter-spacing: 0px;
 }
-
-/* line 46, src/scss/main.scss */
 .top_ourService .title {
   margin-bottom: 30px;
   font-size: 13px;
   margin-top: 10px;
   font-weight: bold;
 }
-
-/* line 52, src/scss/main.scss */
 .top_ourService h3 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
   font-size: 24px;
   margin-bottom: -11px;
 }
-
-/* line 58, src/scss/main.scss */
 .top_ourService p {
   padding-top: 27px;
   font-weight: bold;
@@ -850,23 +705,17 @@ button {
   margin-left: 13px;
   margin-top: -2px;
 }
-
-/* line 65, src/scss/main.scss */
 .top_ourService img {
   width: 97%;
   height: auto;
   margin: 0 auto 22px;
 }
-
-/* line 70, src/scss/main.scss */
 .top_ourService .arrow {
   width: 33px;
   height: auto;
   margin-bottom: -31px;
   margin-left: 3px;
 }
-
-/* line 76, src/scss/main.scss */
 .top_ourService .arrow_underbar {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
@@ -876,8 +725,6 @@ button {
   font-size: 18px;
   margin-right: 3px;
 }
-
-/* line 85, src/scss/main.scss */
 .top_ourService .arrow_underbar::after {
   content: "";
   display: block;
@@ -888,13 +735,11 @@ button {
   left: -5px;
 }
 
-/* line 95, src/scss/main.scss */
 .bule {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4FABBA;
 }
 
-/* line 99, src/scss/main.scss */
 .service_img {
   max-height: 275px;
   height: 22vw;
@@ -913,159 +758,125 @@ button {
           justify-content: center;
   border: solid 1px #E5E5E5;
 }
-
-/* line 109, src/scss/main.scss */
 .service_img img {
   height: auto;
 }
-
-/* line 112, src/scss/main.scss */
 .service_img .harbors_img_sizing {
   max-width: 163px;
   width: 80%;
 }
-
-/* line 116, src/scss/main.scss */
 .service_img .posse_img_sizing {
   max-width: 199.5px;
   width: 80%;
 }
-
-/* line 120, src/scss/main.scss */
 .service_img .extends_img_sizing {
   max-width: 167px;
   width: 80%;
 }
-
-/* line 124, src/scss/main.scss */
 .service_img .enjineed_img_sizing {
   max-width: 245px;
   width: 80%;
 }
-
-/* line 128, src/scss/main.scss */
 .service_img .nitoro_img_sizing {
   max-width: 153.5px;
   width: 80%;
 }
-
-/* line 132, src/scss/main.scss */
 .service_img .saasus_img_sizing {
   max-width: 167px;
   width: 80%;
 }
-
-/* line 136, src/scss/main.scss */
 .service_img .gateway_img_sizing {
   max-width: 205.5px;
   width: 80%;
 }
 
 @media (max-width: 1192px) {
-  /* line 142, src/scss/main.scss */
   .service_img, .service_test {
     width: 42%;
   }
 }
-
 @media screen and (max-width: 925px) {
-  /* line 147, src/scss/main.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 150, src/scss/main.scss */
+
   .keyvisual {
     padding: 121px 24px 217px 24px;
   }
-  /* line 152, src/scss/main.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 155, src/scss/main.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 159, src/scss/main.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
     margin-top: 24px;
   }
-  /* line 165, src/scss/main.scss */
+
   .sp_br {
     display: block;
   }
-  /* line 168, src/scss/main.scss */
+
   .top_ourService {
     padding-top: 37px;
   }
-  /* line 170, src/scss/main.scss */
   .top_ourService .sp_br {
     margin-top: 1px;
   }
-  /* line 173, src/scss/main.scss */
   .top_ourService h3 {
     margin-bottom: 0px;
   }
-  /* line 176, src/scss/main.scss */
   .top_ourService p {
     padding-top: 21px;
     margin-left: 0px;
     letter-spacing: 0px;
   }
-  /* line 181, src/scss/main.scss */
   .top_ourService img {
     height: 20px;
     width: auto;
   }
-  /* line 185, src/scss/main.scss */
   .top_ourService .arrow {
     margin-left: 7px;
   }
-  /* line 188, src/scss/main.scss */
   .top_ourService .arrow_underbar {
     margin-left: 6px;
     letter-spacing: 0px;
     margin-right: 0px;
   }
 }
-
 @media screen and (max-width: 950px) {
-  /* line 196, src/scss/main.scss */
   .wrapper {
     padding: 0 20px 66px;
   }
-  /* line 199, src/scss/main.scss */
+
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 63px;
   }
-  /* line 202, src/scss/main.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
   }
-  /* line 205, src/scss/main.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 16px;
   }
-  /* line 210, src/scss/main.scss */
+
   .top_ourService {
     padding-top: 124px;
   }
-  /* line 212, src/scss/main.scss */
   .top_ourService h3 {
     margin-bottom: 0px;
     margin-left: 0px;
   }
-  /* line 216, src/scss/main.scss */
   .top_ourService img {
     max-width: 335px;
     margin: 0 auto;
     width: 100%;
   }
-  /* line 222, src/scss/main.scss */
+
   .service_img {
     height: 46vw;
     max-width: 530.5px;
@@ -1083,41 +894,33 @@ button {
             justify-content: center;
     border: solid 1px #E5E5E5;
   }
-  /* line 231, src/scss/main.scss */
   .service_img img {
     height: auto;
   }
-  /* line 234, src/scss/main.scss */
   .service_img .harbors_img_sizing {
     max-width: 115px;
     width: 80%;
   }
-  /* line 238, src/scss/main.scss */
   .service_img .posse_img_sizing {
     max-width: 147.5px;
     width: 80%;
   }
-  /* line 242, src/scss/main.scss */
   .service_img .extends_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 246, src/scss/main.scss */
   .service_img .enjineed_img_sizing {
     max-width: 186px;
     width: 80%;
   }
-  /* line 250, src/scss/main.scss */
   .service_img .nitoro_img_sizing {
     max-width: 119.5px;
     width: 80%;
   }
-  /* line 254, src/scss/main.scss */
   .service_img .saasus_img_sizing {
     max-width: 130.5px;
     width: 80%;
   }
-  /* line 258, src/scss/main.scss */
   .service_img .gateway_img_sizing {
     margin-top: -7px;
     font-size: 30px;

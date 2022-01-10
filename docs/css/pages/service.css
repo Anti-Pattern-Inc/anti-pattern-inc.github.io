@@ -1,71 +1,58 @@
 /*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 5, src/scss/pages/service.scss */
 .nav_service::after {
   content: "";
   position: absolute;
@@ -78,46 +65,35 @@
           transform: translateX(-50%);
 }
 
-/* line 15, src/scss/pages/service.scss */
 .wrapper-wrapper {
   background: #fff;
 }
 
-/* line 18, src/scss/pages/service.scss */
 .top_ourService01 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-bottom: 40px;
 }
 
-/* line 22, src/scss/pages/service.scss */
 .container_bg {
   padding-top: 134px;
 }
 
-/* line 25, src/scss/pages/service.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
   margin-left: 10px;
 }
 
-/* line 30, src/scss/pages/service.scss */
 .community_support {
   margin-bottom: 99px;
 }
-
-/* line 32, src/scss/pages/service.scss */
 .community_support .matchting {
   margin-bottom: 66px;
   letter-spacing: 0.6;
 }
-
-/* line 36, src/scss/pages/service.scss */
 .community_support .posse {
   margin-bottom: 60px;
 }
-
-/* line 39, src/scss/pages/service.scss */
 .community_support .title {
   margin-top: 60px;
   margin-bottom: 31px;
@@ -125,8 +101,6 @@
   text-align: center;
   letter-spacing: 1px;
 }
-
-/* line 46, src/scss/pages/service.scss */
 .community_support .skill_up {
   margin-bottom: 30px;
   font-size: 13px;
@@ -135,18 +109,15 @@
   letter-spacing: 1px;
 }
 
-/* line 54, src/scss/pages/service.scss */
 .serviceList_h3 {
   margin-top: -12px;
 }
 
-/* line 57, src/scss/pages/service.scss */
 .skill_up {
   margin-top: 10px;
   letter-spacing: 1px;
 }
 
-/* line 62, src/scss/pages/service.scss */
 .service_text p {
   font-size: 13px;
   line-height: 24px;
@@ -154,8 +125,6 @@
   margin-bottom: 12px;
   letter-spacing: 0.8px;
 }
-
-/* line 69, src/scss/pages/service.scss */
 .service_text h4 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   font-weight: bold;
@@ -169,15 +138,12 @@
   margin-top: 15px;
   margin-bottom: 14px;
 }
-
-/* line 80, src/scss/pages/service.scss */
 .service_text h4 .reduction {
   font-size: 12px;
   margin-left: 15px;
   color: #00282e;
 }
 
-/* line 88, src/scss/pages/service.scss */
 .service_text {
   max-width: 523px;
   width: 50%;
@@ -186,8 +152,6 @@
   padding-left: 2px;
   margin-left: 20px;
 }
-
-/* line 94, src/scss/pages/service.scss */
 .service_text .under_var {
   display: inline-block;
   letter-spacing: 0.6px;
@@ -200,8 +164,6 @@
   margin-left: -3px;
   font-family: "Nobel-Regular", "Noto Sans JP", sans-serif, "Lato", sans-serif;
 }
-
-/* line 106, src/scss/pages/service.scss */
 .service_text .under_var::after {
   content: "";
   display: block;
@@ -212,21 +174,16 @@
   bottom: 5px;
   left: 1px;
 }
-
-/* line 117, src/scss/pages/service.scss */
 .service_text .site_link img {
   margin-left: 4px;
   height: 9px;
   width: auto;
   margin-bottom: 2px;
 }
-
-/* line 124, src/scss/pages/service.scss */
 .service_text a {
   line-height: 42px;
 }
 
-/* line 128, src/scss/pages/service.scss */
 .servicelist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,27 +199,24 @@
   margin-bottom: 60px;
 }
 
-/* line 135, src/scss/pages/service.scss */
 .sp_img {
   display: none;
 }
 
-/* line 138, src/scss/pages/service.scss */
 .pc_img {
   display: block;
 }
 
 @media (max-width: 950px) {
-  /* line 143, src/scss/pages/service.scss */
   .container_bg {
     padding-top: 27px;
   }
-  /* line 146, src/scss/pages/service.scss */
+
   .top_ourService01 {
     margin-bottom: 27px;
     margin-top: 48px;
   }
-  /* line 150, src/scss/pages/service.scss */
+
   .servicelist {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -273,61 +227,54 @@
             justify-content: center;
     margin-bottom: 63px;
   }
-  /* line 155, src/scss/pages/service.scss */
+
   .service_text_sp {
     display: block;
   }
-  /* line 158, src/scss/pages/service.scss */
+
   .pc_img {
     display: none;
   }
-  /* line 161, src/scss/pages/service.scss */
+
   .top_ourService .sp_img {
     display: block;
     width: 100%;
     text-align: center;
     height: auto;
   }
-  /* line 167, src/scss/pages/service.scss */
+
   .service_text_pc {
     text-transform: uppercase;
   }
-  /* line 170, src/scss/pages/service.scss */
+
   .service_text {
     width: 100%;
     padding-left: 0px;
     margin-left: 0;
   }
-  /* line 174, src/scss/pages/service.scss */
   .service_text h4 {
     margin-top: 21px;
   }
-  /* line 177, src/scss/pages/service.scss */
   .service_text p {
     margin-bottom: 14px;
   }
-  /* line 180, src/scss/pages/service.scss */
   .service_text .reduction {
     letter-spacing: 0.5px;
   }
-  /* line 183, src/scss/pages/service.scss */
   .service_text .under_var {
     left: 2px;
   }
-  /* line 187, src/scss/pages/service.scss */
+
   .community_support {
     margin-bottom: 70px;
   }
-  /* line 189, src/scss/pages/service.scss */
   .community_support .matchting {
     margin-bottom: 66px;
     letter-spacing: 0.6;
   }
-  /* line 193, src/scss/pages/service.scss */
   .community_support .posse {
     margin-bottom: 65px;
   }
-  /* line 196, src/scss/pages/service.scss */
   .community_support .title {
     margin-top: 49px;
     margin-bottom: 29px;
@@ -336,7 +283,6 @@
     letter-spacing: 1px;
     margin-left: 8px;
   }
-  /* line 204, src/scss/pages/service.scss */
   .community_support .skill_up {
     margin-bottom: 27px;
     font-size: 13px;

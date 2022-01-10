@@ -1,71 +1,58 @@
 /*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 61, src/scss/_variables.scss */
 .box_base:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   z-index: 0;
 }
 
-/* line 67, src/scss/_variables.scss */
 .box_red:after {
   background-color: #ED644C;
 }
 
-/* line 70, src/scss/_variables.scss */
 .box_light_blue:after {
   background-color: #4FABBA;
 }
 
-/* line 73, src/scss/_variables.scss */
 .box_blue:after {
   background-color: #4C83ED;
 }
 
-/* line 76, src/scss/_variables.scss */
 .box_brown:after {
   background-color: #C39682;
 }
 
-/* line 79, src/scss/_variables.scss */
 .box_grey:after {
   background-color: #454A54;
 }
 
-/* line 4, src/scss/pages/hub.scss */
 .nav_hub:after {
   content: "";
   position: absolute;
@@ -78,14 +65,12 @@
   transform: translateX(-50%);
 }
 
-/* line 15, src/scss/pages/hub.scss */
 .wrapper {
   max-width: 1198px;
   margin: 0 auto;
   padding: 0 60px;
 }
 
-/* line 20, src/scss/pages/hub.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -98,16 +83,12 @@
   background-size: cover;
   font-weight: bold;
 }
-
-/* line 30, src/scss/pages/hub.scss */
 .keyvisual .key_title_sub {
   font-size: 34px;
   line-height: 18px;
   letter-spacing: 0px;
   display: block;
 }
-
-/* line 36, src/scss/pages/hub.scss */
 .keyvisual .key_title_main {
   font-size: 60px;
   line-height: 50px;
@@ -116,7 +97,6 @@
   display: block;
 }
 
-/* line 44, src/scss/pages/hub.scss */
 .reduction {
   font-size: 8px;
   display: inline-block;
@@ -124,15 +104,14 @@
 }
 
 @media (max-width: 925px) {
-  /* line 50, src/scss/pages/hub.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 53, src/scss/pages/hub.scss */
+
   .sp_br {
     display: block;
   }
-  /* line 56, src/scss/pages/hub.scss */
+
   .keyvisual {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -145,24 +124,19 @@
     background-size: cover;
     font-weight: bold;
   }
-  /* line 57, src/scss/pages/hub.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 69, src/scss/pages/hub.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 73, src/scss/pages/hub.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
     margin-top: 14px;
   }
 }
-
-/* line 81, src/scss/pages/hub.scss */
 .wrapper {
   background-color: #F8F8F8;
   max-width: 930px;
@@ -171,30 +145,21 @@
   padding-bottom: 206px;
 }
 
-/* line 89, src/scss/pages/hub.scss */
 .base-container {
   background: #fff;
 }
-
-/* line 91, src/scss/pages/hub.scss */
 .base-container .company_keyvisual {
   background-color: #EEEEEE;
   color: #00282E;
 }
-
-/* line 94, src/scss/pages/hub.scss */
 .base-container .company_keyvisual h2 {
   font-size: 50px;
   margin-bottom: 42px;
 }
-
-/* line 98, src/scss/pages/hub.scss */
 .base-container .company_keyvisual p {
   font-size: 11px;
   margin-top: -10px;
 }
-
-/* line 103, src/scss/pages/hub.scss */
 .base-container .title_memver {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   letter-spacing: 0;
@@ -205,26 +170,20 @@
   margin-bottom: 46px;
 }
 
-/* line 113, src/scss/pages/hub.scss */
 .keyvisual {
   background-color: #eeeeee;
 }
 
-/* line 116, src/scss/pages/hub.scss */
 .section {
   padding-top: 122px;
   margin: 0 auto;
   max-width: 800px;
 }
-
-/* line 120, src/scss/pages/hub.scss */
 .section h3 {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   color: #4fabba;
   font-size: 24px;
 }
-
-/* line 125, src/scss/pages/hub.scss */
 .section p {
   margin-top: 27px;
   font-size: 18px;
@@ -233,7 +192,6 @@
   letter-spacing: -3.7px;
 }
 
-/* line 133, src/scss/pages/hub.scss */
 .outline_table {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,7 +203,6 @@
       flex-wrap: wrap;
 }
 
-/* line 138, src/scss/pages/hub.scss */
 .outline_table_item {
   font-size: 13px;
   color: #00282E;
@@ -255,37 +212,28 @@
   padding-top: 40px;
   padding-bottom: 39px;
 }
-
-/* line 146, src/scss/pages/hub.scss */
 .outline_table_item .mini_info {
   display: inline-block;
   margin-left: 11px;
   letter-spacing: 0.2px;
 }
-
-/* line 151, src/scss/pages/hub.scss */
 .outline_table_item .mini_title {
   padding-left: 24px;
   width: 100px;
   display: inline-block;
 }
 
-/* line 158, src/scss/pages/hub.scss */
 .outline_table01 {
   width: 46%;
 }
 
-/* line 161, src/scss/pages/hub.scss */
 .outline_table02 {
   width: 46%;
 }
-
-/* line 163, src/scss/pages/hub.scss */
 .outline_table02 .outline_table_item {
   margin-right: -15px;
 }
 
-/* line 167, src/scss/pages/hub.scss */
 .title_outline {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-top: -22px;
@@ -296,7 +244,6 @@
   margin-bottom: 57px;
 }
 
-/* line 176, src/scss/pages/hub.scss */
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,19 +256,14 @@
   margin-bottom: 121px;
 }
 
-/* line 183, src/scss/pages/hub.scss */
 .article-card {
   width: 250px;
   margin: 0 auto;
 }
-
-/* line 186, src/scss/pages/hub.scss */
 .article-card .member_info {
   letter-spacing: 0;
   margin-top: -83px;
 }
-
-/* line 189, src/scss/pages/hub.scss */
 .article-card .member_info h4 {
   font-size: 30px;
   line-height: 30px;
@@ -329,69 +271,56 @@
   font-weight: bold;
   margin-bottom: 14px;
 }
-
-/* line 196, src/scss/pages/hub.scss */
 .article-card .member_info .post_info {
   font-size: 13px;
   margin-bottom: 10px;
   font-weight: bold;
 }
-
-/* line 201, src/scss/pages/hub.scss */
 .article-card .member_info .name_info {
   font-size: 18px;
   margin-bottom: 12px;
   font-weight: bold;
   letter-spacing: 0;
 }
-
-/* line 207, src/scss/pages/hub.scss */
 .article-card .member_info .info_details {
   letter-spacing: -0.7;
   line-height: 24px;
 }
-
-/* line 212, src/scss/pages/hub.scss */
 .article-card img {
   width: 250px;
 }
 
 @media (max-width: 950px) {
-  /* line 218, src/scss/pages/hub.scss */
   .base-container .keyvisual {
     padding-top: 4px;
     padding-bottom: 35px;
   }
-  /* line 223, src/scss/pages/hub.scss */
   .base-container .company_keyvisual .key_title_main {
     font-size: 32px;
   }
-  /* line 226, src/scss/pages/hub.scss */
   .base-container .company_keyvisual .key_title_sub {
     font-size: 13px;
   }
-  /* line 230, src/scss/pages/hub.scss */
   .base-container .company_keyvisual .sp_br {
     margin-top: -4px;
   }
-  /* line 234, src/scss/pages/hub.scss */
   .base-container .title_memver {
     margin-top: 2px;
     margin-bottom: 30px;
   }
-  /* line 239, src/scss/pages/hub.scss */
+
   .outline_table {
     display: block;
   }
-  /* line 243, src/scss/pages/hub.scss */
+
   .outline_table01 {
     width: 100%;
   }
-  /* line 246, src/scss/pages/hub.scss */
+
   .outline_table02 {
     width: 100%;
   }
-  /* line 249, src/scss/pages/hub.scss */
+
   .outline_table_item {
     margin: 0 auto;
     display: -webkit-box;
@@ -401,49 +330,47 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  /* line 254, src/scss/pages/hub.scss */
+
   .cards {
     display: block;
     margin: 0 auto;
     margin-bottom: 0px;
   }
-  /* line 260, src/scss/pages/hub.scss */
+
   .article-card {
     margin-bottom: 52px;
   }
-  /* line 263, src/scss/pages/hub.scss */
+
   .section {
     max-width: 295px;
     padding-top: 85px;
   }
-  /* line 266, src/scss/pages/hub.scss */
   .section p {
     font-size: 14px;
     letter-spacing: 0;
     line-height: 32px;
     margin-top: 19px;
   }
-  /* line 273, src/scss/pages/hub.scss */
+
   .first_what {
     letter-spacing: -0.2px;
   }
-  /* line 276, src/scss/pages/hub.scss */
+
   .section_why {
     padding-top: 99px;
   }
-  /* line 278, src/scss/pages/hub.scss */
   .section_why p {
     letter-spacing: 0.77px;
   }
-  /* line 282, src/scss/pages/hub.scss */
+
   .section_how {
     padding-top: 97px;
   }
-  /* line 285, src/scss/pages/hub.scss */
+
   .wrapper {
     padding-bottom: 119px;
   }
-  /* line 288, src/scss/pages/hub.scss */
+
   .outline_table_item {
     font-size: 13px;
     color: #00282E;
@@ -453,29 +380,24 @@
     padding-top: 40px;
     padding-bottom: 39px;
   }
-  /* line 296, src/scss/pages/hub.scss */
   .outline_table_item .mini_info {
     margin-left: 11px;
     letter-spacing: 0.2px;
   }
-  /* line 300, src/scss/pages/hub.scss */
   .outline_table_item .mini_title {
     padding-left: 44px;
     width: 138px;
     display: inline-block;
   }
-  /* line 308, src/scss/pages/hub.scss */
+
   .outline_table02 .outline_table_item {
     margin-right: auto;
   }
 }
-
-/* line 313, src/scss/pages/hub.scss */
 .xxxxx_page_only {
   border-bottom: solid 2px #fff;
 }
 
-/* line 316, src/scss/pages/hub.scss */
 .wrapper {
   margin-top: 105px;
   background-color: #fff;
@@ -483,13 +405,10 @@
   max-width: 1100px;
 }
 
-/* line 322, src/scss/pages/hub.scss */
 .keyvisual {
   padding: 62px 0 85px;
   background-image: none;
 }
-
-/* line 325, src/scss/pages/hub.scss */
 .keyvisual .key_title_main {
   margin-bottom: 24px;
   font-size: 50px;
@@ -498,14 +417,11 @@
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   line-height: 1.39;
 }
-
-/* line 333, src/scss/pages/hub.scss */
 .keyvisual .key_title_sub {
   font-size: 14px;
   margin-top: 24px;
 }
 
-/* line 338, src/scss/pages/hub.scss */
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,30 +431,23 @@
   margin-bottom: 40px;
 }
 
-/* line 345, src/scss/pages/hub.scss */
 .article-card {
   width: 340px;
   margin: 0;
   margin-bottom: 86px;
 }
-
-/* line 349, src/scss/pages/hub.scss */
 .article-card .day {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: block;
   font-size: 12px;
   color: #4fabba;
-  letter-spacing: .7;
+  letter-spacing: 0.7;
 }
-
-/* line 356, src/scss/pages/hub.scss */
 .article-card .hub_tag_item {
   color: #4fabba;
   font-size: 14px;
   font-weight: bold;
 }
-
-/* line 361, src/scss/pages/hub.scss */
 .article-card p {
   font-size: 13px;
   font-weight: bold;
@@ -546,27 +455,20 @@
   line-height: 24px;
   margin-right: -4px;
 }
-
-/* line 368, src/scss/pages/hub.scss */
 .article-card img {
   width: 340px;
   height: 255px;
 }
 
-/* line 373, src/scss/pages/hub.scss */
 .nav_num {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 160px;
   margin-left: 36px;
 }
-
-/* line 378, src/scss/pages/hub.scss */
 .nav_num .active {
   color: #4fabba;
 }
-
-/* line 381, src/scss/pages/hub.scss */
 .nav_num .arrow {
   width: 34px;
   height: auto;
@@ -575,8 +477,6 @@
   margin-left: 12px;
   margin-right: -12px;
 }
-
-/* line 389, src/scss/pages/hub.scss */
 .nav_num a {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: inline-block;
@@ -585,33 +485,28 @@
   color: #999999;
 }
 
-/* line 397, src/scss/pages/hub.scss */
 .footer_nav {
   padding-bottom: 7px;
 }
 
 @media (max-width: 1200px) {
-  /* line 401, src/scss/pages/hub.scss */
   .cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 0px;
   }
-  /* line 405, src/scss/pages/hub.scss */
+
   .article-card {
     margin: 0 auto;
     margin-bottom: 60px;
   }
 }
-
 @media (max-width: 950px) {
-  /* line 411, src/scss/pages/hub.scss */
   .keyvisual {
     padding: 90px 0 85px;
     background-image: none;
   }
-  /* line 414, src/scss/pages/hub.scss */
   .keyvisual .key_title_main {
     margin-bottom: 11px;
     font-size: 32px;
@@ -621,29 +516,27 @@
     line-height: 1.39;
     margin-top: 27px;
   }
-  /* line 423, src/scss/pages/hub.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 0;
     letter-spacing: 1px;
   }
-  /* line 428, src/scss/pages/hub.scss */
   .keyvisual .sp_br {
     margin-top: 1px;
   }
-  /* line 432, src/scss/pages/hub.scss */
+
   .base-container .keyvisual {
     padding-bottom: 40px;
   }
-  /* line 435, src/scss/pages/hub.scss */
+
   .wrapper {
     margin-top: 60px;
   }
-  /* line 438, src/scss/pages/hub.scss */
+
   .article-card {
     margin-bottom: 55px;
   }
-  /* line 441, src/scss/pages/hub.scss */
+
   .nav_num {
     margin-top: 11px;
   }
