@@ -66,13 +66,26 @@
 }
 
 /* line 4, src/scss/pages/detail_hub.scss */
+.nav_hub:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -7px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 15, src/scss/pages/detail_hub.scss */
 .share_on {
   height: 60px;
   padding: 20px;
 }
 
 @media screen and (max-width: 950px) {
-  /* line 9, src/scss/pages/detail_hub.scss */
+  /* line 20, src/scss/pages/detail_hub.scss */
   .share_on {
     height: 40px;
     padding: 0;
@@ -80,14 +93,14 @@
   }
 }
 
-/* line 15, src/scss/pages/detail_hub.scss */
+/* line 26, src/scss/pages/detail_hub.scss */
 .wrapper {
   max-width: 1198px;
   margin: 0 auto;
   padding: 0 60px;
 }
 
-/* line 20, src/scss/pages/detail_hub.scss */
+/* line 31, src/scss/pages/detail_hub.scss */
 .keyvisual {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -99,7 +112,7 @@
   background-color: #eee;
 }
 
-/* line 28, src/scss/pages/detail_hub.scss */
+/* line 39, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_sub {
   font-size: 34px;
   line-height: 18px;
@@ -107,7 +120,7 @@
   display: block;
 }
 
-/* line 34, src/scss/pages/detail_hub.scss */
+/* line 45, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_main {
   font-size: 60px;
   line-height: 50px;
@@ -117,15 +130,15 @@
 }
 
 @media (max-width: 925px) {
-  /* line 43, src/scss/pages/detail_hub.scss */
+  /* line 54, src/scss/pages/detail_hub.scss */
   .wrapper {
     padding: 0 20px;
   }
-  /* line 46, src/scss/pages/detail_hub.scss */
+  /* line 57, src/scss/pages/detail_hub.scss */
   .sp_br {
     display: block;
   }
-  /* line 49, src/scss/pages/detail_hub.scss */
+  /* line 60, src/scss/pages/detail_hub.scss */
   .keyvisual {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -134,16 +147,16 @@
     color: #00282e;
     font-weight: bold;
   }
-  /* line 50, src/scss/pages/detail_hub.scss */
+  /* line 61, src/scss/pages/detail_hub.scss */
   .keyvisual .sp_br {
     margin-top: 14px;
   }
-  /* line 58, src/scss/pages/detail_hub.scss */
+  /* line 69, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_sub {
     font-size: 24px;
     line-height: 18px;
   }
-  /* line 62, src/scss/pages/detail_hub.scss */
+  /* line 73, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_main {
     font-size: 50px;
     line-height: 50px;
@@ -151,7 +164,7 @@
   }
 }
 
-/* line 69, src/scss/pages/detail_hub.scss */
+/* line 80, src/scss/pages/detail_hub.scss */
 .wrapper {
   background-color: #F8F8F8;
   max-width: 930px;
@@ -160,12 +173,12 @@
   padding-bottom: 206px;
 }
 
-/* line 77, src/scss/pages/detail_hub.scss */
+/* line 88, src/scss/pages/detail_hub.scss */
 .base-container {
   background: #fff;
 }
 
-/* line 80, src/scss/pages/detail_hub.scss */
+/* line 91, src/scss/pages/detail_hub.scss */
 .outline_table {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,7 +190,7 @@
       flex-wrap: wrap;
 }
 
-/* line 85, src/scss/pages/detail_hub.scss */
+/* line 96, src/scss/pages/detail_hub.scss */
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,18 +204,18 @@
 }
 
 @media (max-width: 950px) {
-  /* line 92, src/scss/pages/detail_hub.scss */
+  /* line 103, src/scss/pages/detail_hub.scss */
   .wrapper {
     padding-bottom: 119px;
   }
 }
 
-/* line 96, src/scss/pages/detail_hub.scss */
+/* line 107, src/scss/pages/detail_hub.scss */
 .xxxxx_page_only {
   border-bottom: solid 2px #fff;
 }
 
-/* line 99, src/scss/pages/detail_hub.scss */
+/* line 110, src/scss/pages/detail_hub.scss */
 .wrapper {
   margin-top: 105px;
   background-color: #fff;
@@ -210,7 +223,7 @@
   max-width: 1100px;
 }
 
-/* line 106, src/scss/pages/detail_hub.scss */
+/* line 117, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_main {
   margin-bottom: 24px;
   font-size: 50px;
@@ -220,12 +233,12 @@
   line-height: 1.39;
 }
 
-/* line 114, src/scss/pages/detail_hub.scss */
+/* line 125, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_sub {
   font-size: 13px;
 }
 
-/* line 118, src/scss/pages/detail_hub.scss */
+/* line 129, src/scss/pages/detail_hub.scss */
 .nav_num {
   margin: 0 auto;
   text-align: center;
@@ -233,12 +246,12 @@
   margin-left: 36px;
 }
 
-/* line 123, src/scss/pages/detail_hub.scss */
+/* line 134, src/scss/pages/detail_hub.scss */
 .nav_num .active {
   color: #4fabba;
 }
 
-/* line 126, src/scss/pages/detail_hub.scss */
+/* line 137, src/scss/pages/detail_hub.scss */
 .nav_num .arrow {
   width: 34px;
   height: auto;
@@ -248,7 +261,7 @@
   margin-right: -12px;
 }
 
-/* line 134, src/scss/pages/detail_hub.scss */
+/* line 145, src/scss/pages/detail_hub.scss */
 .nav_num a {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   display: inline-block;
@@ -258,7 +271,7 @@
 }
 
 @media (max-width: 950px) {
-  /* line 144, src/scss/pages/detail_hub.scss */
+  /* line 155, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_main {
     margin-bottom: 11px;
     font-size: 32px;
@@ -268,31 +281,31 @@
     line-height: 1.39;
     margin-top: 18px;
   }
-  /* line 153, src/scss/pages/detail_hub.scss */
+  /* line 164, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 0;
     letter-spacing: 1px;
   }
-  /* line 158, src/scss/pages/detail_hub.scss */
+  /* line 169, src/scss/pages/detail_hub.scss */
   .keyvisual .sp_br {
     margin-top: 1px;
   }
-  /* line 162, src/scss/pages/detail_hub.scss */
+  /* line 173, src/scss/pages/detail_hub.scss */
   .wrapper {
     margin-top: 60px;
   }
-  /* line 165, src/scss/pages/detail_hub.scss */
+  /* line 176, src/scss/pages/detail_hub.scss */
   .article-card {
     margin-bottom: 55px;
   }
-  /* line 168, src/scss/pages/detail_hub.scss */
+  /* line 179, src/scss/pages/detail_hub.scss */
   .nav_num {
     margin-top: 11px;
   }
 }
 
-/* line 174, src/scss/pages/detail_hub.scss */
+/* line 185, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_main {
   font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
   margin-bottom: 42px;
@@ -301,24 +314,24 @@
   margin-top: 9px;
 }
 
-/* line 181, src/scss/pages/detail_hub.scss */
+/* line 192, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_sub {
   font-size: 13px;
   line-height: 2px;
   letter-spacing: 0;
 }
 
-/* line 187, src/scss/pages/detail_hub.scss */
+/* line 198, src/scss/pages/detail_hub.scss */
 .footer_nav {
   padding-bottom: 7px;
 }
 
-/* line 190, src/scss/pages/detail_hub.scss */
+/* line 201, src/scss/pages/detail_hub.scss */
 .base-container {
   padding-bottom: 10px;
 }
 
-/* line 193, src/scss/pages/detail_hub.scss */
+/* line 204, src/scss/pages/detail_hub.scss */
 .legal_container {
   background-color: #f8f8f8;
   max-width: 1147px;
@@ -326,7 +339,7 @@
   padding: 0 20px;
 }
 
-/* line 199, src/scss/pages/detail_hub.scss */
+/* line 210, src/scss/pages/detail_hub.scss */
 .case {
   background-color: #fff;
   padding: 100px;
@@ -335,51 +348,51 @@
   padding-bottom: 44px;
 }
 
-/* line 205, src/scss/pages/detail_hub.scss */
+/* line 216, src/scss/pages/detail_hub.scss */
 .case .personal_data {
   padding-bottom: 95px;
   border-bottom: solid 4px #eeeeee;
   letter-spacing: 0;
 }
 
-/* line 209, src/scss/pages/detail_hub.scss */
+/* line 220, src/scss/pages/detail_hub.scss */
 .case .personal_data h1 {
   font-size: 34px;
   margin-bottom: 17px;
   letter-spacing: 0px;
 }
 
-/* line 214, src/scss/pages/detail_hub.scss */
+/* line 225, src/scss/pages/detail_hub.scss */
 .case .personal_data .one_sec {
   margin-top: 40px;
   line-height: 10px;
 }
 
-/* line 219, src/scss/pages/detail_hub.scss */
+/* line 230, src/scss/pages/detail_hub.scss */
 .case .personal_data .one_sec_01 {
   margin-top: 53px;
 }
 
-/* line 222, src/scss/pages/detail_hub.scss */
+/* line 233, src/scss/pages/detail_hub.scss */
 .case .personal_data h2 {
   font-size: 15px;
   margin-bottom: 19px;
   letter-spacing: -0.3px;
 }
 
-/* line 227, src/scss/pages/detail_hub.scss */
+/* line 238, src/scss/pages/detail_hub.scss */
 .case .personal_data p {
   font-size: 10px;
   line-height: 24px;
   letter-spacing: 0.79px;
 }
 
-/* line 233, src/scss/pages/detail_hub.scss */
+/* line 244, src/scss/pages/detail_hub.scss */
 .case .privacy_data {
   padding-bottom: 56px;
 }
 
-/* line 235, src/scss/pages/detail_hub.scss */
+/* line 246, src/scss/pages/detail_hub.scss */
 .case .privacy_data h1 {
   padding-top: 88px;
   font-size: 34px;
@@ -387,25 +400,25 @@
   letter-spacing: 0;
 }
 
-/* line 241, src/scss/pages/detail_hub.scss */
+/* line 252, src/scss/pages/detail_hub.scss */
 .case .privacy_data .one_sec {
   margin-top: 40px;
   line-height: 10px;
 }
 
-/* line 246, src/scss/pages/detail_hub.scss */
+/* line 257, src/scss/pages/detail_hub.scss */
 .case .privacy_data .one_sec_01 {
   margin-top: 53px;
 }
 
-/* line 249, src/scss/pages/detail_hub.scss */
+/* line 260, src/scss/pages/detail_hub.scss */
 .case .privacy_data h2 {
   font-size: 15px;
   margin-bottom: 19px;
   letter-spacing: -0.3px;
 }
 
-/* line 254, src/scss/pages/detail_hub.scss */
+/* line 265, src/scss/pages/detail_hub.scss */
 .case .privacy_data p {
   font-size: 10px;
   line-height: 24px;
@@ -413,73 +426,73 @@
 }
 
 @media (max-width: 950px) {
-  /* line 262, src/scss/pages/detail_hub.scss */
+  /* line 273, src/scss/pages/detail_hub.scss */
   .keyvisual {
     padding-top: 19px;
     padding-bottom: 40px;
   }
-  /* line 265, src/scss/pages/detail_hub.scss */
+  /* line 276, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_main {
     font-size: 32px;
     margin-top: 14px;
     margin-bottom: 24px;
   }
-  /* line 270, src/scss/pages/detail_hub.scss */
+  /* line 281, src/scss/pages/detail_hub.scss */
   .keyvisual .key_title_sub {
     font-size: 13px;
     margin-top: 16px;
   }
-  /* line 275, src/scss/pages/detail_hub.scss */
+  /* line 286, src/scss/pages/detail_hub.scss */
   .base-container {
     padding-bottom: 87px;
   }
 }
 
-/* line 281, src/scss/pages/detail_hub.scss */
+/* line 292, src/scss/pages/detail_hub.scss */
 .hub_container {
   background-color: #f8f8f8;
   max-width: 900px;
   margin: 62px auto 0;
 }
 
-/* line 286, src/scss/pages/detail_hub.scss */
+/* line 297, src/scss/pages/detail_hub.scss */
 .hub_case {
   padding: 40px 100px 36px;
   background-color: #fff;
 }
 
-/* line 289, src/scss/pages/detail_hub.scss */
+/* line 300, src/scss/pages/detail_hub.scss */
 .hub_case .day {
   color: #4fabba;
   font-size: 10px;
 }
 
-/* line 293, src/scss/pages/detail_hub.scss */
+/* line 304, src/scss/pages/detail_hub.scss */
 .hub_case .hub_tag_item {
   color: #4fabba;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 298, src/scss/pages/detail_hub.scss */
+/* line 309, src/scss/pages/detail_hub.scss */
 .hub_case h1 {
   padding-bottom: 15px;
   border-bottom: solid 4px #eeeeee;
   letter-spacing: 0;
 }
 
-/* line 303, src/scss/pages/detail_hub.scss */
+/* line 314, src/scss/pages/detail_hub.scss */
 .hub_case img {
   width: 100%;
   height: auto;
 }
 
-/* line 307, src/scss/pages/detail_hub.scss */
+/* line 318, src/scss/pages/detail_hub.scss */
 .hub_case .hub_section {
   margin-bottom: 60px;
 }
 
-/* line 309, src/scss/pages/detail_hub.scss */
+/* line 320, src/scss/pages/detail_hub.scss */
 .hub_case .hub_section h2 {
   font-size: 18px;
   line-height: 24px;
@@ -489,7 +502,7 @@
   border-bottom: 3px solid #eee;
 }
 
-/* line 317, src/scss/pages/detail_hub.scss */
+/* line 328, src/scss/pages/detail_hub.scss */
 .hub_case .hub_section p {
   text-align: justify;
   font-size: 16px;
@@ -497,62 +510,62 @@
   color: #333;
 }
 
-/* line 324, src/scss/pages/detail_hub.scss */
+/* line 335, src/scss/pages/detail_hub.scss */
 .hub_case .hub_section br {
   display: block;
   content: "";
   padding-top: 10px;
 }
 
-/* line 331, src/scss/pages/detail_hub.scss */
+/* line 342, src/scss/pages/detail_hub.scss */
 .hub_title {
   font-size: 20px;
   line-height: 50px;
   color: #00282e;
 }
 
-/* line 337, src/scss/pages/detail_hub.scss */
+/* line 348, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_main {
   margin-top: 0px;
   margin-bottom: 33px;
 }
 
-/* line 341, src/scss/pages/detail_hub.scss */
+/* line 352, src/scss/pages/detail_hub.scss */
 .keyvisual .key_title_sub {
   margin-top: 0px;
   letter-spacing: 1px;
 }
 
-/* line 346, src/scss/pages/detail_hub.scss */
+/* line 357, src/scss/pages/detail_hub.scss */
 .base-container {
   padding-bottom: 10px;
 }
 
 @media (max-width: 950px) {
-  /* line 353, src/scss/pages/detail_hub.scss */
+  /* line 364, src/scss/pages/detail_hub.scss */
   .base-container .keyvisual .key_title_main {
     margin-bottom: 18px;
     margin-top: 10px;
   }
-  /* line 359, src/scss/pages/detail_hub.scss */
+  /* line 370, src/scss/pages/detail_hub.scss */
   .hub_container {
     margin: 0 auto 0;
   }
-  /* line 362, src/scss/pages/detail_hub.scss */
+  /* line 373, src/scss/pages/detail_hub.scss */
   .hub_case {
     padding: 40px 15px 60px;
   }
-  /* line 364, src/scss/pages/detail_hub.scss */
+  /* line 375, src/scss/pages/detail_hub.scss */
   .hub_case .day {
     font-size: 12px;
     font-family: "nobel-bold", "Noto Sans JP", sans-serif, "Lato", sans-serif;
     letter-spacing: 1.2px;
   }
-  /* line 369, src/scss/pages/detail_hub.scss */
+  /* line 380, src/scss/pages/detail_hub.scss */
   .hub_case p {
     font-size: 12px;
   }
-  /* line 372, src/scss/pages/detail_hub.scss */
+  /* line 383, src/scss/pages/detail_hub.scss */
   .hub_case h1 {
     line-height: 32px;
     padding-bottom: 14px;
@@ -561,35 +574,35 @@
     margin-bottom: 20px;
     letter-spacing: 0;
   }
-  /* line 380, src/scss/pages/detail_hub.scss */
+  /* line 391, src/scss/pages/detail_hub.scss */
   .hub_case .hub_section {
     margin-bottom: 45px;
   }
-  /* line 382, src/scss/pages/detail_hub.scss */
+  /* line 393, src/scss/pages/detail_hub.scss */
   .hub_case .hub_section h2 {
     font-size: 16px;
     margin-right: -6px;
     letter-spacing: 1.56px;
     margin-bottom: 18px;
   }
-  /* line 388, src/scss/pages/detail_hub.scss */
+  /* line 399, src/scss/pages/detail_hub.scss */
   .hub_case .hub_section p {
     letter-spacing: 0.7;
     font-size: 13px;
   }
-  /* line 393, src/scss/pages/detail_hub.scss */
+  /* line 404, src/scss/pages/detail_hub.scss */
   .hub_case .hub_section02 {
     margin-bottom: 25px;
   }
-  /* line 396, src/scss/pages/detail_hub.scss */
+  /* line 407, src/scss/pages/detail_hub.scss */
   .hub_case p {
     letter-spacing: 2.1px;
   }
-  /* line 399, src/scss/pages/detail_hub.scss */
+  /* line 410, src/scss/pages/detail_hub.scss */
   .hub_case .hub_title {
     letter-spacing: 0;
   }
-  /* line 403, src/scss/pages/detail_hub.scss */
+  /* line 414, src/scss/pages/detail_hub.scss */
   .base-container {
     padding-bottom: 0px;
   }
