@@ -405,14 +405,20 @@
 }
 .hub_case .hub_section p {
   text-align: justify;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 28px;
   color: #333;
+  letter-spacing: normal;
 }
 .hub_case .hub_section br {
   display: block;
   content: "";
   padding-top: 10px;
+}
+.hub_case .hub_section span.interviewee-name {
+  color: #4fabba;
+  font-weight: bold;
+  margin-right: 1rem;
 }
 
 .hub_title {
