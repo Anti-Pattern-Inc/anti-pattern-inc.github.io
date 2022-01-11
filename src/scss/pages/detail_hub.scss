@@ -327,15 +327,20 @@
     }
     p {
       text-align: justify;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 28px;
       color: #333;
-      // letter-spacing: 1;
+      letter-spacing: normal;
     }
     br {
       display: block;
       content: "";
       padding-top: 10px;
+    }
+    span.interviewee-name {
+      color: #4fabba;
+      font-weight: bold;
+      margin-right: 1rem;
     }
   }
 }

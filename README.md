@@ -4,7 +4,7 @@
 
 make your pull request to mater branch  
 after it's merged, you can check update by this URL.  
-https://anti-pattern-inc.github.io/corporate/
+https://anti-pattern-inc.github.io
 
 # How to deploy to Production
 
