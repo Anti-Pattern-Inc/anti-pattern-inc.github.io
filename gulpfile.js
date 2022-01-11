@@ -3,7 +3,7 @@
  * Turn on/off build features
  */
 
- var settings = {
+var settings = {
 	clean: true,
 	scripts: true,
 	polyfills: false,
