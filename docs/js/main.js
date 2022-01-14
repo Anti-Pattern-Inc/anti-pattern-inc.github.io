@@ -1,4 +1,4 @@
-/*! anti-pattern_corporate_website v1.0.0 | (c) 2021 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
+/*! anti-pattern_corporate_website v1.0.0 | (c) 2022 Anti-Pattern Inc. |  License | https://github.com/Anti-Pattern-Inc/corporate */
 /**
  * Element.matches() polyfill (simple version)
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
@@ -9,6 +9,7 @@ if (!Element.prototype.matches) {
 $('.menu').on('click',function(){
 	$('.menu__line').toggleClass('active');
 	$('.gnav').fadeToggle();
+	$('body').toggleClass('no-scroll')
 });
 
 
