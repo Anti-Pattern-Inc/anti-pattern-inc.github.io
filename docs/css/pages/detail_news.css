@@ -587,7 +587,8 @@
 .news_content_case .day {
   color: #4fabba;
   margin-bottom: 14px;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 .news_content_case h3 {
   padding-bottom: 35px;
@@ -780,6 +781,12 @@
 }
 .news_content_case .news_content_section h4 {
   letter-spacing: 0.58;
+}
+.news_content_case .news_content_section a.external-link {
+  text-decoration: underline;
+}
+.news_content_case .news_content_section a.external-link:hover {
+  opacity: 0.8;
 }
 .news_content_case .news_content_section02 {
   margin-top: 58px;

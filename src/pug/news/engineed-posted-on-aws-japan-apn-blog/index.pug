@@ -1,0 +1,52 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "news/engineed-posted-on-aws-japan-apn-blog";
+  - var pageTitle = "engineed が AWS JAPAN APN ブログに掲載されました";
+  - var pageDescription = "株式会社アンチパターンが運営するAWSエンジニアのマッチングプラットフォーム「engineed」が AWS JAPAN APN ブログの「2021年後半 AWS 認定ソフトウェアご紹介」の記事の中で紹介されました。";
+  //- Optional
+  - var pageOgpImage = site.ogpImage;
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+  style(type="text/css").
+    .aws-isv-partner-badge {
+        width: 35%!important;
+      }
+    @media (max-width:950px){
+      .aws-isv-partner-badge {
+        width: 201.89px!important;
+        height: 189px!important;
+      }
+    }
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2021-01-18") 2021.01.18
+      h3.news_title engineed が AWS JAPAN APN ブログに掲載されました
+      include ../../_includes/_share_on.pug
+      img(src="/img/og-image.jpg", alt="アンチパターンの理念について書いてある画像")
+      .news_content_section
+        h4 engineed が AWS JAPAN APN ブログの「2021年後半 AWS 認定ソフトウェアご紹介」の記事の中で紹介されました。
+        br
+        p 当該記事では、2021年9月以降に FTR を通過して「AWS 認定ソフトウェア (AWS Qualified Software)」となったソフトウェア製品・ソリューションの一覧が紹介されております。当社が運営する、AWSエンジニアのマッチングプラットフォーム「engineed」は2021年10月20日に AWS ISV パートナーパスの「AWSファンデーショナルテクニカルレビュー（FTR）」を通過し認証を取得したため、FTR を通過したソフトウェアの一つとして掲載されました。
+        br
+        p engineed は、AWS を活用できるエンジニア向けのマッチングプラットフォームです。engineed は FTR を通過し、セキュリティ、信頼性、優れた運用性に関する AWS のベストプラクティスに従っているということが認定されております。これにより、AWS認定保持エンジニアをお探しの企業様、AWS案件や企業をお探しのエンジニアの皆様に、より安心して engineed をご活用いただくことができます。
+        br
+        a(href="https://aws.amazon.com/jp/blogs/psa/ftr_solutions_3/" target="_blank").external-link  2021年後半 AWS 認定ソフトウェアご紹介
+      .news_content_section.news_content_section02
+        img.aws-isv-partner-badge(src="/img/aws-isv-partner.png", alt="AWSファンデーショナルテクニカルレビューの画像")
+        h4 ◆ AWSファンデーショナルテクニカルレビュー（FTR）とは
+        p FTR は AWS Well-Architected Framework に基づいて、セキュリティ、信頼性、優れた運用に関する AWS のベストプラクティスのサブセットを採用し、具体的なガイドラインを提供するセルフサービスレビューです。
+        br
+        p FTR を使用すれば、ソフトウェアまたはソリューションのリスクを特定して修正することができます。FTR はソフトウェアやソリューションに特有の AWS Well-Architected ベストプラクティスを特定するのに役立ち、ソフトウェアのリスクを緩和することができます。engineed は FTR を通過したことにより、「Reviewed by AWS」バッジを獲得しております。
+      include ../../_includes/_share_on.pug
