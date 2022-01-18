@@ -1,6 +1,6 @@
 .share_on {
-  height: 100px;
-  padding: 36px 0;
+  height: 60px;
+  padding: 20px 0;
   background-color: #fff;
   display: flex;
   justify-content: flex-end;
@@ -37,7 +37,8 @@
 @media screen and (max-width: 950px) {
   .share_on {
     height: 40px;
-    padding: 0px;
+    padding: 0;
+    margin-bottom: 10px;
   }
 }
 
