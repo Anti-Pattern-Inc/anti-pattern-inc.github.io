@@ -26,14 +26,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/</loc>
-    
-        
-        <lastmod>2022-01-17T07:58:53.837Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/legal/</loc>
     
         
@@ -42,18 +34,18 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/services/</loc>
+        <loc>https://anti-pattern.co.jp/news/</loc>
     
         
-        <lastmod>2021-10-13T15:42:04.488Z</lastmod>
+        <lastmod>2022-01-17T07:58:53.837Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
+        <loc>https://anti-pattern.co.jp/services/</loc>
     
         
-        <lastmod>2022-01-05T11:43:58.725Z</lastmod>
+        <lastmod>2021-10-13T15:42:04.488Z</lastmod>
     
     </url>
     <url>
@@ -78,6 +70,14 @@
     
         
         <lastmod>2022-01-11T07:22:38.407Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
+    
+        
+        <lastmod>2022-01-05T11:43:58.725Z</lastmod>
     
     </url>
     <url>
