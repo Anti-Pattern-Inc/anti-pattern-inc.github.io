@@ -18,14 +18,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/</loc>
-    
-        
-        <lastmod>2022-01-11T07:22:20.673Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/legal/</loc>
     
         
@@ -50,34 +42,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
+        <loc>https://anti-pattern.co.jp/hub/</loc>
     
         
-        <lastmod>2022-01-11T07:22:50.965Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/hub/posse-headed-by-a-20-year-old-female-college-student/</loc>
-    
-        
-        <lastmod>2022-01-11T16:45:10.216Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/hub/stories/</loc>
-    
-        
-        <lastmod>2022-01-11T07:22:38.407Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
-    
-        
-        <lastmod>2022-01-05T11:43:58.725Z</lastmod>
+        <lastmod>2022-01-11T07:22:20.673Z</lastmod>
     
     </url>
     <url>
@@ -133,7 +101,7 @@
         <loc>https://anti-pattern.co.jp/news/engineed-posted-on-aws-japan-apn-blog/</loc>
     
         
-        <lastmod>2022-01-18T03:00:34.959Z</lastmod>
+        <lastmod>2022-01-18T05:34:15.044Z</lastmod>
     
     </url>
     <url>
@@ -182,6 +150,38 @@
     
         
         <lastmod>2022-01-03T12:05:21.594Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
+    
+        
+        <lastmod>2022-01-05T11:43:58.725Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
+    
+        
+        <lastmod>2022-01-11T07:22:50.965Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse-headed-by-a-20-year-old-female-college-student/</loc>
+    
+        
+        <lastmod>2022-01-11T16:45:10.216Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/stories/</loc>
+    
+        
+        <lastmod>2022-01-11T07:22:38.407Z</lastmod>
     
     </url>
 </urlset>
