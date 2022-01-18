@@ -683,6 +683,12 @@
     h4 {
       letter-spacing: 0.58;
     }
+    a.external-link {
+      text-decoration: underline;
+      &:hover {
+        opacity: .8;
+      }
+    }
   }
   .news_content_section02 {
     margin-top: 58px;
