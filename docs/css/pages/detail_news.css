@@ -587,7 +587,8 @@
 .news_content_case .day {
   color: #4fabba;
   margin-bottom: 14px;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 .news_content_case h3 {
   padding-bottom: 35px;
