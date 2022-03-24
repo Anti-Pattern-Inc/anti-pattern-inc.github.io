@@ -1,0 +1,99 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "columns";
+  - var pageTitle = "ANTI-PATTERN HUB - COLUMNS";
+  - var pageDescription = site.description;
+  //- Optional
+  - var pageOgpImage = site.ogpImage
+  - var pageOgpType = "article";
+  
+block styles
+  link(rel="stylesheet" type="text/css" href="../../css/pages/hub.min.css")
+
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main ANTI-PATTERN  
+        |
+        span.sp_br HUB
+      |
+      span.key_title_sub COLUMNS
+  .wrapper
+    .cards
+      .article-card
+        a(href="/hub/tech-conference-2022/")
+          img(src="/img/hub/tech-conference-2022_01.jpg", alt="ITイベントのイメージ画像").mb-2
+        .d-flex.align-items-center.justify-content-between.mb-3
+          time.day(datetime="2022-03-24") 2022.03.24
+          .hub_tags
+            a(href="/hub/columns").hub_tag_item #columns
+        a(href="/hub/tech-conference-2022/")
+          p 
+            | 【2022年版】エンジニア必見
+            br
+            | 大規模ITイベントまとめ
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+      //-   a(href="/hub/detail/")
+      //-     img(src="/img/photo_dummy.png", alt="dummy")
+      //-     span.day 2020.10.24
+      //-     p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+      //- .article-card
+        a(href="/hub/detail/")
+          img(src="/img/photo_dummy.png", alt="dummy")
+          span.day 2020.10.24
+          p テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入り…（60文字まで）
+          //- 今の並べ方だと、最後のカードの行が二枚の場合かっこ悪い表示になる
+    //- .nav_num
+    //-   a(href="#").active 1
+    //-   a(href="#") 2
+    //-   a(href="#") 3
+    //-   img(src="/img/arrow_brack.svg", alt="arrow", class="arrow")
+    //-   span.arrow
