@@ -21,15 +21,7 @@
         <loc>https://anti-pattern.co.jp/hub/</loc>
     
         
-        <lastmod>2022-02-21T07:32:54.162Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/legal/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.164Z</lastmod>
+        <lastmod>2022-03-24T17:26:02.989Z</lastmod>
     
     </url>
     <url>
@@ -38,6 +30,14 @@
     
         
         <lastmod>2021-10-13T15:42:04.488Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/legal/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.164Z</lastmod>
     
     </url>
     <url>
@@ -58,18 +58,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.162Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/hub/posse/</loc>
     
         
-        <lastmod>2022-02-21T07:32:54.163Z</lastmod>
+        <lastmod>2022-03-24T17:24:07.337Z</lastmod>
     
     </url>
     <url>
@@ -82,6 +74,22 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/hub/detail/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.162Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/tech-conference-2022/</loc>
+    
+        
+        <lastmod>2022-03-24T17:24:58.068Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/hub/stories/</loc>
     
         
@@ -90,10 +98,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/tech-conference-2022/</loc>
+        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
     
         
-        <lastmod>2022-03-24T17:20:26.993Z</lastmod>
+        <lastmod>2022-02-21T07:32:54.165Z</lastmod>
     
     </url>
     <url>
@@ -122,22 +130,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/30daysbootcamp-on-harbors/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.165Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.165Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/news/engineed-accepting-applications-for-exam-of-ec2/</loc>
     
         
@@ -154,7 +146,23 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/news/certified-as-aws-isv-partner/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.165Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/news/harbors-open/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/release-engineed-preview-ver/</loc>
     
         
         <lastmod>2022-02-21T07:32:54.167Z</lastmod>
@@ -170,7 +178,7 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/release-engineed-preview-ver/</loc>
+        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
     
         
         <lastmod>2022-02-21T07:32:54.167Z</lastmod>
@@ -179,14 +187,6 @@
     <url>
         
         <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
     
         
         <lastmod>2022-02-21T07:32:54.167Z</lastmod>
