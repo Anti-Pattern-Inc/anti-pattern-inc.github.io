@@ -34,14 +34,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/services/</loc>
     
         
@@ -50,10 +42,34 @@
     </url>
     <url>
         
+        <loc>https://anti-pattern.co.jp/news/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
+    
+    </url>
+    <url>
+        
         <loc>https://anti-pattern.co.jp/hub/detail/</loc>
     
         
         <lastmod>2022-02-21T07:32:54.162Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/it-conference-2022/</loc>
+    
+        
+        <lastmod>2022-03-24T08:28:36.349Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
+    
+        
+        <lastmod>2022-02-21T07:32:54.163Z</lastmod>
     
     </url>
     <url>
@@ -74,10 +90,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
+        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
     
         
-        <lastmod>2022-02-21T07:32:54.163Z</lastmod>
+        <lastmod>2022-02-21T07:32:54.168Z</lastmod>
     
     </url>
     <url>
@@ -154,14 +170,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
-    
-        
-        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/news/release-engineed-public-beta-ver/</loc>
     
         
@@ -170,10 +178,10 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/services/saasus/</loc>
+        <loc>https://anti-pattern.co.jp/news/release-posse/</loc>
     
         
-        <lastmod>2022-02-21T07:32:54.168Z</lastmod>
+        <lastmod>2022-02-21T07:32:54.167Z</lastmod>
     
     </url>
     <url>
