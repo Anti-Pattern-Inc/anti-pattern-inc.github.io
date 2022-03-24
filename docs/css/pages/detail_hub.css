@@ -391,6 +391,12 @@
   padding-bottom: 8px;
   border-bottom: 3px solid #eee;
 }
+.hub_case .hub_section h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #00282e;
+  letter-spacing: 1.2;
+}
 .hub_case .hub_section p {
   text-align: justify;
   font-size: 15px;
