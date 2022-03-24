@@ -35,26 +35,233 @@ block content
       .hub_section 
         h2.mb-3 2022年ITイベント
         p.mb-5 2022年3月時の情報です。最新情報は各イベント公式HP等をご覧ください
-        div.mb-5
-          h3.mb-3 Yahoo! JAPAN Tech Conference 2022
-          .table-responsive
-            table.table.table-bordered
-              tbody 
-                tr 
-                  th(scope='row').align-middle.px-4.py-3.bg-light 開催日
-                  td(colspan="3").align-middle.px-4.py-3 2月3日〜2月4日
-                tr 
-                  th(scope='row').align-middle.px-4.py-3.bg-light 開催形態
-                  td(colspan="3").align-middle.px-4.py-3 オンライン
-                tr 
-                  th(scope='row').align-middle.px-4.py-3.bg-light URL
-                  td(colspan="3").align-middle.px-4.py-3 https://techconference.yahoo.co.jp/2022/
-                tr
-                  th(scope='row').align-middle.px-4.py-3.bg-light ハッシュタグ
-                  td(colspan="1").align-middle.px-4.py-3 #yjtc
-                  th(scope='row').align-middle.px-4.py-3.bg-light 主催
-                  td(colspan="1").align-middle.px-4.py-3 Yahoo Japan
-          p 日本、アジアから世界をリードするAIテックカンパニーとして、ヤフーがどのような世界を目指し、技術的な取り組みを行っているのか紹介するカンファレンスです。
+
+        - var conferenceName = 'Yahoo! JAPAN Tech Conference 2022'
+        - var conferenceDate = '2月3日〜2月4日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://techconference.yahoo.co.jp/2022/'
+        - var conferenceHashtag = '#yjtc'
+        - var conferenceOrganizer = 'Yahoo Japan'
+        - var conferenceDescription = '日本、アジアから世界をリードするAIテックカンパニーとして、ヤフーがどのような世界を目指し、技術的な取り組みを行っているのか紹介するカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Developers Summit 2022'
+        - var conferenceDate = '2月17日〜2月18日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://event.shoeisha.jp/devsumi/20220217'
+        - var conferenceHashtag = '#devsumi'
+        - var conferenceOrganizer = '株式会社翔泳社 CodeZine編集部'
+        - var conferenceDescription = 'Developers Summit（デベロッパーズサミット：デブサミ）は、2003年から毎年開催する、日本最大級のソフトウェア開発者のためのカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Open Source Conference 2022 Online Spring'
+        - var conferenceDate = '3月11日〜3月12日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://event.ospn.jp/osc2022-online-spring/'
+        - var conferenceHashtag = '#osc22on'
+        - var conferenceOrganizer = '株式会社びぎねっと'
+        - var conferenceDescription = 'オープンソースのコミュニティや協賛企業、後援団体による、オープンソース関連のセミナーやミーティング、独自企画が楽しめるカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'YAPC::Japan::Online 2022'
+        - var conferenceDate = '3月4日〜3月5日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://yapcjapan.org/2022online/'
+        - var conferenceHashtag = '#yapcjapan'
+        - var conferenceOrganizer = '一般社団法人Japan Perl Association (JPA)'
+        - var conferenceDescription = 'YAPCはYet Another Perl Conferenceの略で、Perlを軸としたITに関わる全ての人のためのカンファレンスです。 Perlだけにとどまらない技術者たちが、好きな技術の話をし交流するカンファレンスで、技術者であれば誰でも楽しめるお祭りです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Security Days Spring 2022'
+        - var conferenceDate = '3月9日〜3月11日, 3月15日〜3月25日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://f2ff.jp/secd/2022-spr/tokyo'
+        - var conferenceHashtag = '#SecurityDays'
+        - var conferenceOrganizer = '株式会社ナノオプト・メディア'
+        - var conferenceDescription = '株式会社ナノオプト・メディアが開催する講演セッション中心のセキュリティカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'DeNA TechCon 2022'
+        - var conferenceDate = '3月17日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://techcon2022.dena.dev/spring/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = 'DeNA Co., Ltd.'
+        - var conferenceDescription = '「Unlimited Expansion」をテーマにしたDeNA主催のカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'ScalaMatsuri 2022'
+        - var conferenceDate = '3月19日〜3月20日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://scalamatsuri.org/ja/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = '一般社団法人 Japan Scala Association'
+        - var conferenceDescription = 'アジア最大級の国際Scalaカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = '技育祭 2022 春'
+        - var conferenceDate = '3月17日〜3月19日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://talent.supporterz.jp/geeksai/2022spring/'
+        - var conferenceHashtag = '#技育祭'
+        - var conferenceOrganizer = '株式会社サポーターズ'
+        - var conferenceDescription = '技育祭は「技術者を育てる」ことを目的としたエンジニアを目指す学生のための日本最大のオンラインカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'JaSST\'22 Tokyo'
+        - var conferenceDate = '3月10日〜3月11日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'http://www.jasst.jp/symposium/jasst22tokyo.html'
+        - var conferenceHashtag = '#jassttokyo'
+        - var conferenceOrganizer = 'ソフトウェアテスト技術振興協会（ASTER）'
+        - var conferenceDescription = '技術とは日進月歩であるべきであり、進化した技術や知識は広く共有されるべきだという考え方に基づき、ソフトウェア業界全体のテスト技術力の向上と普及を目指して、NPO法人ソフトウェアテスト技術振興協会（ASTER）が開催しています。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Observability Conference 2022 by CloudNative Days'
+        - var conferenceDate = '3月11日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://event.cloudnativedays.jp/o11y2022'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = 'Observability Conference 2022 Committee'
+        - var conferenceDescription = 'Observability Conference(O11yCon)は、オブザーバビリティ(可観測性)に特化したテックカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'AWS CDK Conference Japan'
+        - var conferenceDate = '4月9日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://jawsug.connpass.com/event/240422/'
+        - var conferenceHashtag = '#jawsug #cdkconf'
+        - var conferenceOrganizer = 'JAWS-UG東京 JAWS-UG横浜'
+        - var conferenceDescription = 'AWS CDK Conference Japan は AWS CDK ユーザーが集まって事例やノウハウを共有しあうイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Go Conference 2022 Spring (Online)'
+        - var conferenceDate = '4月23日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://gocon.jp/2022spring/'
+        - var conferenceHashtag = '#GOCON'
+        - var conferenceOrganizer = 'Gophers Japan'
+        - var conferenceDescription = '年2回開催されるプログラミング言語Goのカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'PHPerKaigi 2022'
+        - var conferenceDate = '4月9日〜4月11日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://phperkaigi.jp/2022/'
+        - var conferenceHashtag = '#phperkaigi'
+        - var conferenceOrganizer = 'PHPerKaigi 2022 実行委員会'
+        - var conferenceDescription = 'PHPerKaigi（ペチパーカイギ）は、現在PHPを使用している、過去にPHPを使用していた、これからPHPを使いたいと思っているエンジニアが、技術的なノウハウを共有するためのイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'DevOpsDays Tokyo 2022'
+        - var conferenceDate = '4月21日〜4月22日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://www.devopsdaystokyo.org/'
+        - var conferenceHashtag = '#DevOpsDaysTokyo'
+        - var conferenceOrganizer = 'DevOpsDays Tokyo 実行委員会'
+        - var conferenceDescription = 'DevOpsDays は世界中で開催されているカンファレンスです。ソフトウェア開発、ITインフラ運用、そしてその境界線上にあるトピックをカバーし、特にDevOpsを実現するための自動化、テスト、セキュリティ、組織文化にフォーカスしています。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Day One - CTO/VPoE Conference 2022 Spring -'
+        - var conferenceDate = '4月8日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://day-one-2022-spring.cto-a.org/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = '一般社団法人 日本CTO協会'
+        - var conferenceDescription = '一般社団法人 日本CTO協会によるカンファレンス。「テクノロジーによる変化を味方につける1日」をテーマに様々なスピーカーが登壇します。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'React Global Online Summit 2022'
+        - var conferenceDate = '4月21日〜4月22日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://events.geekle.us/react22/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = 'Geekle Corp.'
+        - var conferenceDescription = ''
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'AWS Summit Online'
+        - var conferenceDate = '5月25日〜5月26日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://aws.amazon.com/jp/summits/japan/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = 'Amazon Web Services, Inc.'
+        - var conferenceDescription = '日本最大の AWS に関するイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'JJUG CCC 2022 Spring'
+        - var conferenceDate = '6月19日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://fortee.jp/jjug-ccc-2022-spring'
+        - var conferenceHashtag = '#jjug_ccc'
+        - var conferenceOrganizer = '日本Javaユーザグループ (JJUG)'
+        - var conferenceDescription = 'JJUG CCCは毎年2回、春と秋に開催する日本最大のJavaコミュニティイベントです。Java関連の技術や事例に関する良質なセッションが行われ、また異なる分野で活躍するJava技術者が集まる場ともなっているようです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'RubyKaigi 2022'
+        - var conferenceDate = '9月8日〜9月10日'
+        - var conferenceType = 'オフライン'
+        - var conferenceUrl = 'https://rubykaigi.org/2022/'
+        - var conferenceHashtag = '#rubykaigi'
+        - var conferenceOrganizer = 'RubyKaigi 2022 Team'
+        - var conferenceDescription = ''
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'PHP Conference Japan 2022'
+        - var conferenceDate = '9月24日〜9月25日'
+        - var conferenceType = '未定'
+        - var conferenceUrl = 'https://phpcon.php.gr.jp/2022/'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = '-'
+        - var conferenceDescription = ''
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'International JavaScript Conference'
+        - var conferenceDate = '9月26日〜9月29日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://javascript-conference.com/new-york/'
+        - var conferenceHashtag = '#iJScon'
+        - var conferenceOrganizer = 'Software & Support Media Group'
+        - var conferenceDescription = 'JavaScriptに関わるセッションが豊富な国際的イベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Google Cloud Next \'22'
+        - var conferenceDate = '10月11日〜10月13日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://cloud.withgoogle.com/next'
+        - var conferenceHashtag = '-'
+        - var conferenceOrganizer = 'Google'
+        - var conferenceDescription = 'Google Cloudに関わるセッションが豊富なイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Agile Japan 2022'
+        - var conferenceDate = '11月15日〜11月16日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = '未定'
+        - var conferenceHashtag = '#AgileJapan'
+        - var conferenceOrganizer = '-'
+        - var conferenceDescription = ''
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'DjangoCongress JP 2022'
+        - var conferenceDate = '未定'
+        - var conferenceType = '未定'
+        - var conferenceUrl = 'https://djangocongress.jp/'
+        - var conferenceHashtag = '#djangocongress'
+        - var conferenceOrganizer = '-'
+        - var conferenceDescription = 'DjangoCongress JPは日本で開催されるDjango Webフレームワークのカンファレンスです。<br>DjangoCongress JPは、Djangoでアプリケーションを開発している人、Djangoを学んでいる人などDjangoに関わる全ての人が参加でき、参加する全ての人がDjangoについて交流し、出会い、学び、楽しみ、深い理解を得ることを目的にしている、とのこと。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'PyCon JP 2022'
+        - var conferenceDate = '秋頃予定'
+        - var conferenceType = '未定'
+        - var conferenceUrl = 'https://www.pycon.jp/'
+        - var conferenceHashtag = '#pyconjp'
+        - var conferenceOrganizer = '一般社団法人PyCon JP Association'
+        - var conferenceDescription = ''
+        include ../../_includes/_tech_conference_table.pug
+
+
       include ../../_includes/_share_on.pug
       .hub_tags.text-right
         a(href="/hub/stories").hub_tag_item #stories
