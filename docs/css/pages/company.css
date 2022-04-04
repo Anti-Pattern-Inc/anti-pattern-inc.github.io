@@ -807,6 +807,16 @@
   width: 250px;
 }
 
+.certifications-card {
+  width: 250px;
+  margin: 0 auto;
+}
+.certifications-card img {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 950px) {
   .container_bg {
     padding-top: 27px;
