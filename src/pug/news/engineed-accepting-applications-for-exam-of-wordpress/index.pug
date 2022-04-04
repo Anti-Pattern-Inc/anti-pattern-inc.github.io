@@ -1,0 +1,53 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "news/engineed-accepting-applications-for-exam-of-wordpress";
+  - var pageTitle = "engineed、AWSエンジニア向けのWordPressを使用した新規実技試験を公開！";
+  - var pageDescription = "AWSエンジニアのマッチングプラットフォームengineedで、「WordPress」を活用する実技試験を公開いたしました。";
+  //- Optional
+  - var pageOgpImage = site.ogpImage;
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2021-11-24") 2021.11.24
+      h3.news_title engineed、AWSエンジニア向けのWordPressを使用した新規実技試験を公開！
+      include ../../_includes/_share_on.pug
+      img(src="/img/og-image.jpg", alt="アンチパターンの理念について書いてある画像")
+      .news_content_section
+        h4 「engineed」にて、2021年11月15日より新規実技試験を公開しました。
+        p 当社が運営する、エンジニアのマッチングプラットフォーム「engineed」では、これまでAmazon Web Services（以下AWS）を活用した「オンプレミスからのクラウドへの移行」を題材にした仮想サーバをベースにした実技試験を提供してまいりました。一方で、AWSは役割と専門分野ごとに全11種類もの認定試験を用意しており（2021年7月現在）、多岐にわたるAWSエンジニアのスキルをさらに可視化するためには、engineedが提供する実技試験を拡充する必要がありました。
+        br
+        p そこで新たに、
+          b 「レンタルサーバー環境においてWordPressを用いて構築されたオウンドメディアをAWSに移行する」といった内容の実技試験をengineedにて公開いたします。
+          | 今回新たなユースケースの実技試験を公開することで、これまでの試験よりもより具体的なユースケースの試験を求めていたユーザの皆様に、新たな学習の機会をご提供できることを見込んでおります。
+        br
+        p 「engineedを提供する中で、多くのユーザー並びに採用企業担当者の方々と対話を重ねてまいりました。ビジネスシーンで多く行われている業務を実技試験として提供することで、より実務に近い能力を可視化することができると考え、今回WordPressで構築されたオウンドメディアの移行という題材を選定いたしました。2019年8月に実施されたQ-Success社の調査(https://w3techs.com/blog/entry/fact_20190829)によると、日本のCMS市場において、WordPressのシェアが82.4%であるとされています。トップシェアを誇るWordPressで構築されたオウンドメディアを、クラウドのメリットをより享受できるアーキテクチャに移行するという実務は数多く存在すると考えております。したがって、その技術を持ったエンジニアの需要は今後も見込めると推察しております。」と代表の小笹は語ります。
+        br
+        p 「今回、新しい実技試験【Amazon EC2 Based WordPress Site Migration】をリリースいたします。是非ご自身のスキルを測りつつ、企業からより良いスカウトが届くようにこの新たな試験問題にチャレンジしてみてください。」
+      .news_content_section
+        h4 ◆Amazon EC2 Based WordPress Site Migration概要
+        p - 現在レンタルサーバーにてWordPressで構築されたオウンドメディアサイトを運用していますが、今後AWSへ移行することを検討しています。クラウドのメリットを活かしたアーキテクチャを設計し、オウンドメディアの価値をさらに高めてください。
+        br
+        h4 試験による効果
+        p この試験により、EC2をベースに、AWSの基本サービスを活用したオウンドメディアサイト構築・運用におけるアーキテクティング能力と実際の構築能力が測れます。
+        br
+        h4 今後について
+        p engineedでは、AWSのスキルを持ったエンジニアの活躍の場を広げるべく、今後も実技試験の種類の拡充や、サイトの機能追加、UI/UXの改善などを進めてまいります。
+        p ※実技試験のお申し込みを弊社想定以上にいただいた場合、受験時期を調整させていただく場合がございます。
+        br
+        h5 リンク
+        p ◆専用サイト
+         a(href="https://info.engineed.io/engineer/" target="_blank") https://info.engineed.io/engineer/
+      include ../../_includes/_share_on.pug
