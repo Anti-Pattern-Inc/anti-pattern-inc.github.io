@@ -1,0 +1,61 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "news/day-one-cto-vpoe-conference-2022-spring";
+  - var pageTitle = "「Day One - CTO/VPoE Conference 2022 Spring - 」に代表 小笹が登壇";
+  - var pageDescription = "株式会社アンチパターンは日本CTO協会が主催する4/8のイベント「Day One - CTO/VPoE Conference 2022 Spring - 」にゴールドスポンサーとして協賛し、代表の小笹がセッションを担当いたします。";
+  //- Optional
+  - var pageOgpImage = "/img/day-one-cto-vpoe-conference-2022-spring.png";
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2022-03-23") 2022.03.23
+      h3.news_title 日本CTO協会主催「Day One - CTO/VPoE Conference 2022 Spring - 」に代表 小笹が登壇します
+      include ../../_includes/_share_on.pug
+      img(src="/img/day-one-cto-vpoe-conference-2022-spring.png", alt="Day Oneのタイトル画像")
+      .news_content_section
+        h4 株式会社アンチパターンは日本CTO協会が主催する4/8のイベント「Day One - CTO/VPoE Conference 2022 Spring - 」にゴールドスポンサーとして協賛し、代表の小笹がセッションを担当いたします。
+        h4 ◆「Day One - CTO/VPoE Conference 2022 Spring - 」について
+        p 「Day One - CTO/VPoE Conference 2022 Spring - 」は、2022年4月8日（金）に開催される、日本CTO協会主催のオンラインイベントです。「テクノロジーで、挑戦を恐れない勇気を。そして変化のリスクをチャンスに。」というメッセージを込め、業界を牽引する第一人者によるセッションやグローバル対談等が行われます。
+          br
+          b ＜開催概要＞
+          br
+          | ・イベント名：「Day One - CTO/VPoE Conference 2022 Spring -」
+          br
+          | ・開催日程：2022年4月8日（金）10時45分～19時00分
+          br
+          | ・開催形式：オンライン
+          br
+          | ・主催：一般社団法人日本CTO協会
+          br
+          | ・イベント公式サイトURL：
+          a(href="https://day-one-2022-spring.cto-a.org/" target="_blank") https://day-one-2022-spring.cto-a.org/
+          br
+          | ・参加申し込みURL：
+          a(href="https://client.eventhub.jp/ticket/yvk5SGfmN" target="_blank") https://client.eventhub.jp/ticket/yvk5SGfmN
+        br
+        p 当社は、ゴールドスポンサーとして協賛をしております。なお、本イベントのスポンサーセッションにて、弊社代表 小笹が「日本のソフトウェアエンジニアを憧れの職業へ」をテーマに講演をおこないます。
+      .news_content_section
+        h4 ◆「Day One - CTO/VPoE Conference 2022 Spring - 」協賛の背景
+        p 日本CTO協会は「テクノロジーによる自己変革を、日本社会のあたりまえに」をミッションに掲げる一般社団法人です。私たち株式会社アンチパターンのビジョンとも重なるところがあり、以前から法人会員として参画させていただいておりました。
+          br
+          | 日本CTO協会はあらゆる活動のなかで「透明性」や「オープンにシェアしていく姿勢」を大切にしており、この度のイベントにおいても、その姿勢をもって様々な方が講演を通し、想いや体験を伝えてくださいます。当然、イベントにご参加の皆様も日本社会の変革に関心の高い方々でしょう。そのような場で私たちの体験やビジョンを共有することが、日本社会の変革の一助になればと考え、この度協賛及び登壇させていただくことに決めました。
+          br
+          | 今後も、「日本のソフトウェアエンジニアを憧れの職業へ」を理念に掲げ、日本のテクノロジー業界のさらなる発展に貢献してまいります。
+        br
+        h5.text-info リンク
+        p ◆専用サイト：
+         a(href="https://day-one-2022-spring.cto-a.org/" target="_blank") https://day-one-2022-spring.cto-a.org/
+      include ../../_includes/_share_on.pug

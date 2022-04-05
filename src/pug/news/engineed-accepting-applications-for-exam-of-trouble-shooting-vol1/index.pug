@@ -1,0 +1,53 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "news/engineed-accepting-applications-for-exam-of-trouble-shooting-vol1";
+  - var pageTitle = "engineed、新たな実技試験「トラブルシューティング問題 Vol.1」を公開！";
+  - var pageDescription = "AWSエンジニアマッチングプラットフォームengineedにおいて、すでに問題が発生している AWS 環境を実際に修正する試験の提供を開始しました";
+  //- Optional
+  - var pageOgpImage = site.ogpImage;
+  - var pageOgpType = "article";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../../css/pages/detail_news.min.css")
+
+block content
+  section.keyvisual
+    p
+      span.key_title_main NEWS
+      |
+      span.key_title_sub お知らせ
+  .news_content_container
+    .news_content_case
+      .day 
+        time(datetime="2022-02-09") 2022.02.09
+      h3.news_title engineed、新たな実技試験「トラブルシューティング問題 Vol.1」を公開！
+      include ../../_includes/_share_on.pug
+      img(src="/img/og-image.jpg", alt="アンチパターンの理念について書いてある画像")
+      .news_content_section
+        h4 「engineed」にて、2022年02月09日より新規実技試験を公開しました。
+        p 当社が運営する、エンジニアのマッチングプラットフォーム「 engineed 」では、これまでAmazon Web Services（以下 AWS ）を活用した実技試験を4種類提供してまいりました。
+        br
+        p 今回新たに、
+          b 「問題の発生している AWS 環境に対してトラブルシューティングを行う」といった内容の実技試験を engineed にて公開いたします。
+          | 今回のような新たなタイプの実技試験を公開することで、これまでの試験よりも、手を動かしてみたいといったエンジニアの欲求をより満たし、新たな学習の機会をご提供できることを見込んでおります。
+        br
+        p 「engineed を提供する中で、多くのユーザー並びに採用企業担当者の方々と対話を重ねてまいりました。特にユーザーとの対話では、実際に手を動かして環境を改善していきたい方や、自身で手を動かす機会が少ないため、環境改善において実際に実力を発揮できるか不安に思っている方がいらっしゃいました。また、実務では新規の構築だけではなく、稼働しているシステムの改善活動も多く行われます。それらの状況を勘案した結果、トラブルシューティングを行う試験を作成するに至りました。」と代表の小笹は語ります。
+        br
+        p 今回、新しい実技試験【AWS Infrastructure trouble-shooting Vol.1】をリリースいたします。存分に環境を触っていただき、是非ご自身のスキルを測りつつ、企業からより良いスカウトが届くようにこの新たな試験問題にチャレンジしてみてください。なお、本試験は、スイッチロールを利用して弊社が作成した環境にアクセスいただくため、試験受験による費用は発生しません。
+      .news_content_section
+        h4 ◆AWS Infrastructure trouble-shooting Vol.1 概要
+        p - あなたは、掲示板サービスプロジェクトの問題解決のために呼び出されました。プロジェクトは AWS にて運用する事が決定しておりましたが、チームは AWS に不慣れなメンバーのみの状態です。プロジェクトチームが構成の構築とデプロイを行なったところいくつかの問題が発生している状況です。リリースまで時間がありません。原因を調べて解決していきましょう。(回答期限は試験開始日から3日間です。延長はできません。)
+        br
+        h4 試験による効果
+        p この試験により、AWS を活用した問題解決能力が測れます。なお、本試験において、アーキテクチャ設計試験はございませんのでご了承ください。
+        br
+        h4 今後について
+        p engineedでは、AWSのスキルを持ったエンジニアの活躍の場を広げるべく、今後も実技試験の種類の拡充や、サイトの機能追加、UI/UXの改善などを進めてまいります。
+        p ※実技試験のお申し込みを弊社想定以上にいただいた場合、受験時期を調整させていただく場合がございます。
+        br
+        h5.text-info リンク
+        p ◆専用サイト：
+         a(href="https://info.engineed.io/engineer/" target="_blank") https://info.engineed.io/engineer/
+      include ../../_includes/_share_on.pug
