@@ -3,7 +3,7 @@ name: AWS S3 Sync
 on:
   push:
     branches:
-      - master_for_aws#
+      - master_for_aws
 
 jobs:
   build:
