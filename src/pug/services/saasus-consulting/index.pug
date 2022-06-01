@@ -1,0 +1,194 @@
+extends ../../_includes/_layout.pug
+
+append variables
+  //- Required
+  - var pageID = "services/saasus-consulting";
+  - var pageTitle = "SaaSus Consulting";
+  - var pageDescription = "内製化支援サービスSaaSus Consultingのページです。内製化の必要性を診断、アクションプランの策定からプロトタイピング・開発・人材採用・運用までをトータルサポートいたします。";
+  //- Optional
+  - var pageOgpImage = site.rootUrl + "img/saasus_consulting_logo.jpg"
+  - var pageOgpType = "website";
+
+block styles
+  link(rel="stylesheet" type="text/css" href="../../css/pages/saasus.min.css")
+
+
+block content
+  script.
+    window.addEventListener('DOMContentLoaded', () => {
+      let ctas = document.getElementsByClassName('cta');
+      for (let cta of ctas) {
+        const original_uri = cta.href;
+        const converted_uri = original_uri + location.search;
+        cta.href = converted_uri;
+      }
+    });
+  section.keyvisual
+    p
+      span.key_title_main
+        img(src="../../img/saasus_consulting_logo_420.svg" alt="SaaSus Consulting")
+      span.key_title_sub 内製化支援サービス
+  div.wrapper-wrapper
+    div.wrapper
+      div.top_ourService
+        h3.serviceList_h3 こんなことでお困りではないですか？
+      .issues
+        .issue
+            h4 ソフトウェア開発・運用を外注しているが、
+              br
+              | 都度見積もりが必要で事業計画が立てづらく、また開発速度が上がらない
+            h4 SaaSのアイデアはあるが、どのように開発計画を立てて、
+              br
+              | どのように作っていけばよいかわからない
+            h4 ソフトウェア開発・運用の内製化を検討しているが、
+              br
+              | 何から始めていいか分からない
+            h4 自社で開発しているがSaaSのノウハウが無く、
+              br
+              | 料金体系や価格設定をどうしてよいかわからない
+            h4 ソフトウェア開発はできるが、
+              br
+              | インフラも含めたSaaS運用の経験がなくて不安
+      div.top_ourService
+        h3.serviceList_h3 SaaSus Consultingが解決します。
+      .taglines
+        .tagline
+            h4 内製化の必要性を診断、アクションプランの策定から
+              br 
+              | プロトタイピング・開発・人材採用・運用までをトータルサポート
+      .inquiry 
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSus Consultingに関するお問い合わせ
+      div.top_ourService.pt-50px
+        h3.serviceList_h3 SERVICE MENU
+      .service_list
+        h3.title 診断
+        .servicelist
+          .service_visual
+            img(src="../../img/saasus_diagnose.png" alt="DX Criteria").pc_img
+            img(src="../../img/saasus_diagnose_sp.png" alt="DX Criteria").sp_img
+          .service_text
+            h4 SaaSus Consulting診断(DX Criteria診断 + サービス診断)
+            p 日本CTO協会が提供するデジタル化とソフトウェア活用のためのガイドラインが「DX Criteria」です。この「DX Criteria」やサービスの簡易的な診断を行い、内製化の必要性を診断させていただきます。
+             br
+             | 内製化を進めていく中においては継続的に繰り返し診断を行うことによりアクションプランの策定と見直しを行います。
+            p なお、株式会社アンチパターンは、日本CTO協会の法人会員であり、代表の小笹はDX Criteriaの改訂プロジェクトに参画しておりますため、DX Criteriaに対する深い理解を活かしたご支援させて頂きます。
+      .service_list
+        h3.title 実行支援
+        .servicelist
+          .service_visual
+            img(src="../../img/saasus_execution.png" alt="実行支援の図").pc_img
+            img(src="../../img/saasus_execution_sp.png" alt="実行支援の図").sp_img
+          .service_text
+            h4 プロトタイピング
+            p プログラミング学習コミュニティPOSSEの選抜された学生チームの参画により、ライトにプロトタイピング開発を実施することで、サービスの仮説検証を行いながら、貴社プロダクト担当の方に一緒にスクラムチームに入っていただくことで、スクラムを体験していただきながら、内製化の体制作りを支援いたします。
+          .service_text
+            h4 スクラムチーム立ち上げ支援
+            p 各所で弊社メンバー（認定スクラムマスター、認定プロダクトオーナー）が参画させて頂き、貴社スクラムチームと並走することでチームの立ち上げを支援します。場合によっては、一時的に弊社開発チームのエンジニアが参画させて頂くことも可能です。
+      .service_list
+        h3.title 採用支援
+        .servicelist
+          .service_visual
+            img(src="../../img/saasus_engineed.png" alt="engineedのビジネスモデル図").pc_img
+            img(src="../../img/saasus_engineed_sp.png" alt="engineedのビジネスモデル図").sp_img
+          .service_text
+            h4 engineedを活用した採用支援
+            p engineedは、AWSエンジニア特化型のスカウトサービスです。AWS認定資格を保有しているAWSエンジニアを、弊社独自の実技試験にて実力を見極めた上で、副業や正社員など様々な契約形態で採用することができます。
+            p SaaSusにおいてはengineedを活用して、AWSエンジニアの採用支援を実施いたします。選考前の候補者ピックアップの段階から、選考過程のあらゆる場面に参画しエンジニア採用をご支援いたします。
+            a(href="https://info.engineed.io/",target="_blank").bule.under_var SERVICE SITE
+              span.site_link
+                img(src="../../img/service-link-icon.png", alt="サイトリンク")
+      .service_list
+        h3.title 運用支援
+        .servicelist
+          .service_visual
+            img(src="../../img/saasus_shared_sre.png" alt="共有SREサービスのビジネスモデル図").pc_img
+            img(src="../../img/saasus_shared_sre_sp.png" alt="共有SREサービスのビジネスモデル図").sp_img
+          .service_text
+            h4 共有SREサービス
+            p 本番サービス運用中の企業では、内製化による体制変更時に内部で対応しきれない過渡期にトラブルが発生するリスクがあります。そういった社内のみでは対応できない事象を共有SREチームがカバーいたします。
+      div.top_ourService.pt-10px
+        .top_ourService01
+          h3 PLANS
+        .plans
+          .plan-card.text-center 
+            table 
+              tr 
+                th
+                  h4.text-center STARTER KIT
+              tr
+                td 
+                  p.plan-price
+                    em 98万円
+                    |  (税込)
+                  p.plan-note (期間は約２ヶ月を想定)
+                  p.plan-note ※買い切り
+              tr
+                td.plan-detail 
+                  p ・DX Criteria初期診断
+                  p ・サービス簡易診断
+          .plan-card.text-center 
+            table 
+              tr 
+                th
+                  h4.text-center STANDARD 
+              tr
+                td 
+                  p.plan-price
+                    em 80万円
+                    | / 月 (税込)
+                  p.plan-note ※サブスクリプション
+              tr
+                td.plan-detail  
+                  p ・DX Criteria定期診断
+                  p ・内製化推進
+                  p ・週次での推進ミーティング
+          .plan-card.text-center 
+            table 
+              tr 
+                th
+                  h4.text-center OPTIONS 
+              tr
+                td 
+                  p.plan-price
+                    em 個別見積もり
+                  p.plan-note ※STANDARDプラン
+                    br 
+                    | ご契約のお客様に限り提供
+              tr
+                td.plan-detail  
+                  p ・プロトタイピング支援
+                  p ・スクラムチーム立ち上げ支援
+                  p ・engineedを活用した採用支援
+                  p ・共有SREサービス
+      .inquiry 
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSus Consultingに関するお問い合わせ
+      div.top_ourService.pt-10px
+        h3.serviceList_h3 SaaSus Consultingが選ばれる理由
+      .service_list
+        h3.title 
+        .servicelist
+          .service_img
+            img(src="../../img/subscription.svg" alt="サブリクリプションモデル").saasus_strengths_img_sizing
+          .service_strengths
+            h4.service_text_pc.my-4 サブリクリプションモデル
+            p SaaSus Consultingはサブリクリプションモデルで契約いただけますので、「まずは始めてみる」ということのハードルが低く設計されています。内製化が完了したりニーズがなくなった場合にはすぐにアンサブスクライブすることができます。
+        .servicelist
+          .service_img
+            img(src="../../img/ctoa.svg" alt="日本CTO協会").saasus_strengths_img_sizing
+          .service_strengths
+            h4.service_text_pc.my-4 DX Criteria改訂プロジェクトに参画のメンバーが診断を監修
+            p 株式会社アンチパターンは、日本CTO協会の法人会員であり、代表の小笹はDX Criteriaの改訂プロジェクトに参画しております。
+        .servicelist
+          .service_img
+            img(src="../../img/options.svg" alt="豊富なオプションサービス").saasus_strengths_img_sizing
+          .service_strengths
+            h4.service_text_pc.my-4 豊富なオプションサービス
+            p 株式会社アンチパターンが保有するサービスを用いて内製化実行に必要なアクションを支援しています。開発や運用だけでなく採用支援まで実行し、ソフトウェア開発の内製化をトータルサポートいたします。
+        .servicelist
+          .service_img
+            img(src="../../img/aws-partnernetwork-consluting-paetner-select-badge.jpg" alt="AWSコンサルティングパートナー・セレクトティア").saasus_strengths_img_sizing
+          .service_strengths
+            h4.service_text_pc.my-4 確かな技術力
+            p 株式会社アンチパターンは、アマゾン ウェブ サービス（AWS）が提供するパートナープログラム「AWSパートナーネットワーク（APN）」におけるAWSコンサルティングパートナー・セレクトティアの認定を取得しております。また、弊社のエンジニアの8割以上は、自社サービスを内製で開発・運用してきたメンバーで内製の経験が豊富です。
+      .inquiry 
+        a.rounded-btn.rounded-btn-saasus.cta(href="https://anti-pattern.typeform.com/to/sRfoU8TK" target="_blank") SaaSus Consultingに関するお問い合わせ
