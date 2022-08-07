@@ -58,14 +58,6 @@
     </url>
     <url>
         
-        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
-    
-        
-        <lastmod>2022-03-25T00:13:52.201Z</lastmod>
-    
-    </url>
-    <url>
-        
         <loc>https://anti-pattern.co.jp/hub/columns/</loc>
     
         
@@ -75,6 +67,22 @@
     <url>
         
         <loc>https://anti-pattern.co.jp/hub/detail/</loc>
+    
+        
+        <lastmod>2022-03-25T00:10:11.970Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse/</loc>
+    
+        
+        <lastmod>2022-03-25T00:13:52.201Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/hub/posse-headed-by-a-20-year-old-female-college-student/</loc>
     
         
         <lastmod>2022-03-25T00:10:11.970Z</lastmod>
@@ -93,23 +101,7 @@
         <loc>https://anti-pattern.co.jp/hub/tech-conference-2022/</loc>
     
         
-        <lastmod>2022-05-12T03:35:06.080Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/hub/posse-headed-by-a-20-year-old-female-college-student/</loc>
-    
-        
-        <lastmod>2022-03-25T00:10:11.970Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/services/saasus-consulting/</loc>
-    
-        
-        <lastmod>2022-06-08T09:32:05.634Z</lastmod>
+        <lastmod>2022-08-07T09:25:00.368Z</lastmod>
     
     </url>
     <url>
@@ -118,6 +110,14 @@
     
         
         <lastmod>2022-03-25T00:10:11.973Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/services/saasus-consulting/</loc>
+    
+        
+        <lastmod>2022-06-08T09:32:05.634Z</lastmod>
     
     </url>
     <url>
@@ -142,14 +142,6 @@
     
         
         <lastmod>2022-03-25T00:10:11.971Z</lastmod>
-    
-    </url>
-    <url>
-        
-        <loc>https://anti-pattern.co.jp/news/commitment-shift-hiring-starting-on-the-side-job/</loc>
-    
-        
-        <lastmod>2022-06-09T05:08:05.295Z</lastmod>
     
     </url>
     <url>
@@ -270,6 +262,14 @@
     
         
         <lastmod>2022-03-25T00:10:11.973Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://anti-pattern.co.jp/news/commitment-shift-hiring-starting-on-the-side-job/</loc>
+    
+        
+        <lastmod>2022-06-09T05:08:05.295Z</lastmod>
     
     </url>
 </urlset>

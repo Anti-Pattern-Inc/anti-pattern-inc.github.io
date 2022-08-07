@@ -33,7 +33,7 @@ block content
         p エンジニアは日々、新たな技術や知識をキャッチアップしていく必要があります。学ぶ場は様々ですが、カンファレンスなどの大規模なイベントでは最新の情報や、著名な登壇者の話を聞くことができるため、独学でテキストを読みこむだけでは得られない知識や刺激を得ることができます。そこで今回は2022年のテック関連のカンファレンスやサミットなど大規模なイベントをまとめました。
       .hub_section 
         h2.mb-3 2022年ITイベント
-        p.mb-5 2022年3月時の情報です。最新情報は各イベント公式HP等をご覧ください
+        p.mb-5 2022年3月時点の情報です(※8月にカンファレンス情報を追加しました)。最新情報は各イベント公式HP等をご覧ください。
 
         - var conferenceName = 'Yahoo! JAPAN Tech Conference 2022'
         - var conferenceDate = '2月3日〜2月4日'
@@ -233,6 +233,24 @@ block content
         - var conferenceDescription = 'SRE NEXT 2022 ONLINEは、信頼性に関するプラクティスに深い関心を持つエンジニアのためのカンファレンスです。SRE NEXT 2022は「SRE DIVERSITY」をテーマとして掲げています。'
         include ../../_includes/_tech_conference_table.pug
 
+        - var conferenceName = 'Nota Tech Conf '
+        - var conferenceDate = '5月17日〜5月19日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://techconf.notainc.com/2022spring'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'Nota株式会社'
+        - var conferenceDescription = 'Nota社が提供するプロダクトの技術領域での取り組みをお伝えするカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Microsoft Build 2022'
+        - var conferenceDate = '5月24日〜5月26日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://news.microsoft.com/build2022/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'Microsoft Corporation'
+        - var conferenceDescription = 'Microsoft社が主催する開発者向けイベント。'
+        include ../../_includes/_tech_conference_table.pug
+
         - var conferenceName = 'AWS Summit Online'
         - var conferenceDate = '5月25日〜5月26日'
         - var conferenceType = 'オンライン'
@@ -251,6 +269,51 @@ block content
         - var conferenceDescription = 'JJUG CCCは毎年2回、春と秋に開催する日本最大のJavaコミュニティイベントです。Java関連の技術や事例に関する良質なセッションが行われ、また異なる分野で活躍するJava技術者が集まる場ともなっているようです。'
         include ../../_includes/_tech_conference_table.pug
 
+        - var conferenceName = 'Agile Tech EXPO 2022'
+        - var conferenceDate = '7月9日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://2022.agiletechexpo.com/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = '一般社団法人 Agile Japan EXPO'
+        - var conferenceDescription = 'Agile Tech EXPO(あじゃてく) は、社会をちょっと良くするテクノロジーを学び、ちょっと先の未来の話をする無料オンラインコミュニティです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Cloud Operator Days Tokyo 2022'
+        - var conferenceDate = '7月27日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://cloudopsdays.com/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'Cloud Operator Days Tokyo 2022 運営事務局'
+        - var conferenceDescription = 'クラウドの運用者に焦点を当てた技術者向けのテックイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'CloudNative Security Conference 2022 by CloudNative Days'
+        - var conferenceDate = '8月5日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://event.cloudnativedays.jp/cnsec2022'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'CloudNative Security Conference 2022 Committee'
+        - var conferenceDescription = 'CloudNative Security Conference 2022 by CloudNative Days (CNSec2022) は、クラウドネイティブセキュリティに特化したテックカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'AWS Startup Community Conference 2022'
+        - var conferenceDate = '8月26日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://aws-startup-community.connpass.com/event/247548/'
+        - var conferenceHashtag = 'AWSStartup'
+        - var conferenceOrganizer = 'AWS Startup Community'
+        - var conferenceDescription = 'AWS Startup Communityが主催する、年に1度の祭典で、日本中のAWSを利用するStartupが、AWSの知見を披露するHubとなるイベントです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Scrum Fest Sendai 2022'
+        - var conferenceDate = '8月26日〜8月27日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://www.scrumfestsendai.org/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'Scrum Fest Sendai 実行委員会'
+        - var conferenceDescription = 'スクラムフェス仙台はアジャイルコミュニティの祭典です。'
+        include ../../_includes/_tech_conference_table.pug
+
         - var conferenceName = 'ISUCON12'
         - var conferenceDate = '8月27日(※オンライン本選日程)'
         - var conferenceType = 'オンライン'
@@ -258,6 +321,15 @@ block content
         - var conferenceHashtag = 'isucon'
         - var conferenceOrganizer = 'ISUCON12 運営実行委員会'
         - var conferenceDescription = 'ISUCONとは「いい感じにスピードアップコンテスト」の略称で、毎回異なるお題(Webサービス)を、決められた条件下で高速化を図るチューニングコンテストです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'PHPカンファレンス沖縄2022'
+        - var conferenceDate = '8月27日'
+        - var conferenceType = 'オフライン'
+        - var conferenceUrl = 'https://phpcon.okinawa.jp/'
+        - var conferenceHashtag = 'phpcon_okinawa'
+        - var conferenceOrganizer = 'PHPカンファレンス沖縄2022 運営スタッフ'
+        - var conferenceDescription = '沖縄で開催されるPHPカンファレンスです。'
         include ../../_includes/_tech_conference_table.pug
 
         - var conferenceName = 'RubyKaigi 2022'
@@ -296,6 +368,33 @@ block content
         - var conferenceDescription = 'Google Cloudに関わるセッションが豊富なイベントです。'
         include ../../_includes/_tech_conference_table.pug
 
+        - var conferenceName = 'DroidKaigi 2022'
+        - var conferenceDate = '10月5日〜7日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://droidkaigi.jp/2022/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'DroidKaigi Committee'
+        - var conferenceDescription = 'DroidKaigiは、Android技術情報の共有とコミュニケーションを目的に開催する、エンジニアが主役のAndroidカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Go Conference mini 2022 Autumn IN SENDAI'
+        - var conferenceDate = '10月15日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://sendaigo.connpass.com/event/256463/'
+        - var conferenceHashtag = 'gocon'
+        - var conferenceOrganizer = 'Gophers Japan'
+        - var conferenceDescription = 'Go Conferenceは、プログラミング言語Goに関するカンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
+        - var conferenceName = 'Vue Fes Japan Online 2022'
+        - var conferenceDate = '10月16日'
+        - var conferenceType = 'オンライン'
+        - var conferenceUrl = 'https://vuefes.jp/2022/'
+        - var conferenceHashtag = ''
+        - var conferenceOrganizer = 'Vue.js Japan User Group'
+        - var conferenceDescription = 'Vue Fes Japan は 2018 年に誕生した日本最大級の Vue.js カンファレンスです。'
+        include ../../_includes/_tech_conference_table.pug
+
         - var conferenceName = 'JavaOne'
         - var conferenceDate = '10月16日〜10月20日(現地時間)'
         - var conferenceType = 'オンライン'
@@ -305,22 +404,31 @@ block content
         - var conferenceDescription = 'Javaをメインテーマにした国際的なカンファレンスです。ラスベガスで行われるOracle CloudWorldにおいて併せて開催されるとのことです。'
         include ../../_includes/_tech_conference_table.pug
 
+        - var conferenceName = 'DjangoCongress JP 2022'
+        - var conferenceDate = '11月12日'
+        - var conferenceType = 'オフライン'
+        - var conferenceUrl = 'https://djangocongress.jp/'
+        - var conferenceHashtag = 'djangocongress'
+        - var conferenceOrganizer = '-'
+        - var conferenceDescription = 'DjangoCongress JPは日本で開催されるDjango Webフレームワークのカンファレンスです。DjangoCongress JPは、Djangoでアプリケーションを開発している人、Djangoを学んでいる人などDjangoに関わる全ての人が参加でき、参加する全ての人がDjangoについて交流し、出会い、学び、楽しみ、深い理解を得ることを目的にしている、とのこと。'
+        include ../../_includes/_tech_conference_table.pug
+
         - var conferenceName = 'Agile Japan 2022'
         - var conferenceDate = '11月15日〜11月16日'
         - var conferenceType = 'オンライン'
         - var conferenceUrl = '未定'
         - var conferenceHashtag = 'AgileJapan'
-        - var conferenceOrganizer = '-'
-        - var conferenceDescription = ''
+        - var conferenceOrganizer = 'Agile Japan 実行委員会'
+        - var conferenceDescription = '日本中にアジャイルの価値を浸透させ、日本の変革を促進することを目指したイベントで、今年のテーマは「Social Impact Agile」です。'
         include ../../_includes/_tech_conference_table.pug
 
-        - var conferenceName = 'DjangoCongress JP 2022'
-        - var conferenceDate = '未定'
-        - var conferenceType = '未定'
-        - var conferenceUrl = 'https://djangocongress.jp/'
-        - var conferenceHashtag = 'djangocongress'
-        - var conferenceOrganizer = '-'
-        - var conferenceDescription = 'DjangoCongress JPは日本で開催されるDjango Webフレームワークのカンファレンスです。DjangoCongress JPは、Djangoでアプリケーションを開発している人、Djangoを学んでいる人などDjangoに関わる全ての人が参加でき、参加する全ての人がDjangoについて交流し、出会い、学び、楽しみ、深い理解を得ることを目的にしている、とのこと。'
+        - var conferenceName = 'AWS re:Invent 2022'
+        - var conferenceDate = '11月28日〜12月2日'
+        - var conferenceType = 'ハイブリッド'
+        - var conferenceUrl = 'https://reinvent.awsevents.com/'
+        - var conferenceHashtag = 'reInvent'
+        - var conferenceOrganizer = 'Amazon Web Services, Inc.'
+        - var conferenceDescription = 'AWSが主催するカンファレンス。基調講演、トレーニング、認定資格取得、1,500以上のテクニカルセッション、パートナーエキスポ、アフターアワーイベントなど、様々なイベントが開催されます。'
         include ../../_includes/_tech_conference_table.pug
 
         - var conferenceName = 'PyCon JP 2022'
