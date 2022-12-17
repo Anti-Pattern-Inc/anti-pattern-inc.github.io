@@ -23,13 +23,25 @@
         "react-hooks",
         "@typescript-eslint",
         "simple-import-sort",
-        "unused-imports"
+        "unused-imports",
+        "prettier"
     ],
     "rules": {
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
         "simple-import-sort/imports": "warn",
         "simple-import-sort/exports": "warn",
-        "unused-imports/no-unused-imports": "warn"
+        "unused-imports/no-unused-imports": "warn",
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "all",
+                "endOfLine": "lf",
+                "semi": false,
+                "singleQuote": true,
+                "printWidth": 80,
+                "tabWidth": 2
+            }
+        ]
     }
 }
