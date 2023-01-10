@@ -1,0 +1,57 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "accident"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "rice",
+    "type": "Text"
+  },
+  "publication_date": {
+    "__TYPE__": "FieldContent",
+    "type": "Timestamp",
+    "value": "2019-04-02T21:00:07Z"
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "paragraph$b9284718-10e1-416f-aece-9c6f3a8b2e23",
+        "name": "paragraph",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "possibly",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "content",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Enim laborum esse in commodo aute pariatur commodo ut non ut aute aliquip. Ullamco ipsum do laboris minim elit magna commodo sunt."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

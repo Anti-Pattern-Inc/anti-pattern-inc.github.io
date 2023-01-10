@@ -1,0 +1,20 @@
+{
+  "_cts": {
+    "news": {}
+  },
+  "slices": {
+    "Paragraph": {
+      "default": {
+        "primary": {},
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
