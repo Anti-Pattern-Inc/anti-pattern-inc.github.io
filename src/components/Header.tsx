@@ -7,10 +7,9 @@ import {
   Squares2X2Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+import Logo from 'images/anti-pattern_logo.svg'
 import Image from 'next/image'
 import { Fragment } from 'react'
-
-import Logo from '../images/anti-pattern_logo.svg'
 
 const resources = [
   {

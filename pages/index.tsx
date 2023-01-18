@@ -1,11 +1,10 @@
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+import Customers from 'components/top/Customers'
+import Hero from 'components/top/Hero'
+import Recruit from 'components/top/Recruit'
+import Services from 'components/top/Services'
 import Head from 'next/head'
-
-import Customers from '../src/components/Customers'
-import Footer from '../src/components/Footer'
-import Header from '../src/components/Header'
-import Hero from '../src/components/Hero'
-import Recruit from '../src/components/Recruit'
-import Services from '../src/components/Services'
 
 export default function Home() {
   return (

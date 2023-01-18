@@ -1,11 +1,10 @@
+import Arrow from 'images/arrow.svg'
+import Engineed from 'images/engineed.svg'
+import Gateway from 'images/gateway.png'
+import Harbors from 'images/harbors.svg'
+import Posse from 'images/posse.svg'
+import Saasus from 'images/saasus_logo_420.svg'
 import Image from 'next/image'
-
-import Arrow from '../images/arrow.svg'
-import Engineed from '../images/engineed.svg'
-import Gateway from '../images/gateway.png'
-import Harbors from '../images/harbors.svg'
-import Posse from '../images/posse.svg'
-import Saasus from '../images/saasus_logo_420.svg'
 
 export default function Services() {
   const images = [

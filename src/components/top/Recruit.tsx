@@ -1,6 +1,5 @@
+import RecruitImg from 'images/top_recruit.jpg'
 import Image from 'next/image'
-
-import RecruitImg from '../images/top_recruit.jpg'
 
 export default function Recruit() {
   return (

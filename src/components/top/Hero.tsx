@@ -1,6 +1,5 @@
+import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
-
-import HeroImg from '../images/hero_img.png'
 
 export default function Hero() {
   return (

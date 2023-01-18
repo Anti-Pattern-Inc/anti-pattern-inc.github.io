@@ -1,7 +1,6 @@
+import Innovation from 'images/innovation_logo.png'
+import Mercury from 'images/mercury_logo.png'
 import Image from 'next/image'
-
-import Innovation from '../images/innovation_logo.png'
-import Mercury from '../images/mercury_logo.png'
 
 export default function Customers() {
   const images = [

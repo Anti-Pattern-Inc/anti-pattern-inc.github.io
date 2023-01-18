@@ -1,9 +1,8 @@
+import BlogLink from 'images/blog-link-icon.png'
+import Facebook from 'images/fb-w.png'
+import Linkedin from 'images/li-w.png'
+import Twitter from 'images/tw-w.png'
 import Image from 'next/image'
-
-import BlogLink from '../images/blog-link-icon.png'
-import Facebook from '../images/fb-w.png'
-import Linkedin from '../images/li-w.png'
-import Twitter from '../images/tw-w.png'
 
 export default function Footer() {
   const images = [
