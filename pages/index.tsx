@@ -1,5 +1,12 @@
 import Head from 'next/head'
 
+import Customers from '../src/components/Customers'
+import Footer from '../src/components/Footer'
+import Header from '../src/components/Header'
+import Hero from '../src/components/Hero'
+import Recruit from '../src/components/Recruit'
+import Services from '../src/components/Services'
+
 export default function Home() {
   return (
     <>
@@ -12,7 +19,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main></main>
+      <main>
+        <Header />
+        <Hero />
+        <Services />
+        <Customers />
+        <Recruit />
+        <Footer />
+      </main>
     </>
   )
 }
