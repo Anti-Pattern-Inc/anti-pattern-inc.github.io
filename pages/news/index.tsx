@@ -37,12 +37,14 @@ export default function News({ pages }: PageProps) {
                   <Link
                     href={`news/${page.uid}`}
                     key={key}
-                    className="border-b-4 border-stone-100 py-4 md:py-10 flex flex-col md:flex-row justify-center gap-4"
+                    className="border-b-4 border-stone-100 py-4 md:py-10 flex flex-col justify-center md:flex-row gap-4"
                   >
                     <span className="text-ap-green text-sm">
                       {getFormattedDate(page.data.publication_date)}
                     </span>
-                    <span className="text-sm font-bold">{page.data.title}</span>
+                    <span className="text-sm font-bold table text-left mx-auto md:mx-0">
+                      {page.data.title}
+                    </span>
                   </Link>
                 )
               })}
