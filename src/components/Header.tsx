@@ -39,7 +39,7 @@ const resources = [
 export default function Header() {
   const router = useRouter()
   const isCurrentPage = (href: string) => {
-    return router.pathname === href
+    return router.pathname.startsWith(href)
   }
   return (
     <Popover className="relative z-50">
