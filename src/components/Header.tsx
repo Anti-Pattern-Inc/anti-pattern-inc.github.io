@@ -9,17 +9,19 @@ import {
 } from '@heroicons/react/24/outline'
 import Logo from 'images/anti-pattern_logo.svg'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 
 const resources = [
   {
     name: 'サービス',
-    href: '#',
+    href: 'services',
     icon: ChartBarIcon,
   },
   {
     name: '会社概要',
-    href: '#',
+    href: 'company',
     icon: CursorArrowRaysIcon,
   },
   {
@@ -29,41 +31,50 @@ const resources = [
   },
   {
     name: 'Hub',
-    href: '#',
+    href: 'hub',
     icon: Squares2X2Icon,
   },
 ]
 
 export default function Header() {
+  const router = useRouter()
+  const isCurrentPage = (href: string) => {
+    return router.pathname === href
+  }
   return (
-    <Popover className="relative bg-white z-50">
+    <Popover className="relative z-50">
       <div className="flex items-center justify-between p-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="/">
+          <Link href="/">
             <span className="sr-only">Anti-Pattern Inc.</span>
             <Image
               src={Logo}
               alt="anti-pattern"
               className="h-6 w-auto sm:h-8"
             />
-          </a>
+          </Link>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
-          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset">
             <span className="sr-only">Open menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </Popover.Button>
         </div>
-        <Popover.Group as="nav" className="hidden space-x-10 md:flex">
+        <Popover.Group as="nav" className="hidden space-x-10 md:flex mt-1">
           {resources.map((resource) => {
             return (
-              <a
+              <Link
                 key={resource.name}
                 href={resource.href}
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className={
+                  'text-base font-medium text-gray-500 hover:text-gray-900 pb-1 ' +
+                  (isCurrentPage(resource.href)
+                    ? 'border-b-2 border-gray-500'
+                    : '')
+                }
               >
                 {resource.name}
-              </a>
+              </Link>
             )
           })}
         </Popover.Group>
@@ -97,7 +108,7 @@ export default function Header() {
                   <Image src={Logo} alt="anti-pattern" className="h-8 w-auto" />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
