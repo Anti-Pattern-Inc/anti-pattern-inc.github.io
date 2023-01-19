@@ -42,7 +42,7 @@ export default function Header() {
     return router.pathname.startsWith(href)
   }
   return (
-    <Popover className="relative z-50">
+    <Popover className="relative z-50 max-w-7xl mx-auto">
       <div className="flex items-center justify-between p-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link href="/">
