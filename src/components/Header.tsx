@@ -24,7 +24,7 @@ const resources = [
   },
   {
     name: 'ニュース',
-    href: '#',
+    href: '/news',
     icon: ShieldCheckIcon,
   },
   {
@@ -55,30 +55,17 @@ export default function Header() {
           </Popover.Button>
         </div>
         <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-          <a
-            href="#"
-            className="text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            サービス
-          </a>
-          <a
-            href="#"
-            className="text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            会社概要
-          </a>
-          <a
-            href="#"
-            className="text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            ニュース
-          </a>
-          <a
-            href="#"
-            className="text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            Hub
-          </a>
+          {resources.map((resource) => {
+            return (
+              <a
+                key={resource.name}
+                href={resource.href}
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                {resource.name}
+              </a>
+            )
+          })}
         </Popover.Group>
         <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
           <a
