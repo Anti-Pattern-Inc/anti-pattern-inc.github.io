@@ -10,6 +10,16 @@ import { createClient } from '../../prismicio'
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
 export default function News({ pages }: PageProps) {
+  const sorted_pages = pages.sort((a, b) => {
+    if (!a.data.publication_date || !b.data.publication_date) {
+      return 0
+    }
+    if (a.data.publication_date > b.data.publication_date) {
+      return -1
+    } else {
+      return 1
+    }
+  })
   return (
     <>
       <Head>
@@ -32,7 +42,7 @@ export default function News({ pages }: PageProps) {
           </div>
           <section className="px-6">
             <div className="flex flex-col mt-12 md:mt-20 pb-12 md:pb-20 border-t-4 border-stone-100">
-              {pages.map((page, key) => {
+              {sorted_pages.map((page, key) => {
                 return (
                   <Link
                     href={`news/${page.uid}`}
