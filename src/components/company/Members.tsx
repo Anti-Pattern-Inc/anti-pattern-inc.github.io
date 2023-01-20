@@ -78,10 +78,10 @@ export default function Members() {
       <h2 className="mt-10 mb-8 font-bold text-ap-green text-2xl text-center">
         MEMBERS
       </h2>
-      <div className="flex flex-wrap gap-16 justify-evenly px-6 max-w-5xl mx-auto">
+      <div className="flex flex-wrap gap-x-16 gap-y-16 sm:gap-y-32 justify-evenly px-6 max-w-5xl mx-auto">
         {members.map((member) => {
           return (
-            <div className="w-64 mb-16" key={member.name}>
+            <div className="w-64 " key={member.name}>
               <div className="relative">
                 <Image src={member.img} alt={member.name} />
                 <h3 className="absolute -bottom-4 ml-0.5 font-bold text-3xl text-ap-green w-32 tracking-widest">

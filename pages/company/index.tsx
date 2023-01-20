@@ -30,7 +30,7 @@ export default function Company() {
         </div>
         <Outline />
         <Members />
-        <section className="pb-28 md:pb-52 mt-16 md:mt-32">
+        <section className="pb-28 md:pb-52 mt-32 md:mt-44">
           <h2 className="mb-6 md:mb-14 font-bold text-ap-green text-2xl text-center">
             CERTIFICATIONS
           </h2>
