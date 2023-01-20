@@ -16,12 +16,12 @@ import { Fragment } from 'react'
 const resources = [
   {
     name: 'サービス',
-    href: 'services',
+    href: '/services',
     icon: ChartBarIcon,
   },
   {
     name: '会社概要',
-    href: 'company',
+    href: '/company',
     icon: CursorArrowRaysIcon,
   },
   {
@@ -31,7 +31,7 @@ const resources = [
   },
   {
     name: 'Hub',
-    href: 'hub',
+    href: '/hub',
     icon: Squares2X2Icon,
   },
 ]
