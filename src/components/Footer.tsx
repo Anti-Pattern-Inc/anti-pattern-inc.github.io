@@ -3,6 +3,7 @@ import Facebook from 'images/fb-w.png'
 import Linkedin from 'images/li-w.png'
 import Twitter from 'images/tw-w.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   const images = [
@@ -54,9 +55,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-10">
-          <a href="#" className="text-white text-sm">
+          <Link href="/legal" className="text-white text-sm">
             プライバシーポリシー
-          </a>
+          </Link>
           <p className="mt-5 text-xs text-gray-600">© 2022 Anti-Pattern Inc.</p>
         </div>
       </div>
