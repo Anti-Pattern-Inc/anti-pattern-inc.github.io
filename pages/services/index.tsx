@@ -80,7 +80,7 @@ export default function Services() {
           <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
             BUSINESS CONCEPT
           </h2>
-          <div className="max-w-md lg:max-w-5xl mx-auto px-10 lg:px-20">
+          <div className="max-w-md lg:max-w-6xl mx-auto px-10">
             <Image
               src={ServiceImg}
               alt="ビジネスコンセプト"
