@@ -1,7 +1,7 @@
 import RecruitImg from 'images/top_recruit.jpg'
 import Image from 'next/image'
 
-export default function Recruit() {
+export default function Recruit({ lang }: { lang: string }) {
   return (
     <div className="relative">
       <div className="absolute inset-0">
@@ -15,7 +15,9 @@ export default function Recruit() {
         <h2 className="text-2xl font-bold text-white text-center">RECRUIT</h2>
 
         <p className="mt-6 text-white font-bold text-center pb-5">
-          私たちは一緒に理念達成に向けて活動してくれる仲間を探しています。
+          {lang === 'ja'
+            ? '私たちは一緒に理念達成に向けて活動してくれる仲間を探しています。'
+            : 'We are looking for partners who will work together to achieve our ideals.'}
         </p>
         <div className="flex justify-center">
           <a

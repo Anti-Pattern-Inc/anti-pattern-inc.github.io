@@ -3,6 +3,7 @@ import {
   Bars3Icon,
   ChartBarIcon,
   CursorArrowRaysIcon,
+  GlobeAltIcon,
   ShieldCheckIcon,
   Squares2X2Icon,
   XMarkIcon,
@@ -13,37 +14,52 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 
-const resources = [
-  {
-    name: 'サービス',
-    href: '/services',
-    icon: ChartBarIcon,
-  },
-  {
-    name: '会社概要',
-    href: '/company',
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: 'ニュース',
-    href: '/news',
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: 'Hub',
-    href: '/hub',
-    icon: Squares2X2Icon,
-  },
-]
-
 export default function Header() {
-  const router = useRouter()
+  const { pathname, locale, asPath } = useRouter()
   const isCurrentPage = (href: string) => {
-    return router.pathname.startsWith(href)
+    return pathname.startsWith(href)
   }
+  function LanguageSwitchButton() {
+    return (
+      <Link
+        href={asPath}
+        locale={locale === 'ja' ? 'en' : 'ja'}
+        type="button"
+        className="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-ap-green focus:ring-offset-2"
+      >
+        <GlobeAltIcon
+          className="h-5 w-5 text-gray-700 mr-1"
+          aria-hidden="true"
+        />
+        {locale === 'ja' ? 'English' : '日本語'}
+      </Link>
+    )
+  }
+  const resources = [
+    {
+      name: locale === 'ja' ? 'サービス' : 'Services',
+      href: '/services',
+      icon: ChartBarIcon,
+    },
+    {
+      name: locale === 'ja' ? '会社概要' : 'Company',
+      href: '/company',
+      icon: CursorArrowRaysIcon,
+    },
+    {
+      name: locale === 'ja' ? 'ニュース' : 'News',
+      href: '/news',
+      icon: ShieldCheckIcon,
+    },
+    {
+      name: 'Hub',
+      href: '/hub',
+      icon: Squares2X2Icon,
+    },
+  ]
   return (
     <Popover className="relative z-50 max-w-7xl mx-auto">
-      <div className="flex items-center justify-between p-6 md:justify-start md:space-x-10">
+      <div className="flex items-center justify-between p-6 lg:justify-start lg:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link href="/">
             <span className="sr-only">Anti-Pattern Inc.</span>
@@ -54,13 +70,16 @@ export default function Header() {
             />
           </Link>
         </div>
-        <div className="-my-2 -mr-2 md:hidden">
-          <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset">
-            <span className="sr-only">Open menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-          </Popover.Button>
+        <div className="lg:hidden flex items-center gap-5">
+          <LanguageSwitchButton />
+          <div className="-my-2 -mr-2">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset">
+              <span className="sr-only">Open menu</span>
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            </Popover.Button>
+          </div>
         </div>
-        <Popover.Group as="nav" className="hidden space-x-10 md:flex mt-1">
+        <Popover.Group as="nav" className="hidden space-x-10 lg:flex mt-1">
           {resources.map((resource) => {
             return (
               <Link
@@ -78,13 +97,16 @@ export default function Header() {
             )
           })}
         </Popover.Group>
-        <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-          <a
-            href="#"
-            className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-full border border-transparent bg-ap-green px-4 py-2 text-sm text-white shadow-sm"
-          >
-            お問い合わせ
-          </a>
+        <div className="hidden items-center justify-end lg:flex gap-6 lg:flex-1 lg:w-0">
+          <LanguageSwitchButton />
+          <div className="block">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd0kJB1wJCNdXCi9NDz9OTKuuBllPPylh_jTCNaVZfSdra2RQ/viewform"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-transparent bg-ap-green px-4 py-2 text-sm text-white shadow-sm"
+            >
+              {locale === 'ja' ? 'お問い合わせ' : 'Contact'}
+            </a>
+          </div>
         </div>
       </div>
 
@@ -99,7 +121,7 @@ export default function Header() {
       >
         <Popover.Panel
           focus
-          className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+          className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition lg:hidden"
         >
           <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="px-5 pt-5 pb-6">
@@ -117,7 +139,7 @@ export default function Header() {
               <div className="mt-6">
                 <nav className="grid grid-cols-1 gap-7">
                   {resources.map((resource) => (
-                    <a
+                    <Link
                       key={resource.name}
                       href={resource.href}
                       className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
@@ -128,20 +150,22 @@ export default function Header() {
                       <div className="ml-4 text-base font-medium text-gray-900">
                         {resource.name}
                       </div>
-                    </a>
+                    </Link>
                   ))}
                 </nav>
               </div>
               <div className="mt-6">
                 <a
-                  href="#"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd0kJB1wJCNdXCi9NDz9OTKuuBllPPylh_jTCNaVZfSdra2RQ/viewform"
                   className="flex w-full items-center justify-center rounded-full border border-transparent bg-ap-green px-4 py-2 text-base font-medium text-white shadow-sm"
                 >
-                  お問い合わせ
+                  {locale === 'ja' ? 'お問い合わせ' : 'Contact'}
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   <Link href="/legal" className="text-ap-green">
-                    プライバシーポリシー
+                    {locale === 'ja'
+                      ? 'プライバシーポリシー'
+                      : 'Privacy Policy'}
                   </Link>
                 </p>
               </div>

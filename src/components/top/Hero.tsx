@@ -1,7 +1,7 @@
 import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
 
-export default function Hero() {
+export default function Hero({ lang }: { lang: string }) {
   return (
     <div className="relative h-[520px]">
       <div className="absolute inset-0">
@@ -9,10 +9,12 @@ export default function Hero() {
       </div>
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-52">
         <p className="mb-4 text-3xl font-bold text-center">
-          日本のソフトウェアエンジニアを
+          {lang === 'ja'
+            ? '日本のソフトウェアエンジニアを'
+            : 'BRINGING JAPANESE SOFTWARE ENGINEERING TO'}
         </p>
         <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-center">
-          憧れの職業へ
+          {lang === 'ja' ? '憧れの職業へ' : 'THE NEXT ASPIRATIONAL OCCUPATION'}
         </h1>
       </div>
     </div>

@@ -5,8 +5,9 @@ import Harbors from 'images/harbors.svg'
 import Posse from 'images/posse.svg'
 import Saasus from 'images/saasus_logo_420.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 
-export default function Services() {
+export default function Services({ lang }: { lang: string }) {
   const images = [
     { src: Gateway, alt: 'gateway' },
     { src: Engineed, alt: 'engineed' },
@@ -21,10 +22,19 @@ export default function Services() {
           OUR SERVICES
         </h2>
         <p className="mt-5 text-center mb-10 font-bold">
-          <span>理念実現に向けて</span>
-          <span className="hidden md:inline">、</span>
-          <br className="md:hidden" />
-          <span>様々な事業を展開しています。</span>
+          {lang === 'ja' ? (
+            <>
+              <span>理念実現に向けて</span>
+              <span className="hidden md:inline">、</span>
+              <br className="md:hidden" />
+              <span>様々な事業を展開しています</span>
+            </>
+          ) : (
+            <span>
+              We are working to achieve our ideals through various business
+              activities.
+            </span>
+          )}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 max-w-3xl mx-auto">
           {images.map((img, key) => {
@@ -39,13 +49,13 @@ export default function Services() {
           })}
         </div>
         <div>
-          <a
-            href="#"
+          <Link
+            href="/services"
             className="text-ap-green font-bold mx-auto table mt-10 px-1 pb-1 border-b-[1px] border-ap-green"
           >
             <span>VIEW DETAILS</span>
             <Image src={Arrow} alt="→" className="inline w-8 pb-1 ml-1" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
