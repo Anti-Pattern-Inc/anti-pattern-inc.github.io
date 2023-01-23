@@ -1,4 +1,3 @@
-import * as prismicH from '@prismicio/helpers'
 import { SliceZone } from '@prismicio/react'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
@@ -77,8 +76,30 @@ export async function getStaticPaths() {
 
   const pages = await client.getAllByType('news')
 
+  type Path = {
+    params: {
+      uid: string
+    }
+    locale: string
+  }
+  const paths: Array<Path> = []
+  pages.forEach((page) => {
+    paths.push({
+      params: {
+        uid: page.uid,
+      },
+      locale: 'en',
+    })
+    paths.push({
+      params: {
+        uid: page.uid,
+      },
+      locale: 'ja',
+    })
+  })
+
   return {
-    paths: pages.map((page) => prismicH.asLink(page)),
+    paths: paths,
     fallback: false,
   }
 }
