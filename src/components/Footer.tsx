@@ -4,24 +4,25 @@ import Linkedin from 'images/li-w.png'
 import Twitter from 'images/tw-w.png'
 import Image from 'next/image'
 
-export default function Footer() {
-  const images = [
-    {
-      src: Facebook,
-      alt: 'Facebook',
-      href: 'https://www.facebook.com/people/Anti-Pattern-Inc/100039176570521/',
-    },
-    {
-      src: Twitter,
-      alt: 'Twitter',
-      href: 'https://twitter.com/antipatterninc',
-    },
-    {
-      src: Linkedin,
-      alt: 'LinkedIn',
-      href: 'https://www.linkedin.com/company/anti-pattern/',
-    },
-  ]
+const images = [
+  {
+    src: Facebook,
+    alt: 'Facebook',
+    href: 'https://www.facebook.com/people/Anti-Pattern-Inc/100039176570521/',
+  },
+  {
+    src: Twitter,
+    alt: 'Twitter',
+    href: 'https://twitter.com/antipatterninc',
+  },
+  {
+    src: Linkedin,
+    alt: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/anti-pattern/',
+  },
+] as const
+
+const Footer = () => {
   return (
     <div className="bg-ap-green w-screen">
       <div className="pt-10 pb-20 px-6 flex flex-wrap justify-between max-w-7xl mx-auto">
@@ -63,3 +64,5 @@ export default function Footer() {
     </div>
   )
 }
+
+export { Footer }

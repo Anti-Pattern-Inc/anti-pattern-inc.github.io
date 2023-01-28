@@ -1,5 +1,5 @@
-import Footer from 'components/Footer'
-import Header from 'components/Header'
+import { Footer } from 'components/Footer'
+import { Header } from 'components/Header'
 import { getFormattedDate } from 'functions'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
