@@ -1,5 +1,4 @@
-import { Footer } from 'components/Footer'
-import { Header } from 'components/Header'
+import { BaseLayout } from 'components/BaseLayout'
 import { Customers } from 'components/top/Customers'
 import { Hero } from 'components/top/Hero'
 import { Recruit } from 'components/top/Recruit'
@@ -18,14 +17,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main>
-        <Header />
+      <BaseLayout>
         <Hero />
         <Services />
         <Customers />
         <Recruit />
-        <Footer />
-      </main>
+      </BaseLayout>
     </>
   )
 }
