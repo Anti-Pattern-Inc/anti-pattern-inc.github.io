@@ -32,9 +32,9 @@ const resources = [
     href: '#',
     icon: Squares2X2Icon,
   },
-]
+] as const
 
-export default function Header() {
+const Header = () => {
   return (
     <Popover className="relative bg-white z-50">
       <div className="flex items-center justify-between p-6 md:justify-start md:space-x-10">
@@ -141,3 +141,5 @@ export default function Header() {
     </Popover>
   )
 }
+
+export { Header }

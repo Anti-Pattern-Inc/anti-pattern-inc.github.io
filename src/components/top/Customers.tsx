@@ -2,11 +2,12 @@ import Innovation from 'images/innovation_logo.png'
 import Mercury from 'images/mercury_logo.png'
 import Image from 'next/image'
 
-export default function Customers() {
-  const images = [
-    { src: Innovation, alt: 'innovation' },
-    { src: Mercury, alt: 'mercury' },
-  ]
+const images = [
+  { src: Innovation, alt: 'innovation' },
+  { src: Mercury, alt: 'mercury' },
+] as const
+
+const Customers = () => {
   return (
     <div className="py-24 px-6 sm:py-32 bg-slate-50">
       <h2 className="text-2xl font-bold text-center mb-10 text-ap-green">
@@ -27,3 +28,5 @@ export default function Customers() {
     </div>
   )
 }
+
+export { Customers }

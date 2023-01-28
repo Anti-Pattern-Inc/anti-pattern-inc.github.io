@@ -1,9 +1,9 @@
-import Footer from 'components/Footer'
-import Header from 'components/Header'
-import Customers from 'components/top/Customers'
-import Hero from 'components/top/Hero'
-import Recruit from 'components/top/Recruit'
-import Services from 'components/top/Services'
+import { Footer } from 'components/Footer'
+import { Header } from 'components/Header'
+import { Customers } from 'components/top/Customers'
+import { Hero } from 'components/top/Hero'
+import { Recruit } from 'components/top/Recruit'
+import { Services } from 'components/top/Services'
 import Head from 'next/head'
 
 export default function Home() {

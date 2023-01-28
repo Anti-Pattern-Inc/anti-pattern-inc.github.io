@@ -1,7 +1,7 @@
 import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
 
-export default function Hero() {
+const Hero = () => {
   return (
     <div className="relative h-[520px]">
       <div className="absolute inset-0">
@@ -18,3 +18,5 @@ export default function Hero() {
     </div>
   )
 }
+
+export { Hero }
