@@ -17,26 +17,28 @@ import Subscription from 'images/subscription.svg'
 import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
-const SaasusConsulting = () => {
-  type props = {
-    src: string | StaticImageData
-    alt: string
-    title: string
-    description: string
-  }
-  const Service = ({ props }: { props: props }) => {
-    return (
-      <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 max-w-3xl lg:max-w-5xl mx-auto">
-        <div className="mx-auto flex justify-center items-center border-[1px] col-span-1 w-48 md:w-full h-52 md:h-64">
-          <Image src={props.src} alt={props.alt} className="w-32 md:w-48" />
-        </div>
-        <div className="flex flex-col justify-center col-span-1">
-          <h3 className="font-bold text-sm">{props.title}</h3>
-          <p className="text-sm mt-5 leading-6">{props.description}</p>
-        </div>
+type Props = {
+  src: string | StaticImageData
+  alt: string
+  title: string
+  description: string
+}
+
+const Service = ({ props }: { props: Props }) => {
+  return (
+    <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 max-w-3xl lg:max-w-5xl mx-auto">
+      <div className="mx-auto flex justify-center items-center border-[1px] col-span-1 w-48 md:w-full h-52 md:h-64">
+        <Image src={props.src} alt={props.alt} className="w-32 md:w-48" />
       </div>
-    )
-  }
+      <div className="flex flex-col justify-center col-span-1">
+        <h3 className="font-bold text-sm">{props.title}</h3>
+        <p className="text-sm mt-5 leading-6">{props.description}</p>
+      </div>
+    </div>
+  )
+}
+
+const SaasusConsulting = () => {
   return (
     <>
       <Head>
