@@ -77,7 +77,7 @@ const OutlineFrag = ({ outline }: Props) => {
 const Outline = () => {
   return (
     <section className="px-6">
-      <h2 className="mt-10 mb-8 font-bold text-ap-green text-2xl text-center">
+      <h2 className="pt-10 mb-8 font-bold text-ap-green text-2xl text-center">
         OUTLINE
       </h2>
       <div className="lg:grid grid-cols-2 gap-16 max-w-2xl lg:max-w-5xl mx-auto">
