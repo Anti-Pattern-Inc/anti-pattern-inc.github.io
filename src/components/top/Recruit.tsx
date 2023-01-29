@@ -1,7 +1,7 @@
 import RecruitImg from 'images/top_recruit.jpg'
 import Image from 'next/image'
 
-export default function Recruit() {
+const Recruit = () => {
   return (
     <div className="relative">
       <div className="absolute inset-0">
@@ -32,3 +32,5 @@ export default function Recruit() {
     </div>
   )
 }
+
+export { Recruit }

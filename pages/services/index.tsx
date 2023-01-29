@@ -1,5 +1,5 @@
-import Footer from 'components/Footer'
-import Header from 'components/Header'
+import { Footer } from 'components/Footer'
+import { Header } from 'components/Header'
 import ServiceImg from 'images/anti-pattern_service_2022.png'
 import ServiceImgSp from 'images/anti-pattern_service_2022-sp.png'
 import Engineed from 'images/engineed.svg'
