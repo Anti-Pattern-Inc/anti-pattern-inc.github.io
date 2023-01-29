@@ -14,12 +14,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 
-export default function Header() {
+const Header = () => {
   const { pathname, locale, asPath } = useRouter()
   const isCurrentPage = (href: string) => {
     return pathname.startsWith(href)
   }
-  function LanguageSwitchButton() {
+
+  const LanguageSwitchButton = () => {
     return (
       <Link
         href={asPath}
@@ -35,6 +36,7 @@ export default function Header() {
       </Link>
     )
   }
+
   const resources = [
     {
       name: locale === 'ja' ? 'サービス' : 'Services',
@@ -56,7 +58,8 @@ export default function Header() {
       href: '/hub',
       icon: Squares2X2Icon,
     },
-  ]
+  ] as const
+
   return (
     <Popover className="relative z-50 max-w-7xl mx-auto">
       <div className="flex items-center justify-between p-6 lg:justify-start lg:space-x-10">
@@ -176,3 +179,5 @@ export default function Header() {
     </Popover>
   )
 }
+
+export { Header }

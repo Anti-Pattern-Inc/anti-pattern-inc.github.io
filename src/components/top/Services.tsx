@@ -7,14 +7,15 @@ import Saasus from 'images/saasus_logo_420.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Services({ lang }: { lang: string }) {
-  const images = [
-    { src: Gateway, alt: 'gateway' },
-    { src: Engineed, alt: 'engineed' },
-    { src: Posse, alt: 'posse' },
-    { src: Harbors, alt: 'harbors' },
-    { src: Saasus, alt: 'saasus' },
-  ]
+const images = [
+  { src: Gateway, alt: 'gateway' },
+  { src: Engineed, alt: 'engineed' },
+  { src: Posse, alt: 'posse' },
+  { src: Harbors, alt: 'harbors' },
+  { src: Saasus, alt: 'saasus' },
+] as const
+
+const Services = ({ lang }: { lang: string }) => {
   return (
     <div className="bg-slate-50 px-10">
       <div className="mx-auto max-w-7xl pt-24 px-6 sm:pt-32 lg:px-8">
@@ -61,3 +62,5 @@ export default function Services({ lang }: { lang: string }) {
     </div>
   )
 }
+
+export { Services }
