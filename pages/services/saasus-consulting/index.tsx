@@ -1,5 +1,5 @@
-import Footer from 'components/Footer'
-import Header from 'components/Header'
+import { Footer } from 'components/Footer'
+import { Header } from 'components/Header'
 import AwsPartnerNetwork from 'images/aws-partnernetwork-consluting-paetner-select-badge.jpg'
 import Ctoa from 'images/ctoa.svg'
 import Options from 'images/options.svg'

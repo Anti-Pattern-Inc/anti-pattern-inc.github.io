@@ -1,4 +1,4 @@
-export function getFormattedDate(date: string | null) {
+const getFormattedDate = (date: string | null) => {
   if (!date) return ''
   const d = new Date(date)
   const pad = (num: number) => {
@@ -6,3 +6,5 @@ export function getFormattedDate(date: string | null) {
   }
   return `${d.getFullYear()}.${pad(d.getMonth() + 1)}.${pad(d.getDate())}`
 }
+
+export { getFormattedDate }

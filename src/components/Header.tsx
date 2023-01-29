@@ -34,9 +34,9 @@ const resources = [
     href: '/hub',
     icon: Squares2X2Icon,
   },
-]
+] as const
 
-export default function Header() {
+const Header = () => {
   const router = useRouter()
   const isCurrentPage = (href: string) => {
     return router.pathname.startsWith(href)
@@ -152,3 +152,5 @@ export default function Header() {
     </Popover>
   )
 }
+
+export { Header }

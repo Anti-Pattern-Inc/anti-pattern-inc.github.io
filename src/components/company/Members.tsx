@@ -4,9 +4,17 @@ import Shinoda from 'images/shinoda.jpg'
 import Tsukamoto from 'images/tsukamoto.jpg'
 import Yagasaki from 'images/yagasaki.jpg'
 import Yamazaki from 'images/yamazaki.jpg'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
-const members = [
+type Member = {
+  img: StaticImageData
+  name: string
+  en_name: string
+  position: string
+  content: string
+}
+
+const members: ReadonlyArray<Member> = [
   {
     img: Ozasa,
     name: '小笹 佑京',
@@ -72,7 +80,7 @@ const members = [
   },
 ]
 
-export default function Members() {
+const Members = () => {
   return (
     <section className="mt-28">
       <h2 className="mt-10 mb-8 font-bold text-ap-green text-2xl text-center">
@@ -100,3 +108,5 @@ export default function Members() {
     </section>
   )
 }
+
+export { Members }
