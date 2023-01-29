@@ -1,6 +1,6 @@
 import { SliceZone } from '@prismicio/react'
-import Footer from 'components/Footer'
-import Header from 'components/Header'
+import { Footer } from 'components/Footer'
+import { Header } from 'components/Header'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 
