@@ -12,51 +12,52 @@ import ServiceLinkIcon from 'images/service-link-icon.png'
 import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
-const Services = () => {
-  type props = {
-    src: string | StaticImageData
-    name: string
-    ja_name: string
-    description: string
-    url: string | null
-    blank: boolean
-  }
-  function Service({ props }: { props: props }) {
-    return (
-      <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 mt-6 mx-6">
-        <div className="flex justify-center items-center border-[1px] h-[calc(50vw)] max-h-64 px-5 col-span-1">
-          <Image src={props.src} alt={props.name} className="w-48" />
-        </div>
-        <div className="flex flex-col justify-center col-span-1">
-          <h4 className="flex flex-wrap items-end">
-            <span className="font-bold text-xl mr-4">{props.name}</span>
-            <span className="font-bold text-sm">{props.ja_name}</span>
-          </h4>
-          <p className="text-sm my-4">{props.description}</p>
-          {props.url && (
-            <p className="text-ap-green">
-              <a
-                href={props.url}
-                className="border-b-[1px] border-ap-green pb-1 px-1"
-                target={props.blank ? '_blank' : '_self'}
-                rel="noreferrer"
-              >
-                <span>SERVICE SITE</span>
-                {props.blank && (
-                  <Image
-                    src={ServiceLinkIcon}
-                    alt="サイトリンク"
-                    className="w-3 inline mb-1 ml-1"
-                  />
-                )}
-              </a>
-            </p>
-          )}
-        </div>
-      </div>
-    )
-  }
+type Props = {
+  src: string | StaticImageData
+  name: string
+  ja_name: string
+  description: string
+  url: string | null
+  blank: boolean
+}
 
+const Service = ({ props }: { props: Props }) => {
+  return (
+    <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 mt-6 mx-6">
+      <div className="flex justify-center items-center border-[1px] h-[calc(50vw)] max-h-64 px-5 col-span-1">
+        <Image src={props.src} alt={props.name} className="w-48" />
+      </div>
+      <div className="flex flex-col justify-center col-span-1">
+        <h4 className="flex flex-wrap items-end">
+          <span className="font-bold text-xl mr-4">{props.name}</span>
+          <span className="font-bold text-sm">{props.ja_name}</span>
+        </h4>
+        <p className="text-sm my-4">{props.description}</p>
+        {props.url && (
+          <p className="text-ap-green">
+            <a
+              href={props.url}
+              className="border-b-[1px] border-ap-green pb-1 px-1"
+              target={props.blank ? '_blank' : '_self'}
+              rel="noreferrer"
+            >
+              <span>SERVICE SITE</span>
+              {props.blank && (
+                <Image
+                  src={ServiceLinkIcon}
+                  alt="サイトリンク"
+                  className="w-3 inline mb-1 ml-1"
+                />
+              )}
+            </a>
+          </p>
+        )}
+      </div>
+    </div>
+  )
+}
+
+const Services = () => {
   return (
     <>
       <Head>
