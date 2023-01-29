@@ -8,7 +8,7 @@ import { components } from '../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function Legal({ legal_policy }: PageProps) {
+const Legal = ({ legal_policy }: PageProps) => {
   return (
     <>
       <Head>
@@ -56,3 +56,5 @@ export async function getStaticProps({ previewData }: GetStaticPropsContext) {
     },
   }
 }
+
+export default Legal
