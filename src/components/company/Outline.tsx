@@ -3,7 +3,7 @@ type OutlineContent = {
   content: string
 }
 
-const outline1: Array<OutlineContent> = [
+const outline1: ReadonlyArray<OutlineContent> = [
   {
     title: '会社名',
     content: '株式会社アンチパターン Anti-Pattern Inc.',
@@ -26,7 +26,7 @@ const outline1: Array<OutlineContent> = [
   },
 ]
 
-const outline2: Array<OutlineContent> = [
+const outline2: ReadonlyArray<OutlineContent> = [
   {
     title: '社員数',
     content: '25名 (2021年8月1日時点)',
@@ -49,7 +49,11 @@ const outline2: Array<OutlineContent> = [
   },
 ]
 
-const OutlineFrag = ({ outline }: { outline: Array<OutlineContent> }) => {
+type Props = {
+  outline: ReadonlyArray<OutlineContent>
+}
+
+const OutlineFrag = ({ outline }: Props) => {
   return (
     <div>
       {outline.map((item, key) => {

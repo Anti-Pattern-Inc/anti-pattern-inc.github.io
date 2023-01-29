@@ -4,9 +4,17 @@ import Shinoda from 'images/shinoda.jpg'
 import Tsukamoto from 'images/tsukamoto.jpg'
 import Yagasaki from 'images/yagasaki.jpg'
 import Yamazaki from 'images/yamazaki.jpg'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
-const members = [
+type Member = {
+  img: StaticImageData
+  name: string
+  en_name: string
+  position: string
+  content: string
+}
+
+const members: ReadonlyArray<Member> = [
   {
     img: Ozasa,
     name: '小笹 佑京',
