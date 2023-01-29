@@ -17,14 +17,14 @@ import Subscription from 'images/subscription.svg'
 import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
-export default function SaasusConsulting() {
+const SaasusConsulting = () => {
   type props = {
     src: string | StaticImageData
     alt: string
     title: string
     description: string
   }
-  function Service({ props }: { props: props }) {
+  const Service = ({ props }: { props: props }) => {
     return (
       <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 max-w-3xl lg:max-w-5xl mx-auto">
         <div className="mx-auto flex justify-center items-center border-[1px] col-span-1 w-48 md:w-full h-52 md:h-64">
@@ -342,3 +342,5 @@ export default function SaasusConsulting() {
     </>
   )
 }
+
+export default SaasusConsulting
