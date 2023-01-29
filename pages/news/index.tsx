@@ -1,8 +1,8 @@
 import { BaseLayout } from 'components/BaseLayout'
-import { getFormattedDate } from 'functions'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import { getFormattedDate } from 'utils/date'
 
 import { createClient } from '../../prismicio'
 
