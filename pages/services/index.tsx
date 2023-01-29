@@ -12,7 +12,7 @@ import ServiceLinkIcon from 'images/service-link-icon.png'
 import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
-export default function Services() {
+const Services = () => {
   type props = {
     src: string | StaticImageData
     name: string
@@ -184,3 +184,5 @@ export default function Services() {
     </>
   )
 }
+
+export default Services
