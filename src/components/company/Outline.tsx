@@ -2,6 +2,7 @@ type OutlineContent = {
   title: string
   content: string
 }
+
 const outline1: Array<OutlineContent> = [
   {
     title: '会社名',
@@ -24,6 +25,7 @@ const outline1: Array<OutlineContent> = [
     content: '03-6885-6136',
   },
 ]
+
 const outline2: Array<OutlineContent> = [
   {
     title: '社員数',
@@ -46,7 +48,8 @@ const outline2: Array<OutlineContent> = [
     content: '13-ユ-311813',
   },
 ]
-function OutlineFrag({ outline }: { outline: Array<OutlineContent> }) {
+
+const OutlineFrag = ({ outline }: { outline: Array<OutlineContent> }) => {
   return (
     <div>
       {outline.map((item, key) => {
@@ -67,7 +70,7 @@ function OutlineFrag({ outline }: { outline: Array<OutlineContent> }) {
   )
 }
 
-export default function Outline() {
+const Outline = () => {
   return (
     <section className="px-6">
       <h2 className="mt-10 mb-8 font-bold text-ap-green text-2xl text-center">
@@ -84,3 +87,5 @@ export default function Outline() {
     </section>
   )
 }
+
+export { Outline }

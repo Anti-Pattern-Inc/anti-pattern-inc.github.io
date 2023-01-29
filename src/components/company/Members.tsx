@@ -72,7 +72,7 @@ const members = [
   },
 ]
 
-export default function Members() {
+const Members = () => {
   return (
     <section className="mt-28">
       <h2 className="mt-10 mb-8 font-bold text-ap-green text-2xl text-center">
@@ -100,3 +100,5 @@ export default function Members() {
     </section>
   )
 }
+
+export { Members }

@@ -1,5 +1,5 @@
-import Members from 'components/company/Members'
-import Outline from 'components/company/Outline'
+import { Members } from 'components/company/Members'
+import { Outline } from 'components/company/Outline'
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
 import AwsPartner from 'images/aws-partnernetwork-partner-select-tier-services-badge.png'
