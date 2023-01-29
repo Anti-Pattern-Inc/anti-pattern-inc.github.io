@@ -6,7 +6,7 @@ import AwsPartner from 'images/aws-partnernetwork-partner-select-tier-services-b
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Company() {
+const Company = () => {
   return (
     <>
       <Head>
@@ -45,3 +45,5 @@ export default function Company() {
     </>
   )
 }
+
+export default Company
