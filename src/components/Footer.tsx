@@ -4,6 +4,7 @@ import Linkedin from 'images/li-w.png'
 import Twitter from 'images/tw-w.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const images = [
   {
@@ -24,6 +25,7 @@ const images = [
 ] as const
 
 const Footer = () => {
+  const { locale } = useRouter()
   return (
     <div className="bg-ap-green w-screen">
       <div className="pt-10 pb-20 px-6 flex flex-wrap justify-between max-w-7xl mx-auto">
@@ -33,7 +35,9 @@ const Footer = () => {
             target={'_blank'}
             rel="noreferrer"
           >
-            <span className="text-white text-sm">エンジニアブログ</span>
+            <span className="text-white text-sm">
+              {locale === 'ja' ? 'エンジニアブログ' : 'Engineer Blog'}
+            </span>
             <span>
               <Image
                 src={BlogLink}
@@ -57,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="pt-10">
           <Link href="/legal" className="text-white text-sm">
-            プライバシーポリシー
+            {locale === 'ja' ? 'プライバシーポリシー' : 'Privacy Policy'}
           </Link>
           <p className="mt-5 text-xs text-gray-600">© 2022 Anti-Pattern Inc.</p>
         </div>
