@@ -140,9 +140,9 @@ const Header = () => {
                   お問い合わせ
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  <a href="#" className="text-ap-green">
+                  <Link href="/legal" className="text-ap-green">
                     プライバシーポリシー
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

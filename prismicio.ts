@@ -18,6 +18,10 @@ const routes = [
     type: 'news',
     path: '/news/:uid',
   },
+  {
+    type: 'legal_policy',
+    path: '/legal',
+  },
 ]
 
 /**

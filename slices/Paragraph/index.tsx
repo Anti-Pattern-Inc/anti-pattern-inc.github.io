@@ -10,7 +10,12 @@ const Paragraph = ({ slice }: ParagraphProps) => (
     <div>
       {slice.items.map((item, key) => {
         return (
-          <PrismicRichText field={item.content} key={key}></PrismicRichText>
+          <div
+            key={key}
+            className={key > 0 ? 'border-t-4 border-stone-100 mt-16 pt-12' : ''}
+          >
+            <PrismicRichText field={item.content}></PrismicRichText>
+          </div>
         )
       })}
     </div>

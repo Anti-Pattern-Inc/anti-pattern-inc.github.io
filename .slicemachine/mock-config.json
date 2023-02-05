@@ -1,6 +1,7 @@
 {
   "_cts": {
-    "news": {}
+    "news": {},
+    "legal_policy": {}
   },
   "slices": {
     "Paragraph": {
