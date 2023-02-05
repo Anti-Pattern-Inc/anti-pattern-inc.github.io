@@ -26,6 +26,14 @@
           "placeholder": ""
         }
       },
+      "hero_image": {
+        "type": "Image",
+        "config": {
+          "label": "hero image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

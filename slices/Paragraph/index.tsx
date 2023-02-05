@@ -6,9 +6,8 @@ import type { SliceComponentProps } from '@prismicio/react'
 export type ParagraphProps = SliceComponentProps<Content.ParagraphSlice>
 
 const Paragraph = ({ slice }: ParagraphProps) => (
-  <section>
-    <h3 className="font-bold">{slice.primary.title}</h3>
-    <div className="flex flex-col">
+  <section className="paragraph">
+    <div>
       {slice.items.map((item, key) => {
         return (
           <PrismicRichText field={item.content} key={key}></PrismicRichText>

@@ -24,40 +24,42 @@ const images = [
 
 const Footer = () => {
   return (
-    <div className="bg-ap-green pt-10 pb-20 px-6 flex flex-wrap justify-between">
-      <div className="pr-6">
-        <a
-          href="https://tech.anti-pattern.co.jp/"
-          target={'_blank'}
-          rel="noreferrer"
-        >
-          <span className="text-white text-sm">エンジニアブログ</span>
-          <span>
-            <Image
-              src={BlogLink}
-              alt="blog"
-              className="w-2 inline ml-1 pb-0.5"
-            />
-          </span>
-        </a>
-        <div className="flex flex-wrap gap-5 mt-5">
-          {images.map((img, key) => {
-            return (
-              <a href={img.href} target="_blank" key={key} rel="noreferrer">
-                <span>
-                  <Image src={img.src} alt={img.alt} className="w-6 inline" />
-                </span>
-                <span className="text-white text-xs ml-2">{img.alt}</span>
-              </a>
-            )
-          })}
+    <div className="bg-ap-green w-screen">
+      <div className="pt-10 pb-20 px-6 flex flex-wrap justify-between max-w-7xl mx-auto">
+        <div className="pr-6">
+          <a
+            href="https://tech.anti-pattern.co.jp/"
+            target={'_blank'}
+            rel="noreferrer"
+          >
+            <span className="text-white text-sm">エンジニアブログ</span>
+            <span>
+              <Image
+                src={BlogLink}
+                alt="blog"
+                className="w-2 inline ml-1 pb-0.5"
+              />
+            </span>
+          </a>
+          <div className="flex flex-wrap gap-5 mt-5">
+            {images.map((img, key) => {
+              return (
+                <a href={img.href} target="_blank" key={key} rel="noreferrer">
+                  <span>
+                    <Image src={img.src} alt={img.alt} className="w-6 inline" />
+                  </span>
+                  <span className="text-white text-xs ml-2">{img.alt}</span>
+                </a>
+              )
+            })}
+          </div>
         </div>
-      </div>
-      <div className="pt-10">
-        <a href="#" className="text-white text-sm">
-          プライバシーポリシー
-        </a>
-        <p className="mt-5 text-xs text-gray-600">© 2022 Anti-Pattern Inc.</p>
+        <div className="pt-10">
+          <a href="#" className="text-white text-sm">
+            プライバシーポリシー
+          </a>
+          <p className="mt-5 text-xs text-gray-600">© 2022 Anti-Pattern Inc.</p>
+        </div>
       </div>
     </div>
   )

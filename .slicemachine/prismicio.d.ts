@@ -31,6 +31,17 @@ interface NewsDocumentData {
      */
     publication_date: prismicT.TimestampField;
     /**
+     * hero image field in *news*
+     *
+     * - **Field Type**: Image
+     * - **Placeholder**: *None*
+     * - **API ID Path**: news.hero_image
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/image
+     *
+     */
+    hero_image: prismicT.ImageField<never>;
+    /**
      * Slice Zone field in *news*
      *
      * - **Field Type**: Slice Zone
@@ -59,22 +70,6 @@ type NewsDocumentDataSlicesSlice = ParagraphSlice;
 export type NewsDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<NewsDocumentData>, "news", Lang>;
 export type AllDocumentTypes = NewsDocument;
 /**
- * Primary content in Paragraph → Primary
- *
- */
-interface ParagraphSliceDefaultPrimary {
-    /**
-     * title field in *Paragraph → Primary*
-     *
-     * - **Field Type**: Text
-     * - **Placeholder**: *None*
-     * - **API ID Path**: paragraph.primary.title
-     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-     *
-     */
-    title: prismicT.KeyTextField;
-}
-/**
  * Item in Paragraph → Items
  *
  */
@@ -98,7 +93,7 @@ export interface ParagraphSliceDefaultItem {
  * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
  *
  */
-export type ParagraphSliceDefault = prismicT.SharedSliceVariation<"default", Simplify<ParagraphSliceDefaultPrimary>, Simplify<ParagraphSliceDefaultItem>>;
+export type ParagraphSliceDefault = prismicT.SharedSliceVariation<"default", Record<string, never>, Simplify<ParagraphSliceDefaultItem>>;
 /**
  * Slice variation for *Paragraph*
  *
@@ -118,6 +113,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultPrimary, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceVariation, ParagraphSlice };
+        export type { NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceVariation, ParagraphSlice };
     }
 }
