@@ -6,6 +6,68 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = {
     [KeyType in keyof T]: T[KeyType];
 };
+/** Content for hub documents */
+interface HubDocumentData {
+    /**
+     * title field in *hub*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: hub.title
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    title: prismicT.KeyTextField;
+    /**
+     * publication date field in *hub*
+     *
+     * - **Field Type**: Date
+     * - **Placeholder**: *None*
+     * - **API ID Path**: hub.publication_date
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/date
+     *
+     */
+    publication_date: prismicT.DateField;
+    /**
+     * hero image field in *hub*
+     *
+     * - **Field Type**: Image
+     * - **Placeholder**: *None*
+     * - **API ID Path**: hub.hero_image
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/image
+     *
+     */
+    hero_image: prismicT.ImageField<never>;
+    /**
+     * Slice Zone field in *hub*
+     *
+     * - **Field Type**: Slice Zone
+     * - **Placeholder**: *None*
+     * - **API ID Path**: hub.slices[]
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+     *
+     */
+    slices: prismicT.SliceZone<HubDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *hub → Slice Zone*
+ *
+ */
+type HubDocumentDataSlicesSlice = ParagraphSlice;
+/**
+ * hub document from Prismic
+ *
+ * - **API ID**: `hub`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type HubDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<HubDocumentData>, "hub", Lang>;
 /** Content for legal policy documents */
 interface LegalPolicyDocumentData {
     /**
@@ -97,7 +159,7 @@ type NewsDocumentDataSlicesSlice = ParagraphSlice;
  * @typeParam Lang - Language API ID of the document.
  */
 export type NewsDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<NewsDocumentData>, "news", Lang>;
-export type AllDocumentTypes = LegalPolicyDocument | NewsDocument;
+export type AllDocumentTypes = HubDocument | LegalPolicyDocument | NewsDocument;
 /**
  * Item in Paragraph → Items
  *
@@ -124,10 +186,45 @@ export interface ParagraphSliceDefaultItem {
  */
 export type ParagraphSliceDefault = prismicT.SharedSliceVariation<"default", Record<string, never>, Simplify<ParagraphSliceDefaultItem>>;
 /**
+ * Item in Paragraph → Items
+ *
+ */
+export interface ParagraphSliceInterviewItem {
+    /**
+     * content field in *Paragraph → Items*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: paragraph.items[].content
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    content: prismicT.RichTextField;
+    /**
+     * title field in *Paragraph → Items*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: paragraph.items[].title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    title: prismicT.KeyTextField;
+}
+/**
+ * Interview variation for Paragraph Slice
+ *
+ * - **API ID**: `interview`
+ * - **Description**: `Paragraph`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type ParagraphSliceInterview = prismicT.SharedSliceVariation<"interview", Record<string, never>, Simplify<ParagraphSliceInterviewItem>>;
+/**
  * Slice variation for *Paragraph*
  *
  */
-type ParagraphSliceVariation = ParagraphSliceDefault;
+type ParagraphSliceVariation = ParagraphSliceDefault | ParagraphSliceInterview;
 /**
  * Paragraph Shared Slice
  *
@@ -142,6 +239,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceVariation, ParagraphSlice };
+        export type { HubDocumentData, HubDocumentDataSlicesSlice, HubDocument, LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceInterviewItem, ParagraphSliceInterview, ParagraphSliceVariation, ParagraphSlice };
     }
 }

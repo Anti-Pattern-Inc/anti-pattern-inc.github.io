@@ -10,10 +10,12 @@ type Props = {
 const BaseLayout = ({ children, headerBgColor = 'white' }: Props) => {
   return (
     <div className="min-h-screen flex flex-col justify-between">
-      <div className={`bg-${headerBgColor}`}>
-        <Header />
+      <div>
+        <div className={`bg-${headerBgColor}`}>
+          <Header />
+        </div>
+        <main>{children}</main>
       </div>
-      <main>{children}</main>
       <Footer />
     </div>
   )
