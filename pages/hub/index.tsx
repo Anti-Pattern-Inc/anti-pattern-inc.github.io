@@ -3,30 +3,43 @@ import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react'
 import { getFormattedDate } from 'utils/date'
 
+import { HubDocument } from '../../.slicemachine/prismicio'
 import { createClient } from '../../prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
 export default function Hub({ pages }: PageProps) {
   const router = useRouter()
-  const tag = router.query.tag
-  let sorted_pages = pages.sort((a, b) => {
-    if (!a.data.publication_date || !b.data.publication_date) {
-      return 0
+  const [sortedPages, setSortedPages] = useState<HubDocument<string>[]>([])
+
+  useEffect(() => {
+    if (!router.isReady) {
+      return
     }
-    if (a.data.publication_date > b.data.publication_date) {
-      return -1
-    } else {
-      return 1
-    }
-  })
-  if (tag) {
-    sorted_pages = sorted_pages.filter((page) => {
-      return page.tags.includes(tag as string)
-    })
-  }
+    const tag = router.query.tag
+    const filteredPages = pages
+      .filter((page) => {
+        if (!tag) {
+          return true
+        }
+        return page.tags.includes(tag as string)
+      })
+      .sort((a, b) => {
+        if (!a.data.publication_date || !b.data.publication_date) {
+          return 0
+        }
+        if (a.data.publication_date > b.data.publication_date) {
+          return -1
+        } else {
+          return 1
+        }
+      })
+    setSortedPages(filteredPages)
+  }, [router])
+
   return (
     <>
       <Head>
@@ -48,7 +61,7 @@ export default function Hub({ pages }: PageProps) {
           </p>
         </div>
         <section className="px-6 py-16 lg:py-24 flex flex-wrap justify-center gap-10">
-          {sorted_pages.map((page, key) => {
+          {sortedPages.map((page, key) => {
             return (
               <div
                 key={key}
