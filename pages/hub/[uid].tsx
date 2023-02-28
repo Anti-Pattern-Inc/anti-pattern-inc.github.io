@@ -100,7 +100,7 @@ export async function getStaticPaths() {
     }
     locale: string
   }
-  const paths: Array<Path> = []
+  const paths: Path[] = []
   pages.forEach((page) => {
     paths.push({
       params: {
