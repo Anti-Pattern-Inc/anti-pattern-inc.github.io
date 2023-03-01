@@ -15,10 +15,44 @@
                 {
                   "type": "paragraph",
                   "content": {
-                    "text": "Eu ad aute commodo pariatur quis. Commodo deserunt nulla ex sit elit eu anim cupidatat commodo ullamco enim esse proident cillum enim."
+                    "text": "Exercitation officia est est qui enim."
                   }
                 }
               ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "interview",
+    "primary": {},
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "content",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Dolor eiusmod quis nulla reprehenderit eu enim velit eu aute reprehenderit quis. Id cillum aliqua minim et pariatur fugiat sunt amet aute dolor cillum esse."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "fastened",
+              "type": "Text"
             }
           ]
         ]

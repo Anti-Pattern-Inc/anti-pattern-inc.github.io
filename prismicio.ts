@@ -22,6 +22,14 @@ const routes = [
     type: 'legal_policy',
     path: '/legal',
   },
+  {
+    type: 'hub',
+    path: '/hub',
+  },
+  {
+    type: 'hub',
+    path: '/hub/:uid',
+  },
 ]
 
 /**

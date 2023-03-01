@@ -1,0 +1,72 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "feature"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "birth",
+    "type": "Text"
+  },
+  "publication_date": {
+    "__TYPE__": "FieldContent",
+    "type": "Date",
+    "value": "2012-01-29"
+  },
+  "hero_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+      "width": 3456,
+      "height": 3456
+    },
+    "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+    "width": 3456,
+    "height": 3456,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "paragraph$5d90c2b3-bed3-4ac2-ad2b-33e0b33b5486",
+        "name": "paragraph",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {},
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "content",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Fugiat duis esse ut enim Lorem veniam commodo duis amet fugiat nisi irure. Laborum aliqua minim ut ea duis."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

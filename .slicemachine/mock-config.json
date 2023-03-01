@@ -1,7 +1,8 @@
 {
   "_cts": {
     "news": {},
-    "legal_policy": {}
+    "legal_policy": {},
+    "hub": {}
   },
   "slices": {
     "Paragraph": {
