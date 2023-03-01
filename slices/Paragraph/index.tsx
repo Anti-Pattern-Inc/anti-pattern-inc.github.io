@@ -28,20 +28,18 @@ const Paragraph = ({ slice }: ParagraphProps) => {
       )
     case 'interview':
       return (
-        slice.variation === 'interview' && (
-          <section className="interview">
-            <div>
-              {slice.items.map((item, key) => {
-                return (
-                  <div key={key}>
-                    <h3>{item.title}</h3>
-                    <PrismicRichText field={item.content}></PrismicRichText>
-                  </div>
-                )
-              })}
-            </div>
-          </section>
-        )
+        <section className="interview">
+          <div>
+            {slice.items.map((item, key) => {
+              return (
+                <div key={key}>
+                  <h3>{item.title}</h3>
+                  <PrismicRichText field={item.content}></PrismicRichText>
+                </div>
+              )
+            })}
+          </div>
+        </section>
       )
   }
 }
