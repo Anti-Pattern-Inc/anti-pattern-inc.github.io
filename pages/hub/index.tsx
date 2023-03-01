@@ -1,4 +1,5 @@
 import { BaseLayout } from 'components/BaseLayout'
+import { Tags } from 'components/hub/Tags'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -79,13 +80,7 @@ export default function Hub({ pages }: PageProps) {
                     {getFormattedDate(page.data.publication_date)}
                   </span>
                   <span className="flex text-ap-green text-sm gap-2">
-                    {page.tags.map((tag) => {
-                      return (
-                        <Link href={`/hub?tag=${tag}`} key={tag}>
-                          #{tag}
-                        </Link>
-                      )
-                    })}
+                    <Tags tags={page.tags} />
                   </span>
                 </p>
                 <Link href={`hub/${page.uid}`}>

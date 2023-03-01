@@ -1,8 +1,8 @@
 import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
+import { Tags } from 'components/hub/Tags'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
 import { getFormattedDate } from 'utils/date'
 
 import { createClient } from '../../prismicio'
@@ -33,13 +33,7 @@ export default function Hub({ page }: PageProps) {
               {getFormattedDate(page.data.publication_date)}
             </p>
             <p className="flex gap-2 text-ap-green text-sm font-bold">
-              {page.tags.map((tag) => {
-                return (
-                  <Link href={`/hub?tag=${tag}`} key={tag}>
-                    #{tag}
-                  </Link>
-                )
-              })}
+              <Tags tags={page.tags} />
             </p>
           </div>
           <h2 className="text-xl lg:text-2xl font-bold mb-6 md:mb-8 mt-6">
@@ -57,13 +51,7 @@ export default function Hub({ page }: PageProps) {
             <SliceZone slices={page.data.slices} components={components} />
           </section>
           <p className="flex justify-end gap-2 text-ap-green text-sm font-bold mt-24 md:mt-36">
-            {page.tags.map((tag) => {
-              return (
-                <Link href={`/hub?tag=${tag}`} key={tag}>
-                  #{tag}
-                </Link>
-              )
-            })}
+            <Tags tags={page.tags} />
           </p>
         </article>
       </BaseLayout>
