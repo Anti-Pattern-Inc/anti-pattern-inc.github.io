@@ -63,7 +63,7 @@ const Footer = () => {
           <Link href="/legal" className="text-white text-sm">
             {locale === 'ja' ? 'プライバシーポリシー' : 'Privacy Policy'}
           </Link>
-          <p className="mt-5 text-xs text-gray-600">© 2022 Anti-Pattern Inc.</p>
+          <p className="mt-5 text-xs text-gray-600">© 2023 Anti-Pattern Inc.</p>
         </div>
       </div>
     </div>
