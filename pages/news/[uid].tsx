@@ -1,7 +1,7 @@
 import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
+import { CustomHead } from 'components/CustomHead'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
-import Head from 'next/head'
 import { getFormattedDate } from 'utils/date'
 
 import { createClient } from '../../prismicio'
@@ -12,11 +12,13 @@ type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 export default function News({ page }: PageProps) {
   return (
     <>
-      <Head>
-        <title>{page.data.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <CustomHead
+        title={page.data.title || 'ニュース | Anti-Pattern Inc.'}
+        description={
+          page.data.description ||
+          'このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。'
+        }
+      />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-center pt-8 md:pt-24">

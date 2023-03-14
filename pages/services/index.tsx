@@ -1,4 +1,5 @@
 import { BaseLayout } from 'components/BaseLayout'
+import { CustomHead } from 'components/CustomHead'
 import ServiceImg from 'images/anti-pattern_service_2022.png'
 import ServiceImgSp from 'images/anti-pattern_service_2022-sp.png'
 import Engineed from 'images/engineed.svg'
@@ -8,7 +9,6 @@ import Posse from 'images/posse.svg'
 import SaasusConsulting from 'images/saasus_consulting_logo_420.svg'
 import SaasusPlatform from 'images/saasus_platform_logo_420.svg'
 import ServiceLinkIcon from 'images/service-link-icon.png'
-import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
 type Props = {
@@ -59,15 +59,10 @@ const Service = ({ props }: { props: Props }) => {
 const Services = () => {
   return (
     <>
-      <Head>
-        <title>サービス | Anti-Pattern Inc.</title>
-        <meta
-          name="description"
-          content="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <CustomHead
+        title="サービス | Anti-Pattern Inc."
+        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+      />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-center pt-8 md:pt-24">
