@@ -20,6 +20,17 @@ interface HubDocumentData {
      */
     title: prismicT.KeyTextField;
     /**
+     * description field in *hub*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: hub.description
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    description: prismicT.KeyTextField;
+    /**
      * publication date field in *hub*
      *
      * - **Field Type**: Date
@@ -110,6 +121,17 @@ interface NewsDocumentData {
      *
      */
     title: prismicT.KeyTextField;
+    /**
+     * description field in *news*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: news.description
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    description: prismicT.KeyTextField;
     /**
      * publication date field in *news*
      *
