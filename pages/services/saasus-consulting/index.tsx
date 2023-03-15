@@ -1,4 +1,5 @@
 import { BaseLayout } from 'components/BaseLayout'
+import { CustomHead } from 'components/CustomHead'
 import AwsPartnerNetwork from 'images/aws-partnernetwork-consluting-paetner-select-badge.jpg'
 import Ctoa from 'images/ctoa.svg'
 import Options from 'images/options.svg'
@@ -13,7 +14,6 @@ import SaasusSharedSre from 'images/saasus_shared_sre.png'
 import SaasusSharedSreSp from 'images/saasus_shared_sre_sp.png'
 import ServiceLinkIcon from 'images/service-link-icon.png'
 import Subscription from 'images/subscription.svg'
-import Head from 'next/head'
 import Image, { StaticImageData } from 'next/image'
 
 type Props = {
@@ -40,15 +40,10 @@ const Service = ({ props }: { props: Props }) => {
 const SaasusConsulting = () => {
   return (
     <>
-      <Head>
-        <title>SaaSus Consulting | Anti-Pattern Inc.</title>
-        <meta
-          name="description"
-          content="内製化支援サービスSaaSus Consultingのページです。内製化の必要性を診断、アクションプランの策定からプロトタイピング・開発・人材採用・運用までをトータルサポートいたします。"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <CustomHead
+        title="SaaSus Consulting | Anti-Pattern Inc."
+        description="内製化支援サービスSaaSus Consultingのページです。内製化の必要性を診断、アクションプランの策定からプロトタイピング・開発・人材採用・運用までをトータルサポートいたします。"
+      />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
           <h1 className="pt-8 md:pt-24">

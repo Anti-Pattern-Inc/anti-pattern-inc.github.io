@@ -1,22 +1,17 @@
 import { BaseLayout } from 'components/BaseLayout'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
+import { CustomHead } from 'components/CustomHead'
 import AwsPartner from 'images/aws-partnernetwork-partner-select-tier-services-badge.png'
-import Head from 'next/head'
 import Image from 'next/image'
 
 const Company = () => {
   return (
     <>
-      <Head>
-        <title>会社概要 | Anti-Pattern Inc.</title>
-        <meta
-          name="description"
-          content="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <CustomHead
+        title="会社概要 | Anti-Pattern Inc."
+        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+      />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-center pt-8 md:pt-24">

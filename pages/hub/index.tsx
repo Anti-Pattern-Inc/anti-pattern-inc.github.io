@@ -1,7 +1,7 @@
 import { BaseLayout } from 'components/BaseLayout'
+import { CustomHead } from 'components/CustomHead'
 import { Tags } from 'components/hub/Tags'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
-import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
@@ -43,15 +43,10 @@ export default function Hub({ pages }: PageProps) {
 
   return (
     <>
-      <Head>
-        <title>ANTI-PATTERN HUB | Anti-Pattern Inc.</title>
-        <meta
-          name="description"
-          content="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
+      <CustomHead
+        title="ANTI-PATTERN HUB | Anti-Pattern Inc."
+        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+      />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20 pt-8 md:pt-24">
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-center">
