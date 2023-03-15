@@ -19,6 +19,8 @@ export default function Hub({ page }: PageProps) {
           page.data.description ||
           'このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。'
         }
+        image={page.data.hero_image.url || undefined}
+        ogType="article"
       />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20 pt-8 md:pt-24">
