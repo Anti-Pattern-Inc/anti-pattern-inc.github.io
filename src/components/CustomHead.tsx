@@ -55,6 +55,7 @@ const CustomHead = ({
       <meta name="twitter:site" content="@antipatterninc" />
       <link rel="icon" href="/favicon.png" />
       <link rel="shortcut icon" href="/favicon.png" />
+      {router.locale === 'en' && <meta name="robots" content="noindex" />}
     </Head>
   )
 }
