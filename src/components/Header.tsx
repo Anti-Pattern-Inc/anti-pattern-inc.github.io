@@ -26,7 +26,7 @@ const Header = () => {
         href={asPath}
         locale={locale === 'ja' ? 'en' : 'ja'}
         type="button"
-        className="inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-ap-green focus:ring-offset-2"
+        className="hidden inline-flex items-center rounded border border-gray-300 bg-white px-2.5 py-1.5 text-xs font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-ap-green focus:ring-offset-2"
       >
         <GlobeAltIcon
           className="h-5 w-5 text-gray-700 mr-1"
