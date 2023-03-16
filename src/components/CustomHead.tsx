@@ -24,13 +24,6 @@ const CustomHead = ({
       <meta name="format-detection" content="telephone=no" />
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={ROOT_URL + router.asPath} />
-      <link rel="alternate" hrefLang="ja_JP" href={ROOT_URL + router.asPath} />
-      <link
-        rel="alternate"
-        hrefLang="en_US"
-        href={ROOT_URL + '/en' + router.asPath}
-      />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={image} />
       <meta
@@ -43,10 +36,6 @@ const CustomHead = ({
       <meta
         property="og:locale"
         content={router.locale === 'ja' ? 'ja_JP' : 'en_US'}
-      />
-      <meta
-        property="og:locale:alternate"
-        content={router.locale === 'ja' ? 'en_US' : 'ja_JP'}
       />
       <meta property="og:type" content={ogType} />
       <meta property="og:site_name" content="Anti-Pattern Inc." />
