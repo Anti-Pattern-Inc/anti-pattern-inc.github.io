@@ -17,7 +17,7 @@ const Hero = ({ lang }: { lang: string }) => {
       <Image
         src={HeroBoxesSp}
         alt="hero_boxes_sp"
-        className="sm:hidden absolute left-1/2 top-5 -translate-x-1/2 max-w-[500px]"
+        className="sm:hidden absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-[320px] w-[500px]"
       />
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-52">
         <h1>
