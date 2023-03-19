@@ -21,7 +21,7 @@ const Hero = ({ lang }: { lang: string }) => {
       />
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-52">
         <h1>
-          <p className="block sm:mb-4 text-xl sm:text-3xl font-bold text-center">
+          <span className="block sm:mb-4 text-xl sm:text-3xl font-bold text-center">
             {lang === 'ja' ? (
               <span>
                 日本の
@@ -31,12 +31,12 @@ const Hero = ({ lang }: { lang: string }) => {
             ) : (
               'BRINGING JAPANESE SOFTWARE ENGINEERING TO'
             )}
-          </p>
-          <p className="block text-[44px] font-bold sm:text-5xl lg:text-6xl text-center">
+          </span>
+          <span className="block text-[44px] font-bold sm:text-5xl lg:text-6xl text-center">
             {lang === 'ja'
               ? '憧れの職業へ'
               : 'THE NEXT ASPIRATIONAL OCCUPATION'}
-          </p>
+          </span>
         </h1>
       </div>
     </div>
