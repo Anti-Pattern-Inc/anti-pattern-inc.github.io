@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = ({ lang }: { lang: string }) => {
   return (
-    <div className="relative h-[520px] w-full overflow-x-clip z-50">
+    <div className="relative h-[520px] w-full overflow-x-clip">
       <div className="absolute inset-0">
         <Image src={HeroImg} alt="hero_img" className="h-full object-cover" />
       </div>
