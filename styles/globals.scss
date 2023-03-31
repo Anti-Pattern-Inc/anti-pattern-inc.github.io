@@ -24,6 +24,12 @@
   iframe {
     @apply w-full h-auto;
   }
+  div[data-oembed-type="video"] {
+    @apply relative pb-[56.25%] h-0; // 16:9
+    iframe {
+      @apply absolute top-0 left-0 w-full h-full;
+    }
+  }
 }
 
 .interview {
