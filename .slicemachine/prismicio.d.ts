@@ -68,7 +68,7 @@ interface HubDocumentData {
  * Slice for *hub → Slice Zone*
  *
  */
-type HubDocumentDataSlicesSlice = ParagraphSlice;
+type HubDocumentDataSlicesSlice = ParagraphSlice | TableSlice;
 /**
  * hub document from Prismic
  *
@@ -256,11 +256,86 @@ type ParagraphSliceVariation = ParagraphSliceDefault | ParagraphSliceInterview;
  *
  */
 export type ParagraphSlice = prismicT.SharedSlice<"paragraph", ParagraphSliceVariation>;
+/**
+ * Primary content in Table → Primary
+ *
+ */
+interface TableSliceDefaultPrimary {
+    /**
+     * title field in *Table → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: table.primary.title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    title: prismicT.KeyTextField;
+    /**
+     * description field in *Table → Primary*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: table.primary.description
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    description: prismicT.RichTextField;
+}
+/**
+ * Item in Table → Items
+ *
+ */
+export interface TableSliceDefaultItem {
+    /**
+     * table header field in *Table → Items*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: table.items[].table_header
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    table_header: prismicT.KeyTextField;
+    /**
+     * table data field in *Table → Items*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: table.items[].table_data
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    table_data: prismicT.RichTextField;
+}
+/**
+ * Default variation for Table Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Table`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TableSliceDefault = prismicT.SharedSliceVariation<"default", Simplify<TableSliceDefaultPrimary>, Simplify<TableSliceDefaultItem>>;
+/**
+ * Slice variation for *Table*
+ *
+ */
+type TableSliceVariation = TableSliceDefault;
+/**
+ * Table Shared Slice
+ *
+ * - **API ID**: `table`
+ * - **Description**: `Table`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type TableSlice = prismicT.SharedSlice<"table", TableSliceVariation>;
 declare module "@prismicio/client" {
     interface CreateClient {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { HubDocumentData, HubDocumentDataSlicesSlice, HubDocument, LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceInterviewItem, ParagraphSliceInterview, ParagraphSliceVariation, ParagraphSlice };
+        export type { HubDocumentData, HubDocumentDataSlicesSlice, HubDocument, LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceInterviewItem, ParagraphSliceInterview, ParagraphSliceVariation, ParagraphSlice, TableSliceDefaultPrimary, TableSliceDefaultItem, TableSliceDefault, TableSliceVariation, TableSlice };
     }
 }

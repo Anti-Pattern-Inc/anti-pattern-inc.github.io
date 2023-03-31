@@ -56,3 +56,9 @@
     @apply w-full h-auto;
   }
 }
+
+.table-data {
+  a {
+    @apply text-blue-500 hover:text-blue-600;
+  }
+}

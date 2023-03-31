@@ -1,34 +1,34 @@
 {
   "uid": {
     "__TYPE__": "UIDContent",
-    "value": "equipment"
+    "value": "halfway"
   },
   "title": {
     "__TYPE__": "FieldContent",
-    "value": "progress",
+    "value": "protection",
     "type": "Text"
   },
   "description": {
     "__TYPE__": "FieldContent",
-    "value": "poem",
+    "value": "arrangement",
     "type": "Text"
   },
   "publication_date": {
     "__TYPE__": "FieldContent",
     "type": "Date",
-    "value": "2021-06-17"
+    "value": "2013-08-02"
   },
   "hero_image": {
     "__TYPE__": "ImageContent",
     "origin": {
       "id": "main",
-      "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
-      "width": 3958,
-      "height": 3958
+      "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+      "width": 4000,
+      "height": 6000
     },
-    "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
-    "width": 3958,
-    "height": 3958,
+    "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+    "width": 4000,
+    "height": 6000,
     "edit": {
       "zoom": 1,
       "crop": {
@@ -43,7 +43,7 @@
     "__TYPE__": "SliceContentType",
     "value": [
       {
-        "key": "paragraph$9022c753-9042-41fd-814e-1e691b902d6d",
+        "key": "paragraph$5b0ed4e0-e188-43c7-b164-88c693c8b701",
         "name": "paragraph",
         "widget": {
           "__TYPE__": "SharedSliceContent",
@@ -61,7 +61,51 @@
                       {
                         "type": "paragraph",
                         "content": {
-                          "text": "Exercitation dolor exercitation ex voluptate ea veniam irure et minim ea incididunt ex ipsum. Cupidatat laborum excepteur laborum est do amet pariatur pariatur anim id consequat amet. Proident ex cillum eu voluptate magna minim voluptate consequat irure officia ut."
+                          "text": "Exercitation ullamco eiusmod nulla labore enim consequat."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "table$69c45de1-1490-48fd-b6f3-4c35295cd967",
+        "name": "table",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "army",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "table_header",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "milk",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "table_data",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Enim excepteur irure anim elit aliquip ea amet et ea et ex excepteur. Aliqua reprehenderit elit nisi veniam eiusmod."
                         }
                       }
                     ]
