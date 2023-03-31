@@ -48,6 +48,9 @@
           "choices": {
             "paragraph": {
               "type": "SharedSlice"
+            },
+            "table": {
+              "type": "SharedSlice"
             }
           }
         }

@@ -17,6 +17,12 @@
           }
         }
       }
+    },
+    "Table": {
+      "default": {
+        "items": {},
+        "primary": {}
+      }
     }
   }
 }
