@@ -30,6 +30,9 @@
       @apply absolute top-0 left-0 w-full h-full;
     }
   }
+  pre {
+    @apply whitespace-pre-wrap bg-gray-100 text-sm p-4 rounded;
+  }
 }
 
 .interview {
