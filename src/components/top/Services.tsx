@@ -1,4 +1,5 @@
 import Arrow from 'images/arrow.svg'
+import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
 import Gateway from 'images/gateway.png'
 import Harbors from 'images/harbors.svg'
@@ -13,6 +14,7 @@ const images = [
   { src: Posse, alt: 'posse' },
   { src: Harbors, alt: 'harbors' },
   { src: Saasus, alt: 'saasus' },
+  { src: CloudDriver, alt: 'clouddriver' },
 ] as const
 
 const Services = ({ lang }: { lang: string }) => {
