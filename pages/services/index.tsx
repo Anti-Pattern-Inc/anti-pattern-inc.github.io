@@ -2,6 +2,7 @@ import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
 import ServiceImg from 'images/anti-pattern_service_2022.png'
 import ServiceImgSp from 'images/anti-pattern_service_2022-sp.png'
+import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
 import Gateway from 'images/gateway.png'
 import Harbors from 'images/harbors.svg'
@@ -169,6 +170,17 @@ const Services = () => {
                   description:
                     'プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。',
                   url: 'https://posse-ap.com/',
+                  blank: true,
+                }}
+              />
+              <Service
+                props={{
+                  src: CloudDriver,
+                  name: 'CloudDriver',
+                  ja_name: 'クラウドドライバー',
+                  description:
+                    'AWSエンジニアのスキル可視化、実力向上を実現する実技型試験サービス',
+                  url: 'https://clouddriver.net/',
                   blank: true,
                 }}
               />
