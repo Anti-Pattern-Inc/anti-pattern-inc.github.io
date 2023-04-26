@@ -5,8 +5,8 @@ import { Tags } from 'components/hub/Tags'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { getFormattedDate } from 'utils/date'
 
-import { createClient } from '../../prismicio'
-import { components } from '../../slices'
+import { createClient } from '../../../prismicio'
+import { components } from '../../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 

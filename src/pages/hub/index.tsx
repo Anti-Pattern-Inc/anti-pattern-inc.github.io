@@ -7,8 +7,8 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import { getFormattedDate } from 'utils/date'
 
-import { HubDocument } from '../../.slicemachine/prismicio'
-import { createClient } from '../../prismicio'
+import { HubDocument } from '../../../.slicemachine/prismicio'
+import { createClient } from '../../../prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 

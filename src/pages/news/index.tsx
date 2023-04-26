@@ -4,7 +4,7 @@ import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Link from 'next/link'
 import { getFormattedDate } from 'utils/date'
 
-import { createClient } from '../../prismicio'
+import { createClient } from '../../../prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
