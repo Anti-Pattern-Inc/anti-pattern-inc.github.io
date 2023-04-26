@@ -4,7 +4,7 @@ import { CustomHead } from 'components/CustomHead'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 
 import { createClient } from '../../../prismicio'
-import { components } from '../../../slices'
+import { components } from '../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
