@@ -1,6 +1,6 @@
 import { redirectToPreviewURL, setPreviewData } from '@prismicio/next'
 
-import { createClient } from '../../../prismicio'
+import { createClient } from '@/prismicio'
 
 export default async (req, res) => {
   const client = createClient({ req })

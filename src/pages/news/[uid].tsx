@@ -4,7 +4,8 @@ import { CustomHead } from 'components/CustomHead'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { getFormattedDate } from 'utils/date'
 
-import { createClient } from '../../../prismicio'
+import { createClient } from '@/prismicio'
+
 import { components } from '../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
