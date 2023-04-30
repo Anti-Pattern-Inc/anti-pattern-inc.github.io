@@ -40,7 +40,9 @@ const Legal = ({ legal_policy }: PageProps) => {
   )
 }
 
-export async function getStaticProps({ previewData }: GetStaticPropsContext) {
+export const getStaticProps = async ({
+  previewData,
+}: GetStaticPropsContext) => {
   const client = createClient({ previewData })
 
   const legal_policy = await client.getSingle('legal_policy')

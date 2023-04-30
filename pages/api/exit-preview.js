@@ -1,5 +1,7 @@
 import { exitPreview } from '@prismicio/next'
 
-export default async function exit(req, res) {
+const exit = async (req, res) => {
   await exitPreview({ res, req })
 }
+
+export default exit

@@ -9,7 +9,7 @@ import { components } from '../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function News({ page }: PageProps) {
+const News = ({ page }: PageProps) => {
   return (
     <>
       <CustomHead
@@ -54,12 +54,14 @@ export default function News({ page }: PageProps) {
   )
 }
 
+export default News
+
 type PageParams = { uid: string }
 
-export async function getStaticProps({
+export const getStaticProps = async ({
   params,
   previewData,
-}: GetStaticPropsContext<PageParams>) {
+}: GetStaticPropsContext<PageParams>) => {
   const client = createClient({ previewData })
 
   if (!params) {
@@ -72,7 +74,7 @@ export async function getStaticProps({
   }
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths = async () => {
   const client = createClient()
 
   const pages = await client.getAllByType('news')
