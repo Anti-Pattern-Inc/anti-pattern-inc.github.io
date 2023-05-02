@@ -29,7 +29,7 @@ const outline1: ReadonlyArray<OutlineContent> = [
 const outline2: ReadonlyArray<OutlineContent> = [
   {
     title: '社員数',
-    content: '25名 (2021年8月1日時点)',
+    content: '46名 (2023年4月1日時点)',
   },
   {
     title: '資本金',

@@ -1,4 +1,5 @@
 import Arrow from 'images/arrow.svg'
+import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
 import Gateway from 'images/gateway.png'
 import Harbors from 'images/harbors.svg'
@@ -9,10 +10,11 @@ import Link from 'next/link'
 
 const images = [
   { src: Gateway, alt: 'gateway' },
-  { src: Engineed, alt: 'engineed' },
-  { src: Posse, alt: 'posse' },
   { src: Harbors, alt: 'harbors' },
   { src: Saasus, alt: 'saasus' },
+  { src: Engineed, alt: 'engineed' },
+  { src: CloudDriver, alt: 'clouddriver' },
+  { src: Posse, alt: 'posse' },
 ] as const
 
 const Services = ({ lang }: { lang: string }) => {
@@ -37,7 +39,7 @@ const Services = ({ lang }: { lang: string }) => {
             </span>
           )}
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-5 max-w-3xl mx-auto">
+        <div className="flex flex-wrap items-center justify-center gap-5 max-w-lg mx-auto">
           {images.map((img, key) => {
             return (
               <Image
