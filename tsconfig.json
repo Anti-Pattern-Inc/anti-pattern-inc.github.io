@@ -16,8 +16,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/slices/*": ["src/slices/*"],
+      "@/*": ["src/*"],
       "@/prismicio": ["../prismicio.ts"],
+      "@/.slicemachine/*": ["../.slicemachine/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".slicemachine/prismicio.d.ts"],

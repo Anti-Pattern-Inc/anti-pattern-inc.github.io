@@ -3,11 +3,10 @@ import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
 import { Tags } from 'components/hub/Tags'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
+import { components } from 'slices'
 import { getFormattedDate } from 'utils/date'
 
 import { createClient } from '@/prismicio'
-
-import { components } from '../../slices'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
