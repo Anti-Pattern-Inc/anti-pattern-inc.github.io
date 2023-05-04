@@ -10,37 +10,37 @@ after it's merged, you can check update by staging URL.
 make your pull request to master branch
 after it's merged, you can see update on production.
 
-# corporate
-
-## Production
+# Production
 
 - Site URL: https://anti-pattern.co.jp/
 
-## Staging
+# Staging
 
 - Site URL:
 
-## Set Up
+# Set Up
 
-Receive permission to use vercel and prismic
+1. Receive permission to use vercel and prismic
+
+2. Install Volta
 
 ```
 $ cd ~ && curl https://get.volta.sh | bash
 ```
 
-## Install Dependencies
+3. Install Dependencies
 
 ```
 $ yarn install
 ```
 
-### Start Next.js in development mode
+4. Start Next.js in development mode
 
 ```
 $ yarn dev
 ```
 
-### formatting before push
+# formatting before push
 
 ```
 $ yarn lint:fix
