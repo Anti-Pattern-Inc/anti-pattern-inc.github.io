@@ -1,4 +1,4 @@
-import MyComponent from '../../../../slices/Table';
+import MyComponent from '@/slices/Table';
 
 export default {
   title: 'slices/Table'
