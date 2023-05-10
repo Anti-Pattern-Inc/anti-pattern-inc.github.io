@@ -112,7 +112,6 @@ export async function getStaticProps({
 
   const pages = await client.get({
     predicates: [prismic.predicate.at('document.type', 'hub')],
-    orderings: ['my.hub.publication_date desc'],
     page: page,
     pageSize: pageSize,
   })
