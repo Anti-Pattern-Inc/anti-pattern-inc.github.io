@@ -55,7 +55,7 @@ const Header = () => {
     },
     {
       name: 'Hub',
-      href: '/hub',
+      href: '/hub/1',
       icon: Squares2X2Icon,
     },
   ] as const
