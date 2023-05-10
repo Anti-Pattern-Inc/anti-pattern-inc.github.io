@@ -50,7 +50,7 @@ const Header = () => {
     },
     {
       name: locale === 'ja' ? 'ニュース' : 'News',
-      href: '/news',
+      href: '/news/1',
       icon: ShieldCheckIcon,
     },
     {

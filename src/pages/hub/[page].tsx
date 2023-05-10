@@ -108,7 +108,7 @@ export async function getStaticProps({
   const client = createClient({ previewData })
 
   const page = params?.page ? parseInt(params?.page as string) : 1
-  const pageSize = 4
+  const pageSize = 20
 
   const pages = await client.get({
     predicates: [prismic.predicate.at('document.type', 'hub')],
