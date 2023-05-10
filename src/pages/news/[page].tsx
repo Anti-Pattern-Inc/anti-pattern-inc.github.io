@@ -6,6 +6,7 @@ import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Link from 'next/link'
 import { getFormattedDate } from 'utils/date'
 
+import { NewsDocument } from '@/.slicemachine/prismicio'
 import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
@@ -83,7 +84,7 @@ export async function getStaticProps({
 
   return {
     props: {
-      pages: pages.results,
+      pages: pages.results as NewsDocument<string>[],
       totalPages: pages.total_pages,
       currentPage: page,
     },

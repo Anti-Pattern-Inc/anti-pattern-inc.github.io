@@ -118,7 +118,7 @@ export async function getStaticProps({
 
   return {
     props: {
-      pages: pages.results,
+      pages: pages.results as HubDocument<string>[],
       totalPages: pages.total_pages,
       currentPage: page,
     },
