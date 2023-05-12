@@ -16,7 +16,7 @@ after it's merged, you can see update on production.
 
 # Staging
 
-- Site URL:
+- Site URL: https://anti-pattern-inc-stg.vercel.app/
 
 # Set Up
 
