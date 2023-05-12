@@ -1,6 +1,6 @@
-import React from 'react'
-import { PrismicRichText, SliceComponentProps } from '@prismicio/react'
 import { Content } from '@prismicio/client'
+import { PrismicRichText, SliceComponentProps } from '@prismicio/react'
+import React from 'react'
 
 export type TableProps = SliceComponentProps<Content.TableSlice>
 

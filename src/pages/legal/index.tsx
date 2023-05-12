@@ -2,9 +2,9 @@ import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
+import { components } from 'slices'
 
-import { createClient } from '../../prismicio'
-import { components } from '../../slices'
+import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
