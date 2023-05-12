@@ -1,11 +1,11 @@
 import { Popover, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
+  CubeTransparentIcon,
   CursorArrowRaysIcon,
   GlobeAltIcon,
   NewspaperIcon,
   Squares2X2Icon,
-  WrenchIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import Logo from 'images/anti-pattern_logo.svg'
@@ -41,7 +41,7 @@ const Header = () => {
     {
       name: locale === 'ja' ? 'サービス' : 'Services',
       href: '/services',
-      icon: WrenchIcon,
+      icon: CubeTransparentIcon,
     },
     {
       name: locale === 'ja' ? '会社概要' : 'Company',
