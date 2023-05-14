@@ -38,7 +38,7 @@ export default function News({ page }: PageProps) {
               {page.data.title}
             </h2>
             <section className="border-t-4 border-stone-100">
-              <ShareButtons />
+              <ShareButtons type={page.type} slug={page.uid} />
               {page.data.hero_image.url && (
                 <img
                   src={page.data.hero_image.url}
@@ -49,7 +49,7 @@ export default function News({ page }: PageProps) {
               )}
               <SliceZone slices={page.data.slices} components={components} />
             </section>
-            <ShareButtons />
+            <ShareButtons type={page.type} slug={page.uid} />
           </article>
         </div>
       </BaseLayout>
