@@ -48,8 +48,8 @@ export default function News({ page }: PageProps) {
                 />
               )}
               <SliceZone slices={page.data.slices} components={components} />
+              <ShareButtons type={page.type} slug={page.uid} />
             </section>
-            <ShareButtons type={page.type} slug={page.uid} />
           </article>
         </div>
       </BaseLayout>
