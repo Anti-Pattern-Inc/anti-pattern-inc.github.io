@@ -12,7 +12,7 @@ import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function Hub({ pages }: PageProps) {
+const Hub = ({ pages }: PageProps) => {
   const router = useRouter()
   const [sortedPages, setSortedPages] = useState<HubDocument<string>[]>([])
 
@@ -92,7 +92,11 @@ export default function Hub({ pages }: PageProps) {
   )
 }
 
-export async function getStaticProps({ previewData }: GetStaticPropsContext) {
+export default Hub
+
+export const getStaticProps = async ({
+  previewData,
+}: GetStaticPropsContext) => {
   const client = createClient({ previewData })
 
   const pages = await client.getAllByType('hub')

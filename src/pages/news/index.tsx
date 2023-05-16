@@ -8,7 +8,7 @@ import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function News({ pages }: PageProps) {
+const News = ({ pages }: PageProps) => {
   const sorted_pages = pages.sort((a, b) => {
     if (!a.data.publication_date || !b.data.publication_date) {
       return 0
@@ -59,7 +59,11 @@ export default function News({ pages }: PageProps) {
   )
 }
 
-export async function getStaticProps({ previewData }: GetStaticPropsContext) {
+export default News
+
+export const getStaticProps = async ({
+  previewData,
+}: GetStaticPropsContext) => {
   const client = createClient({ previewData })
 
   const pages = await client.getAllByType('news')
