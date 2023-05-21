@@ -1,0 +1,29 @@
+{
+  "_cts": {
+    "news": {},
+    "legal_policy": {},
+    "hub": {}
+  },
+  "slices": {
+    "Paragraph": {
+      "default": {
+        "primary": {},
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Table": {
+      "default": {
+        "items": {},
+        "primary": {}
+      }
+    }
+  },
+  "src/slices": {}
+}
