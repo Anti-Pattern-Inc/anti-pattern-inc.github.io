@@ -1,0 +1,77 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "crack"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "street",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "FieldContent",
+    "value": "alike",
+    "type": "Text"
+  },
+  "publication_date": {
+    "__TYPE__": "FieldContent",
+    "type": "Timestamp",
+    "value": "2018-12-02T12:36:51Z"
+  },
+  "hero_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+      "width": 4172,
+      "height": 4000
+    },
+    "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+    "width": 4172,
+    "height": 4000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "paragraph$162d7f2c-93ac-44e9-8a58-a7cdf1d928f8",
+        "name": "paragraph",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {},
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "content",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Nisi enim dolore non esse excepteur tempor amet qui dolor amet excepteur ut exercitation sint. Duis qui dolor amet eu nisi et Lorem id nostrud."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
