@@ -1,0 +1,53 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "land",
+        "type": "Text"
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Non labore labore amet ex occaecat elit sunt ipsum eiusmod exercitation minim. Aliqua id incididunt mollit reprehenderit et deserunt cupidatat laboris magna consequat voluptate sit velit amet. Magna labore aute laboris irure aliquip mollit incididunt fugiat officia magna elit sit excepteur."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "table_header",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "heavy",
+              "type": "Text"
+            }
+          ],
+          [
+            "table_data",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Occaecat occaecat proident labore pariatur incididunt. Sunt non labore labore voluptate est cillum ut aliqua pariatur adipisicing ea Lorem consectetur."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]
