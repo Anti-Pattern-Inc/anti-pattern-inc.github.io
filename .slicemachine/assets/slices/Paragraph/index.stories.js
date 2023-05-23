@@ -1,4 +1,4 @@
-import MyComponent from '../../../../slices/Paragraph';
+import MyComponent from '@/slices/Paragraph';
 
 export default {
   title: 'slices/Paragraph'

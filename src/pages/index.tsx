@@ -6,7 +6,7 @@ import { Recruit } from 'components/top/Recruit'
 import { Services } from 'components/top/Services'
 import { useRouter } from 'next/router'
 
-export default function Home() {
+const Home = () => {
   const { locale } = useRouter()
   const lang = locale === 'ja' ? 'ja' : 'en'
 
@@ -29,3 +29,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

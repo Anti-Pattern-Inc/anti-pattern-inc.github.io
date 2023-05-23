@@ -24,5 +24,6 @@
         "primary": {}
       }
     }
-  }
+  },
+  "src/slices": {}
 }

@@ -1,7 +1,7 @@
-import React from 'react'
-import { PrismicRichText } from '@prismicio/react'
 import type { Content } from '@prismicio/client'
 import type { SliceComponentProps } from '@prismicio/react'
+import { PrismicRichText } from '@prismicio/react'
+import React from 'react'
 
 export type ParagraphProps = SliceComponentProps<Content.ParagraphSlice>
 

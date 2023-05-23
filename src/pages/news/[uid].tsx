@@ -1,15 +1,16 @@
 import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
+import { ShareButtons } from 'components/ShareButtons'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
+import { components } from 'slices'
 import { getFormattedDate } from 'utils/date'
 
-import { createClient } from '../../prismicio'
-import { components } from '../../slices'
+import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function News({ page }: PageProps) {
+const News = ({ page }: PageProps) => {
   return (
     <>
       <CustomHead
@@ -36,7 +37,8 @@ export default function News({ page }: PageProps) {
             <h2 className="text-2xl lg:text-4xl font-bold mb-6 md:mb-8 mt-6">
               {page.data.title}
             </h2>
-            <section className="pt-6 md:pt-12 border-t-4 border-stone-100">
+            <section className="border-t-4 border-stone-100">
+              <ShareButtons type={page.type} slug={page.uid} />
               {page.data.hero_image.url && (
                 <img
                   src={page.data.hero_image.url}
@@ -46,6 +48,7 @@ export default function News({ page }: PageProps) {
                 />
               )}
               <SliceZone slices={page.data.slices} components={components} />
+              <ShareButtons type={page.type} slug={page.uid} />
             </section>
           </article>
         </div>
@@ -54,12 +57,14 @@ export default function News({ page }: PageProps) {
   )
 }
 
+export default News
+
 type PageParams = { uid: string }
 
-export async function getStaticProps({
+export const getStaticProps = async ({
   params,
   previewData,
-}: GetStaticPropsContext<PageParams>) {
+}: GetStaticPropsContext<PageParams>) => {
   const client = createClient({ previewData })
 
   if (!params) {
@@ -72,7 +77,7 @@ export async function getStaticProps({
   }
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths = async () => {
   const client = createClient()
 
   const pages = await client.getAllByType('news')

@@ -2,9 +2,9 @@ import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
+import { components } from 'slices'
 
-import { createClient } from '../../prismicio'
-import { components } from '../../slices'
+import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
@@ -40,7 +40,9 @@ const Legal = ({ legal_policy }: PageProps) => {
   )
 }
 
-export async function getStaticProps({ previewData }: GetStaticPropsContext) {
+export const getStaticProps = async ({
+  previewData,
+}: GetStaticPropsContext) => {
   const client = createClient({ previewData })
 
   const legal_policy = await client.getSingle('legal_policy')
