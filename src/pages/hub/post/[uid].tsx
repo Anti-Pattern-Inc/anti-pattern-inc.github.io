@@ -2,6 +2,7 @@ import { SliceZone } from '@prismicio/react'
 import { BaseLayout } from 'components/BaseLayout'
 import { CustomHead } from 'components/CustomHead'
 import { Tags } from 'components/hub/Tags'
+import { ShareButtons } from 'components/ShareButtons'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { components } from 'slices'
 import { getFormattedDate } from 'utils/date'
@@ -10,7 +11,7 @@ import { createClient } from '@/prismicio'
 
 type PageProps = InferGetStaticPropsType<typeof getStaticProps>
 
-export default function Hub({ page }: PageProps) {
+const Hub = ({ page }: PageProps) => {
   return (
     <>
       <CustomHead
@@ -43,7 +44,8 @@ export default function Hub({ page }: PageProps) {
           <h2 className="text-xl lg:text-2xl font-bold mb-6 md:mb-8 mt-6">
             {page.data.title}
           </h2>
-          <section className="pt-6 md:pt-12 border-t-4 border-stone-100">
+          <section className="border-t-4 border-stone-100">
+            <ShareButtons type={page.type} slug={page.uid} />
             {page.data.hero_image.url && (
               <img
                 src={page.data.hero_image.url}
@@ -53,6 +55,7 @@ export default function Hub({ page }: PageProps) {
               />
             )}
             <SliceZone slices={page.data.slices} components={components} />
+            <ShareButtons type={page.type} slug={page.uid} />
           </section>
           <p className="flex justify-end gap-2 text-ap-green text-sm font-bold mt-24 md:mt-36">
             <Tags tags={page.tags} />
@@ -63,12 +66,14 @@ export default function Hub({ page }: PageProps) {
   )
 }
 
+export default Hub
+
 type PageParams = { uid: string }
 
-export async function getStaticProps({
+export const getStaticProps = async ({
   params,
   previewData,
-}: GetStaticPropsContext<PageParams>) {
+}: GetStaticPropsContext<PageParams>) => {
   const client = createClient({ previewData })
 
   if (!params) {
@@ -81,7 +86,7 @@ export async function getStaticProps({
   }
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths = async () => {
   const client = createClient()
 
   const pages = await client.getAllByType('hub')

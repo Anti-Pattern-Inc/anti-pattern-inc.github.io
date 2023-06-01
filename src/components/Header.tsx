@@ -1,10 +1,10 @@
 import { Popover, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
-  ChartBarIcon,
+  CubeTransparentIcon,
   CursorArrowRaysIcon,
   GlobeAltIcon,
-  ShieldCheckIcon,
+  NewspaperIcon,
   Squares2X2Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
@@ -41,7 +41,7 @@ const Header = () => {
     {
       name: locale === 'ja' ? 'サービス' : 'Services',
       href: '/services',
-      icon: ChartBarIcon,
+      icon: CubeTransparentIcon,
     },
     {
       name: locale === 'ja' ? '会社概要' : 'Company',
@@ -51,7 +51,7 @@ const Header = () => {
     {
       name: locale === 'ja' ? 'ニュース' : 'News',
       href: '/news/1',
-      icon: ShieldCheckIcon,
+      icon: NewspaperIcon,
     },
     {
       name: 'Hub',

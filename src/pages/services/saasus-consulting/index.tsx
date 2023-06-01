@@ -23,15 +23,15 @@ type Props = {
   description: string
 }
 
-const Service = ({ props }: { props: Props }) => {
+const Service = ({ src, alt, title, description }: Props) => {
   return (
     <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 max-w-3xl lg:max-w-5xl mx-auto">
       <div className="mx-auto flex justify-center items-center border-[1px] col-span-1 w-48 md:w-full h-52 md:h-64">
-        <Image src={props.src} alt={props.alt} className="w-32 md:w-48" />
+        <Image src={src} alt={alt} className="w-32 md:w-48" />
       </div>
       <div className="flex flex-col justify-center col-span-1">
-        <h3 className="font-bold text-sm">{props.title}</h3>
-        <p className="text-sm mt-5 leading-6">{props.description}</p>
+        <h3 className="font-bold text-sm">{title}</h3>
+        <p className="text-sm mt-5 leading-6">{description}</p>
       </div>
     </div>
   )
@@ -284,41 +284,28 @@ const SaasusConsulting = () => {
               </h2>
               <div className="flex flex-col gap-16 pt-4">
                 <Service
-                  props={{
-                    src: Subscription,
-                    alt: 'サブスクリプションモデル',
-                    title: 'サブスクリプションモデル',
-                    description:
-                      'SaaSus Consultingはサブスクリプションモデルで契約いただけますので、「まずは始めてみる」ということのハードルが低く設計されています。内製化が完了したりニーズがなくなった場合にはすぐにアンサブスクライブすることができます。',
-                  }}
+                  src={Subscription}
+                  alt="サブスクリプションモデル"
+                  title="サブスクリプションモデル"
+                  description="SaaSus Consultingはサブスクリプションモデルで契約いただけますので、「まずは始めてみる」ということのハードルが低く設計されています。内製化が完了したりニーズがなくなった場合にはすぐにアンサブスクライブすることができます。"
                 />
                 <Service
-                  props={{
-                    src: Ctoa,
-                    alt: '日本CTO協会',
-                    title:
-                      'DX Criteria改訂プロジェクトに参画のメンバーが診断を監修',
-                    description:
-                      '株式会社アンチパターンは、日本CTO協会の法人会員であり、代表の小笹はDX Criteriaの改訂プロジェクトに参画しております。',
-                  }}
+                  src={Ctoa}
+                  alt="日本CTO協会"
+                  title="DX Criteria改訂プロジェクトに参画のメンバーが診断を監修"
+                  description="株式会社アンチパターンは、日本CTO協会の法人会員であり、代表の小笹はDX Criteriaの改訂プロジェクトに参画しております。"
                 />
                 <Service
-                  props={{
-                    src: Options,
-                    alt: '豊富なオプションサービス',
-                    title: '豊富なオプションサービス',
-                    description:
-                      '株式会社アンチパターンが保有するサービスを用いて内製化実行に必要なアクションを支援しています。開発や運用だけでなく採用支援まで実行し、ソフトウェア開発の内製化をトータルサポートいたします。',
-                  }}
+                  src={Options}
+                  alt="豊富なオプションサービス"
+                  title="豊富なオプションサービス"
+                  description="株式会社アンチパターンが保有するサービスを用いて内製化実行に必要なアクションを支援しています。開発や運用だけでなく採用支援まで実行し、ソフトウェア開発の内製化をトータルサポートいたします。"
                 />
                 <Service
-                  props={{
-                    src: AwsPartnerNetwork,
-                    alt: 'AWSコンサルティングパートナー・セレクトティア',
-                    title: '確かな技術力',
-                    description:
-                      '株式会社アンチパターンは、アマゾン ウェブ サービス（AWS）が提供するパートナープログラム「AWSパートナーネットワーク（APN）」におけるAWSコンサルティングパートナー・セレクトティアの認定を取得しております。また、弊社のエンジニアの8割以上は、自社サービスを内製で開発・運用してきたメンバーで内製の経験が豊富です。',
-                  }}
+                  src={AwsPartnerNetwork}
+                  alt="AWSコンサルティングパートナー・セレクトティア"
+                  title="確かな技術力"
+                  description="株式会社アンチパターンは、アマゾン ウェブ サービス（AWS）が提供するパートナープログラム「AWSパートナーネットワーク（APN）」におけるAWSコンサルティングパートナー・セレクトティアの認定を取得しております。また、弊社のエンジニアの8割以上は、自社サービスを内製で開発・運用してきたメンバーで内製の経験が豊富です。"
                 />
               </div>
               <div className="text-center mt-8">
