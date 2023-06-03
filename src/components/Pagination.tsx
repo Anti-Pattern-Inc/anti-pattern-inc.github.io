@@ -32,7 +32,7 @@ const Pagination = ({ totalPages, currentPage, documentType }: Props) => {
           <li>
             <button
               onClick={previousPage}
-              className="block px-3 py-2 ml-0 leading-tight text-gray-500 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="block px-3 py-2 ml-0 leading-tight text-gray-500 rounded-l-lg hover:bg-gray-100 hover:text-gray-700"
             >
               <span className="sr-only">Previous</span>
               <svg
@@ -53,7 +53,7 @@ const Pagination = ({ totalPages, currentPage, documentType }: Props) => {
         )}
         {Array.from({ length: totalPages }, (_, index) => {
           const isActivePage = currentPage === index + 1
-          const className = `px-3 py-2 leading-tight text-gray-500 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${
+          const className = `px-3 py-2 leading-tight text-gray-500 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 ${
             isActivePage ? 'bg-blue-100' : 'bg-white'
           }`
 
@@ -73,7 +73,7 @@ const Pagination = ({ totalPages, currentPage, documentType }: Props) => {
             <button
               disabled={isLastPage}
               onClick={nextPage}
-              className="block px-3 py-2 leading-tight text-gray-500 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="block px-3 py-2 leading-tight text-gray-500 rounded-r-lg hover:bg-gray-100 hover:text-gray-700"
             >
               <span className="sr-only">Next</span>
               <svg
