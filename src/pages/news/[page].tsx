@@ -38,11 +38,11 @@ export default function News({ pages, totalPages, currentPage }: PageProps) {
         <div className="text-center flex flex-col justify-between">
           <section className="px-6">
             <div className="flex flex-col mt-12 md:mt-20 pb-12 md:pb-20 border-t-4 border-stone-100">
-              {sorted_pages.map((page, key) => {
+              {sorted_pages.map((page) => {
                 return (
                   <Link
                     href={`/news/post/${page.uid}`}
-                    key={key}
+                    key={page.uid}
                     className="border-b-4 border-stone-100 py-4 md:py-10 flex flex-col justify-center md:flex-row gap-4"
                   >
                     <span className="text-ap-green text-sm">

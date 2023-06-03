@@ -60,10 +60,10 @@ export default function Hub({ pages, totalPages, currentPage }: PageProps) {
         </div>
         <section className="px-6 py-16 lg:py-24">
           <div className="flex flex-wrap justify-center gap-10">
-            {sortedPages.map((page, key) => {
+            {sortedPages.map((page) => {
               return (
                 <div
-                  key={key}
+                  key={page.uid}
                   className="w-80 lg:w-96 mb-auto flex flex-col justify-center"
                 >
                   <Link href={`/hub/post/${page.uid}`}>
