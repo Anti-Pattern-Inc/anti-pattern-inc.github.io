@@ -1,5 +1,5 @@
-import { BaseLayout } from 'components/BaseLayout'
-import { CustomHead } from 'components/CustomHead'
+import { CustomHead } from 'components/common/CustomHead'
+import { BaseLayout } from 'components/layouts/BaseLayout'
 import ServiceImg from 'images/anti-pattern_service_2022.png'
 import ServiceImgSp from 'images/anti-pattern_service_2022-sp.png'
 import CloudDriver from 'images/clouddriver.png'
