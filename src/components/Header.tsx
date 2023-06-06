@@ -50,12 +50,12 @@ const Header = () => {
     },
     {
       name: locale === 'ja' ? 'ニュース' : 'News',
-      href: '/news',
+      href: '/news/1',
       icon: NewspaperIcon,
     },
     {
       name: 'Hub',
-      href: '/hub',
+      href: '/hub/1',
       icon: Squares2X2Icon,
     },
   ] as const
