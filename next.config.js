@@ -14,6 +14,26 @@ const nextConfig = {
     config.resolve.alias['pages'] = path.join(__dirname, 'src/pages')
     return config
   },
+  async rewrites() {
+    return [
+      {
+        source: '/top-sitemap.xml',
+        destination: '/api/sitemap-top',
+      },
+      {
+        source: '/news-sitemap.xml',
+        destination: '/api/sitemap-blogs',
+      },
+      {
+        source: '/resource-sitemap.xml',
+        destination: '/api/sitemap-resources',
+      },
+      {
+        source: '/misc-sitemap.xml',
+        destination: '/api/sitemap-misc',
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
