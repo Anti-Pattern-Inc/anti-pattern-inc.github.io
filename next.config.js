@@ -22,15 +22,11 @@ const nextConfig = {
       },
       {
         source: '/news-sitemap.xml',
-        destination: '/api/sitemap-blogs',
+        destination: '/api/sitemap-news',
       },
       {
-        source: '/resource-sitemap.xml',
-        destination: '/api/sitemap-resources',
-      },
-      {
-        source: '/misc-sitemap.xml',
-        destination: '/api/sitemap-misc',
+        source: '/hub-sitemap.xml',
+        destination: '/api/sitemap-hub',
       },
     ]
   },
