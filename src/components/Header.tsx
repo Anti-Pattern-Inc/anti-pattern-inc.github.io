@@ -3,6 +3,7 @@ import {
   Bars3Icon,
   CubeTransparentIcon,
   CursorArrowRaysIcon,
+  DocumentTextIcon,
   GlobeAltIcon,
   NewspaperIcon,
   Squares2X2Icon,
@@ -37,7 +38,16 @@ const Header = () => {
     )
   }
 
-  const resources = [
+  type Resources = {
+    name: string
+    href: string
+    icon: (
+      props: React.ComponentProps<'svg'> & { title?: string; titleId?: string },
+    ) => JSX.Element
+    isTargetBlank?: boolean
+  }
+
+  const resources: ReadonlyArray<Resources> = [
     {
       name: locale === 'ja' ? 'サービス' : 'Services',
       href: '/services',
@@ -57,6 +67,12 @@ const Header = () => {
       name: 'Hub',
       href: '/hub/1',
       icon: Squares2X2Icon,
+    },
+    {
+      name: 'ブログ',
+      href: 'https://tech.anti-pattern.co.jp/',
+      icon: DocumentTextIcon,
+      isTargetBlank: true,
     },
   ] as const
 
@@ -88,6 +104,7 @@ const Header = () => {
               <Link
                 key={resource.name}
                 href={resource.href}
+                target={resource.isTargetBlank ? '_blank' : ''}
                 className={
                   'text-base font-medium text-gray-500 hover:text-gray-900 pb-1 ' +
                   (isCurrentPage(resource.href)
