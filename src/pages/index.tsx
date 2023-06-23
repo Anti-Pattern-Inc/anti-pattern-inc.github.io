@@ -1,5 +1,5 @@
-import { BaseLayout } from 'components/BaseLayout'
-import { CustomHead } from 'components/CustomHead'
+import { CustomHead } from 'components/common/CustomHead'
+import { BaseLayout } from 'components/layouts/BaseLayout'
 import { Customers } from 'components/top/Customers'
 import { Hero } from 'components/top/Hero'
 import { Recruit } from 'components/top/Recruit'

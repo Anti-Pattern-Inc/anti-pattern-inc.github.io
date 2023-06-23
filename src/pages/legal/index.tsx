@@ -1,6 +1,6 @@
 import { SliceZone } from '@prismicio/react'
-import { BaseLayout } from 'components/BaseLayout'
-import { CustomHead } from 'components/CustomHead'
+import { CustomHead } from 'components/common/CustomHead'
+import { BaseLayout } from 'components/layouts/BaseLayout'
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { components } from 'slices'
 
