@@ -1,5 +1,5 @@
-import { BaseLayout } from 'components/BaseLayout'
-import { CustomHead } from 'components/CustomHead'
+import { CustomHead } from 'components/common/CustomHead'
+import { BaseLayout } from 'components/layouts/BaseLayout'
 import AwsPartnerNetwork from 'images/aws-partnernetwork-consluting-paetner-select-badge.jpg'
 import Ctoa from 'images/ctoa.svg'
 import Options from 'images/options.svg'
