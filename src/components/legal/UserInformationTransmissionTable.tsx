@@ -24,7 +24,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
       service_product: [
         'HarborS',
         'SaaSus Platform',
-        'AP コーポレート',
+        '株式会社アンチパターン\nコーポレート',
         '株式会社アンチパターン\nエンジニアブログ',
         'engineed',
         'CloudDriver',
