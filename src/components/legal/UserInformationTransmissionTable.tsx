@@ -6,7 +6,7 @@ type UserInformationTransmissionDetails = {
     purpose_at_our_company: string
     purpose_at_send_user: string
   }
-  service_product: string[]
+  service_products: string[]
 }
 
 const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
@@ -21,7 +21,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://www.salesforce.com/jp/company/privacy/',
       },
-      service_product: [
+      service_products: [
         'HarborS',
         'SaaSus Platform',
         '株式会社アンチパターン\nコーポレート',
@@ -39,7 +39,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
         purpose_at_our_company: 'E.マーケティング活動',
         purpose_at_send_user: 'https://policies.google.com/privacy',
       },
-      service_product: [
+      service_products: [
         'HarborS',
         '株式会社アンチパターン\nコーポレートサイト',
         'エンジニアブログ',
@@ -57,7 +57,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
         purpose_at_our_company: 'E.マーケティング活動',
         purpose_at_send_user: 'https://policies.google.com/privacy',
       },
-      service_product: [
+      service_products: [
         'HarborS',
         'SaaSus Platform',
         '株式会社アンチパターン\nコーポレートサイト',
@@ -76,7 +76,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://policies.google.com/privacy',
       },
-      service_product: ['SaaSus Platform'],
+      service_products: ['SaaSus Platform'],
     },
     {
       service_name: 'intercom',
@@ -88,7 +88,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://www.intercom.com/legal/privacy',
       },
-      service_product: ['engineed'],
+      service_products: ['engineed'],
     },
     {
       service_name: 'LinkedIn',
@@ -101,7 +101,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
         purpose_at_send_user:
           'https://jp.linkedin.com/legal/l/cookie-table?\nhttps://jp.linkedin.com/legal/cookie-policy?',
       },
-      service_product: [
+      service_products: [
         'SaaSus Platform',
         '株式会社アンチパターン\nコーポレートサイト',
         'engineed',
@@ -118,7 +118,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://www.facebook.com/privacy/policy',
       },
-      service_product: [
+      service_products: [
         'SaaSus Platform',
         '株式会社アンチパターン\nコーポレートサイト',
         'engineed',
@@ -135,7 +135,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
         purpose_at_send_user:
           'https://privacy.microsoft.com/ja-jp/privacystatement',
       },
-      service_product: ['engineed'],
+      service_products: ['engineed'],
     },
     {
       service_name: 'Ptengine',
@@ -147,7 +147,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://www.ptengine.jp/privacy-policy',
       },
-      service_product: ['SaaSus Platform'],
+      service_products: ['SaaSus Platform'],
     },
     {
       service_name: 'Twitter広告',
@@ -160,7 +160,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
         purpose_at_send_user:
           'https://help.twitter.com/ja/rules-and-policies/twitter-cookies',
       },
-      service_product: [
+      service_products: [
         'SaaSus Platform',
         '株式会社アンチパターン\nコーポレートサイト',
         'engineed',
@@ -177,7 +177,7 @@ const userInformationTransmissionDetails: UserInformationTransmissionDetails[] =
           'D.属性情報･端末情報・位置情報・行動履歴等に基づく広告・コンテンツ等の配信・表示、当社サービスの提供',
         purpose_at_send_user: 'https://privacy.yahoo.co.jp/',
       },
-      service_product: ['HarborS'],
+      service_products: ['HarborS'],
     },
   ]
 
@@ -239,11 +239,11 @@ const UserInformationTransmissionTable = () => {
               </div>
             </td>
             <td className="px-3 py-2 table-data">
-              {detail.service_product.map((product, index) => (
+              {detail.service_products.map((product, index) => (
                 <p
                   key={product}
                   className={
-                    detail.service_product.length - 1 == index
+                    detail.service_products.length - 1 == index
                       ? 'py-2'
                       : 'py-2 border-b-[1px]'
                   }
