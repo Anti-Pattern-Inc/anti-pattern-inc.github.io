@@ -74,6 +74,11 @@ const Header = () => {
       icon: DocumentTextIcon,
       isTargetBlank: true,
     },
+    {
+      name: locale === 'ja' ? 'キャリア' : 'Career',
+      href: '/career',
+      icon: Squares2X2Icon,
+    },
   ] as const
 
   return (
