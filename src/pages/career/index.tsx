@@ -1,5 +1,7 @@
 import { Philosophy } from 'components/career/Philosophy'
 import { CustomHead } from 'components/common/CustomHead'
+import { BusinessConcept } from 'components/features/BusinessConcept'
+import { ServiceList } from 'components/features/ServiceList'
 import { BaseLayout } from 'components/layouts/BaseLayout'
 
 const Career = () => {
@@ -11,6 +13,8 @@ const Career = () => {
       />
       <BaseLayout headerBgColor="stone-100">
         <Philosophy />
+        <BusinessConcept />
+        <ServiceList />
       </BaseLayout>
     </>
   )
