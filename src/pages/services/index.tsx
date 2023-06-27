@@ -1,7 +1,6 @@
 import { CustomHead } from 'components/common/CustomHead'
+import { BusinessConcept } from 'components/features/BusinessConcept'
 import { BaseLayout } from 'components/layouts/BaseLayout'
-import ServiceImg from 'images/anti-pattern_service_2022.png'
-import ServiceImgSp from 'images/anti-pattern_service_2022-sp.png'
 import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
 import Gateway from 'images/gateway.png'
@@ -71,102 +70,84 @@ const Services = () => {
           </h1>
           <p className="font-bold text-center mt-6 md:mt-10">サービス</p>
         </div>
-        <div>
-          <section className="mt-16 md:mt-32">
-            <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
-              BUSINESS CONCEPT
-            </h2>
-            <div className="max-w-md lg:max-w-6xl mx-auto px-10">
-              <Image
-                src={ServiceImg}
-                alt="ビジネスコンセプト"
-                className="hidden lg:block"
-              />
-              <Image
-                src={ServiceImgSp}
-                alt="ビジネスコンセプト"
-                className="lg:hidden"
-              />
-            </div>
-          </section>
-          <section className="mt-32 mb-32">
-            <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
-              SERVICE LIST
-            </h2>
-            <div className="max-w-lg md:max-w-6xl mx-auto">
-              <h3 className="text-center text-sm font-bold">マッチング</h3>
+        <BusinessConcept />
+        <section className="mt-32 mb-32">
+          <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
+            SERVICE LIST
+          </h2>
+          <div className="max-w-lg md:max-w-6xl mx-auto">
+            <h3 className="text-center text-sm font-bold">マッチング</h3>
+            <Service
+              src={Engineed}
+              name="engineed"
+              ja_name="エンジニード"
+              description="engineedは、AWSエンジニア特化型のスカウトサービスです。公式資格を有しているAWSエンジニアを副業や正社員など様々な契約形態で採用することができます。"
+              url="https://info.engineed.io/"
+              isBlank={true}
+            />
+          </div>
+          <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
+            <h3 className="text-center text-sm font-bold">BizDevOps支援</h3>
+            <div className="flex flex-col gap-10">
               <Service
-                src={Engineed}
-                name="engineed"
-                ja_name="エンジニード"
-                description="engineedは、AWSエンジニア特化型のスカウトサービスです。公式資格を有しているAWSエンジニアを副業や正社員など様々な契約形態で採用することができます。"
-                url="https://info.engineed.io/"
-                isBlank={true}
-              />
-            </div>
-            <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
-              <h3 className="text-center text-sm font-bold">BizDevOps支援</h3>
-              <div className="flex flex-col gap-10">
-                <Service
-                  src={SaasusPlatform}
-                  name="SaaSus Platform"
-                  ja_name="サースアス プラットフォーム"
-                  description="BtoB SaaSを作ることを支援するSaaS。"
-                  url="https://saasus.io/"
-                  isBlank={true}
-                />
-                <Service
-                  src={SaasusConsulting}
-                  name="SaaSus Consulting"
-                  ja_name="サースアス コンサルティング"
-                  description="組織内製化診断から実行までを包括的に支援するサービス。"
-                  url="/services/saasus-consulting"
-                  isBlank={false}
-                />
-                <Service
-                  src={Gateway}
-                  name="Gateway"
-                  ja_name="ゲートウェイ"
-                  description="様々な企業に対して、ソフトウェア開発の支援事業を行なっております。これまで、上場企業の自社プロダクトとしてSaaSの開発やメディアの開発で培った経験から、 主にWebサービスの開発経験に強みがあります。また、インフラ構築の技術にも定評があります。"
-                  url={null}
-                  isBlank={false}
-                />
-              </div>
-            </div>
-            <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
-              <h3 className="text-center text-sm font-bold">
-                コミュニティ形成支援
-              </h3>
-              <Service
-                src={Harbors}
-                name="HarborS"
-                ja_name="ハーバーズ"
-                description="表参道のエンジニア特化型コミュニティスペース。コワーキング会員のみならず、ドロップインの利用も可能。渋谷からも近い距離にあり、多くのエンジニアにとって、足を運びやすい場所に位置しています。勉強会やイベントも多数開催中。"
-                url="https://harbors.anti-pattern.co.jp/"
-                isBlank={true}
-              />
-            </div>
-            <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
-              <h3 className="text-center text-sm font-bold">スキルアップ</h3>
-              <Service
-                src={Posse}
-                name="POSSE"
-                ja_name="ポッセ"
-                description="プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。"
-                url="https://posse-ap.com/"
+                src={SaasusPlatform}
+                name="SaaSus Platform"
+                ja_name="サースアス プラットフォーム"
+                description="BtoB SaaSを作ることを支援するSaaS。"
+                url="https://saasus.io/"
                 isBlank={true}
               />
               <Service
-                src={CloudDriver}
-                name="CloudDriver"
-                ja_name="クラウドドライバー"
-                description="AWSエンジニアのスキル可視化、実力向上を実現する実技型試験サービス"
-                url="https://clouddriver.net/"
-                isBlank={true}
+                src={SaasusConsulting}
+                name="SaaSus Consulting"
+                ja_name="サースアス コンサルティング"
+                description="組織内製化診断から実行までを包括的に支援するサービス。"
+                url="/services/saasus-consulting"
+                isBlank={false}
+              />
+              <Service
+                src={Gateway}
+                name="Gateway"
+                ja_name="ゲートウェイ"
+                description="様々な企業に対して、ソフトウェア開発の支援事業を行なっております。これまで、上場企業の自社プロダクトとしてSaaSの開発やメディアの開発で培った経験から、 主にWebサービスの開発経験に強みがあります。また、インフラ構築の技術にも定評があります。"
+                url={null}
+                isBlank={false}
               />
             </div>
-          </section>
-        </div>
+          </div>
+          <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
+            <h3 className="text-center text-sm font-bold">
+              コミュニティ形成支援
+            </h3>
+            <Service
+              src={Harbors}
+              name="HarborS"
+              ja_name="ハーバーズ"
+              description="表参道のエンジニア特化型コミュニティスペース。コワーキング会員のみならず、ドロップインの利用も可能。渋谷からも近い距離にあり、多くのエンジニアにとって、足を運びやすい場所に位置しています。勉強会やイベントも多数開催中。"
+              url="https://harbors.anti-pattern.co.jp/"
+              isBlank={true}
+            />
+          </div>
+          <div className="max-w-lg md:max-w-6xl mx-auto mt-24">
+            <h3 className="text-center text-sm font-bold">スキルアップ</h3>
+            <Service
+              src={Posse}
+              name="POSSE"
+              ja_name="ポッセ"
+              description="プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。"
+              url="https://posse-ap.com/"
+              isBlank={true}
+            />
+            <Service
+              src={CloudDriver}
+              name="CloudDriver"
+              ja_name="クラウドドライバー"
+              description="AWSエンジニアのスキル可視化、実力向上を実現する実技型試験サービス"
+              url="https://clouddriver.net/"
+              isBlank={true}
+            />
+          </div>
+        </section>
       </BaseLayout>
     </>
   )
