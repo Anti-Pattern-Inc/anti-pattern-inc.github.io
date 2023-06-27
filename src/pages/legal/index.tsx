@@ -57,9 +57,6 @@ const Legal = () => {
               </p>
               <div className="pt-3">
                 <p className="text-sm leading-6 text-gray-700">
-                  ■改訂 2023年6月27日
-                </p>
-                <p className="text-sm leading-6 text-gray-700">
                   ■改訂 2022年5月12日
                 </p>
                 <p className="text-sm leading-6 text-gray-700">
