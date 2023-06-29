@@ -8,6 +8,7 @@ import {
   NewspaperIcon,
   Squares2X2Icon,
   XMarkIcon,
+  UserGroupIcon
 } from '@heroicons/react/24/outline'
 import Logo from 'images/anti-pattern_logo.svg'
 import Image from 'next/image'
@@ -77,7 +78,7 @@ const Header = () => {
     {
       name: locale === 'ja' ? 'キャリア' : 'Career',
       href: '/career',
-      icon: Squares2X2Icon,
+      icon: UserGroupIcon,
     },
   ] as const
 
