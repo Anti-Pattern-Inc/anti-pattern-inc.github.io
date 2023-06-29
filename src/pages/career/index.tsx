@@ -1,6 +1,7 @@
 import { EngineeringBlog } from 'components/career/EngineeringBlog'
 import { Hero } from 'components/career/Hero'
 import { Philosophy } from 'components/career/Philosophy'
+import { RecruitingFlow } from 'components/career/RecruitingFlow'
 import { WorkEnvironment } from 'components/career/WorkEnvironment'
 import { CustomHead } from 'components/common/CustomHead'
 import { BusinessConcept } from 'components/features/BusinessConcept'
@@ -21,6 +22,7 @@ const Career = () => {
         <ServiceList />
         <EngineeringBlog />
         <WorkEnvironment />
+        <RecruitingFlow />
       </BaseLayout>
     </>
   )
