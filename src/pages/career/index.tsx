@@ -1,3 +1,4 @@
+import { EngineeringBlog } from 'components/career/EngineeringBlog'
 import { Hero } from 'components/career/Hero'
 import { Philosophy } from 'components/career/Philosophy'
 import { CustomHead } from 'components/common/CustomHead'
@@ -17,6 +18,7 @@ const Career = () => {
         <Philosophy />
         <BusinessConcept />
         <ServiceList />
+        <EngineeringBlog />
       </BaseLayout>
     </>
   )
