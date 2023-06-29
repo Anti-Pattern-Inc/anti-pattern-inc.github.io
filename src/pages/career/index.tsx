@@ -1,3 +1,4 @@
+import { Hero } from 'components/career/Hero'
 import { Philosophy } from 'components/career/Philosophy'
 import { CustomHead } from 'components/common/CustomHead'
 import { BusinessConcept } from 'components/features/BusinessConcept'
@@ -12,6 +13,7 @@ const Career = () => {
         description="Anti-Pattern Inc.の採用ページです。"
       />
       <BaseLayout headerBgColor="stone-100">
+        <Hero />
         <Philosophy />
         <BusinessConcept />
         <ServiceList />
