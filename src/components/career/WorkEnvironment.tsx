@@ -40,27 +40,29 @@ const workEnvironmentItems: ReadonlyArray<WorkEnvironmentItems> = [
 
 const WorkEnvironment = () => {
   return (
-    <section className="py-20">
+    <section className="mt-28">
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         社内環境
       </h2>
-      <div className="grid grid-cols-3 m-auto w-9/12 gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 m-auto max-w-xl md:max-w-3xl gap-2 md:gap-5 px-2 sm:px-6">
         {workEnvironmentItems.map((workEnvironment) => {
           return (
-            <div key={workEnvironment.title}>
+            <div
+              key={workEnvironment.title}
+              className="flex flex-col items-center justify-center gap-4"
+            >
               <Image
                 src={workEnvironment.img}
                 alt={workEnvironment.title}
-                className="w-full h-full"
+                className="w-2/3 h-2/3"
               />
-              <div className="font-bold text-center">
+              <div className="text-sm md:text-xl font-bold text-center">
                 {workEnvironment.title}
               </div>
             </div>
           )
         })}
       </div>
-      <div></div>
     </section>
   )
 }
