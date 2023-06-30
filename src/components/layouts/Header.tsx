@@ -7,8 +7,8 @@ import {
   GlobeAltIcon,
   NewspaperIcon,
   Squares2X2Icon,
+  UserGroupIcon,
   XMarkIcon,
-  UserGroupIcon
 } from '@heroicons/react/24/outline'
 import Logo from 'images/anti-pattern_logo.svg'
 import Image from 'next/image'
