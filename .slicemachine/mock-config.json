@@ -2,7 +2,8 @@
   "_cts": {
     "news": {},
     "legal_policy": {},
-    "hub": {}
+    "hub": {},
+    "job_position": {}
   },
   "slices": {
     "Paragraph": {
@@ -25,5 +26,11 @@
       }
     }
   },
-  "src/slices": {}
+  "src/slices": {
+    "JobPosition": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
 }
