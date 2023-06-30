@@ -1,4 +1,9 @@
-import { PrismicRichText } from '@prismicio/react'
+import { Content } from '@prismicio/client'
+import {
+  PrismicImage,
+  PrismicRichText,
+  SliceComponentProps,
+} from '@prismicio/react'
 import React from 'react'
 
 /**
@@ -6,31 +11,17 @@ import React from 'react'
  * @typedef {import("@prismicio/react").SliceComponentProps<JobPositionSlice>} JobPositionProps
  * @param { JobPositionProps }
  */
-const JobPosition = ({ slice }) => (
-  <section>
-    <span className="title">
-      {slice.primary.title ? (
-        <PrismicRichText field={slice.primary.title} />
-      ) : (
-        <h2>Template slice, update me!</h2>
-      )}
-    </span>
-    {slice.primary.description ? (
+
+export type JobPositionProps = SliceComponentProps<Content.JobPositionSlice>
+
+const JobPosition = ({ slice }: JobPositionProps) => (
+  <div className="flex border-4 border-black rounded my-4">
+    <PrismicImage field={slice.primary.image} className="h-40" />
+    <div>
+      <PrismicRichText field={slice.primary.positionname} />
       <PrismicRichText field={slice.primary.description} />
-    ) : (
-      <p>start by editing this slice from inside Slice Machine!</p>
-    )}
-    <style jsx>{`
-      section {
-        max-width: 600px;
-        margin: 4em auto;
-        text-align: center;
-      }
-      .title {
-        color: #8592e0;
-      }
-    `}</style>
-  </section>
+    </div>
+  </div>
 )
 
 export default JobPosition
