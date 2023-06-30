@@ -1,6 +1,6 @@
 const EngineeringBlog = () => {
   return (
-    <section className="py-20">
+    <section>
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         エンジニアブログ
       </h2>
