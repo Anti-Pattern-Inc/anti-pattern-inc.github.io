@@ -9,7 +9,7 @@ const JobPosition = ({
   job_position: JobPositionDocument
 }) => {
   return (
-    <section className="py-20">
+    <section className="mt-28">
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         募集職種一覧
       </h2>
