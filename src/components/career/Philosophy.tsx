@@ -73,11 +73,14 @@ const Philosophy = () => {
       <ul>
         {philosophyLists.map((philosophyList) => {
           return (
-            <li key={philosophyList.title} className="my-5 px-6 md:px-12">
-              <h2 className="text-ap-green md:text-2xl font-bold text-center">
+            <li
+              key={philosophyList.title}
+              className="md:w-[960px] my-5 mx-auto px-6 md:px-12"
+            >
+              <h2 className="text-ap-green md:text-2xl font-bold text-center mt-12">
                 {philosophyList.title}
               </h2>
-              <p className="text-sm font-bold text-center mt-2">
+              <p className="text-gray-600 text-sm leading-8 font-bold text-center mt-2">
                 {philosophyList.description}
               </p>
             </li>
