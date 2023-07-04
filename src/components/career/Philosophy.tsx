@@ -75,7 +75,7 @@ const Philosophy = () => {
           return (
             <li
               key={philosophyList.title}
-              className="md:w-[960px] my-5 mx-auto px-6 md:px-12"
+              className="md:max-w-[960px] my-5 mx-auto px-6 md:px-12"
             >
               <h2 className="text-ap-green md:text-2xl font-bold text-center mt-12">
                 {philosophyList.title}
@@ -87,10 +87,10 @@ const Philosophy = () => {
           )
         })}
       </ul>
-      <div className="flex justify-end md:max-w-[960px] mx-auto mt-4">
+      <div className="flex justify-center md:justify-end md:max-w-[960px] mx-auto mt-4">
         <a
           href=""
-          className="whitespace-nowrap rounded-full border border-transparent bg-ap-green mr-4 px-4 py-6 text-white shadow-sm"
+          className="whitespace-nowrap rounded-full border border-transparent bg-ap-green md:mr-4 px-4 py-6 text-white shadow-sm"
         >
           価値観と行動指針の役割を確認する
         </a>
