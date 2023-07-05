@@ -89,8 +89,10 @@ const Philosophy = () => {
       </ul>
       <div className="flex justify-center md:justify-end md:max-w-[960px] mx-auto mt-4">
         <a
-          href=""
+          href="https://miro.com/app/board/uXjVM5dO3UA=/?moveToWidget=3458764558645403355&cot=14"
+          target="_blank"
           className="whitespace-nowrap rounded-full border border-transparent bg-ap-green md:mr-4 px-4 py-6 text-white shadow-sm"
+          rel="noreferrer"
         >
           価値観と行動指針の役割を確認する
         </a>
