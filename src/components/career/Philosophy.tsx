@@ -94,7 +94,7 @@ const Philosophy = () => {
           className="whitespace-nowrap rounded-full border border-transparent bg-ap-green md:mr-4 px-4 py-6 text-white shadow-sm"
           rel="noreferrer"
         >
-          価値観と行動指針の役割を確認する
+          価値観と行動指針の構造を確認する
         </a>
       </div>
     </section>

@@ -29,7 +29,7 @@ const RecruitingFlow = () => {
         <p>※選考は全てWebで実施します</p>
       </div>
       <p className="text-xl sm:text-2xl lg:text-4xl font-bold text-center mt-10 mx-2 md:mx-0">
-        これからアンチパターンを一緒に創り、
+        これからのアンチパターン社を一緒に創り、
         <br />
         共にソフトウェアエンジニアの生きる世界を変えませんか。
       </p>
