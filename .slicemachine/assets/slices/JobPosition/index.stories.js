@@ -1,7 +1,7 @@
-import MyComponent from '../../../../../src/slices/JobPosition';
+import MyComponent from '@/slices/JobPosition';
 
 export default {
-  title: 'src/slices/JobPosition'
+  title: 'slices/JobPosition'
 }
 
 
