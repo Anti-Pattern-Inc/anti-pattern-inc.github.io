@@ -8,8 +8,8 @@ const Hero = () => {
         <Image src={HeroImg} alt="hero_img" className="h-full object-cover" />
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
-      <div className="absolute flex items-center h-full mx-auto max-w-7xl px-6 lg:px-8">
-        <div>
+      <div className="absolute flex items-center h-full w-full mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto">
           <p className="text-white block text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
             「ソフトウェアエンジニアリングを通じて
             <br />
