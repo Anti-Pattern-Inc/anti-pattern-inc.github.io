@@ -9,7 +9,7 @@
           {
             "type": "paragraph",
             "content": {
-              "text": "Est do incididunt sunt nulla officia. Minim ad quis exercitation aliquip commodo enim enim laborum irure. Minim fugiat sint ut tempor excepteur ut dolore veniam ipsum Lorem anim officia aliquip."
+              "text": "Deserunt excepteur ex aute labore nulla enim officia ex ex culpa."
             }
           }
         ]
@@ -26,7 +26,6 @@
         ]
       },
       "image": {
-        "__TYPE__": "ImageContent",
         "origin": {
           "id": "main",
           "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
@@ -44,6 +43,9 @@
           },
           "background": "transparent"
         },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
         "thumbnails": {}
       }
     },
