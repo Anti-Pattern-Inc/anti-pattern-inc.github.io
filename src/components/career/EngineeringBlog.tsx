@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const EngineeringBlog = () => {
   return (
     <section>
@@ -16,8 +17,7 @@ const EngineeringBlog = () => {
               <span className="text-white block text-xl sm:text-5xl font-bold text-center">
                 Anti-Pattern Inc. Engineering Blog
                 <span className="block font-normal text-base sm:text-3xl ">
-                  Anti-Pattern
-                  Inc.(株式会社アンチパターン)のエンジニアブログです。
+                  Anti-Pattern Inc.(株式会社アンチパターン)のエンジニアブログです。
                 </span>
               </span>
             </h3>
