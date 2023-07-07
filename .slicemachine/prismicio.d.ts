@@ -227,6 +227,16 @@ interface JobPositionSliceDefaultPrimary {
      */
     positionname: prismicT.TitleField;
     /**
+     * detail link field in *JobPosition → Primary*
+     *
+     * - **Field Type**: Link
+     * - **Placeholder**: *None*
+     * - **API ID Path**: job_position.primary.detail_link
+     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+     *
+     */
+    detail_link: prismicT.LinkField;
+    /**
      * Description field in *JobPosition → Primary*
      *
      * - **Field Type**: Rich Text

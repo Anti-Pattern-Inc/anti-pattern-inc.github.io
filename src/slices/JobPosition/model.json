@@ -20,13 +20,21 @@
             "single": "heading1"
           }
         },
+        "detail_link": {
+          "type": "Link",
+          "config": {
+            "label": "detail link",
+            "placeholder": "",
+            "select": null
+          }
+        },
         "description": {
           "type": "StructuredText",
           "config": {
             "label": "Description",
             "placeholder": "A nice description of your feature",
             "allowTargetBlank": true,
-            "single": "paragraph,hyperlink"
+            "single": "paragraph"
           }
         },
         "image": {
