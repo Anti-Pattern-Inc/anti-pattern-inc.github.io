@@ -44,7 +44,7 @@ const WorkEnvironment = () => {
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         社内環境
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 m-auto max-w-xl md:max-w-3xl gap-2 md:gap-5 px-2 sm:px-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 m-auto max-w-xl md:max-w-3xl gap-2 md:gap-5 px-2 sm:px-6 text-gray-600">
         {workEnvironmentItems.map((workEnvironment) => {
           return (
             <div
