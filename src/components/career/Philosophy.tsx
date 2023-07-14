@@ -67,7 +67,7 @@ const Philosophy = () => {
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         理念
       </h2>
-      <h3 className="text-base sm:text-xl md:text-3xl font-bold text-center">
+      <h3 className="text-base sm:text-xl md:text-3xl font-bold text-center text-gray-600">
         日本のソフトウェアエンジニアを 憧れの職業へ
       </h3>
       <ul>
