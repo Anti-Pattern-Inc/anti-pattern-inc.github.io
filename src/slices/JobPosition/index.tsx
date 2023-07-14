@@ -20,7 +20,7 @@ const JobPosition = ({ slice }: JobPositionProps) => (
     <div className="flex flex-col md:flex-row items-center gap-2 max-w-xl md:max-w-3xl border-4 border-gray-500 rounded-3xl mx-auto my-4 p-4 ">
       <PrismicImage
         field={slice.primary.image}
-        className="h-48 w-full md:w-1/3 object-contain"
+        className="h-32 md:h-48 w-full md:w-1/3 object-contain"
       />
       <div className="w-full md:w-2/3 break-words md:text-unset">
         <div className="text-xl  md:text-3xl text-center md:text-left">
