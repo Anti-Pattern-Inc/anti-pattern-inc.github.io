@@ -64,7 +64,7 @@ const philosophyLists: ReadonlyArray<PhilosophyLists> = [
 const Philosophy = () => {
   return (
     <section className="mt-28">
-      <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
+      <h2 className="mb-2 md:mb-4 font-bold text-ap-green text-2xl text-center">
         理念
       </h2>
       <h3 className="text-base sm:text-xl md:text-3xl font-bold text-center text-gray-600">
@@ -91,7 +91,7 @@ const Philosophy = () => {
         <a
           href="https://miro.com/app/board/uXjVM5dO3UA=/?moveToWidget=3458764558645403355&cot=14"
           target="_blank"
-          className="whitespace-nowrap rounded-full border border-transparent bg-ap-green md:mr-4 px-4 py-6 text-white shadow-sm"
+          className="whitespace-nowrap rounded-full border border-transparent bg-ap-green md:mr-4 px-4 py-4 text-white shadow-sm"
           rel="noreferrer"
         >
           価値観と行動指針の構造を確認する
