@@ -16,7 +16,7 @@ import React from 'react'
 export type JobPositionProps = SliceComponentProps<Content.JobPositionSlice>
 
 const JobPosition = ({ slice }: JobPositionProps) => (
-  <div className="mx-4">
+  <div className="mx-4 md:mx-1">
     <div className="flex flex-col md:flex-row items-center gap-2 max-w-xl md:max-w-3xl border-4 border-gray-500 rounded-3xl mx-auto my-4 p-4 ">
       <PrismicImage
         field={slice.primary.image}
