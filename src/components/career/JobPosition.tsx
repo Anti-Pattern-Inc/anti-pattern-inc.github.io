@@ -13,7 +13,9 @@ const JobPosition = ({
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         募集職種一覧
       </h2>
-      <SliceZone slices={job_position.data.slices} components={components} />
+      <div className="flex flex-col">
+        <SliceZone slices={job_position.data.slices} components={components} />
+      </div>
     </section>
   )
 }
