@@ -25,7 +25,7 @@ const RecruitingFlow = () => {
           <p>内定</p>
         </div>
       </div>
-      <div className="flex justify-end text-sm font-bold w-[90%] max-w-7xl m-auto mt-4">
+      <div className="flex justify-end text-sm font-bold w-[90%] max-w-5xl m-auto mt-4">
         <p>※選考は全てWebで実施します</p>
       </div>
       <p className="text-lg md:text-2xl font-bold text-center mt-10 leading-8 md:leading-10 mx-2 md:mx-0">
