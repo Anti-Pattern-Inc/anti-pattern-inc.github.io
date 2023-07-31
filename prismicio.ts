@@ -1,5 +1,6 @@
 import * as prismic from '@prismicio/client'
 import * as prismicNext from '@prismicio/next'
+
 import sm from './sm.json'
 
 /**
@@ -29,6 +30,10 @@ const routes = [
   {
     type: 'hub',
     path: '/hub/:uid',
+  },
+  {
+    type: 'job_position',
+    path: '/career',
   },
 ]
 
