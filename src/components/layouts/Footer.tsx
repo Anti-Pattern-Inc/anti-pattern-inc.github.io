@@ -60,8 +60,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-10">
-          <Link href="/legal" className="text-white text-sm">
+          <Link href="/legal" className="block text-white text-sm">
             {locale === 'ja' ? 'プライバシーポリシー' : 'Privacy Policy'}
+          </Link>
+          <Link
+            href="/information-security-policy"
+            className="block text-white text-sm"
+          >
+            {locale === 'ja'
+              ? '情報セキュリティ方針'
+              : 'Information Security Policy'}
           </Link>
           <p className="mt-5 text-xs text-gray-600">© 2023 Anti-Pattern Inc.</p>
         </div>
