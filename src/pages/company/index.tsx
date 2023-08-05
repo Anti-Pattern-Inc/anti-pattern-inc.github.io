@@ -2,7 +2,7 @@ import { CustomHead } from 'components/common/CustomHead'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
-import AwsPartner from 'images/aws-partnernetwork-partner-select-tier-services-badge.png'
+import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import Image from 'next/image'
 
 const Company = () => {
@@ -26,7 +26,7 @@ const Company = () => {
           <Members />
           <section className="pb-28 md:pb-52 mt-32 md:mt-44">
             <h2 className="mb-6 md:mb-14 font-bold text-ap-green text-2xl text-center">
-              CERTIFICATIONS
+              Advanced Tier
             </h2>
             <Image
               src={AwsPartner}
