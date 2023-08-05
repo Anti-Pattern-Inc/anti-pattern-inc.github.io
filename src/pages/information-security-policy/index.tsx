@@ -62,7 +62,6 @@ const InformationSecurityPolicy = () => {
                   代表取締役社長 小笹佑京
                 </p>
               </div>
-              <div className="border-t-4 border-stone-100 mt-16 pt-12"></div>
             </section>
           </article>
         </div>
