@@ -26,7 +26,7 @@ const Company = () => {
           <Members />
           <section className="pb-28 md:pb-52 mt-32 md:mt-44">
             <h2 className="mb-6 md:mb-14 font-bold text-ap-green text-2xl text-center">
-              Advanced Tier
+              CERTIFICATIONS
             </h2>
             <Image
               src={AwsPartner}
