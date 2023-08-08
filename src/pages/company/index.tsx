@@ -2,7 +2,7 @@ import { CustomHead } from 'components/common/CustomHead'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
-import AwsPartner from 'images/aws-partnernetwork-partner-select-tier-services-badge.png'
+import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import Image from 'next/image'
 
 const Company = () => {
