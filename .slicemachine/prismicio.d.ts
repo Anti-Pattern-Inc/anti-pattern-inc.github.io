@@ -79,6 +79,35 @@ type HubDocumentDataSlicesSlice = ParagraphSlice | TableSlice;
  * @typeParam Lang - Language API ID of the document.
  */
 export type HubDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<HubDocumentData>, "hub", Lang>;
+/** Content for job position documents */
+interface JobPositionDocumentData {
+    /**
+     * Slice Zone field in *job position*
+     *
+     * - **Field Type**: Slice Zone
+     * - **Placeholder**: *None*
+     * - **API ID Path**: job_position.slices[]
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+     *
+     */
+    slices: prismicT.SliceZone<JobPositionDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *job position → Slice Zone*
+ *
+ */
+type JobPositionDocumentDataSlicesSlice = JobPositionSlice;
+/**
+ * job position document from Prismic
+ *
+ * - **API ID**: `job_position`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type JobPositionDocument<Lang extends string = string> = prismicT.PrismicDocumentWithoutUID<Simplify<JobPositionDocumentData>, "job_position", Lang>;
 /** Content for legal policy documents */
 interface LegalPolicyDocumentData {
     /**
@@ -181,7 +210,76 @@ type NewsDocumentDataSlicesSlice = ParagraphSlice;
  * @typeParam Lang - Language API ID of the document.
  */
 export type NewsDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<NewsDocumentData>, "news", Lang>;
-export type AllDocumentTypes = HubDocument | LegalPolicyDocument | NewsDocument;
+export type AllDocumentTypes = HubDocument | JobPositionDocument | LegalPolicyDocument | NewsDocument;
+/**
+ * Primary content in JobPosition → Primary
+ *
+ */
+interface JobPositionSliceDefaultPrimary {
+    /**
+     * PositionName field in *JobPosition → Primary*
+     *
+     * - **Field Type**: Title
+     * - **Placeholder**: This is where it all begins...
+     * - **API ID Path**: job_position.primary.positionname
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    positionname: prismicT.TitleField;
+    /**
+     * detail link field in *JobPosition → Primary*
+     *
+     * - **Field Type**: Link
+     * - **Placeholder**: *None*
+     * - **API ID Path**: job_position.primary.detail_link
+     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+     *
+     */
+    detail_link: prismicT.LinkField;
+    /**
+     * Description field in *JobPosition → Primary*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: A nice description of your feature
+     * - **API ID Path**: job_position.primary.description
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    description: prismicT.RichTextField;
+    /**
+     * Image field in *JobPosition → Primary*
+     *
+     * - **Field Type**: Image
+     * - **Placeholder**: *None*
+     * - **API ID Path**: job_position.primary.image
+     * - **Documentation**: https://prismic.io/docs/core-concepts/image
+     *
+     */
+    image: prismicT.ImageField<never>;
+}
+/**
+ * Default variation for JobPosition Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `JobPosition`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type JobPositionSliceDefault = prismicT.SharedSliceVariation<"default", Simplify<JobPositionSliceDefaultPrimary>, never>;
+/**
+ * Slice variation for *JobPosition*
+ *
+ */
+type JobPositionSliceVariation = JobPositionSliceDefault;
+/**
+ * JobPosition Shared Slice
+ *
+ * - **API ID**: `job_position`
+ * - **Description**: `JobPosition`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type JobPositionSlice = prismicT.SharedSlice<"job_position", JobPositionSliceVariation>;
 /**
  * Item in Paragraph → Items
  *
@@ -336,6 +434,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { HubDocumentData, HubDocumentDataSlicesSlice, HubDocument, LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceInterviewItem, ParagraphSliceInterview, ParagraphSliceVariation, ParagraphSlice, TableSliceDefaultPrimary, TableSliceDefaultItem, TableSliceDefault, TableSliceVariation, TableSlice };
+        export type { HubDocumentData, HubDocumentDataSlicesSlice, HubDocument, JobPositionDocumentData, JobPositionDocumentDataSlicesSlice, JobPositionDocument, LegalPolicyDocumentData, LegalPolicyDocumentDataSlicesSlice, LegalPolicyDocument, NewsDocumentData, NewsDocumentDataSlicesSlice, NewsDocument, AllDocumentTypes, JobPositionSliceDefaultPrimary, JobPositionSliceDefault, JobPositionSliceVariation, JobPositionSlice, ParagraphSliceDefaultItem, ParagraphSliceDefault, ParagraphSliceInterviewItem, ParagraphSliceInterview, ParagraphSliceVariation, ParagraphSlice, TableSliceDefaultPrimary, TableSliceDefaultItem, TableSliceDefault, TableSliceVariation, TableSlice };
     }
 }

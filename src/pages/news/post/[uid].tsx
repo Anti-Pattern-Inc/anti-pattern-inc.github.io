@@ -1,7 +1,7 @@
 import { SliceZone } from '@prismicio/react'
 import { CustomHead } from 'components/common/CustomHead'
-import { BaseLayout } from 'components/layouts/BaseLayout'
 import { ShareButtons } from 'components/common/ShareButtons'
+import { BaseLayout } from 'components/layouts/BaseLayout'
 import type { GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import { components } from 'slices'
 import { getFormattedDate } from 'utils/date'

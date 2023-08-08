@@ -7,6 +7,7 @@ import {
   GlobeAltIcon,
   NewspaperIcon,
   Squares2X2Icon,
+  UserGroupIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import Logo from 'images/anti-pattern_logo.svg'
@@ -73,6 +74,11 @@ const Header = () => {
       href: 'https://tech.anti-pattern.co.jp/',
       icon: DocumentTextIcon,
       isTargetBlank: true,
+    },
+    {
+      name: locale === 'ja' ? 'キャリア' : 'Career',
+      href: '/career',
+      icon: UserGroupIcon,
     },
   ] as const
 
