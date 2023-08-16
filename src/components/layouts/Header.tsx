@@ -6,6 +6,7 @@ import {
   DocumentTextIcon,
   GlobeAltIcon,
   NewspaperIcon,
+  Square2StackIcon,
   Squares2X2Icon,
   UserGroupIcon,
   XMarkIcon,
@@ -112,13 +113,18 @@ const Header = () => {
                 href={resource.href}
                 target={resource.isTargetBlank ? '_blank' : ''}
                 className={
-                  'text-base font-medium text-gray-500 hover:text-gray-900 pb-1 ' +
+                  'flex items-center gap-1 text-base font-medium text-gray-500 hover:text-gray-900 pb-1 ' +
                   (isCurrentPage(resource.href)
                     ? 'border-b-2 border-gray-500'
                     : '')
                 }
               >
                 {resource.name}
+                {resource.isTargetBlank ? (
+                  <Square2StackIcon className="w-4 rotate-90" />
+                ) : (
+                  ''
+                )}
               </Link>
             )
           })}
@@ -169,6 +175,7 @@ const Header = () => {
                       key={resource.name}
                       href={resource.href}
                       className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
+                      target={resource.isTargetBlank ? '_blank' : ''}
                     >
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-ap-green text-white">
                         <resource.icon className="h-6 w-6" aria-hidden="true" />
@@ -176,6 +183,11 @@ const Header = () => {
                       <div className="ml-4 text-base font-medium text-gray-900">
                         {resource.name}
                       </div>
+                      {resource.isTargetBlank ? (
+                        <Square2StackIcon className="ml-1 w-4 rotate-90" />
+                      ) : (
+                        ''
+                      )}
                     </Link>
                   ))}
                 </nav>

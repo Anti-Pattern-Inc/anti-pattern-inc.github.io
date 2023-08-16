@@ -1,4 +1,4 @@
-import BlogLink from 'images/blog-link-icon.png'
+import { Square2StackIcon } from '@heroicons/react/24/outline'
 import Facebook from 'images/fb-w.png'
 import Linkedin from 'images/li-w.png'
 import Twitter from 'images/tw-w.png'
@@ -34,16 +34,13 @@ const Footer = () => {
             href="https://tech.anti-pattern.co.jp/"
             target={'_blank'}
             rel="noreferrer"
+            className="flex items-center gap-1"
           >
             <span className="text-white text-sm">
               {locale === 'ja' ? 'エンジニアブログ' : 'Engineer Blog'}
             </span>
             <span>
-              <Image
-                src={BlogLink}
-                alt="blog"
-                className="w-2 inline ml-1 pb-0.5"
-              />
+              <Square2StackIcon stroke="white" className="w-4 rotate-90" />
             </span>
           </a>
           <div className="flex flex-wrap gap-5 mt-5">
