@@ -175,6 +175,7 @@ const Header = () => {
                       key={resource.name}
                       href={resource.href}
                       className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
+                      target={resource.isTargetBlank ? '_blank' : ''}
                     >
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-ap-green text-white">
                         <resource.icon className="h-6 w-6" aria-hidden="true" />
