@@ -182,6 +182,11 @@ const Header = () => {
                       <div className="ml-4 text-base font-medium text-gray-900">
                         {resource.name}
                       </div>
+                      {resource.isTargetBlank ? (
+                        <Square2StackIcon className="ml-1 w-4 rotate-90" />
+                      ) : (
+                        ''
+                      )}
                     </Link>
                   ))}
                 </nav>
