@@ -13,11 +13,11 @@ export const repositoryName = prismic.getRepositoryName(sm.apiEndpoint)
 const routes = [
   {
     type: 'news',
-    path: '/news',
+    path: '/news/1',
   },
   {
     type: 'news',
-    path: '/news/:uid',
+    path: '/news/post/:uid',
   },
   {
     type: 'legal_policy',
@@ -25,11 +25,11 @@ const routes = [
   },
   {
     type: 'hub',
-    path: '/hub',
+    path: '/hub/1',
   },
   {
     type: 'hub',
-    path: '/hub/:uid',
+    path: '/hub/post/:uid',
   },
   {
     type: 'job_position',
