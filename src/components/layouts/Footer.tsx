@@ -1,7 +1,7 @@
 import { Square2StackIcon } from '@heroicons/react/24/outline'
 import Facebook from 'images/fb-w.png'
 import Linkedin from 'images/li-w.png'
-import Twitter from 'images/tw-w.png'
+import X from 'images/x-logo-white.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -13,7 +13,7 @@ const images = [
     href: 'https://www.facebook.com/people/Anti-Pattern-Inc/100039176570521/',
   },
   {
-    src: Twitter,
+    src: X,
     alt: 'Twitter',
     href: 'https://twitter.com/antipatterninc',
   },
@@ -48,7 +48,13 @@ const Footer = () => {
               return (
                 <a href={img.href} target="_blank" key={key} rel="noreferrer">
                   <span>
-                    <Image src={img.src} alt={img.alt} className="w-6 inline" />
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      className={
+                        img.alt == 'Twitter' ? 'w-4 inline' : 'w-6 inline'
+                      }
+                    />
                   </span>
                   <span className="text-white text-xs ml-2">{img.alt}</span>
                 </a>
