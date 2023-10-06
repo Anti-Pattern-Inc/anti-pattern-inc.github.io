@@ -1,9 +1,10 @@
+import XIcon from 'images/x-logo-white.png'
+import Image from 'next/image'
 import {
   FacebookIcon,
   FacebookShareButton,
   LinkedinIcon,
   LinkedinShareButton,
-  TwitterIcon,
   TwitterShareButton,
 } from 'react-share'
 
@@ -19,7 +20,9 @@ const ShareButtons = ({ type, slug }: Props) => {
         <FacebookIcon size={28} round />
       </FacebookShareButton>
       <TwitterShareButton url={`https://anti-pattern.co.jp/${type}/${slug}`}>
-        <TwitterIcon size={28} round />
+        <div className="p-1 w-6 rounded-full bg-black">
+          <Image src={XIcon} alt="Twitter" />
+        </div>
       </TwitterShareButton>
       <LinkedinShareButton url={`https://anti-pattern.co.jp/${type}/${slug}`}>
         <LinkedinIcon size={28} round />
