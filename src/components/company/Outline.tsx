@@ -39,14 +39,6 @@ const outline2: ReadonlyArray<OutlineContent> = [
     title: '主要株主',
     content: '小笹佑京',
   },
-  {
-    title: '労働者派遣',
-    content: '派13-314618',
-  },
-  {
-    title: '職業紹介',
-    content: '13-ユ-311813',
-  },
 ]
 
 type Props = {
