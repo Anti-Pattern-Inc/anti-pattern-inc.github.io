@@ -20,13 +20,13 @@ const outline1: ReadonlyArray<OutlineContent> = [
     title: '所在地',
     content: '東京都港区南⻘山3-15-9 MINOWA表参道3階',
   },
+]
+
+const outline2: ReadonlyArray<OutlineContent> = [
   {
     title: '代表番号',
     content: '03-6885-6136',
   },
-]
-
-const outline2: ReadonlyArray<OutlineContent> = [
   {
     title: '社員数',
     content: '46名 (2023年4月1日時点)',
@@ -38,14 +38,6 @@ const outline2: ReadonlyArray<OutlineContent> = [
   {
     title: '主要株主',
     content: '小笹佑京',
-  },
-  {
-    title: '労働者派遣',
-    content: '派13-314618',
-  },
-  {
-    title: '職業紹介',
-    content: '13-ユ-311813',
   },
 ]
 
