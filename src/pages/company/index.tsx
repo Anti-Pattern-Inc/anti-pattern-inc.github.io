@@ -33,7 +33,7 @@ const Company = () => {
               <Image
                 src={AwsPartner}
                 alt="aws Partner Select Tier Services"
-                className=""
+                className="h-32 w-auto"
               />
               <Image
                 src={ISMS}
