@@ -117,7 +117,7 @@ const ServiceList = () => {
           name="POSSE"
           ja_name="ポッセ"
           description="プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。"
-          url="https://posse-ap.com/"
+          url="https://posse.community/"
           isBlank={true}
         />
         <Service
