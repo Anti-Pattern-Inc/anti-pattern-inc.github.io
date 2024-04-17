@@ -35,11 +35,14 @@ const Company = () => {
                 alt="aws Partner Select Tier Services"
                 className="h-32 w-auto"
               />
-              <Image
-                src={ISMS}
-                alt="ISOIEC 27001 Information Security Management System Certification"
-                className="h-32 w-auto"
-              />
+              <div>
+                <Image
+                  src={ISMS}
+                  alt="ISOIEC 27001 Information Security Management System Certification"
+                  className="h-32 w-auto"
+                />
+                <p className="text-center">IS 794005</p>
+              </div>
             </div>
           </section>
         </div>
