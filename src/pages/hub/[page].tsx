@@ -131,7 +131,7 @@ export async function getStaticPaths() {
 
   const response = await client.get({
     predicates: [prismic.predicate.at('document.type', 'hub')],
-    orderings: ['my.hub.last_updated_date desc'],
+    orderings: ['my.hub.publication_date desc'],
     pageSize: 1,
   })
 
