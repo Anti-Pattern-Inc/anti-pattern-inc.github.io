@@ -6,7 +6,7 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ['ja'],
+    locales: ['ja'], // 英語化対応時にlocaleの設定を以下に戻す
     // locales: ['en', 'ja'],
     defaultLocale: 'ja',
   },
