@@ -90,12 +90,12 @@ export const getStaticPaths = async () => {
   }
   const paths: Array<Path> = []
   pages.forEach((page) => {
-    paths.push({
-      params: {
-        uid: page.uid,
-      },
-      locale: 'en',
-    })
+    // paths.push({
+    //   params: {
+    //     uid: page.uid,
+    //   },
+    //   locale: 'en',
+    // })
     paths.push({
       params: {
         uid: page.uid,
