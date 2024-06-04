@@ -6,7 +6,8 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ['en', 'ja'],
+    locales: ['ja'],
+    // locales: ['en', 'ja'],
     defaultLocale: 'ja',
   },
   pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
