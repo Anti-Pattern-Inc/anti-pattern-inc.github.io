@@ -65,13 +65,13 @@ const Header = () => {
       name: 'ニュース',
       href: '/news/1',
       icon: NewspaperIcon,
-      display: locale === 'ja' ? '' : 'hidden',
+      display: locale === 'en' ? 'hidden' : '',
     },
     {
       name: 'Hub',
       href: '/hub/1',
       icon: Squares2X2Icon,
-      display: locale === 'ja' ? '' : 'hidden',
+      display: locale === 'en' ? 'hidden' : '',
     },
     {
       name: locale === 'ja' ? 'ブログ' : 'Blogs',
