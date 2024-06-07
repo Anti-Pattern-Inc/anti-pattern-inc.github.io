@@ -6,7 +6,8 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
-    locales: ['en', 'ja'],
+    locales: ['ja'], // 英語化対応時にlocaleの設定を以下に戻す
+    // locales: ['en', 'ja'],
     defaultLocale: 'ja',
   },
   pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
@@ -27,6 +28,20 @@ const nextConfig = {
       {
         source: '/hub-sitemap.xml',
         destination: '/api/sitemap-hub',
+      },
+    ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/en',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/en/:path*',
+        destination: '/:path*',
+        permanent: false,
       },
     ]
   },

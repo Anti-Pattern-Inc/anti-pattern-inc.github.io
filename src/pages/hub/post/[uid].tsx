@@ -99,12 +99,13 @@ export const getStaticPaths = async () => {
   }
   const paths: Path[] = []
   pages.forEach((page) => {
-    paths.push({
-      params: {
-        uid: page.uid,
-      },
-      locale: 'en',
-    })
+    // localeに"en"を追加する場合は以下のコメントアウトを外す
+    // paths.push({
+    //   params: {
+    //     uid: page.uid,
+    //   },
+    //   locale: 'en',
+    // })
     paths.push({
       params: {
         uid: page.uid,
