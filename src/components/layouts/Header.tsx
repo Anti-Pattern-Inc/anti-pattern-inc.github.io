@@ -47,7 +47,7 @@ const Header = () => {
       props: React.ComponentProps<'svg'> & { title?: string; titleId?: string },
     ) => JSX.Element
     isTargetBlank?: boolean
-    display?: boolean
+    isDisplayNone?: boolean
   }
 
   const resources: ReadonlyArray<Resources> = [
@@ -65,13 +65,13 @@ const Header = () => {
       name: 'ニュース',
       href: '/news/1',
       icon: NewspaperIcon,
-      display: locale === 'en' ? true : false,
+      isDisplayNone: locale === 'en' ? true : false,
     },
     {
       name: 'Hub',
       href: '/hub/1',
       icon: Squares2X2Icon,
-      display: locale === 'en' ? true : false,
+      isDisplayNone: locale === 'en' ? true : false,
     },
     {
       name: locale === 'ja' ? 'ブログ' : 'Blogs',
@@ -120,7 +120,7 @@ const Header = () => {
                   (isCurrentPage(resource.href)
                     ? 'border-b-2 border-gray-500 '
                     : '') +
-                  (resource.display ? 'hidden' : '')
+                  (resource.isDisplayNone ? 'hidden' : '')
                 }
               >
                 {resource.name}
@@ -180,7 +180,7 @@ const Header = () => {
                       href={resource.href}
                       className={
                         `-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50 ` +
-                        (resource.display ? 'hidden' : '')
+                        (resource.isDisplayNone ? 'hidden' : '')
                       }
                       target={resource.isTargetBlank ? '_blank' : ''}
                     >
