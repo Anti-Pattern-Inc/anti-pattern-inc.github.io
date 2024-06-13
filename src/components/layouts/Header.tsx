@@ -47,6 +47,7 @@ const Header = () => {
       props: React.ComponentProps<'svg'> & { title?: string; titleId?: string },
     ) => JSX.Element
     isTargetBlank?: boolean
+    isDisplayNone?: boolean
   }
 
   const resources: ReadonlyArray<Resources> = [
@@ -61,17 +62,19 @@ const Header = () => {
       icon: CursorArrowRaysIcon,
     },
     {
-      name: locale === 'ja' ? 'ニュース' : 'News',
+      name: 'ニュース',
       href: '/news/1',
       icon: NewspaperIcon,
+      isDisplayNone: locale === 'en' ? true : false,
     },
     {
       name: 'Hub',
       href: '/hub/1',
       icon: Squares2X2Icon,
+      isDisplayNone: locale === 'en' ? true : false,
     },
     {
-      name: 'ブログ',
+      name: locale === 'ja' ? 'ブログ' : 'Blogs',
       href: 'https://tech.anti-pattern.co.jp/',
       icon: DocumentTextIcon,
       isTargetBlank: true,
@@ -115,8 +118,9 @@ const Header = () => {
                 className={
                   'flex items-center gap-1 text-base font-medium text-gray-500 hover:text-gray-900 pb-1 ' +
                   (isCurrentPage(resource.href)
-                    ? 'border-b-2 border-gray-500'
-                    : '')
+                    ? 'border-b-2 border-gray-500 '
+                    : '') +
+                  (resource.isDisplayNone ? 'hidden' : '')
                 }
               >
                 {resource.name}
@@ -174,7 +178,10 @@ const Header = () => {
                     <Link
                       key={resource.name}
                       href={resource.href}
-                      className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
+                      className={
+                        `-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50 ` +
+                        (resource.isDisplayNone ? 'hidden' : '')
+                      }
                       target={resource.isTargetBlank ? '_blank' : ''}
                     >
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-ap-green text-white">
