@@ -2,16 +2,19 @@ import { CustomHead } from 'components/common/CustomHead'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
+import { useLocale } from 'hooks/useLocale'
 import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
 import Image from 'next/image'
 
 const Company = () => {
+  const t = useLocale()
+
   return (
     <>
       <CustomHead
-        title="会社概要 | Anti-Pattern Inc."
-        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+        title={t.company.head.title}
+        description={t.company.head.description}
       />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
