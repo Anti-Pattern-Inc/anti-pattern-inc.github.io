@@ -6,8 +6,11 @@ import { useLocale } from 'hooks/useLocale'
 import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const Company = () => {
+  const router = useRouter()
+  const locale = router.locale
   const t = useLocale()
 
   return (
@@ -23,7 +26,9 @@ const Company = () => {
             <br className="md:hidden" />
             <span>ANTI-PATTERN INC.</span>
           </h1>
-          <p className="font-bold text-center mt-6 md:mt-10">会社概要</p>
+          {locale === 'ja' && (
+            <p className="font-bold text-center mt-6 md:mt-10">会社概要</p>
+          )}
         </div>
         <div className="bg-slate-50">
           <Outline />
