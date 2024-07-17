@@ -1,45 +1,9 @@
+import { useLocale } from 'hooks/useLocale'
+
 type OutlineContent = {
   title: string
   content: string
 }
-
-const outline1: ReadonlyArray<OutlineContent> = [
-  {
-    title: '会社名',
-    content: '株式会社アンチパターン Anti-Pattern Inc.',
-  },
-  {
-    title: '設立',
-    content: '2019年7月1日',
-  },
-  {
-    title: '代表者名',
-    content: '小笹佑京 Yuki Ozasa',
-  },
-  {
-    title: '所在地',
-    content: '東京都港区南⻘山3-15-9 MINOWA表参道3階',
-  },
-]
-
-const outline2: ReadonlyArray<OutlineContent> = [
-  {
-    title: '代表番号',
-    content: '03-6885-6136',
-  },
-  {
-    title: '社員数',
-    content: '46名 (2023年4月1日時点)',
-  },
-  {
-    title: '資本金',
-    content: '64,500千円',
-  },
-  {
-    title: '主要株主',
-    content: '小笹佑京',
-  },
-]
 
 type Props = {
   outline: ReadonlyArray<OutlineContent>
@@ -67,6 +31,8 @@ const OutlineFrag = ({ outline }: Props) => {
 }
 
 const Outline = () => {
+  const t = useLocale()
+
   return (
     <section className="px-6">
       <h2 className="pt-10 mb-8 font-bold text-ap-green text-2xl text-center">
@@ -74,10 +40,10 @@ const Outline = () => {
       </h2>
       <div className="lg:grid grid-cols-2 gap-16 max-w-2xl lg:max-w-5xl mx-auto">
         <div className="border-t-2 border-stone-200">
-          <OutlineFrag outline={outline1} />
+          <OutlineFrag outline={t.company.outline.outline1} />
         </div>
         <div className="lg:border-t-2 border-stone-200">
-          <OutlineFrag outline={outline2} />
+          <OutlineFrag outline={t.company.outline.outline2} />
         </div>
       </div>
     </section>
