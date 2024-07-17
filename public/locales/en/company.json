@@ -1,88 +1,88 @@
 {
   "head": {
-    "title": "会社概要 | Anti-Pattern Inc.",
-    "description": "このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+    "title": "Company Overview | Anti-Pattern Inc.",
+    "description": "This page is the corporate website of Anti-Pattern Inc. We introduce our corporate philosophy, services, company overview, and more."
   },
   "outline": {
     "outline1": [
       {
-        "title": "会社名",
-        "content": "株式会社アンチパターン Anti-Pattern Inc."
+        "title": "Company Name",
+        "content": "Anti-Pattern Inc."
       },
       {
-        "title": "設立",
-        "content": "2019年7月1日"
+        "title": "Date of Foundation",
+        "content": "July 1, 2019"
       },
       {
-        "title": "代表者名",
-        "content": "小笹佑京 Yuki Ozasa"
+        "title": "Representative",
+        "content": "Yuki Ozasa"
       },
       {
-        "title": "所在地",
-        "content": "東京都港区南⻘山3-15-9 MINOWA表参道3階"
+        "title": "Location",
+        "content": "3-15-9 Minowa Omotesando 3F, Minato-ku, Tokyo"
       }
     ],
     "outline2": [
       {
-        "title": "代表番号",
-        "content": "03-6885-6136"
+        "title": "Phone Number",
+        "content": "+81-3-6885-6136"
       },
       {
-        "title": "社員数",
-        "content": "46名 (2023年4月1日時点)"
+        "title": "Number of Employees",
+        "content": "46 (as of April 1, 2023)"
       },
       {
-        "title": "資本金",
-        "content": "64,500千円"
+        "title": "Capital",
+        "content": "64,5 million yen"
       },
       {
-        "title": "主要株主",
-        "content": "小笹佑京"
+        "title": "Major Shareholder",
+        "content": "Yuki Ozasa"
       }
     ]
   },
   "members": [
     {
       "img": "Ozasa",
-      "name": "小笹 佑京",
+      "name": "Yuki Ozasa",
       "en_name": "YUKI OZASA",
-      "position": "代表取締役 CEO 兼 VPoE",
-      "content": "立教大学卒業後、2014年に (株)イノベーションに入社\nイノベーションでは、マーケティングオートメーション ツール開発業務に従事\n2015年全社MVPを受賞 2017年よりマネジャー職 2018年より開発本部⻑歴任\n019年7月当社を起業"
+      "position": "Representative Director, CEO and VPoE",
+      "content": "After graduating from Rikkyo University, Joined Innovation Co., Ltd. in 2014. Developed marketing automation tools at Innovation. Awarded company-wide MVP in 2015. Promoted to manager in 2017. Served as Head of Development Department from 2018. Founded Anti-Pattern Inc. on July 2019."
     },
     {
       "img": "Shinoda",
-      "name": "信田 健児",
+      "name": "Kenji Shinoda",
       "en_name": "KENJI SHINODA",
-      "position": "取締役",
-      "content": "2002年に(株)日立システム アンドサービス(現日立 ソリューションズ)に入社\n2008年にアクセンチュア (株)に入社 2014年よりマネジャー職\n2017年10月に(株) イノベーションに入社\n2018年より同社執行役員及び 同社取締役を歴任\n2019年7月当社取締役に就任\n"
+      "position": "Director",
+      "content": "Joined Hitachi Systems & Services, Ltd. (currently Hitachi Solutions, Ltd.) in 2002. Joined Accenture Co., Ltd. in 2008. Promoted to manager in 2014. Joined Innovation Co., Ltd. in October 2017. Served as Executive Officer and Director at Innovation Co., Ltd. from 2018. Appointed as Director of Anti-Pattern Inc. in July 2019."
     },
     {
       "img": "Kotani",
-      "name": "小谷 悠一",
+      "name": "Yuichi Kotani",
       "en_name": "YUICHI KOTANI",
-      "position": "取締役",
-      "content": "14歳の時、初めて手にしたコンピュータをキッカケにソフトウェアエンジニアとして活躍。\n2017年夏、知人の紹介で株式会社イノベーションへ参画。\n2019年7月株式会社アンチパターン入社。\n2020年5月当社取締役に就任。"
+      "position": "Director",
+      "content": "Sparked by the first encounter with a computer at the age of 14, began a career as a software engineer. Joined Innovation Co., Ltd. in the summer of 2017 through an introduction from an acquaintance. Joined Anti-Pattern Inc. in July 2019. Appointed as Director of Anti-Pattern Inc. in May 2020."
     },
     {
       "img": "Tsukamoto",
-      "name": "塚本 岳史",
+      "name": "Takeshi Tsukamoto",
       "en_name": "TAKESHI TSUKAMOTO",
-      "position": "取締役",
-      "content": "理工学部出身。プログラミングは大学で習得し、エンジニアとしてキャリアをスタート。\n2017年夏、知人の紹介で株式会社イノベーションへ参画。\n2019年7月株式会社アンチパターン入社。\n2020年5月当社取締役に就任。"
+      "position": "Director",
+      "content": "After graduating from the Faculty of Engineering, started his career as an engineer. Joined Innovation Co., Ltd. in the summer of 2017 through an introduction from an acquaintance. Joined Anti-Pattern Inc. in July 2019. Appointed as Director of Anti-Pattern Inc. in May 2020."
     },
     {
       "img": "Yagasaki",
-      "name": "矢ヶ崎 哲宏",
+      "name": "Akihiro Yagasaki",
       "en_name": "AKIHIRO YAGASAKI",
-      "position": "取締役 CTO 兼 COO",
-      "content": "幼少時のマイコン時代からプログラミングを続け、近年ではWebメディア・SaaS ベンダーでの技術責任者・ボードメンバーとしてマザーズ上場時を経験。\n直近では、アマゾン ウェブ サービス ジャパン株式会社にてSaaSを専門領域としたシニアパートナーソリューションアーキテクトとして、アーキテクティング支援とともにイベントでの登壇やトレーニングも多数実施。\n2021年6月、株式会社アンチパターンの取締役CTO兼COOに就任。"
+      "position": "Director, CTO and COO",
+      "content": "Started programming since childhood during the microcomputer era. Recently, experienced being a technical leader and board member at a Web media and SaaS vendor listed on Mothers. Most recently, served as a Senior Partner Solutions Architect specializing in SaaS at Amazon Web Services Japan, supporting architecture and conducted numerous presentations and training sessions at events. Appointed as Director, CTO, and COO of Anti-Pattern Inc. in June 2021."
     },
     {
       "img": "Yamazaki",
-      "name": "山﨑 浩史",
+      "name": "Hirofumi Yamazaki",
       "en_name": "HIROFUMI YAMAZAKI",
-      "position": "監査役",
-      "content": "1990年(株)クラレ入社。\n2000年トランス・コスモス株式会社入社。\n2005年株式会社ザッパラス取締役就任。2010年同社監査役就任。\n2013年株式会社バロックジャパンリミテッド入社。\n2018年株式会社イノベーション取締役就任。\n2019年7月当社監査役に就任。"
+      "position": "Auditor",
+      "content": "Joined Kuraray Co., Ltd. in 1990. Joined transcosmos Inc. in 2000. Appointed as Director of Zappallas, Inc. in 2005. Appointed as Auditor of Zappallas, Inc. in 2010. Joined Baroque Japan Limited in 2013. Appointed as Director of Innovation Co., Ltd. in 2018. Appointed as Auditor of Anti-Pattern Inc. in July 2019."
     }
   ]
 }
