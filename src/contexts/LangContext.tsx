@@ -1,6 +1,12 @@
 import { LANGUAGE_TYPE } from 'const/language-type'
 import { useRouter } from 'next/router'
-import { createContext, ReactNode, useEffect, useState } from 'react'
+import {
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useState,
+} from 'react'
 
 export const LangContext = createContext<{
   lang: LANGUAGE_TYPE
@@ -22,4 +28,9 @@ export const LangContextProvider = ({ children }: LangContextProviderProps) => {
   return (
     <LangContext.Provider value={{ lang }}>{children}</LangContext.Provider>
   )
+}
+
+export const useLanguage = () => {
+  const { lang } = useContext(LangContext)
+  return lang
 }
