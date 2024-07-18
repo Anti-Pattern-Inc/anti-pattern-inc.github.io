@@ -40,13 +40,13 @@ const Company = () => {
             <div className="flex flex-col items-center gap-16 mx-auto sm:flex-row sm:justify-center">
               <Image
                 src={AwsPartner}
-                alt="aws Partner Select Tier Services"
+                alt="AWS Partner Select Tier Services"
                 className="h-32 w-auto"
               />
               <div>
                 <Image
                   src={ISMS}
-                  alt="ISOIEC 27001 Information Security Management System Certification"
+                  alt="ISO/IEC 27001 Information Security Management System Certification"
                   className="h-32 w-auto"
                 />
                 <p className="text-center">IS 794005</p>
