@@ -2,15 +2,15 @@ import { CustomHead } from 'components/common/CustomHead'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
+import { LANGUAGE_TYPE } from 'const/language-type'
+import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
 
 const Company = () => {
-  const router = useRouter()
-  const locale = router.locale
+  const lang = useLanguage()
   const t = useLocale()
 
   return (
@@ -26,7 +26,7 @@ const Company = () => {
             <br className="md:hidden" />
             <span>ANTI-PATTERN INC.</span>
           </h1>
-          {locale === 'ja' && (
+          {lang === LANGUAGE_TYPE.JAPANESE && (
             <p className="font-bold text-center mt-6 md:mt-10">会社概要</p>
           )}
         </div>

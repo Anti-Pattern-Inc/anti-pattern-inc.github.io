@@ -1,5 +1,6 @@
+import { LANGUAGE_TYPE } from 'const/language-type'
+import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
-import { useRouter } from 'next/router'
 
 type OutlineContent = {
   title: string
@@ -11,8 +12,7 @@ type Props = {
 }
 
 const OutlineFrag = ({ outline }: Props) => {
-  const router = useRouter()
-  const locale = router.locale
+  const lang = useLanguage()
 
   return (
     <div>
@@ -21,14 +21,18 @@ const OutlineFrag = ({ outline }: Props) => {
           <div className="h-28 max-w-sm lg:max-w-none mx-auto grid grid-cols-6 items-center px-6">
             <p
               className={`col-span-3 ${
-                locale === 'ja' ? 'lg:col-span-2' : 'lg:col-span-3'
+                lang === LANGUAGE_TYPE.JAPANESE
+                  ? 'lg:col-span-2'
+                  : 'lg:col-span-3'
               } text-sm font-bold pl-3`}
             >
               {item.title}
             </p>
             <p
               className={`col-span-3 ${
-                locale === 'ja' ? 'lg:col-span-4' : 'lg:col-span-3'
+                lang === LANGUAGE_TYPE.JAPANESE
+                  ? 'lg:col-span-4'
+                  : 'lg:col-span-3'
               } text-sm font-bold pr-3`}
             >
               {item.content}
