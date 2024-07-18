@@ -2,13 +2,16 @@ import { CustomHead } from 'components/common/CustomHead'
 import { BusinessConcept } from 'components/features/BusinessConcept'
 import { ServiceList } from 'components/features/ServiceList'
 import { BaseLayout } from 'components/layouts/BaseLayout'
+import { useLocale } from 'hooks/useLocale'
 
 const Services = () => {
+  const t = useLocale()
+
   return (
     <>
       <CustomHead
-        title="サービス | Anti-Pattern Inc."
-        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+        title={t.services.head.title}
+        description={t.services.head.description}
       />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
