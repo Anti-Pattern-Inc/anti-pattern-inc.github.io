@@ -1,3 +1,5 @@
+import { LANGUAGE_TYPE } from 'const/language-type'
+import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
@@ -29,6 +31,8 @@ type Props = {
 }
 
 const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
+  const lang = useLanguage()
+
   return (
     <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 mt-6 mx-6">
       <div className="flex justify-center items-center border-[1px] h-[calc(50vw)] max-h-64 px-5 col-span-1">
@@ -37,7 +41,9 @@ const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
       <div className="flex flex-col justify-center col-span-1">
         <h4 className="flex flex-wrap items-end">
           <span className="font-bold text-xl mr-4">{name}</span>
-          <span className="font-bold text-sm">{ja_name}</span>
+          {lang === LANGUAGE_TYPE.JAPANESE && (
+            <span className="font-bold text-sm">{ja_name}</span>
+          )}
         </h4>
         <p className="text-sm my-4">{description}</p>
         {url && (
