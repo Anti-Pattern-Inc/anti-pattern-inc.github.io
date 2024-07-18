@@ -2,5 +2,83 @@
   "head": {
     "title": "Services | Anti-Pattern Inc.",
     "description": "This page is the corporate website of Anti-Pattern Inc. We introduce our corporate philosophy, services, company overview, and more."
-  }
+  },
+  "services": [
+    {
+      "title": "マッチング",
+      "detail": [
+        {
+          "src": "Engineed",
+          "name": "engineed",
+          "ja_name": "エンジニード",
+          "description": "engineedは、AWSエンジニア特化型のスカウトサービスです。公式資格を有しているAWSエンジニアを副業や正社員など様々な契約形態で採用することができます。",
+          "url": "https://info.engineed.io/",
+          "isBlank": true
+        }
+      ]
+    },
+    {
+      "title": "BizDevOps支援",
+      "detail": [
+        {
+          "src": "SaasusPlatform",
+          "name": "SaaSus Platform",
+          "ja_name": "サースアス プラットフォーム",
+          "description": "BtoB SaaSを作ることを支援するSaaS。",
+          "url": "https://saasus.io/",
+          "isBlank": true
+        },
+        {
+          "src": "SaasusConsulting",
+          "name": "SaaSus Consulting",
+          "ja_name": "サースアス コンサルティング",
+          "description": "組織内製化診断から実行までを包括的に支援するサービス。",
+          "url": "/services/saasus-consulting",
+          "isBlank": false
+        },
+        {
+          "src": "Gateway",
+          "name": "Gateway",
+          "ja_name": "ゲートウェイ",
+          "description": "様々な企業に対して、ソフトウェア開発の支援事業を行なっております。これまで、上場企業の自社プロダクトとしてSaaSの開発やメディアの開発で培った経験から、 主にWebサービスの開発経験に強みがあります。また、インフラ構築の技術にも定評があります。",
+          "url": null,
+          "isBlank": false
+        }
+      ]
+    },
+    {
+      "title": "コミュニティ形成支援",
+      "detail": [
+        {
+          "src": "HarborS",
+          "name": "HarborS",
+          "ja_name": "ハーバーズ",
+          "description": "表参道のエンジニア特化型コミュニティスペース。コワーキング会員のみならず、ドロップインの利用も可能。渋谷からも近い距離にあり、多くのエンジニアにとって、足を運びやすい場所に位置しています。勉強会やイベントも多数開催中。",
+          "url": "https://harbors.anti-pattern.co.jp/",
+          "isBlank": true
+        }
+      ]
+    },
+    {
+      "title": "スキルアップ",
+      "detail": [
+        {
+          "src": "Posse",
+          "name": "POSSE",
+          "ja_name": "ポッセ",
+          "description": "プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。",
+          "url": "https://posse.community/",
+          "isBlank": true
+        },
+        {
+          "src": "CloudDriver",
+          "name": "CloudDriver",
+          "ja_name": "クラウドドライバー",
+          "description": "AWSエンジニアのスキル可視化、実力向上を実現する実技型試験サービス",
+          "url": "https://clouddriver.net/",
+          "isBlank": true
+        }
+      ]
+    }
+  ]
 }
