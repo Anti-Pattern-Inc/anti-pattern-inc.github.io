@@ -5,26 +5,26 @@
   },
   "services": [
     {
-      "title": "マッチング",
+      "title": "Matching",
       "detail": [
         {
           "src": "Engineed",
           "name": "engineed",
           "ja_name": "エンジニード",
-          "description": "engineedは、AWSエンジニア特化型のスカウトサービスです。公式資格を有しているAWSエンジニアを副業や正社員など様々な契約形態で採用することができます。",
+          "description": "engineed is a scout service specializing in AWS engineers. You can hire AWS engineers with official qualifications in various contract forms such as part-time or full-time employment.",
           "url": "https://info.engineed.io/",
           "isBlank": true
         }
       ]
     },
     {
-      "title": "BizDevOps支援",
+      "title": "BizDevOps Support",
       "detail": [
         {
           "src": "SaasusPlatform",
           "name": "SaaSus Platform",
           "ja_name": "サースアス プラットフォーム",
-          "description": "BtoB SaaSを作ることを支援するSaaS。",
+          "description": "SaaS to provide all the necessary functionalities for BtoB SaaS.",
           "url": "https://saasus.io/",
           "isBlank": true
         },
@@ -32,7 +32,7 @@
           "src": "SaasusConsulting",
           "name": "SaaSus Consulting",
           "ja_name": "サースアス コンサルティング",
-          "description": "組織内製化診断から実行までを包括的に支援するサービス。",
+          "description": "A service that comprehensively supports from organizational diagnosis to in-house execution.",
           "url": "/services/saasus-consulting",
           "isBlank": false
         },
@@ -40,33 +40,33 @@
           "src": "Gateway",
           "name": "Gateway",
           "ja_name": "ゲートウェイ",
-          "description": "様々な企業に対して、ソフトウェア開発の支援事業を行なっております。これまで、上場企業の自社プロダクトとしてSaaSの開発やメディアの開発で培った経験から、 主にWebサービスの開発経験に強みがあります。また、インフラ構築の技術にも定評があります。",
+          "description": "We provide support services for software development to various companies. Drawing from experience in developing SaaS products and media projects for listed companies, our strength lies primarily in web service development. We also have a solid reputation in infrastructure construction technology.",
           "url": null,
           "isBlank": false
         }
       ]
     },
     {
-      "title": "コミュニティ形成支援",
+      "title": "Community Building Support",
       "detail": [
         {
           "src": "HarborS",
           "name": "HarborS",
           "ja_name": "ハーバーズ",
-          "description": "表参道のエンジニア特化型コミュニティスペース。コワーキング会員のみならず、ドロップインの利用も可能。渋谷からも近い距離にあり、多くのエンジニアにとって、足を運びやすい場所に位置しています。勉強会やイベントも多数開催中。",
+          "description": "An engineer-focused community space in Omotesando, offering coworking memberships and drop-in options. Located close to Shibuya, it is easily accessible for many engineers. Numerous study sessions and events are also regularly held.",
           "url": "https://harbors.anti-pattern.co.jp/",
           "isBlank": true
         }
       ]
     },
     {
-      "title": "スキルアップ",
+      "title": "Skill Development",
       "detail": [
         {
           "src": "Posse",
           "name": "POSSE",
           "ja_name": "ポッセ",
-          "description": "プログラミング未経験の大学生が仲間と共に学ぶコミュニティ。大学生のうちから、「人格」+「プログラミング」を学ぶコミュニティを形成し、将来に渡って長期的に人生を豊かにし合う仲間を熟成します。 また、それにより新卒就職時に即戦力人材を目指します。",
+          "description": "A community where university students with no programming experience learn together with their peers. We form a community that learns 'personal integrity' + 'programming' from university students and matures companions who enrich their lives together over the long term. This prepares them to be valuable assets upon graduation and immediate employment.",
           "url": "https://posse.community/",
           "isBlank": true
         },
@@ -74,7 +74,7 @@
           "src": "CloudDriver",
           "name": "CloudDriver",
           "ja_name": "クラウドドライバー",
-          "description": "AWSエンジニアのスキル可視化、実力向上を実現する実技型試験サービス",
+          "description": "A practical exam service that enables skill visualization and enhances proficiency for AWS engineers.",
           "url": "https://clouddriver.net/",
           "isBlank": true
         }
