@@ -4,11 +4,11 @@ import { useLanguage } from 'contexts/LangContext'
 import * as companyEn from '../../public/locales/en/company.json'
 import * as servicesEn from '../../public/locales/en/services.json'
 import * as companyJa from '../../public/locales/ja/company.json'
-import * as services from '../../public/locales/ja/services.json'
+import * as servicesJa from '../../public/locales/ja/services.json'
 
 const ja = {
   company: companyJa,
-  services: services,
+  services: servicesJa,
 }
 
 const en = {
