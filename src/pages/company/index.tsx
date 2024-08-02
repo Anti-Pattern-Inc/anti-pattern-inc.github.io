@@ -2,16 +2,22 @@ import { CustomHead } from 'components/common/CustomHead'
 import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
+import { LANGUAGE_TYPE } from 'const/language-type'
+import { useLanguage } from 'contexts/LangContext'
+import { useLocale } from 'hooks/useLocale'
 import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
 import Image from 'next/image'
 
 const Company = () => {
+  const lang = useLanguage()
+  const t = useLocale()
+
   return (
     <>
       <CustomHead
-        title="会社概要 | Anti-Pattern Inc."
-        description="このページは株式会社アンチパターン(英名:Anti-Pattern Inc.)のコーポレートサイトです。経営理念や事業内容、会社概要などをご紹介しています。"
+        title={t.company.head.title}
+        description={t.company.head.description}
       />
       <BaseLayout headerBgColor="stone-100">
         <div className="bg-stone-100 pb-10 md:pb-20">
@@ -20,7 +26,9 @@ const Company = () => {
             <br className="md:hidden" />
             <span>ANTI-PATTERN INC.</span>
           </h1>
-          <p className="font-bold text-center mt-6 md:mt-10">会社概要</p>
+          {lang === LANGUAGE_TYPE.JAPANESE && (
+            <p className="font-bold text-center mt-6 md:mt-10">会社概要</p>
+          )}
         </div>
         <div className="bg-slate-50">
           <Outline />
@@ -32,13 +40,13 @@ const Company = () => {
             <div className="flex flex-col items-center gap-16 mx-auto sm:flex-row sm:justify-center">
               <Image
                 src={AwsPartner}
-                alt="aws Partner Select Tier Services"
+                alt="AWS Partner Select Tier Services"
                 className="h-32 w-auto"
               />
               <div>
                 <Image
                   src={ISMS}
-                  alt="ISOIEC 27001 Information Security Management System Certification"
+                  alt="ISO/IEC 27001 Information Security Management System Certification"
                   className="h-32 w-auto"
                 />
                 <p className="text-center">IS 794005</p>

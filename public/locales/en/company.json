@@ -1,0 +1,88 @@
+{
+  "head": {
+    "title": "Company Overview | Anti-Pattern Inc.",
+    "description": "This page is the corporate website of Anti-Pattern Inc. We introduce our corporate philosophy, services, company overview, and more."
+  },
+  "outline": {
+    "outline1": [
+      {
+        "title": "Company Name",
+        "content": "Anti-Pattern Inc."
+      },
+      {
+        "title": "Date of Foundation",
+        "content": "July 1, 2019"
+      },
+      {
+        "title": "Representative",
+        "content": "Yuki Ozasa"
+      },
+      {
+        "title": "Location",
+        "content": "3-15-9 Minowa Omotesando 3F, Minato-ku, Tokyo"
+      }
+    ],
+    "outline2": [
+      {
+        "title": "Phone Number",
+        "content": "+81-3-6885-6136"
+      },
+      {
+        "title": "Number of Employees",
+        "content": "46 (as of July 1, 2024)"
+      },
+      {
+        "title": "Capital",
+        "content": "50 million yen"
+      },
+      {
+        "title": "Major Shareholder",
+        "content": "Yuki Ozasa"
+      }
+    ]
+  },
+  "members": [
+    {
+      "img": "Ozasa",
+      "name": "Yuki Ozasa",
+      "en_name": "YUKI OZASA",
+      "position": "Representative Director, CEO and VPoE",
+      "content": "After graduating from Rikkyo University, Joined Innovation Co., Ltd. in 2014. Developed marketing automation tools at Innovation. Awarded company-wide MVP in 2015. Promoted to manager in 2017. Served as Head of Development Department from 2018. Founded Anti-Pattern Inc. on July 2019."
+    },
+    {
+      "img": "Shinoda",
+      "name": "Kenji Shinoda",
+      "en_name": "KENJI SHINODA",
+      "position": "Director",
+      "content": "Joined Hitachi Systems & Services, Ltd. (currently Hitachi Solutions, Ltd.) in 2002. Joined Accenture Co., Ltd. in 2008. Promoted to manager in 2014. Joined Innovation Co., Ltd. in October 2017. Served as Executive Officer and Director at Innovation Co., Ltd. from 2018. Appointed as Director of Anti-Pattern Inc. in July 2019."
+    },
+    {
+      "img": "Kotani",
+      "name": "Yuichi Kotani",
+      "en_name": "YUICHI KOTANI",
+      "position": "Director",
+      "content": "Sparked by the first encounter with a computer at the age of 14, began a career as a software engineer. Joined Innovation Co., Ltd. in the summer of 2017 through an introduction from an acquaintance. Joined Anti-Pattern Inc. in July 2019. Appointed as Director of Anti-Pattern Inc. in May 2020."
+    },
+    {
+      "img": "Tsukamoto",
+      "name": "Takeshi Tsukamoto",
+      "en_name": "TAKESHI TSUKAMOTO",
+      "position": "Director",
+      "content": "After graduating from the Faculty of Engineering, started his career as an engineer. Joined Innovation Co., Ltd. in the summer of 2017 through an introduction from an acquaintance. Joined Anti-Pattern Inc. in July 2019. Appointed as Director of Anti-Pattern Inc. in May 2020."
+    },
+    {
+      "img": "Yagasaki",
+      "name": "Akihiro Yagasaki",
+      "en_name": "AKIHIRO YAGASAKI",
+      "position": "Director, CTO and COO",
+      "content": "Started programming since childhood during the microcomputer era. Recently, experienced being a technical leader and board member at a Web media and SaaS vendor listed on Mothers. Most recently, served as a Senior Partner Solutions Architect specializing in SaaS at Amazon Web Services Japan, supporting architecture and conducted numerous presentations and training sessions at events. Appointed as Director, CTO, and COO of Anti-Pattern Inc. in June 2021."
+    },
+    {
+      "img": "Yamazaki",
+      "name": "Hirofumi Yamazaki",
+      "en_name": "HIROFUMI YAMAZAKI",
+      "position": "Auditor",
+      "content": "Joined Kuraray Co., Ltd. in 1990. Joined transcosmos Inc. in 2000. Appointed as Director of Zappallas, Inc. in 2005. Appointed as Auditor of Zappallas, Inc. in 2010. Joined Baroque Japan Limited in 2013. Appointed as Director of Innovation Co., Ltd. in 2018. Appointed as Auditor of Anti-Pattern Inc. in July 2019."
+    }
+  ]
+}
