@@ -7,6 +7,7 @@ import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 import AwsPartner from 'images/aws-partnernetwork-partner-advanced-tier-services-badge.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
+import SaasCompetency from 'images/saas-services-competency-white.png'
 import Image from 'next/image'
 
 const Company = () => {
@@ -41,6 +42,11 @@ const Company = () => {
               <Image
                 src={AwsPartner}
                 alt="AWS Partner Select Tier Services"
+                className="h-32 w-auto"
+              />
+              <Image
+                src={SaasCompetency}
+                alt="SaaS Services Competency"
                 className="h-32 w-auto"
               />
               <div>
