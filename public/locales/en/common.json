@@ -3,11 +3,15 @@
     "description": "This is the corporate website of Anti-Pattern Inc. We introduce our management philosophy, business content, and company profile."
   },
   "hero": {
-    "head_title": "BRINGING JAPANESE SOFTWARE ENGINEERING TO",
-    "sub_title": "THE NEXT ASPIRATIONAL OCCUPATION"
+    "title": {
+      "line1": "BRINGING JAPANESE SOFTWARE ENGINEERING TO",
+      "line2": ""
+    },
+    "subtitle": "THE NEXT ASPIRATIONAL OCCUPATION"
   },
   "services": {
-    "content": "We are working to achieve our ideals through various business activities."
+    "intro_text": "We are working to achieve our ideals through various business activities.",
+    "additional_text": ""
   },
   "recruit": {
     "content": "We are looking for partners who will work together to achieve our ideals."

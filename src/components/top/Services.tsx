@@ -28,7 +28,10 @@ const Services = () => {
           OUR SERVICES
         </h2>
         <p className="mt-5 text-center mb-10 font-bold">
-          {t.common.services.content}
+          {t.common.services.intro_text}
+          <span className="hidden md:inline">、</span>
+          <br className="md:hidden" />
+          {t.common.services.additional_text}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 max-w-lg mx-auto">
           {images.map((img, key) => {

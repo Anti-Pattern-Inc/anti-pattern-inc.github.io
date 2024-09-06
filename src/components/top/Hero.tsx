@@ -25,10 +25,12 @@ const Hero = () => {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-52">
         <h1>
           <span className="block sm:mb-4 text-xl sm:text-3xl font-bold text-center">
-            {t.common.hero.head_title}
+            {t.common.hero.title.line1}
+            <br className="sm:hidden" />
+            {t.common.hero.title.line2}
           </span>
           <span className="block text-[44px] font-bold sm:text-5xl lg:text-6xl text-center">
-            {t.common.hero.sub_title}
+            {t.common.hero.subtitle}
           </span>
         </h1>
       </div>
