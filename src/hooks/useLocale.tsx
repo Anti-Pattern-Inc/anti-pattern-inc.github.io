@@ -1,5 +1,5 @@
 import { LANGUAGE_TYPE } from 'const/language-type'
-import { useLanguage } from 'contexts/LangContext'
+import { useRouter } from 'next/router'
 
 import * as companyEn from '../../public/locales/en/company.json'
 import * as companyJa from '../../public/locales/ja/company.json'
@@ -13,7 +13,10 @@ const en = {
 }
 
 export const useLocale = () => {
-  const lang = useLanguage()
+  const router = useRouter()
+  const locale = router.locale
+  const lang = locale === 'ja' ? LANGUAGE_TYPE.JAPANESE : LANGUAGE_TYPE.ENGLISH
   const t = lang === LANGUAGE_TYPE.JAPANESE ? ja : en
-  return t
+
+  return { t, lang }
 }
