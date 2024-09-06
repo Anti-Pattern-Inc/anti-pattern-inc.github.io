@@ -2,7 +2,6 @@ import '../styles/globals.scss'
 
 import { PrismicPreview } from '@prismicio/next'
 import { PrismicProvider } from '@prismicio/react'
-import { LangContextProvider } from 'contexts/LangContext'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
 
@@ -18,9 +17,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       )}
     >
       <PrismicPreview repositoryName={repositoryName}>
-        <LangContextProvider>
-          <Component {...pageProps} />
-        </LangContextProvider>
+        <Component {...pageProps} />
       </PrismicPreview>
     </PrismicProvider>
   )
