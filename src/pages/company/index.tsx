@@ -3,15 +3,13 @@ import { Members } from 'components/company/Members'
 import { Outline } from 'components/company/Outline'
 import { BaseLayout } from 'components/layouts/BaseLayout'
 import { LANGUAGE_TYPE } from 'const/language-type'
-import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 import AwsPartnerAndSaasCompetency from 'images/advanced_tier-saas_competency.png'
 import ISMS from 'images/mark-of-trust-certified-ISOIEC-27001.png'
 import Image from 'next/image'
 
 const Company = () => {
-  const lang = useLanguage()
-  const t = useLocale()
+  const { t, lang } = useLocale()
 
   return (
     <>

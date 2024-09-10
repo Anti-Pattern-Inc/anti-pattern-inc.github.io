@@ -1,5 +1,4 @@
 import { LANGUAGE_TYPE } from 'const/language-type'
-import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 
 type OutlineContent = {
@@ -12,7 +11,7 @@ type Props = {
 }
 
 const OutlineFrag = ({ outline }: Props) => {
-  const lang = useLanguage()
+  const { lang } = useLocale()
 
   return (
     <div>
@@ -45,7 +44,7 @@ const OutlineFrag = ({ outline }: Props) => {
 }
 
 const Outline = () => {
-  const t = useLocale()
+  const { t } = useLocale()
 
   return (
     <section className="px-6">

@@ -17,7 +17,7 @@ const images: { [key: string]: StaticImageData } = {
 }
 
 const Members = () => {
-  const t = useLocale()
+  const { t } = useLocale()
 
   return (
     <section className="mt-28">
