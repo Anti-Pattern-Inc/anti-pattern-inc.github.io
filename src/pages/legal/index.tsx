@@ -229,7 +229,7 @@ const Legal = () => {
                 事業者名：株式会社アンチパターン
               </p>
               <p className="text-sm leading-6 text-gray-700">
-                住所地：東京都港区南⻘山3-15-9 MINOWA表参道3階
+                住所地：107-0062 東京都港区南⻘山3-15-9 MINOWA表参道3階
               </p>
               <p className="text-sm leading-6 text-gray-700">
                 代表者：小笹佑京
