@@ -1,5 +1,4 @@
 import { LANGUAGE_TYPE } from 'const/language-type'
-import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 import CloudDriver from 'images/clouddriver.png'
 import Engineed from 'images/engineed.svg'
@@ -31,7 +30,7 @@ type Props = {
 }
 
 const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
-  const lang = useLanguage()
+  const { lang } = useLocale()
 
   return (
     <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 mt-6 mx-6">
@@ -71,14 +70,14 @@ const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
 }
 
 const ServiceList = () => {
-  const t = useLocale().services
+  const { t } = useLocale()
 
   return (
     <section className="mt-32 mb-32">
       <h2 className="mb-4 md:mb-8 font-bold text-ap-green text-2xl text-center">
         SERVICE LIST
       </h2>
-      {t.services.map((service, index) => (
+      {t.services.services.map((service, index) => (
         <div
           key={index}
           className={`max-w-lg md:max-w-6xl mx-auto ${index !== 0 && 'mt-24'}`}

@@ -3,12 +3,10 @@ import { BusinessConcept } from 'components/features/BusinessConcept'
 import { ServiceList } from 'components/features/ServiceList'
 import { BaseLayout } from 'components/layouts/BaseLayout'
 import { LANGUAGE_TYPE } from 'const/language-type'
-import { useLanguage } from 'contexts/LangContext'
 import { useLocale } from 'hooks/useLocale'
 
 const Services = () => {
-  const lang = useLanguage()
-  const t = useLocale()
+  const { t, lang } = useLocale()
 
   return (
     <>
