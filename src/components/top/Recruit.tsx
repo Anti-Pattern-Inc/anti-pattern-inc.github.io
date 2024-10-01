@@ -1,7 +1,10 @@
+import { useLocale } from 'hooks/useLocale'
 import RecruitImg from 'images/top_recruit.jpg'
 import Image from 'next/image'
 
-const Recruit = ({ lang }: { lang: string }) => {
+const Recruit = () => {
+  const { t } = useLocale()
+
   return (
     <div className="relative">
       <div className="absolute inset-0">
@@ -15,9 +18,7 @@ const Recruit = ({ lang }: { lang: string }) => {
         <h2 className="text-2xl font-bold text-white text-center">RECRUIT</h2>
 
         <p className="mt-6 text-white font-bold text-center pb-5">
-          {lang === 'ja'
-            ? '私たちは一緒に理念達成に向けて活動してくれる仲間を探しています。'
-            : 'We are looking for partners who will work together to achieve our ideals.'}
+          {t.common.recruit.content}
         </p>
         <div className="flex justify-center">
           <a

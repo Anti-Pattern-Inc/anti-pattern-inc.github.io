@@ -1,9 +1,12 @@
+import { useLocale } from 'hooks/useLocale'
 import HeroBoxes from 'images/hero_boxes.png'
 import HeroBoxesSp from 'images/hero_boxes_sp.png'
 import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
 
-const Hero = ({ lang }: { lang: string }) => {
+const Hero = () => {
+  const { t } = useLocale()
+
   return (
     <div className="relative h-[520px] w-full overflow-x-clip">
       <div className="absolute inset-0">
@@ -22,20 +25,12 @@ const Hero = ({ lang }: { lang: string }) => {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-52">
         <h1>
           <span className="block sm:mb-4 text-xl sm:text-3xl font-bold text-center">
-            {lang === 'ja' ? (
-              <span>
-                日本の
-                <br className="sm:hidden" />
-                ソフトウェアエンジニアを
-              </span>
-            ) : (
-              'BRINGING JAPANESE SOFTWARE ENGINEERING TO'
-            )}
+            {t.common.hero.title.line1}
+            <br className="sm:hidden" />
+            {t.common.hero.title.line2}
           </span>
           <span className="block text-[44px] font-bold sm:text-5xl lg:text-6xl text-center">
-            {lang === 'ja'
-              ? '憧れの職業へ'
-              : 'THE NEXT ASPIRATIONAL OCCUPATION'}
+            {t.common.hero.subtitle}
           </span>
         </h1>
       </div>
