@@ -1,0 +1,90 @@
+{
+  "head": {
+    "title": "Services | Anti-Pattern Inc.",
+    "description": "This page is the corporate website of Anti-Pattern Inc. We introduce our corporate philosophy, services, company overview, and more."
+  },
+  "business_concept": {
+    "img_alt": "Business Concept"
+  },
+  "services": [
+    {
+      "title": "Matching",
+      "detail": [
+        {
+          "src": "Engineed",
+          "name": "engineed",
+          "ja_name": "エンジニード",
+          "description": "engineed is a scout service specializing in AWS engineers. You can hire AWS engineers with official qualifications in various contract forms such as part-time or full-time employment.",
+          "url": "https://info.engineed.io/",
+          "isBlank": true
+        }
+      ]
+    },
+    {
+      "title": "BizDevOps Support",
+      "detail": [
+        {
+          "src": "SaasusPlatform",
+          "name": "SaaSus Platform",
+          "ja_name": "サースアス プラットフォーム",
+          "description": "SaaS to provide all the necessary functionalities for BtoB SaaS.",
+          "url": "https://saasus.io/",
+          "isBlank": true
+        },
+        {
+          "src": "SaasusConsulting",
+          "name": "SaaSus Consulting",
+          "ja_name": "サースアス コンサルティング",
+          "description": "A service that comprehensively supports from organizational diagnosis to in-house execution.",
+          "url": "/services/saasus-consulting",
+          "isBlank": false
+        },
+        {
+          "src": "Gateway",
+          "name": "Gateway",
+          "ja_name": "ゲートウェイ",
+          "description": "We provide support services for software development to various companies. Drawing from experience in developing SaaS products and media projects for listed companies, our strength lies primarily in web service development. We also have a solid reputation in infrastructure construction technology.",
+          "url": null,
+          "isBlank": false
+        }
+      ]
+    },
+    {
+      "title": "Community Building Support",
+      "detail": [
+        {
+          "src": "HarborS",
+          "name": "HarborS",
+          "ja_name": "ハーバーズ",
+          "description": "An engineer-focused community space in Omotesando, offering coworking memberships and drop-in options. Located close to Shibuya, it is easily accessible for many engineers. Numerous study sessions and events are also regularly held.",
+          "url": "https://harbors.anti-pattern.co.jp/",
+          "isBlank": true
+        }
+      ]
+    },
+    {
+      "title": "Skill Development",
+      "detail": [
+        {
+          "src": "Posse",
+          "name": "POSSE",
+          "ja_name": "ポッセ",
+          "description": "A community where university students with no programming experience learn together with their peers. We form a community that learns 'personal integrity' + 'programming' from university students and matures companions who enrich their lives together over the long term. This prepares them to be valuable assets upon graduation and immediate employment.",
+          "url": "https://posse.community/",
+          "isBlank": true
+        },
+        {
+          "src": "CloudDriver",
+          "name": "CloudDriver",
+          "ja_name": "クラウドドライバー",
+          "description": "A practical exam service that enables skill visualization and enhances proficiency for AWS engineers.",
+          "url": "https://clouddriver.net/",
+          "isBlank": true
+        }
+      ]
+    }
+  ],
+  "service_site": {
+    "img_alt": "Site Link"
+  }
+}
