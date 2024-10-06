@@ -3,6 +3,9 @@
     "title": "Services | Anti-Pattern Inc.",
     "description": "This page is the corporate website of Anti-Pattern Inc. We introduce our corporate philosophy, services, company overview, and more."
   },
+  "business_concept": {
+    "img_alt": "Business Concept"
+  },
   "services": [
     {
       "title": "Matching",
@@ -80,5 +83,8 @@
         }
       ]
     }
-  ]
+  ],
+  "service_site": {
+    "img_alt": "Site Link"
+  }
 }

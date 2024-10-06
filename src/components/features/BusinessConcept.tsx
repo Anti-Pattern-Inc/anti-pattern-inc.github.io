@@ -6,7 +6,7 @@ import ServiceImgSpEn from 'images/anti-pattern_service_2022-sp-en.png'
 import Image from 'next/image'
 
 const BusinessConcept = () => {
-  const { lang } = useLocale()
+  const { t, lang } = useLocale()
 
   return (
     <section className="mt-16 md:mt-32">
@@ -16,12 +16,12 @@ const BusinessConcept = () => {
       <div className="max-w-md lg:max-w-6xl mx-auto px-10">
         <Image
           src={lang === 'ja' ? ServiceImg : ServiceImgEn}
-          alt="ビジネスコンセプト"
+          alt={t.services.business_concept.img_alt}
           className="hidden lg:block"
         />
         <Image
           src={lang === 'ja' ? ServiceImgSp : ServiceImgSpEn}
-          alt="ビジネスコンセプト"
+          alt={t.services.business_concept.img_alt}
           className="lg:hidden"
         />
       </div>

@@ -30,7 +30,7 @@ type Props = {
 }
 
 const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
-  const { lang } = useLocale()
+  const { t, lang } = useLocale()
 
   return (
     <div className="grid md:grid-cols-2 gap-x-16 gap-y-6 mt-6 mx-6">
@@ -57,7 +57,7 @@ const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
               {isBlank && (
                 <Image
                   src={ServiceLinkIcon}
-                  alt="サイトリンク"
+                  alt={t.services.service_site.img_alt}
                   className="w-3 inline mb-1 ml-1"
                 />
               )}
