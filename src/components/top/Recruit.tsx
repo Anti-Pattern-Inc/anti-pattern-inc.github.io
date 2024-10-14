@@ -8,7 +8,11 @@ const Recruit = () => {
   return (
     <div className="relative">
       <div className="absolute inset-0">
-        <Image src={RecruitImg} alt="recruit" className="object-cover h-full" />
+        <Image
+          src={RecruitImg}
+          alt={t.common.recruit.img_alt}
+          className="object-cover h-full"
+        />
         <div
           className="absolute inset-0 mix-blend-multiply bg-neutral-900 opacity-30"
           aria-hidden="true"
