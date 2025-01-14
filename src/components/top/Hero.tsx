@@ -3,6 +3,7 @@ import HeroBoxes from 'images/hero_boxes.png'
 import HeroBoxesSp from 'images/hero_boxes_sp.png'
 import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
+import { SmBreak } from 'components/common/break/smbreak'
 
 const Hero = () => {
   const { t } = useLocale()
@@ -26,7 +27,7 @@ const Hero = () => {
         <h1>
           <span className="block sm:mb-4 text-xl sm:text-3xl font-bold text-center">
             {t.common.hero.title.line1}
-            <br className="sm:hidden" />
+            <SmBreak />
             {t.common.hero.title.line2}
           </span>
           <span className="block text-[44px] font-bold sm:text-5xl lg:text-6xl text-center">
