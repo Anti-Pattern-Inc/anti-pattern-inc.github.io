@@ -1,6 +1,6 @@
 import { CustomHead } from 'components/common/CustomHead'
 import { BaseLayout } from 'components/layouts/BaseLayout'
-import { Hero } from 'components/marketplace-support/Hero'
+import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
 
 const MarketplaceSupport: React.FC = () => {
   return (
