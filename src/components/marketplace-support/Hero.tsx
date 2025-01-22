@@ -1,3 +1,5 @@
+import { Break } from 'components/common/Break'
+
 const Hero = () => {
   return (
     <div className="bg-stone-100 h-[228px] md:h-[350px] flex flex-col justify-center items-center gap-6 md:gap-8">
@@ -9,7 +11,7 @@ const Hero = () => {
       </h1>
       <p className="font-bold text-center md:text-xl leading-normal">
         スムーズに費用対効果の高い
-        <br className="md:hidden" />
+        <Break type="md-sp-none" />
         AWS Marketplace掲載を実現
       </p>
     </div>
