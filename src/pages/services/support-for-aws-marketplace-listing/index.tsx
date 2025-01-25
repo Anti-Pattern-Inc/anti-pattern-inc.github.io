@@ -1,5 +1,6 @@
 import { CustomHead } from 'components/common/CustomHead'
 import { BaseLayout } from 'components/layouts/BaseLayout'
+import { Certifications } from 'components/support-for-aws-marketplace-listing/Certifications'
 import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
 
 const MarketplaceSupport: React.FC = () => {
@@ -11,6 +12,7 @@ const MarketplaceSupport: React.FC = () => {
       />
       <BaseLayout headerBgColor="stone-100">
         <Hero />
+        <Certifications />
       </BaseLayout>
     </>
   )
