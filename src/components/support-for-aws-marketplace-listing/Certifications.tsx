@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Certifications = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-6 md:gap-10 py-10 md:py-20">
+    <section className="flex flex-col items-center justify-center gap-6 md:gap-10 py-10 md:py-20">
       <h2 className="text-2xl md:text-[34px] md:leading-tight text-[#0277BD] font-bold">
         Certifications
       </h2>
@@ -23,7 +23,7 @@ const Certifications = () => {
           <div className="text-xl leading-8">IS 794005</div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
