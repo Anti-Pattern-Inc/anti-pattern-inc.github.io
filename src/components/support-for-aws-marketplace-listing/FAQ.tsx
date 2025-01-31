@@ -43,13 +43,13 @@ const FAQ = () => {
       <h2 className="text-2xl md:text-[34px] md:leading-tight text-[#0277BD] font-bold">
         よくあるご質問
       </h2>
-      <dl className="flex flex-col gap-4 md:gap-6">
+      <dl className="flex flex-col gap-4 md:gap-6 mx-4">
         {FAQList.map((faq, index) => (
           <div key={index} className="max-w-5xl rounded-lg tracking-[0.15px]">
-            <dl className="md:text-xl md:leading-8 text-white font-bold bg-[#263238] p-6 rounded-t-lg">
+            <dl className="md:text-xl md:leading-8 text-white font-bold bg-[#263238] p-4 md:p-6 rounded-t-lg">
               {faq.question}
             </dl>
-            <dd className="text-sm md:text-base text-[#263238] bg-white p-6 rounded-b-lg">
+            <dd className="text-sm md:text-base text-[#263238] bg-white p-4 md:p-6 rounded-b-lg">
               {faq.answer}
             </dd>
           </div>
