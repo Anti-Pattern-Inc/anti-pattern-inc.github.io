@@ -46,9 +46,9 @@ const FAQ = () => {
       <dl className="flex flex-col gap-4 md:gap-6 mx-4">
         {FAQList.map((faq, index) => (
           <div key={index} className="max-w-5xl rounded-lg tracking-[0.15px]">
-            <dl className="md:text-xl md:leading-8 text-white font-bold bg-[#263238] p-4 md:p-6 rounded-t-lg">
+            <dt className="md:text-xl md:leading-8 text-white font-bold bg-[#263238] p-4 md:p-6 rounded-t-lg">
               {faq.question}
-            </dl>
+            </dt>
             <dd className="text-sm md:text-base text-[#263238] bg-white p-4 md:p-6 rounded-b-lg">
               {faq.answer}
             </dd>
