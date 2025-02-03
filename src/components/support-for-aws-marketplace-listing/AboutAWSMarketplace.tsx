@@ -1,5 +1,5 @@
 import { Break } from 'components/common/Break'
-import AWSMarketpalce from 'images/aws-marketplace-logo.png'
+import AWSMarketplace from 'images/aws-marketplace-logo.png'
 import MonitoringIcon from 'images/monitoring-icon.svg'
 import PersonOffIcon from 'images/person-off-icon.svg'
 import PsychologyIcon from 'images/psychology-icon.svg'
@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex items-center gap-4 md:gap-10 max-w-5xl flex-col md:flex-row">
         <div className="bg-[#263238] w-[358px] md:w-[400px] h-[215px] md:h-60 rounded-lg shrink-0 flex items-center justify-center">
           <Image
-            src={AWSMarketpalce}
+            src={AWSMarketplace}
             alt="AWS Marketplace"
             className="w-[258px] md:w-[321px] h-[50px] md:h-[57px]"
           />
@@ -106,7 +106,7 @@ const Consideration = () => {
               <div className="flex justify-center items-center flex-col md:flex-row">
                 <div className="w-[198px] h-[75px] bg-[#263238] rounded flex items-center justify-center">
                   <Image
-                    src={AWSMarketpalce}
+                    src={AWSMarketplace}
                     alt="AWS Marketplace"
                     className="w-[150px] h-[27px]"
                   />
@@ -131,7 +131,7 @@ const Consideration = () => {
               <div className="flex justify-center items-center flex-col md:flex-row">
                 <div className="w-[198px] h-[75px] bg-[#263238] rounded flex items-center justify-center">
                   <Image
-                    src={AWSMarketpalce}
+                    src={AWSMarketplace}
                     alt="AWS Marketplace"
                     className="w-[150px] h-[27px]"
                   />
