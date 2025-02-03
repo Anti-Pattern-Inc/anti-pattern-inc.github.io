@@ -39,7 +39,7 @@ const FAQList: FAQType[] = [
 
 const FAQ = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-6 md:gap-10 py-10 md:py-20 bg-stone-100">
+    <section className="flex flex-col items-center justify-center gap-6 md:gap-10 py-10 md:py-20 bg-[#ECEFF1]">
       <h2 className="text-2xl md:text-[34px] md:leading-tight text-[#0277BD] font-bold">
         よくあるご質問
       </h2>
