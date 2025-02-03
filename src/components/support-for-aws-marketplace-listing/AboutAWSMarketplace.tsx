@@ -100,7 +100,7 @@ const Consideration = () => {
             <div className="w-full bg-white flex flex-col items-center justify-center gap-4 md:gap-6 p-6">
               <div className="text-[#0277BD] font-bold text-base md:text-xl md:leading-8 text-center">
                 SaaS の「テナント管理や
-                <br />
+                <Break type="md-sp-none" />
                 オンボーディング/オフボーディング処理」
               </div>
               <div className="flex justify-center items-center flex-col md:flex-row">
