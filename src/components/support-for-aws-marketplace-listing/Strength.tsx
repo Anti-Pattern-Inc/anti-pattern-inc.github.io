@@ -39,7 +39,7 @@ const Strength = () => {
             </div>
             <p className="text-sm md:text-xl md:leading-8 text-[#263238]">
               AWSによる認定ソフトウェアを所有するスタートアップ企業として、国内初の
-              AWS アドバンストティア サービスパートナー。国内2社目の SaaS
+              AWS アドバンストティアサービスパートナー。国内2社目の SaaS
               コンピテンシーパートナー。
             </p>
           </div>
