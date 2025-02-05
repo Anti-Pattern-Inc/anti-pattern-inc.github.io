@@ -4,6 +4,7 @@ import { AboutAWSMarketplace } from 'components/support-for-aws-marketplace-list
 import { Certifications } from 'components/support-for-aws-marketplace-listing/Certifications'
 import { FAQ } from 'components/support-for-aws-marketplace-listing/FAQ'
 import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
+import { Strength } from 'components/support-for-aws-marketplace-listing/Strength'
 
 const MarketplaceSupport: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const MarketplaceSupport: React.FC = () => {
       <BaseLayout headerBgColor="stone-100">
         <Hero />
         <AboutAWSMarketplace />
+        <Strength />
         <FAQ />
         <Certifications />
       </BaseLayout>
