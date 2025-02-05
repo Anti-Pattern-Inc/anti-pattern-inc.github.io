@@ -29,7 +29,7 @@ const Strength = () => {
           <div className="w-[360px] h-60 bg-white rounded-lg flex flex-col items-center justify-center shrink-0">
             <Image
               src={AwsPartnerAndSaasCompetency}
-              alt="Proprietary Resources"
+              alt="AWS Partner and SaaS Competency"
               className="w-[296px] h-[130px]"
             />
           </div>
@@ -48,7 +48,7 @@ const Strength = () => {
           <div className="w-[360px] h-60 bg-white rounded-lg flex flex-col items-center justify-center shrink-0">
             <Image
               src={SaaSusPlatform}
-              alt="Proprietary Resources"
+              alt="SaaSus Platform"
               className="w-[296px] h-[78px]"
             />
           </div>
