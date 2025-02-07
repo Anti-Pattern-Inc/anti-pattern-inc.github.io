@@ -11,7 +11,7 @@ const Hero = () => {
       </h1>
       <p className="font-bold text-center md:text-xl leading-normal">
         スムーズに費用対効果の高い
-        <Break type="md-sp-none" />
+        <Break type="md-pc-none" />
         AWS Marketplace掲載を実現
       </p>
     </div>
