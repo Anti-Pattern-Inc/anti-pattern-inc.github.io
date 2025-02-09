@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction } from 'react';
-import { SmBreak } from 'components/common/break/smbreak';
+import { Break } from 'components/common/Break';
 import { useState } from 'react';
 import { Dialog, DialogPanel, DialogTitle, Button } from '@headlessui/react';
 
@@ -11,7 +11,7 @@ const ListSupportingService: React.FC = ({ children }: { children?: React.ReactN
       <div className="bg-white max-w-lg md:max-w-6xl mx-auto">
         <h2 className="text-2xl font-bold text-[#0277BD] mb-8 text-center">
           AWS Marketplace
-          <SmBreak />
+          <Break type="md-pc-none" />
           掲載支援サービスとは
         </h2>
         <div className="px-8 mx-auto">
