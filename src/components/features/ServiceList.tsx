@@ -8,22 +8,14 @@ import Posse from 'images/posse.svg'
 import SaasusConsulting from 'images/saasus_consulting_logo_420.svg'
 import SaasusPlatform from 'images/saasus_platform_logo_420.svg'
 import ServiceLinkIcon from 'images/service-link-icon.png'
+import SupportForAwsMarketplaceListing from 'images/support_for_aws_marketplace_listing.png'
+import SupportForAwsMarketplaceListingEn from 'images/support_for_aws_marketplace_listing_en.png'
 import Image, { StaticImageData } from 'next/image'
-
-const images: { [key: string]: StaticImageData } = {
-  Engineed: Engineed,
-  SaasusPlatform: SaasusPlatform,
-  SaasusConsulting: SaasusConsulting,
-  Gateway: Gateway,
-  HarborS: HarborS,
-  Posse: Posse,
-  CloudDriver: CloudDriver,
-}
 
 type Props = {
   src: StaticImageData
   name: string
-  ja_name: string
+  ja_name: string | null
   description: string
   url: string | null
   isBlank: boolean
@@ -70,7 +62,21 @@ const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
 }
 
 const ServiceList = () => {
-  const { t } = useLocale()
+  const { t, lang } = useLocale()
+
+  const images: { [key: string]: StaticImageData } = {
+    Engineed: Engineed,
+    SaasusPlatform: SaasusPlatform,
+    SaasusConsulting: SaasusConsulting,
+    SupportForAwsMarketplaceListing:
+      lang === LANGUAGE_TYPE.JAPANESE
+        ? SupportForAwsMarketplaceListing
+        : SupportForAwsMarketplaceListingEn,
+    Gateway: Gateway,
+    HarborS: HarborS,
+    Posse: Posse,
+    CloudDriver: CloudDriver,
+  }
 
   return (
     <section className="mt-32 mb-32">
