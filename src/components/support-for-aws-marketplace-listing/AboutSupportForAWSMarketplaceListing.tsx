@@ -31,8 +31,10 @@ const About = () => {
           掲載によるお客様のビジネスメリット（期待）についてヒアリングし、費用対効果のより良い実装方針を提案
         </div>
         <div className="flex items-center justify-center flex-col md:flex-row w-full md:w-auto">
+          {/* pc版の矢印の実装, borderでの実装 */}
           <span className="w-0 h-0 hidden md:block border-l-[44px] border-t-[80px] border-b-[80px] border-y-transparent border-l-[#039BE5]"></span>
           <span className="w-0 h-0 hidden md:block border-l-[44px] border-t-[80px] border-b-[80px] border-x-transparent border-t-[#0277BD] border-b-[#0277BD] -ml-6"></span>
+          {/* sp版での矢印の実装, clip-pathを用いた実装 */}
           <span className="md:hidden bg-[#039BE5] w-full h-8 [clip-path:polygon(0%_0%,50%_100%,100%_0%)]" />
           <span className="md:hidden bg-[#0277BD] w-full h-8 [clip-path:polygon(50%_100%,0%_0%,0%_100%,100%_100%,100%_0%)] -mt-5" />
         </div>
@@ -41,7 +43,9 @@ const About = () => {
           <Break type="md-pc-none" />
           インテグレーションを実装
         </div>
+        {/* pc版の矢印の実装, borderでの実装 */}
         <span className="w-0 h-0 hidden md:block border-l-[44px] border-t-[80px] border-b-[80px] border-y-transparent border-l-[#0277BD]"></span>
+        {/* sp版での矢印の実装, clip-pathを用いた実装 */}
         <span className="md:hidden bg-[#0277BD] w-full h-8 [clip-path:polygon(0%_0%,50%_100%,100%_0%)]" />
       </div>
       <button className="flex justify-center items-center gap-2 bg-[#EF6C00] text-white text-bold text-xl leading-8 py-4 px-10 rounded-full hover:bg-[#E65100]">
