@@ -8,6 +8,7 @@ const About = () => {
     <div className="flex flex-col items-center gap-6 md:gap-10 max-w-5xl">
       <h2 className="text-2xl md:text-[34px] md:leading-tight text-[#0277BD] font-bold text-center">
         AWS Marketplace
+        <span className="w-2 hidden sm:inline-block" />
         <Break type="sm-pc-none" />
         掲載支援サービスとは
       </h2>
