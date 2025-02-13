@@ -2,13 +2,14 @@ import React, { Dispatch, SetStateAction } from 'react';
 import { Break } from 'components/common/Break';
 import { useState } from 'react';
 import { Dialog, DialogPanel, DialogTitle, Button } from '@headlessui/react';
+import Image from 'next/image';
 
 const ListSupportingService: React.FC = ({ children }: { children?: React.ReactNode }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <div className="bg-white max-w-lg md:max-w-6xl mx-auto">
+      <div className="bg-white max-w-lg md:max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold text-[#0277BD] mb-8 text-center">
           AWS Marketplace
           <Break type="md-pc-none" />
@@ -24,8 +25,9 @@ const ListSupportingService: React.FC = ({ children }: { children?: React.ReactN
         </div>
         {children}
         <div className="flex justify-center px-8">
-          <button className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-600" onClick={() => setIsOpen(true)}>
-            お問い合わせはこちら
+          <button className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[358px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center gap-3" onClick={() => setIsOpen(true)}>
+            <Image src="/mail-icon.png" alt="お問い合わせ" width={24} height={24} />
+            <span className="text-xl">お問い合わせはこちら</span>
           </button>
         </div>
       </div>
