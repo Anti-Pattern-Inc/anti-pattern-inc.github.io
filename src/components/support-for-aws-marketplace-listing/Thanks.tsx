@@ -24,7 +24,7 @@ const Thanks = () => {
       </p>
       <Link
         href="/services/support-for-aws-marketplace-listing"
-        className="flex justify-center items-center gap-2 bg-[#EF6C00] text-white text-bold text-base md:text-xl md:leading-8 py-4 px-10 rounded-full hover:bg-[#E65100]"
+        className="flex justify-center items-center gap-2 bg-[#263238] text-white text-bold text-base md:text-xl md:leading-8 py-4 px-10 rounded-full hover:bg-[#37474F]"
       >
         <ArrowUturnLeftIcon className="h-6 w-6 inline" />
         サービスページに戻る
