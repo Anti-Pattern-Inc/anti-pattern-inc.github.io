@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import { Break } from 'components/common/Break';
 import { useState } from 'react';
-import { Dialog, DialogPanel, DialogTitle, Button } from '@headlessui/react';
+import { Dialog, DialogPanel, DialogTitle, Input, } from '@headlessui/react';
 import Image from 'next/image';
 
 const ListSupportingService: React.FC = ({ children }: { children?: React.ReactNode }) => {
@@ -43,28 +43,89 @@ const ContactForm = ({ isOpen, setIsOpen }: {
   setIsOpen: Dispatch<SetStateAction<boolean>>
 }) => {
   return (
-    <Dialog open={isOpen} onClose={() => setIsOpen(false)} as="div" className="relative z-10 focus:outline-none">
-      <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+    <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-10">
+      <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
+      <div className="fixed inset-0 z-10 overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4">
-          <DialogPanel
-            transition
-            className="w-full max-w-md rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
-          >
-            <DialogTitle as="h3" className="text-base/7 font-medium text-white">
+          <DialogPanel className="w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
+            <DialogTitle className="text-lg font-medium text-[#0277BD]">
               お問い合わせ
             </DialogTitle>
-            <p className="mt-2 text-sm/6 text-white/50">
-              Your payment has been successfully submitted. We’ve sent you an email with all of the details of your
-              order.
-            </p>
-            <div className="mt-4">
-              <Button
-                className="inline-flex items-center gap-2 rounded-md bg-gray-700 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[focus]:outline-1 data-[focus]:outline-white data-[open]:bg-gray-700"
-                onClick={() => setIsOpen(false)}
-              >
-                Got it, thanks!
-              </Button>
-            </div>
+            <form className="mt-4 space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  メールアドレス<span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                  placeholder="info@anti-pattern.co.jp"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  会社名<span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                  placeholder="株式会社アンチパターン"
+                  required
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  電話番号<span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="tel"
+                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                  placeholder="0368856136"
+                  required
+                />
+              </div>
+              <div className="flex space-x-2">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700">
+                    姓<span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                    placeholder="小笹"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700">
+                    名<span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                    placeholder="佑京"
+                    required
+                  />
+                </div>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  お問い合わせ内容<span className="text-red-500">*</span>
+                </label>
+                <textarea
+                  className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                  placeholder="お問い合わせ内容を入力してください"
+                  required
+                ></textarea>
+              </div>
+              <div className="flex justify-center">
+                <button type="submit" className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2">
+                  <Image src="/send-icon.png" alt="送信" width={24} height={24} />
+                  送信
+                </button>
+              </div>
+            </form>
           </DialogPanel>
         </div>
       </div>
