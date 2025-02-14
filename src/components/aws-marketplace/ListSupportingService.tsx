@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import { Break } from 'components/common/Break';
 import { useState } from 'react';
-import { Dialog, DialogPanel, DialogTitle, Input, } from '@headlessui/react';
+import { Dialog } from '@headlessui/react';
 import Image from 'next/image';
 
 const ListSupportingService: React.FC = ({ children }: { children?: React.ReactNode }) => {
@@ -47,10 +47,10 @@ const ContactForm = ({ isOpen, setIsOpen }: {
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
       <div className="fixed inset-0 z-10 overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4">
-          <DialogPanel className="w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
-            <DialogTitle className="text-lg font-medium text-[#0277BD]">
+          <Dialog.Panel className="w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
+            <Dialog.Title className="text-lg font-medium text-[#0277BD]">
               お問い合わせ
-            </DialogTitle>
+            </Dialog.Title>
             <form className="mt-4 space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700">
@@ -126,7 +126,7 @@ const ContactForm = ({ isOpen, setIsOpen }: {
                 </button>
               </div>
             </form>
-          </DialogPanel>
+          </Dialog.Panel>
         </div>
       </div>
     </Dialog>
