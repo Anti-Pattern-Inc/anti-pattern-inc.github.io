@@ -9,7 +9,7 @@ const UnknownError = () => {
     <section className="flex flex-col items-center gap-6 md:gap-10 py-10 md:py-20 mx-10">
       <Image
         src={UnknownErrorHero}
-        alt="Thank you for your inquiry"
+        alt="An unexpected error occurred"
         className="max-w-[500px] w-full"
       />
       <h1 className="text-[#01579B] text-2xl md:text-[34px] md:leading-tight font-bold text-center">
