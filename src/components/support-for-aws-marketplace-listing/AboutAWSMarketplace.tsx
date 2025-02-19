@@ -41,13 +41,13 @@ const Recommended = () => {
         こんな方におすすめ
       </h3>
       <div className="flex max-w-5xl gap-4 md:gap-10 flex-col md:flex-row">
-        <div className="flex-1 bg-white rounded-lg flex flex-col items-center justify-between gap-4 md:gap-6 p-6">
+        <div className="flex-1 bg-white rounded-lg flex flex-col items-center gap-4 md:gap-6 p-6">
           <Image
             src={MonitoringIcon}
             alt=""
             className="w-20 md:w-[120px] h-20 md:h-[120px]"
           />
-          <p className="text-center text-sm md:text-base">
+          <p className="text-center text-sm md:text-base flex-grow content-center">
             AWS Marketplace への SaaS 製品を掲載してビジネス拡大を図りたい方
           </p>
         </div>
@@ -57,7 +57,7 @@ const Recommended = () => {
             alt=""
             className="w-20 md:w-[120px] h-20 md:h-[120px]"
           />
-          <p className="text-center text-sm md:text-base">
+          <p className="text-center text-sm md:text-base flex-grow content-center">
             クイックに掲載を実現していきたいが、AWS Marketplace
             への掲載に何が必要か深く理解していない方
           </p>
@@ -68,7 +68,7 @@ const Recommended = () => {
             alt=""
             className="w-20 md:w-[120px] h-20 md:h-[120px]"
           />
-          <p className="text-center text-sm md:text-base">
+          <p className="text-center text-sm md:text-base flex-grow content-center">
             コア機能開発に集中する必要があり、掲載のための設計や開発などにリソースを割くことが難しい方
           </p>
         </div>
@@ -86,7 +86,7 @@ const Consideration = () => {
         検討すべきこと
       </h3>
       <div className="flex flex-col gap-6 md:gap-10">
-        <p className="mx-4 max-w-5xl text-sm md:text-base ">
+        <p className="mx-4 max-w-5xl text-sm md:text-base">
           掲載にあたりインテグレーションが必要となるため、AWS Marketplace
           への理解度を高めて事業的な効果を把握し、掲載によるお客様のビジネスメリット(期待)によって、どこまで作り込むかを検討する必要があります。
         </p>
