@@ -90,20 +90,20 @@ const Consideration = () => {
           掲載にあたりインテグレーションが必要となるため、AWS Marketplace
           への理解度を高めて事業的な効果を把握し、掲載によるお客様のビジネスメリット(期待)によって、どこまで作り込むかを検討する必要があります。
         </p>
-        <div className="flex flex-col gap-6 items-center justify-center">
+        <div className="w-full flex flex-col gap-6 items-center justify-center px-4">
           <h4 className="font-bold text-xl leading-8 md:text-2xl text-center">
             インテグレーションの実装が
             <Break type="sm-pc-none" />
             必要な主な事柄
           </h4>
-          <div className="flex gap-4 md:gap-10 items-center justify-center flex-col lg:flex-row mx-4 md:mx-0">
-            <div className="w-full bg-white flex flex-col items-center justify-center gap-4 md:gap-6 p-6">
+          <div className="w-full flex gap-4 md:gap-10 items-center justify-center flex-col lg:flex-row mx-4 md:mx-0">
+            <div className="w-full bg-white flex flex-col items-center justify-center gap-4 md:gap-6 p-6 rounded-lg flex-grow">
               <div className="text-[#0277BD] font-bold text-base md:text-xl md:leading-8 text-center">
                 SaaS の「テナント管理や
                 <Break type="md-sp-none" />
                 オンボーディング/オフボーディング処理」
               </div>
-              <div className="flex justify-center items-center flex-col md:flex-row">
+              <div className="flex flex-col justify-center items-center">
                 <div className="w-[198px] h-[75px] bg-[#263238] rounded flex items-center justify-center">
                   <Image
                     src={AWSMarketplace}
@@ -111,24 +111,33 @@ const Consideration = () => {
                     className="w-[150px] h-[27px]"
                   />
                 </div>
-                <div className="flex items-center justify-center h-12 md:h-auto rotate-90 md:rotate-0">
-                  <span className="w-8 h-3 bg-[#263238]" />
-                  <span className="w-0 h-0 border-l-[16px] border-t-[16px] border-b-[16px] border-y-transparent border-l-[#263238]"></span>
-                </div>
+                <span className="w-3 h-4 bg-[#263238]" />
+                <ul className="w-[130px] border-2 border-[#263238] rounded pl-6 pr-1 py-1.5 text-sm list-disc list-inside -indent-4 font-bold">
+                  <li>契約者情報</li>
+                  <li>
+                    契約情報
+                    <br />
+                    (料金プラン等)
+                  </li>
+                </ul>
+                <span className="w-3 h-3 bg-[#263238]" />
+                <span className="w-0 h-0 border-t-[16px] border-x-[16px] border-x-transparent border-t-[#263238]"></span>
                 <div className="w-[198px] h-[75px] text-2xl font-bold text-white bg-[#0288D1] rounded flex items-center justify-center">
                   SaaS 製品
                 </div>
               </div>
               <div className="text-[#263238] text-center text-sm md:text-base">
-                購入や契約変更の窓口が AWS Marketplace になるため
+                購入や契約変更の窓口が
+                <Break type="md-pc-none" />
+                AWS Marketplace になるため
               </div>
             </div>
-            <div className="w-full bg-white flex flex-col items-center justify-center gap-4 md:gap-6 p-6">
+            <div className="w-full bg-white flex flex-col items-center justify-center gap-6 p-6 rounded-lg flex-grow">
               <div className="text-[#0277BD] font-bold text-base md:text-xl md:leading-8 text-center">
                 SaaS の<br />
                 「料金プラン(メータリング / 認可)」
               </div>
-              <div className="flex justify-center items-center flex-col md:flex-row">
+              <div className="flex flex-col justify-center items-center">
                 <div className="w-[198px] h-[75px] bg-[#263238] rounded flex items-center justify-center">
                   <Image
                     src={AWSMarketplace}
@@ -136,16 +145,24 @@ const Consideration = () => {
                     className="w-[150px] h-[27px]"
                   />
                 </div>
-                <div className="flex items-center justify-center h-12 md:h-auto rotate-90 md:rotate-0">
-                  <span className="w-0 h-0 border-r-[16px] border-t-[16px] border-b-[16px] border-y-transparent border-r-[#0288D1]"></span>
-                  <span className="w-8 h-3 bg-[#0288D1]" />
+                <span className="w-0 h-0 border-b-[16px] border-x-[16px] border-x-transparent border-b-[#0288D1]"></span>
+                <span className="w-3 h-3 bg-[#0288D1]" />
+                <div className="border-2 border-[#0288D1] rounded px-0.5 py-1.5 text-sm text-[#0288D1] font-bold">
+                  <span className="pl-1">ex)</span>
+                  <ul className="list-disc list-inside -indent-4 pl-6 pr-1 ">
+                    <li className="">ユーザ数</li>
+                    <li className="">使用料</li>
+                  </ul>
                 </div>
+                <span className="w-3 h-4 bg-[#0288D1]" />
                 <div className="w-[198px] h-[75px] text-2xl font-bold text-white bg-[#0288D1] rounded flex items-center justify-center">
                   SaaS 製品
                 </div>
               </div>
               <div className="text-[#263238] text-center text-sm md:text-base">
-                顧客への請求が AWS Marketplace 経由になるため
+                顧客への請求が
+                <Break type="md-pc-none" />
+                AWS Marketplace 経由になるため
               </div>
             </div>
           </div>
