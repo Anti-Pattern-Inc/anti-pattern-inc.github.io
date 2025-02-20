@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useState } from 'react'
 
-import { ContactDialog } from './Contact/ContactDialog'
+import { ContactDialog } from './Contact/Dialog'
 
 const ListSupportingService: React.FC = ({
   children,
