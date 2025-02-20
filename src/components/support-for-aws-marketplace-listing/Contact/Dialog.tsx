@@ -1,6 +1,6 @@
 import { Dialog } from '@headlessui/react'
-import Image from 'next/image'
 import { Dispatch, SetStateAction } from 'react'
+
 import { Contact } from './index'
 
 const ContactDialog = ({
