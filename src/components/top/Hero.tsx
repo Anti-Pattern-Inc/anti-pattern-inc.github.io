@@ -1,9 +1,9 @@
+import { Break } from 'components/common/Break'
 import { useLocale } from 'hooks/useLocale'
 import HeroBoxes from 'images/hero_boxes.png'
 import HeroBoxesSp from 'images/hero_boxes_sp.png'
 import HeroImg from 'images/hero_img.png'
 import Image from 'next/image'
-import { Break } from 'components/common/Break'
 
 const Hero = () => {
   const { t } = useLocale()

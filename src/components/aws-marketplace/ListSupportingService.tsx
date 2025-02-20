@@ -1,10 +1,14 @@
-import React, { Dispatch, SetStateAction } from 'react';
-import { Break } from 'components/common/Break';
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import Image from 'next/image';
+import { Dialog } from '@headlessui/react'
+import { Break } from 'components/common/Break'
+import Image from 'next/image'
+import React, { Dispatch, SetStateAction } from 'react'
+import { useState } from 'react'
 
-const ListSupportingService: React.FC = ({ children }: { children?: React.ReactNode }) => {
+const ListSupportingService: React.FC = ({
+  children,
+}: {
+  children?: React.ReactNode
+}) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -17,33 +21,50 @@ const ListSupportingService: React.FC = ({ children }: { children?: React.ReactN
         </h2>
         <div className="px-8 mx-auto">
           <p className="text-gray-700 mb-6 text-left">
-            AWS アドバンストティアサービスパートナー及び、SaaS コンピテンシーパートナーとして、
-            お客様の SaaS 製品を AWS Marketplace にスムーズに掲載するためサービスを提供しております。
-            SaaS 導入事業者として、自社 SaaS 製品を掲載した経験と実績に基づいたノウハウで、
-            AWS Marketplace へ掲載できる状態のプロダクト開発を支援し、販売拡大に寄与いたします。
+            AWS アドバンストティアサービスパートナー及び、SaaS
+            コンピテンシーパートナーとして、 お客様の SaaS 製品を AWS
+            Marketplace にスムーズに掲載するためサービスを提供しております。
+            SaaS 導入事業者として、自社 SaaS
+            製品を掲載した経験と実績に基づいたノウハウで、 AWS Marketplace
+            へ掲載できる状態のプロダクト開発を支援し、販売拡大に寄与いたします。
           </p>
         </div>
         {children}
         <div className="flex justify-center px-8">
-          <button className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[358px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center gap-3" onClick={() => setIsOpen(true)}>
-            <Image src="/mail-icon.png" alt="お問い合わせ" width={24} height={24} />
+          <button
+            className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[358px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center gap-3"
+            onClick={() => setIsOpen(true)}
+          >
+            <Image
+              src="/mail-icon.png"
+              alt="お問い合わせ"
+              width={24}
+              height={24}
+            />
             <span className="text-xl">お問い合わせはこちら</span>
           </button>
         </div>
       </div>
       <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
-  );
-};
+  )
+}
 
 export { ListSupportingService }
 
-const ContactForm = ({ isOpen, setIsOpen }: {
-  isOpen: boolean;
+const ContactForm = ({
+  isOpen,
+  setIsOpen,
+}: {
+  isOpen: boolean
   setIsOpen: Dispatch<SetStateAction<boolean>>
 }) => {
   return (
-    <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-10">
+    <Dialog
+      open={isOpen}
+      onClose={() => setIsOpen(false)}
+      className="relative z-10"
+    >
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
       <div className="fixed inset-0 z-10 overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4">
@@ -120,8 +141,16 @@ const ContactForm = ({ isOpen, setIsOpen }: {
                 ></textarea>
               </div>
               <div className="flex justify-center">
-                <button type="submit" className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2">
-                  <Image src="/send-icon.png" alt="送信" width={24} height={24} />
+                <button
+                  type="submit"
+                  className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
+                >
+                  <Image
+                    src="/send-icon.png"
+                    alt="送信"
+                    width={24}
+                    height={24}
+                  />
                   送信
                 </button>
               </div>
