@@ -13,14 +13,14 @@ const ListSupportingService: React.FC = ({
 
   return (
     <>
-      <div className="bg-white max-w-lg md:max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-[#0277BD] mb-8 text-center">
+      <div className="bg-white max-w-lg md:max-w-5xl mx-auto my-20">
+        <h2 className="text-[34px] font-bold text-[#0277BD] mb-8 text-center">
           AWS Marketplace
           <Break type="md-pc-none" />
-          掲載支援サービスとは
+          掲載支援サービス
         </h2>
-        <div className="px-8 mx-auto">
-          <p className="text-gray-700 mb-6 text-left">
+        <div className="mx-auto">
+          <p className="text-gray-700 mb-6 text-left text-xl leading-8">
             AWS アドバンストティアサービスパートナー及び、SaaS
             コンピテンシーパートナーとして、 お客様の SaaS 製品を AWS
             Marketplace にスムーズに掲載するためサービスを提供しております。
@@ -30,7 +30,7 @@ const ListSupportingService: React.FC = ({
           </p>
         </div>
         {children}
-        <div className="flex justify-center px-8">
+        <div className="flex justify-center px-8 mt-10">
           <button
             className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[358px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center gap-3"
             onClick={() => setIsOpen(true)}
@@ -38,8 +38,8 @@ const ListSupportingService: React.FC = ({
             <Image
               src="/mail-icon.png"
               alt="お問い合わせ"
-              width={24}
-              height={24}
+              width={30}
+              height={30}
             />
             <span className="text-xl">お問い合わせはこちら</span>
           </button>
