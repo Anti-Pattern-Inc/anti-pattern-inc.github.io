@@ -5,8 +5,8 @@ import { AboutSupportForAWSMarketplaceListing } from 'components/support-for-aws
 import { Certifications } from 'components/support-for-aws-marketplace-listing/Certifications'
 import { FAQ } from 'components/support-for-aws-marketplace-listing/FAQ'
 import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
-import { Strength } from 'components/support-for-aws-marketplace-listing/Strength'
 import { ListSupportingService } from 'components/support-for-aws-marketplace-listing/ListSupportingService'
+import { Strength } from 'components/support-for-aws-marketplace-listing/Strength'
 
 const MarketplaceSupport: React.FC = () => {
   return (

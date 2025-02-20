@@ -1,8 +1,8 @@
-import { Dialog } from '@headlessui/react'
 import { Break } from 'components/common/Break'
 import Image from 'next/image'
-import React, { Dispatch, SetStateAction } from 'react'
+import React from 'react'
 import { useState } from 'react'
+
 import { ContactDialog } from './ContactDialog'
 
 const ListSupportingService: React.FC = ({
