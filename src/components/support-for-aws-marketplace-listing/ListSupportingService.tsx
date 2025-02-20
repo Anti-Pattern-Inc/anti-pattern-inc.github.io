@@ -13,14 +13,14 @@ const ListSupportingService: React.FC = ({
 
   return (
     <>
-      <div className="bg-white max-w-lg md:max-w-5xl mx-auto my-20">
-        <h2 className="text-[34px] font-bold text-[#0277BD] mb-8 text-center">
-          AWS Marketplace
+      <div className="bg-white max-w-lg md:max-w-5xl mx-auto md:my-20 my-10">
+        <h2 className="md:text-[34px] font-bold text-[#0277BD] md:mb-8 mb-6 text-center text-2xl">
+          AWS Marketplace掲載支援
           <Break type="md-pc-none" />
-          掲載支援サービス
+          サービスとは
         </h2>
-        <div className="mx-auto">
-          <p className="text-gray-700 mb-6 text-left text-xl leading-8">
+        <div className="md:mx-auto mx-4">
+          <p className="text-gray-700 md:mb-6 mb-4 text-left md:text-xl md:leading-8 text-base leading-6">
             AWS アドバンストティアサービスパートナー及び、SaaS
             コンピテンシーパートナーとして、 お客様の SaaS 製品を AWS
             Marketplace にスムーズに掲載するためサービスを提供しております。
@@ -30,9 +30,9 @@ const ListSupportingService: React.FC = ({
           </p>
         </div>
         {children}
-        <div className="flex justify-center px-8 mt-10">
+        <div className="flex justify-center px-8 md:mt-10 mt-6">
           <button
-            className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[358px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center gap-3"
+            className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[274px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center md:gap-3 gap-2"
             onClick={() => setIsOpen(true)}
           >
             <Image
@@ -40,8 +40,16 @@ const ListSupportingService: React.FC = ({
               alt="お問い合わせ"
               width={30}
               height={30}
+              className="hidden md:block"
             />
-            <span className="text-xl">お問い合わせはこちら</span>
+            <Image
+              src="/mail-icon.png"
+              alt="お問い合わせ"
+              width={24}
+              height={24}
+              className="md:hidden"
+            />
+            <span className="md:text-xl text-base">お問い合わせはこちら</span>
           </button>
         </div>
       </div>
