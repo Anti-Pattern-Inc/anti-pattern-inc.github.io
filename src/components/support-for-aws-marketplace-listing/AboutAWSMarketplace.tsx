@@ -129,6 +129,7 @@ const Consideration = () => {
               <div className="text-[#263238] text-center text-sm md:text-base">
                 購入や契約変更の窓口が
                 <Break type="md-pc-none" />
+                <span className="w-1 hidden md:inline-block" />
                 AWS Marketplace になるため
               </div>
             </div>
@@ -162,6 +163,7 @@ const Consideration = () => {
               <div className="text-[#263238] text-center text-sm md:text-base">
                 顧客への請求が
                 <Break type="md-pc-none" />
+                <span className="w-1 hidden md:inline-block" />
                 AWS Marketplace 経由になるため
               </div>
             </div>
