@@ -1,6 +1,6 @@
 // ContainerComponent.tsx
 import { zodResolver } from '@hookform/resolvers/zod'
-import React from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
 
@@ -27,7 +27,11 @@ const schema = z.object({
     .max(32000, { message: '32000文字以内で入力してください' }),
 })
 
-const FormContainer = () => {
+const FormContainer = ({
+  setIsOpen,
+}: {
+  setIsOpen?: Dispatch<SetStateAction<boolean>>
+}) => {
   const {
     register,
     handleSubmit,
@@ -47,6 +51,7 @@ const FormContainer = () => {
       register={register}
       errors={errors}
       isSubmitting={isSubmitting}
+      setIsOpen={setIsOpen}
     />
   )
 }
