@@ -7,75 +7,80 @@ const Form = ({
   setIsOpen: Dispatch<SetStateAction<boolean>>
 }) => {
   return (
-    <form className="mt-4 space-y-4">
-      <div>
-        <label className="block text-sm font-medium text-gray-700">
+    <form className="mt-4 space-y-4 md:w-[648px] w-[310px]">
+      <div className="space-y-2 flex justify-between md:items-center gap-2 md:gap-4 flex-col md:flex-row">
+        <label className="block text-sm md:text-base font-medium text-gray-700">
           メールアドレス<span className="text-red-500">*</span>
         </label>
         <input
           type="email"
-          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
           placeholder="info@anti-pattern.co.jp"
           required
         />
       </div>
-      <div>
-        <label className="block text-sm font-medium text-gray-700">
+      <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
+        <label className="block text-sm md:text-base font-medium text-gray-700">
           会社名<span className="text-red-500">*</span>
         </label>
         <input
           type="text"
-          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
           placeholder="株式会社アンチパターン"
           required
         />
       </div>
-      <div>
-        <label className="block text-sm font-medium text-gray-700">
+      <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
+        <label className="block text-sm md:text-base font-medium text-gray-700">
           電話番号<span className="text-red-500">*</span>
         </label>
         <input
           type="tel"
-          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
           placeholder="0368856136"
           required
         />
       </div>
-      <div className="flex space-x-2">
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            姓<span className="text-red-500">*</span>
+      <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
+        <div className="flex flex-row gap-2">
+          <p className="text-base md:text-lg font-medium text-gray-700">
+            お名前
+          </p>
+          <span className="text-red-500">*</span>
+        </div>
+        <div className="flex gap-4 items-center">
+          <label className="block text-sm md:text-base font-medium text-gray-700">
+            性
           </label>
           <input
             type="text"
-            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="小笹"
             required
           />
         </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700">
-            名<span className="text-red-500">*</span>
+        <div className="flex gap-4 items-center">
+          <label className="block text-sm md:text-base font-medium text-gray-700">
+            名
           </label>
           <input
             type="text"
-            className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="佑京"
             required
           />
         </div>
       </div>
-      <div>
-        <label className="block text-sm font-medium text-gray-700">
+      <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
+        <label className="block text-sm md:text-base font-medium text-gray-700">
           お問い合わせ内容<span className="text-red-500">*</span>
         </label>
         <textarea
-          className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-          placeholder="お問い合わせ内容を入力してください"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 min-h-[160px]"
           required
         ></textarea>
       </div>
-      <div className="flex justify-center">
+      <div className="flex gap-4 items-start justify-between">
         <button
           type="button"
           className="py-2 px-4 text-[#2196F3] hover:bg-[#E3F2FD]"
