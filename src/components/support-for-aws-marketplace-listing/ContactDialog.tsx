@@ -1,7 +1,7 @@
 import { Dialog } from '@headlessui/react'
 import { Dispatch, SetStateAction } from 'react'
 
-import { ContactForm } from './Contact/Form'
+import { Contact } from './Contact'
 
 const ContactDialog = ({
   isOpen,
@@ -26,7 +26,7 @@ const ContactDialog = ({
             <Dialog.Title className="text-4xl font-bold text-[#0277BD] mx-auto mb-10">
               お問い合わせ
             </Dialog.Title>
-            <ContactForm setIsOpen={setIsOpen} />
+            <Contact setIsOpen={setIsOpen} />
           </Dialog.Panel>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import Image from 'next/image'
+import { Dispatch, SetStateAction } from 'react'
 
-const Contact = () => {
+const Contact = ({ setIsOpen }: { setIsOpen: Dispatch<SetStateAction<boolean>> }) => {
   return (
     <form className="mt-4 space-y-4">
       <div>
@@ -71,6 +72,13 @@ const Contact = () => {
         ></textarea>
       </div>
       <div className="flex justify-center">
+        <button
+          type="button"
+          className="py-2 px-4 text-[#2196F3] hover:bg-[#E3F2FD]"
+          onClick={() => setIsOpen(false)}
+        >
+          キャンセル
+        </button>
         <button
           type="submit"
           className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
