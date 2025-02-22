@@ -8,7 +8,7 @@ const Form = ({
 }) => {
   return (
     <form className="mt-4 space-y-4 md:w-[648px] w-[310px]">
-      <div className="space-y-2 flex justify-between md:items-center gap-2 md:gap-4 flex-col md:flex-row">
+      <div className="flex justify-between md:items-center gap-2 md:gap-4 flex-col md:flex-row">
         <label className="block text-sm md:text-base font-medium text-gray-700">
           メールアドレス<span className="text-red-500">*</span>
         </label>
@@ -71,12 +71,12 @@ const Form = ({
           />
         </div>
       </div>
-      <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
-        <label className="block text-sm md:text-base font-medium text-gray-700">
+      <div className="space-y-2 md:flex md:justify-between md:items-start md:gap-4">
+        <label className="block text-sm md:text-base font-medium text-gray-700 md:pt-2">
           お問い合わせ内容<span className="text-red-500">*</span>
         </label>
         <textarea
-          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 min-h-[160px]"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
           required
         ></textarea>
       </div>
