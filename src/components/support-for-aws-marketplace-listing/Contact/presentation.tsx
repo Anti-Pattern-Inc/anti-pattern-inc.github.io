@@ -21,8 +21,8 @@ const FormPresentation: React.FC<FormProps> = ({
   return (
     <form
       className="mt-4 space-y-4 md:w-[648px] w-[310px]"
-      method='POST'
-      action='https://account-engagement.anti-pattern.co.jp/l/985311/2025-01-14/2fdw8b'
+      method="POST"
+      action="https://account-engagement.anti-pattern.co.jp/l/985311/2025-01-14/2fdw8b"
     >
       <div className="flex justify-between md:items-center gap-2 md:gap-4 flex-col md:flex-row">
         <label className="block text-sm md:text-base font-medium text-gray-700">
@@ -32,12 +32,12 @@ const FormPresentation: React.FC<FormProps> = ({
           <input
             type="email"
             className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
-          placeholder="info@anti-pattern.co.jp"
-          {...register('email')}
-        />
-        {errors?.email && (
-          <span className="text-[#D32F2F] text-xs">
-            {errors.email.message?.toString()}
+            placeholder="info@anti-pattern.co.jp"
+            {...register('email')}
+          />
+          {errors?.email && (
+            <span className="text-[#D32F2F] text-xs">
+              {errors.email.message?.toString()}
             </span>
           )}
         </div>
@@ -47,10 +47,10 @@ const FormPresentation: React.FC<FormProps> = ({
           会社名<span className="text-red-500">*</span>
         </label>
         <div className="flex flex-col flex-1 md:max-w-[500px]">
-        <input
-          type="text"
-          className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
-          placeholder="株式会社アンチパターン"
+          <input
+            type="text"
+            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            placeholder="株式会社アンチパターン"
             {...register('Company')}
           />
           {errors?.Company && (
@@ -70,12 +70,12 @@ const FormPresentation: React.FC<FormProps> = ({
             className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="0368856136"
             {...register('phone')}
-        />
-        {errors?.phone && (
-          <p className="text-[#D32F2F] text-xs">
-            {errors.phone.message?.toString()}
-          </p>
-        )}
+          />
+          {errors?.phone && (
+            <p className="text-[#D32F2F] text-xs">
+              {errors.phone.message?.toString()}
+            </p>
+          )}
         </div>
       </div>
       <div className="space-y-2 md:flex md:justify-between md:items-center md:gap-4">
@@ -90,16 +90,16 @@ const FormPresentation: React.FC<FormProps> = ({
             性
           </label>
           <div className="flex flex-col flex-1">
-          <input
-            type="text"
-            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
-            placeholder="小笹"
-            {...register('last_name')}
-          />
-          {errors?.last_name && (
-            <p className="text-[#D32F2F] text-xs">
-              {errors.last_name.message?.toString()}
-            </p>
+            <input
+              type="text"
+              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+              placeholder="小笹"
+              {...register('last_name')}
+            />
+            {errors?.last_name && (
+              <p className="text-[#D32F2F] text-xs">
+                {errors.last_name.message?.toString()}
+              </p>
             )}
           </div>
         </div>
@@ -108,16 +108,16 @@ const FormPresentation: React.FC<FormProps> = ({
             名
           </label>
           <div className="flex flex-col flex-1">
-          <input
-            type="text"
-            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
-            placeholder="佑京"
-            {...register('first_name')}
-          />
-          {errors?.first_name && (
-            <p className="text-[#D32F2F] text-xs">
-              {errors.first_name.message?.toString()}
-            </p>
+            <input
+              type="text"
+              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+              placeholder="佑京"
+              {...register('first_name')}
+            />
+            {errors?.first_name && (
+              <p className="text-[#D32F2F] text-xs">
+                {errors.first_name.message?.toString()}
+              </p>
             )}
           </div>
         </div>
@@ -127,14 +127,14 @@ const FormPresentation: React.FC<FormProps> = ({
           お問い合わせ内容<span className="text-red-500">*</span>
         </label>
         <div className="flex flex-col flex-1">
-        <textarea
-          className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
-          {...register('comments')}
-        ></textarea>
-        {errors?.comments && (
-          <p className="text-[#D32F2F] text-xs">
-            {errors.comments.message?.toString()}
-          </p>
+          <textarea
+            className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
+            {...register('comments')}
+          ></textarea>
+          {errors?.comments && (
+            <p className="text-[#D32F2F] text-xs">
+              {errors.comments.message?.toString()}
+            </p>
           )}
         </div>
       </div>

@@ -3,11 +3,11 @@ import { BaseLayout } from 'components/layouts/BaseLayout'
 import { AboutAWSMarketplace } from 'components/support-for-aws-marketplace-listing/AboutAWSMarketplace'
 import { AboutSupportForAWSMarketplaceListing } from 'components/support-for-aws-marketplace-listing/AboutSupportForAWSMarketplaceListing'
 import { Certifications } from 'components/support-for-aws-marketplace-listing/Certifications'
+import { Contact } from 'components/support-for-aws-marketplace-listing/Contact'
 import { FAQ } from 'components/support-for-aws-marketplace-listing/FAQ'
 import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
 import { ListSupportingService } from 'components/support-for-aws-marketplace-listing/ListSupportingService'
 import { Strength } from 'components/support-for-aws-marketplace-listing/Strength'
-import { Contact } from 'components/support-for-aws-marketplace-listing/Contact'
 
 const MarketplaceSupport: React.FC = () => {
   return (
