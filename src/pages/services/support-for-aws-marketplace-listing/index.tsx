@@ -7,6 +7,7 @@ import { FAQ } from 'components/support-for-aws-marketplace-listing/FAQ'
 import { Hero } from 'components/support-for-aws-marketplace-listing/Hero'
 import { ListSupportingService } from 'components/support-for-aws-marketplace-listing/ListSupportingService'
 import { Strength } from 'components/support-for-aws-marketplace-listing/Strength'
+import { Contact } from 'components/support-for-aws-marketplace-listing/Contact'
 
 const MarketplaceSupport: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const MarketplaceSupport: React.FC = () => {
         <AboutAWSMarketplace />
         <AboutSupportForAWSMarketplaceListing />
         <Strength />
+        <Contact />
         <FAQ />
         <Certifications />
       </BaseLayout>
