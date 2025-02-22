@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useState } from 'react'
 
-import { ContactDialog } from './ContactDialog'
+import { Dialog } from './Contact/Dialog'
 
 const ListSupportingService: React.FC = ({
   children,
@@ -54,7 +54,7 @@ const ListSupportingService: React.FC = ({
           </button>
         </div>
       </div>
-      <ContactDialog isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Dialog isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
   )
 }

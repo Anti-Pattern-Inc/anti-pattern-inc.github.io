@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Dispatch, SetStateAction } from 'react'
 
-const ContactForm = ({
+const Form = ({
   setIsOpen,
 }: {
   setIsOpen: Dispatch<SetStateAction<boolean>>
@@ -95,4 +95,4 @@ const ContactForm = ({
   )
 }
 
-export { ContactForm }
+export { Form }
