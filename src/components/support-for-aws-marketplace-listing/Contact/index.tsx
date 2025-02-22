@@ -1,7 +1,11 @@
 import Image from 'next/image'
 import { Dispatch, SetStateAction } from 'react'
 
-const Contact = ({ setIsOpen }: { setIsOpen: Dispatch<SetStateAction<boolean>> }) => {
+const Form = ({
+  setIsOpen,
+}: {
+  setIsOpen: Dispatch<SetStateAction<boolean>>
+}) => {
   return (
     <form className="mt-4 space-y-4">
       <div>
@@ -91,4 +95,4 @@ const Contact = ({ setIsOpen }: { setIsOpen: Dispatch<SetStateAction<boolean>> }
   )
 }
 
-export { Contact }
+export { Form }
