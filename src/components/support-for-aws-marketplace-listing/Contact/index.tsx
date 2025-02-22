@@ -4,7 +4,7 @@ import { Dispatch, SetStateAction } from 'react'
 const Form = ({
   setIsOpen,
 }: {
-  setIsOpen: Dispatch<SetStateAction<boolean>>
+  setIsOpen?: Dispatch<SetStateAction<boolean>>
 }) => {
   return (
     <form className="mt-4 space-y-4 md:w-[648px] w-[310px]">
@@ -80,14 +80,20 @@ const Form = ({
           required
         ></textarea>
       </div>
-      <div className="flex gap-4 items-start justify-between">
-        <button
-          type="button"
-          className="py-2 px-4 text-[#2196F3] hover:bg-[#E3F2FD]"
-          onClick={() => setIsOpen(false)}
-        >
-          キャンセル
-        </button>
+      <div
+        className={`flex gap-4 items-start ${
+          setIsOpen ? 'justify-between' : 'justify-center'
+        }`}
+      >
+        {setIsOpen && (
+          <button
+            type="button"
+            className="py-2 px-4 text-[#2196F3] hover:bg-[#E3F2FD]"
+            onClick={() => setIsOpen(false)}
+          >
+            キャンセル
+          </button>
+        )}
         <button
           type="submit"
           className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
