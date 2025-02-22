@@ -12,7 +12,9 @@ const ContactDialog = ({
   return (
     <Dialog
       open={isOpen}
-      onClose={() => setIsOpen(false)}
+      // onCloseは必須Propなので記載。ただし閉じるボタンのみでDialogが閉じてほしいので、
+      // ここでは何もしない
+      onClose={() => {}}
       className="relative z-10"
     >
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -90,7 +92,14 @@ const ContactDialog = ({
                   required
                 ></textarea>
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center gap-4">
+                <button
+                  type="button"
+                  className="bg-gray-500 text-white py-2 px-4 rounded-full hover:bg-gray-600"
+                  onClick={() => setIsOpen(false)}
+                >
+                  キャンセル
+                </button>
                 <button
                   type="submit"
                   className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
