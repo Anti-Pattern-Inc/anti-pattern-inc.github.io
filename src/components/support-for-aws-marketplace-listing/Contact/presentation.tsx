@@ -4,24 +4,25 @@ import React from 'react'
 import { FieldErrors, UseFormRegister } from 'react-hook-form'
 
 interface FormProps {
-  onSubmit: (e: React.FormEvent) => void
   register: UseFormRegister<any>
   errors: FieldErrors
   isSubmitting: boolean
   setIsOpen?: React.Dispatch<React.SetStateAction<boolean>>
+  isValid: boolean
 }
 
 const FormPresentation: React.FC<FormProps> = ({
-  onSubmit,
   register,
   errors,
   isSubmitting,
   setIsOpen,
+  isValid,
 }) => {
   return (
     <form
       className="mt-4 space-y-4 md:w-[648px] w-[310px]"
-      onSubmit={onSubmit}
+      method='POST'
+      action='https://account-engagement.anti-pattern.co.jp/l/985311/2025-01-14/2fdw8b'
     >
       <div className="flex justify-between md:items-center gap-2 md:gap-4 flex-col md:flex-row">
         <label className="block text-sm md:text-base font-medium text-gray-700">
@@ -50,11 +51,11 @@ const FormPresentation: React.FC<FormProps> = ({
           type="text"
           className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
           placeholder="株式会社アンチパターン"
-            {...register('companyName')}
+            {...register('Company')}
           />
-          {errors?.companyName && (
+          {errors?.Company && (
             <p className="text-[#D32F2F] text-xs">
-              {errors.companyName.message?.toString()}
+              {errors.Company.message?.toString()}
             </p>
           )}
         </div>
@@ -68,11 +69,11 @@ const FormPresentation: React.FC<FormProps> = ({
             type="tel"
             className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="0368856136"
-            {...register('phoneNumber')}
+            {...register('phone')}
         />
-        {errors?.phoneNumber && (
+        {errors?.phone && (
           <p className="text-[#D32F2F] text-xs">
-            {errors.phoneNumber.message?.toString()}
+            {errors.phone.message?.toString()}
           </p>
         )}
         </div>
@@ -93,11 +94,11 @@ const FormPresentation: React.FC<FormProps> = ({
             type="text"
             className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="小笹"
-            {...register('lastName')}
+            {...register('last_name')}
           />
-          {errors?.lastName && (
+          {errors?.last_name && (
             <p className="text-[#D32F2F] text-xs">
-              {errors.lastName.message?.toString()}
+              {errors.last_name.message?.toString()}
             </p>
             )}
           </div>
@@ -111,11 +112,11 @@ const FormPresentation: React.FC<FormProps> = ({
             type="text"
             className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
             placeholder="佑京"
-            {...register('firstName')}
+            {...register('first_name')}
           />
-          {errors?.firstName && (
+          {errors?.first_name && (
             <p className="text-[#D32F2F] text-xs">
-              {errors.firstName.message?.toString()}
+              {errors.first_name.message?.toString()}
             </p>
             )}
           </div>
@@ -128,11 +129,11 @@ const FormPresentation: React.FC<FormProps> = ({
         <div className="flex flex-col flex-1">
         <textarea
           className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
-          {...register('inquiry')}
+          {...register('comments')}
         ></textarea>
-        {errors?.inquiry && (
+        {errors?.comments && (
           <p className="text-[#D32F2F] text-xs">
-            {errors.inquiry.message?.toString()}
+            {errors.comments.message?.toString()}
           </p>
           )}
         </div>
@@ -156,7 +157,7 @@ const FormPresentation: React.FC<FormProps> = ({
           <button
             type="submit"
             className="bg-[#0000001F/12] text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
-            disabled
+            disabled={isSubmitting || !isValid}
           >
             <div className="inline-block w-6 h-6 animate-spin">
               <Image src="/loading.svg" alt="送信" width={24} height={24} />
@@ -167,8 +168,9 @@ const FormPresentation: React.FC<FormProps> = ({
           <button
             type="submit"
             className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 flex items-center gap-2"
+            disabled={isSubmitting || !isValid}
           >
-            <Image src="/mail-icon.png" alt="送信" width={24} height={24} />
+            <Image src="/send-icon.png" alt="送信" width={24} height={24} />
             送信
           </button>
         )}
