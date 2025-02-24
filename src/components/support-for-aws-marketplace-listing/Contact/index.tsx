@@ -14,7 +14,7 @@ const Form = ({
         </label>
         <input
           type="email"
-          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
           placeholder="info@anti-pattern.co.jp"
           required
         />
@@ -25,7 +25,7 @@ const Form = ({
         </label>
         <input
           type="text"
-          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
           placeholder="株式会社アンチパターン"
           required
         />
@@ -36,7 +36,7 @@ const Form = ({
         </label>
         <input
           type="tel"
-          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
           placeholder="0368856136"
           required
         />
@@ -54,7 +54,7 @@ const Form = ({
           </label>
           <input
             type="text"
-            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
             placeholder="小笹"
             required
           />
@@ -65,7 +65,7 @@ const Form = ({
           </label>
           <input
             type="text"
-            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
             placeholder="佑京"
             required
           />
@@ -76,7 +76,7 @@ const Form = ({
           お問い合わせ内容<span className="text-red-500">*</span>
         </label>
         <textarea
-          className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
+          className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px] pl-2"
           required
         ></textarea>
       </div>
