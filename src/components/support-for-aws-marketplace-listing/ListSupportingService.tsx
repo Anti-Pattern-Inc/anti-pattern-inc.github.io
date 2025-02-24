@@ -16,7 +16,7 @@ const ListSupportingService: React.FC = ({
     <>
       <div className="bg-white max-w-lg md:max-w-5xl mx-auto md:my-20 my-10">
         <h2 className="md:text-[34px] font-bold text-[#0277BD] md:mb-8 mb-6 text-center text-2xl">
-          AWS Marketplace掲載支援
+          AWS Marketplace 掲載支援
           <Break type="md-pc-none" />
           サービスとは
         </h2>
