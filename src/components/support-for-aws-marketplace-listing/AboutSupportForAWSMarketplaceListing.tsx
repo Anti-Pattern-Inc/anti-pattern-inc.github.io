@@ -2,8 +2,11 @@ import { EnvelopeIcon } from '@heroicons/react/24/outline'
 import { Break } from 'components/common/Break'
 import AvailableInAWSMarketplace from 'images/available_in_aws_marketplace.png'
 import Image from 'next/image'
+import { useState } from 'react'
+import { Dialog } from './Contact/Dialog'
 
 const About = () => {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="flex flex-col items-center gap-6 md:gap-10 max-w-5xl">
       <h2 className="text-2xl md:text-[34px] md:leading-tight text-[#0277BD] font-bold text-center">
@@ -48,10 +51,14 @@ const About = () => {
         {/* sp版での矢印の実装, clip-pathを用いた実装 */}
         <span className="md:hidden bg-[#0277BD] w-full h-8 [clip-path:polygon(0%_0%,50%_100%,100%_0%)]" />
       </div>
-      <button className="flex justify-center items-center gap-2 bg-[#EF6C00] text-white text-bold text-xl leading-8 py-4 px-10 rounded-full hover:bg-[#E65100]">
+      <button
+        className="flex justify-center items-center gap-2 bg-[#EF6C00] text-white text-bold text-xl leading-8 py-4 px-10 rounded-full hover:bg-[#E65100]"
+        onClick={() => setIsOpen(true)}
+      >
         <EnvelopeIcon className="h-6 w-6 inline" />
         お問い合わせはこちら
       </button>
+      <Dialog isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   )
 }
