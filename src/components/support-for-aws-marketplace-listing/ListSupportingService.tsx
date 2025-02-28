@@ -33,7 +33,7 @@ const ListSupportingService: React.FC = ({
         {children}
         <div className="flex justify-center px-8 md:mt-10 mt-6">
           <button
-            className="bg-orange-500 text-white py-3 px-8 rounded-full hover:bg-orange-[#EF6C00] w-[274px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center md:gap-3 gap-2"
+            className="bg-[#EF6C00] text-white py-3 px-8 rounded-full hover:bg-[#E65100] w-[274px] h-[56px] md:w-[322px] md:h-[64px] flex items-center justify-center md:gap-3 gap-2"
             onClick={() => setIsOpen(true)}
           >
             <Image
