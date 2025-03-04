@@ -31,7 +31,7 @@ const FormPresentation: React.FC<FormProps> = ({
         <div className="flex flex-col flex-1 md:max-w-[500px]">
           <input
             type="email"
-            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
             placeholder="info@anti-pattern.co.jp"
             {...register('email')}
           />
@@ -49,7 +49,7 @@ const FormPresentation: React.FC<FormProps> = ({
         <div className="flex flex-col flex-1 md:max-w-[500px]">
           <input
             type="text"
-            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
             placeholder="株式会社アンチパターン"
             {...register('Company')}
           />
@@ -67,7 +67,7 @@ const FormPresentation: React.FC<FormProps> = ({
         <div className="flex flex-col flex-1 md:max-w-[500px]">
           <input
             type="tel"
-            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+            className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
             placeholder="0368856136"
             {...register('phone')}
           />
@@ -92,7 +92,7 @@ const FormPresentation: React.FC<FormProps> = ({
           <div className="flex flex-col flex-1">
             <input
               type="text"
-              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
               placeholder="小笹"
               {...register('last_name')}
             />
@@ -110,7 +110,7 @@ const FormPresentation: React.FC<FormProps> = ({
           <div className="flex flex-col flex-1">
             <input
               type="text"
-              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base placeholder:pl-2"
+              className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
               placeholder="佑京"
               {...register('first_name')}
             />
@@ -128,7 +128,7 @@ const FormPresentation: React.FC<FormProps> = ({
         </label>
         <div className="flex flex-col flex-1">
           <textarea
-            className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px]"
+            className="block w-full border border-gray-300 rounded-md md:max-w-[491px] focus:outline-none h-14 min-h-[160px] pl-2"
             {...register('comments')}
           ></textarea>
           {errors?.comments && (
