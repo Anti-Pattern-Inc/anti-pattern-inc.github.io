@@ -22,7 +22,7 @@ const About = () => {
         <div className="flex flex-col gap-6 text-sm md:text-base">
           <p>
             AWS Marketplace
-            は、AWSパートナーが提供するソリューションを検索、購入、デプロイ、管理するのに役立つ、ソフトウェアのオンラインストアです。AWS
+            は、AWS パートナーが提供するソリューションを検索、購入、デプロイ、管理するのに役立つ、ソフトウェアのオンラインストアです。AWS
             で請求と管理を一元化することができます。
           </p>
           <p>
