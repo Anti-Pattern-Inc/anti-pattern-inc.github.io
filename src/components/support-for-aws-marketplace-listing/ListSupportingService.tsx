@@ -25,7 +25,7 @@ const ListSupportingService: React.FC = ({
             AWS アドバンストティアサービスパートナー及び、SaaS
             コンピテンシーパートナーとして、 お客様の SaaS 製品を AWS
             Marketplace にスムーズに掲載するためサービスを提供しております。
-            SaaS 導入事業者として、自社 SaaS
+            SaaS 提供事業者として、自社 SaaS
             製品を掲載した経験と実績に基づいたノウハウで、 AWS Marketplace
             へ掲載できる状態のプロダクト開発を支援し、販売拡大に寄与いたします。
           </p>
