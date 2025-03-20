@@ -68,7 +68,7 @@ const FormPresentation: React.FC<FormProps> = ({
           <input
             type="tel"
             className="block w-full border border-gray-300 rounded-md focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
-            placeholder="0368856136"
+            placeholder="0312345678"
             {...register('phone')}
           />
           {errors?.phone && (
@@ -93,7 +93,7 @@ const FormPresentation: React.FC<FormProps> = ({
             <input
               type="text"
               className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
-              placeholder="小笹"
+              placeholder="山田"
               {...register('last_name')}
             />
             {errors?.last_name && (
@@ -111,7 +111,7 @@ const FormPresentation: React.FC<FormProps> = ({
             <input
               type="text"
               className="block w-full border border-gray-300 rounded-md md:max-w-[500px] focus:outline-none h-14 placeholder:text-[black/60] placeholder:text-base pl-2"
-              placeholder="佑京"
+              placeholder="太郎"
               {...register('first_name')}
             />
             {errors?.first_name && (
