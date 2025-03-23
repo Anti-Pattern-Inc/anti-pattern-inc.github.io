@@ -1,4 +1,4 @@
-import { SliceZone } from '@prismicio/react'
+import { SliceLike, SliceZone, SliceZoneLike } from '@prismicio/react'
 import { components } from 'slices'
 
 import { JobPositionDocument } from '@/.slicemachine/prismicio'
@@ -14,7 +14,10 @@ const JobPosition = ({
         募集職種一覧
       </h2>
       <div className="flex flex-col">
-        <SliceZone slices={job_position.data.slices} components={components} />
+        <SliceZone
+          slices={job_position.data.slices as SliceZoneLike<SliceLike<string>>}
+          components={components}
+        />
       </div>
     </section>
   )
