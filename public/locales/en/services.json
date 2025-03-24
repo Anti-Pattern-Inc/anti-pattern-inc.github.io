@@ -40,6 +40,14 @@
           "isBlank": false
         },
         {
+          "src": "SupportForAwsMarketplaceListing",
+          "name": "Support for AWS Marketplace Listing",
+          "ja_name": "AWSマーケットプレイス掲載支援サービス",
+          "description": "As an AWS Advanced Tier Partner and SaaS Competency Partner, we provide services to smoothly list your SaaS products on AWS Marketplace. As a SaaS provider, we leverage our experience and proven track record in listing our own SaaS products to support the development of products that are ready to be listed on AWS Marketplace, thereby contributing to the expansion of your sales channels.",
+          "url": "/services/support-for-aws-marketplace-listing",
+          "isBlank": false
+        },
+        {
           "src": "Gateway",
           "name": "Gateway",
           "ja_name": "ゲートウェイ",
