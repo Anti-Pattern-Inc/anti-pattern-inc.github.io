@@ -45,13 +45,17 @@ const Service = ({ src, name, ja_name, description, url, isBlank }: Props) => {
               target={isBlank ? '_blank' : '_self'}
               rel="noreferrer"
             >
-              <span>SERVICE SITE</span>
-              {isBlank && (
-                <Image
-                  src={ServiceLinkIcon}
-                  alt={t.services.service_site.img_alt}
-                  className="w-3 inline mb-1 ml-1"
-                />
+              {isBlank ? (
+                <>
+                  <span>SERVICE SITE</span>
+                  <Image
+                    src={ServiceLinkIcon}
+                    alt={t.services.service_site.img_alt}
+                    className="w-3 inline mb-1 ml-1"
+                  />
+                </>
+              ) : (
+                <span>SERVICE PAGE</span>
               )}
             </a>
           </p>
