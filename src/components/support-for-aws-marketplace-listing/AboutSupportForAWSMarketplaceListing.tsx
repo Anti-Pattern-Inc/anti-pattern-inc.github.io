@@ -152,9 +152,13 @@ const Purchase = () => {
             ヒアリング/設計フェーズ
           </div>
           <div className="flex flex-col justify-center items-center gap-4 py-4 md:pt-8 md:pb-10">
-            <div className="text-2xl leading-8 md:text-[34px] md:leading-[42px] font-bold tracking-[0.25px]">
-              180万<span className="text-base md:text-xl">(税別)</span> +
-              2ヶ月程度固定
+            <div className="text-2xl leading-8 md:text-[34px] md:leading-[42px] text-center font-bold tracking-[0.25px]">
+              2ヶ月間で実施
+              <br />
+              180万
+              <span className="text-base md:text-xl">(税別)</span>
+              の業務委託費
+              <span className="text-base md:text-xl">(固定)</span>
             </div>
             <div className="text-sm md:text-base">AWS Marketplace での購買</div>
           </div>
